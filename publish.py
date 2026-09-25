@@ -2,6 +2,7 @@
 Usage: python publish.py content/<file>.json --steps prepare,upload,ig_carousel,fb_photos,yt_short,log   |   --dry-run
 Idempotent: every intermediate id is written to output/<post>/publish.json immediately; retries resume, never double-post.
 Clips: python publish.py content/clips/<file>.json --steps prepare,upload,ig_reel,fb_reel,log"""
+import envfix  # noqa: F401  (adds winget tool paths)
 import argparse, json, mimetypes, os, sys, time, subprocess, shutil, urllib.error, urllib.parse, urllib.request
 from datetime import datetime
 from pathlib import Path

@@ -1,5 +1,6 @@
 """Viral clip -> Reel frame (1080x1920): brand row + hook on top, video in the middle, "Source: @creator" at the bottom.
 Steps: python clip.py fetch <url> | python clip.py frame content/clips/<file>.json"""
+import envfix  # noqa: F401  (adds winget tool paths)
 import json, os, re, subprocess, sys, html
 from datetime import date
 from pathlib import Path
@@ -60,6 +61,17 @@ def frame(path):
     out = ROOT / "output" / f"clip-{cid}"
     fit, pos = c.get("fit", "auto"), float(c.get("crop_pos", 0.5))
     vw, vh, vy = 1080, 1000, 600  # video window
+    pr = run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", str(out / "source.mp4")])
+    try:
+        sw, sh = [int(x) for x in pr.stdout.strip().split(",")[:2]]
+    except ValueError:
+        sw, sh = 1080, 1000
+    if fit == "contain" or sw / sh < vw / vh * 0.9:  # portrait sources are shown whole ("contain")
+        fit = "contain"
+        rw, rh = (min(vw, int(vh * sw / sh)), min(vh, int(vw * sh / sw)))
+    else:  # fill the window width, crop the height
+        rw, rh = vw, min(vh, int(vw * sh / sw))
+    rx, ry = (vw - rw) // 2, vy + (vh - rh) // 2  # rendered video rectangle inside the window
     hook = html.escape(c["hook"])
     credit = html.escape(c.get("credit", ""))
     title = html.escape(c.get("title", ""))
@@ -82,9 +94,9 @@ html,body{{width:1080px;height:1920px;background:#000;color:#fff;overflow:hidden
 <script>let h=document.getElementById('h'),k=1;while(h.scrollHeight>h.clientHeight+1&&k>.5){{k-=.04;h.style.fontSize=(k*100)+'%'}}
 h.querySelectorAll('.t').forEach(e=>e.style.fontSize=(62*k)+'px');h.querySelectorAll('.hk').forEach(e=>e.style.fontSize=(54*k)+'px')</script>"""
     ov = f"""<!doctype html><meta charset=utf-8><style>{ff}*{{margin:0}}html,body{{width:1080px;height:1920px;background:transparent}}
-.wm{{position:absolute;top:{vy+22}px;right:{22}px;display:flex;align-items:center;gap:12px;background:#0009;border-radius:16px;padding:8px 16px 8px 8px;font:700 28px Inter;color:#fff}}
+.wm{{position:absolute;top:{ry+18}px;right:{vw-(rx+rw)+18}px;display:flex;align-items:center;gap:12px;background:#0009;border-radius:16px;padding:8px 16px 8px 8px;font:700 28px Inter;color:#fff}}
 .wm .logo{{width:46px;height:46px;border-radius:13px;background:linear-gradient(135deg,{g1},{g2});display:grid;place-items:center;font:800 26px Inter}}
-.cr{{position:absolute;left:22px;bottom:{1920 - (vy + vh) + 22}px;background:#0009;border-radius:12px;padding:8px 16px;font:600 26px Inter;color:#fff}}</style>
+.cr{{position:absolute;left:{rx+18}px;bottom:{1920 - (ry + rh) + 18}px;max-width:{rw-36}px;background:#0009;border-radius:12px;padding:8px 16px;font:600 24px Inter;color:#fff}}</style>
 <div class="wm"><div class="logo">{brand.LOGO_LETTER}</div>{html.escape(brand.HANDLE)}</div><div class="cr">Credit: {credit}</div>"""
     (out / "frame.html").write_text(page, encoding="utf-8")
     (out / "overlay.html").write_text(ov, encoding="utf-8")

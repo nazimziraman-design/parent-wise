@@ -1,5 +1,6 @@
 """Voiced 1080x1920 video (YouTube Short).  Usage: python reel.py content/<file>.json [--voice am_liam] [--speed 1.1] [--no-voice] [--music f.wav]
 Frame-by-frame Playwright screenshots -> ffmpeg (H.264 CRF18 + AAC, -14 LUFS)."""
+import envfix  # noqa: F401  (adds winget tool paths)
 import argparse, json, os, subprocess, sys
 from pathlib import Path
 

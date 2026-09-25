@@ -1,5 +1,6 @@
 """Studio: local workflow engine + web UI (http://localhost:8787), standard library only.
 Flows: scan (collect -> scout -> pick) | post (write -> ... -> log) | clip (fetch -> ... -> log). State lives in files (runs/<id>/)."""
+import envfix  # noqa: F401  (adds winget tool paths)
 import json, os, re, subprocess, sys, threading, time, traceback, urllib.parse
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -267,7 +268,7 @@ def do_node(st, name):
                 if st["nodes"][name]["status"] != "approved":
                     return "waiting"
     elif k == "clip":
-        cpath = content_path(st)
+        cpath = content_path(st) if st.get("post") else None  # the post id only exists after fetch
         if name == "fetch":
             extra = (["--file", st["file"]] if st.get("file") else []) + (["--credit", st["credit"]] if st.get("credit") else [])
             out = py("clip.py", "fetch", st["url"], *extra, log=lg)
