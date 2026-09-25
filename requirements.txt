@@ -1,3 +1,5 @@
 playwright
 Pillow
 numpy
+curl_cffi
+yt-dlp

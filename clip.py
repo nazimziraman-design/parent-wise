@@ -33,7 +33,8 @@ def fetch(url, file=None, credit=None):
         info = {"uploader": credit, "uploader_id": credit, "extractor_key": url.split("/")[2] if "//" in url else "local"}
     else:
         ck = ROOT / "cookies.txt"  # optional: exported browser cookies (never committed); needed for YouTube
-        r = run([sys.executable, "-m", "yt_dlp", "--js-runtimes", "node", *(["--cookies", str(ck)] if ck.exists() else []), "--no-playlist", "-f", "mp4/bestvideo+bestaudio/best", "--merge-output-format", "mp4",
+        imp = ["--impersonate", "chrome"] if any(h in url for h in ("tiktok.com", "instagram.com")) else []  # browser impersonation (curl_cffi)
+        r = run([sys.executable, "-m", "yt_dlp", "--js-runtimes", "node", *imp, *(["--cookies", str(ck)] if ck.exists() else []), "--no-playlist", "-f", "mp4/bestvideo+bestaudio/best", "--merge-output-format", "mp4",
                  "--write-info-json", "-o", str(out / "source.%(ext)s"), url])
         if r.returncode:
             sys.exit("yt-dlp failed. X links work; YouTube/TikTok/Instagram usually need cookies.txt in the project folder, or save the video yourself and pass the file path: " + r.stderr[-300:])
