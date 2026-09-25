@@ -8,6 +8,7 @@ Check
   correct, readable, not cut; photo credit on the cover and in the caption. NO real children's photos anywhere.
 - Content: typos; any claim beyond `sources`; disclaimer on the last slide and in the caption; explicit age ranges.
 - Themes stage / problem / single: text fits inside the slide, numbered points are in order, `say` phrases fully visible, the last slide shows the disclaimer, no verified badge. Cover image: must look natural (no distorted faces or hands, no text artifacts), child clearly AI-generated not a real person, fully clothed, and the caption contains the AI-generated line.
+- CTA: the last slide and the caption only say "Comment KEYWORD and I'll send you the link." No free / guide / ebook / cheat sheet / PDF wording anywhere.
 - Design: fits design.mood; cover art clear and relevant; every text readable on its background.
 
 Fix: edit the content JSON (shorten text, redraw SVG, adjust palette, pick another Commons photo / focus) and re-run the script.

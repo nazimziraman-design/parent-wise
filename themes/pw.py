@@ -142,8 +142,8 @@ def slide(data, s, i, n):
     elif t == "cta" and s.get("keyword"):
         kw = esc(str(s["keyword"]).upper())
         body = (f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0">'
-                f'<div class="p">{md(s.get("intro"))}</div><div class="p">{md(s.get("offer"))}</div>'
-                f'<div class="cm">Comment <b>{kw}</b> and I’ll send you {md(s.get("reward", "the link"))}.</div>'
+                f'<div class="p">{md(s.get("intro"))}</div>' + (f'<div class="p">{md(s.get("offer"))}</div>' if s.get("offer") else "") +
+                f'<div class="cm">Comment <b>{kw}</b> and I’ll send you the link.</div>'
                 f'<div class="mini">Save · Share · Follow {esc(data.get("handle", brand.HANDLE))}</div>'
                 f'<div class="disc">{esc(brand.DISCLAIMER)}</div></div>')
     elif t == "cta":

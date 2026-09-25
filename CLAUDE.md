@@ -39,6 +39,7 @@ C) single image quote (theme single). Verified news also uses theme stage. Video
 - Viral clips: IG + FB Reels only, with credit; never YouTube. Skip clips that mock or expose private moments of minors.
 
 ## Content rules
+- Comment CTA wording is fixed: "Comment KEYWORD and I'll send you the link." Never write free / guide / ebook / cheat sheet / PDF / download anywhere.
 - Carousel: 7–10 slides. Cover hook 8–22 words, accurate, no invented numbers.
 - Caption: hook line first, 2–4 short lines, save/follow CTA, 4–8 hashtags, disclaimer line.
 - Voiceover: 7–15 words per slide, conversational, verified facts only. Video 30–40 s.

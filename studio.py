@@ -168,6 +168,17 @@ def content_path(st):
     return ROOT / ("content/clips" if st["kind"] == "clip" else "content") / f"{st['post']}.json"
 
 
+BANNED = re.compile(r"(?i)\b(free\s+(guide|ebook|e-book|pdf|download|cheat\s*sheet|resource|playbook)|ebook|e-book|cheat\s*sheet|pdf|download|playbook|bundle)\b")
+
+
+def check_banned(cpath):
+    """Hard rule: no free-guide / ebook / product promises anywhere in the post."""
+    text = Path(cpath).read_text(encoding="utf-8")
+    m = BANNED.search(text)
+    if m:
+        raise RuntimeError(f'content contains a forbidden promise: "{m.group(0)}" (the CTA may only say: send you the link)')
+
+
 def set_info(st, name, text):
     st["nodes"][name]["info"] = str(text)[:160]
 
@@ -209,6 +220,7 @@ def do_node(st, name):
             cand = st["candidate"]
             run_claude(st, name, fill("write", date=day, candidate=json.dumps(cand, ensure_ascii=False), out=cpath, proof=d / "write.json",
                                       note=st.get("notes", ""), recent_designs="\n".join(posted_slugs()["lines"][-6:])), [cpath, d / "write.json"])
+            check_banned(cpath)
             set_info(st, name, f"{len(json.loads(cpath.read_text(encoding='utf-8')).get('slides', []))} slayt")
         elif name == "cover":
             py("cover.py", cpath, log=lg)
