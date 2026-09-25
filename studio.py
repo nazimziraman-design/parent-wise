@@ -265,7 +265,7 @@ def do_node(st, name):
         elif name == "approve":
             qa = json.loads((d / "qa.json").read_text(encoding="utf-8")) if (d / "qa.json").exists() else {"ok": True}
             if settings()["approval"] or not qa.get("ok", True):
-                if st["nodes"][name]["status"] != "approved":
+                if not st.get("approved"):
                     return "waiting"
     elif k == "clip":
         cpath = content_path(st) if st.get("post") else None  # the post id only exists after fetch
@@ -290,7 +290,7 @@ def do_node(st, name):
         elif name == "qa":
             run_claude(st, name, fill("clipqa", outdir=ROOT / "output" / st["post"], content=cpath, qa_out=d / "qa.json"), d / "qa.json")
         elif name == "approve":
-            if settings()["approval"] and st["nodes"][name]["status"] != "approved":
+            if settings()["approval"] and not st.get("approved"):
                 return "waiting"
     if name == "yt_short" and k == "post" and json.loads(content_path(st).read_text(encoding="utf-8")).get("video") is False:
         set_info(st, name, "video yok, atlandı")
@@ -461,9 +461,11 @@ def select_candidate(scan_id, cand_id):
 def decide(rid, action, note=""):
     st = load_run(rid)
     if action == "approve":
+        st["approved"] = True  # the engine resets the node status to "running", so the decision lives on the run itself
         st["nodes"]["approve"]["status"] = "approved"; save_run(st); enqueue(rid)
     elif action == "revise":
         st["notes"] = note
+        st["approved"] = False
         first = "write" if st["kind"] == "post" else "hook"
         seen = False
         for n, _ in FLOWS[st["kind"]]:
