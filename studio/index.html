@@ -87,7 +87,7 @@ const BADGE={done:'✓',approved:'✓',error:'!',running:'…',waiting:'⏸'};
 async function refresh(){
   S=await api('state');
   $('#next').textContent=S.next_scan;$('#apr').innerHTML='Onay: <b>'+(S.settings.approval?'açık':'kapalı')+'</b>';
-  const kinds=S.runs.filter(r=>r.kind===flow);
+  const kinds=S.runs.filter(r=>r.kind===flow&&r.status!=='rejected');
   const sel_=$('#runsel');sel_.innerHTML=kinds.length?kinds.map(r=>`<option value="${r.id}" ${r.id===cur[flow]?'selected':''}>${r.status==='done'?'✓':r.status==='error'?'✗':'●'} ${esc(r.post||r.id)}</option>`).join(''):'<option>(çalışma yok)</option>';
   if(!cur[flow]||!kinds.find(r=>r.id===cur[flow]))cur[flow]=kinds[0]?.id||null;
   runs={};const need=new Set();
