@@ -141,13 +141,17 @@ def slide(data, s, i, n):
             rows += f'<div class="close">{md(s["close"])}</div>'
         body = f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0">{rows}</div>'
     elif t == "cta" and s.get("keyword"):
+        import cta_variants as cv
+        v = s.get("v") or {}
         kw = esc(str(s["keyword"]).upper())
-        intro = s.get("intro") or (f"If you’re in the {s['stage']} stage right now and every day feels like a new challenge," if s.get("stage") else "")
-        offer = s.get("offer") or OFFER
+        intro = s.get("intro") or (cv.INTROS[v.get("intro", 0) % len(cv.INTROS)].format(stage=s["stage"]) if s.get("stage") else "")
+        offer = cv.OFFERS[v.get("offer", 0) % len(cv.OFFERS)]
+        comment = cv.COMMENTS[v.get("comment", 0) % len(cv.COMMENTS)].replace("{KW}", f"<b>{kw}</b>")
+        foot = cv.FOOTS[v.get("foot", 0) % len(cv.FOOTS)]
         body = (f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0">'
-                + (f'<div class="p">{md(intro)}</div>' if intro else "") + f'<div class="p">{md(offer)}</div>'
-                f'<div class="cm">Comment <b>{kw}</b> and I’ll send you the link.</div>'
-                f'<div class="mini">Save · Share · Follow / Subscribe {esc(data.get("handle", brand.HANDLE))}</div>'
+                + (f'<div class="p">{md(intro)}</div>' if intro else "") + f'<div class="p">{esc(offer)}</div>'
+                f'<div class="cm">{comment}</div>'
+                f'<div class="mini">{esc(foot)} {esc(data.get("handle", brand.HANDLE))}</div>'
                 f'<div class="disc">{esc(brand.DISCLAIMER)}</div></div>')
     elif t == "cta":
         lines = "".join(f'<div class="ctal"><span class="v">{esc(v)}</span><span class="t">{md(x)}</span></div>' for v, x in s.get("lines", []))

@@ -27,13 +27,12 @@ COMMENT CTA (last slide of A and B; also the last line of every caption, includi
    Stage guide:   {{"type":"cta","stage":"2-4","keyword":"CALM"}}   -> prints "If you're in the 2-4 stage right now and every day feels like a new challenge,"
    Problem post:  {{"type":"cta","intro":"If bedtime is a nightly battle in your house,","keyword":"BEDTIME"}}
    `stage` = the age range of the post (e.g. "2-4", "5-7"). Use `intro` instead when the post is a problem, not an age stage: one sentence speaking to the parent.
-   Do NOT write an `offer`: the theme prints the fixed line "The ParentWise Playbook puts decades of research in one place, with simple scripts,
-   regulation tools and real-life support for the moments that test you most." then "Comment KEYWORD and I'll send you the link." then
-   "Save . Share . Follow / Subscribe @parentwise__" and the disclaimer.
+   Do NOT write an `offer` or the wording of the CTA lines: the code rotates several very similar variants (ParentWise Playbook description,
+   "Comment KEYWORD and I'll send you the link.", "Save . Share . Follow / Subscribe") so posts do not repeat the exact same text. Just give stage/intro + keyword.
    Also set top-level "cta_keyword" = the keyword. Choose ONE short uppercase word (4-9 letters, no spaces) that fits THIS topic and is easy to type
    (BEDTIME, CALM, SCRIPTS, TANTRUM, SLEEP, FOCUS...). It must differ from the keywords of recent posts (see the recently posted list).
    FORBIDDEN in slides and captions: "free", "guide", "ebook", "e-book", "cheat sheet", "PDF", "download", "bundle". Never describe another product.
-   Caption ends with: Comment KEYWORD and I'll send you the link.  (Format C: no slide, caption only.)
+   Caption ends with a line like: Comment KEYWORD and I'll send you the link. (the code swaps in the rotated wording). Format C: no slide, caption only.
 
 COVER IMAGE (formats A and B; the pipeline generates it locally with AI, never a real child)
    "cover": {{"scene": "<English photo prompt>", "overlay": "brain" or null}}

@@ -179,6 +179,30 @@ def check_banned(cpath):
         raise RuntimeError(f'content contains a forbidden promise: "{m.group(0)}" (the CTA may only say: send you the link)')
 
 
+def apply_cta_rotation(cpath):
+    """Pick CTA wording variants (least/oldest used) and write them into the content JSON slide + caption."""
+    import cta_variants as cv
+    cpath = Path(cpath)
+    d = json.loads(cpath.read_text(encoding="utf-8"))
+    kw = d.get("cta_keyword")
+    if not kw:
+        return
+    hist = []
+    for f in sorted((ROOT / "content").glob("*.json")):
+        if f.resolve() != cpath.resolve():
+            hist.append(json.loads(f.read_text(encoding="utf-8")).get("cta_variant") or {})
+    v = cv.pick(hist)
+    d["cta_variant"] = v
+    for sl in d.get("slides", []):
+        if sl.get("type") == "cta" and sl.get("keyword"):
+            sl["v"] = v
+    line = cv.COMMENTS[v["comment"]].replace("{KW}", str(kw).upper())
+    cap = d.get("caption", "")
+    cap2, n = re.subn(r"(?im)^.*\bcomment\s+[A-Z0-9]+\b.*$", lambda m: line, cap, count=1)
+    d["caption"] = cap2 if n else (cap.rstrip() + chr(10) + chr(10) + line)
+    write_json_safe(cpath, d)
+
+
 def set_info(st, name, text):
     st["nodes"][name]["info"] = str(text)[:160]
 
@@ -221,6 +245,7 @@ def do_node(st, name):
             run_claude(st, name, fill("write", date=day, candidate=json.dumps(cand, ensure_ascii=False), out=cpath, proof=d / "write.json",
                                       note=st.get("notes", ""), recent_designs="\n".join(posted_slugs()["lines"][-6:])), [cpath, d / "write.json"])
             check_banned(cpath)
+            apply_cta_rotation(cpath)
             set_info(st, name, f"{len(json.loads(cpath.read_text(encoding='utf-8')).get('slides', []))} slayt")
         elif name == "cover":
             py("cover.py", cpath, log=lg)
