@@ -49,7 +49,7 @@ def handle(studio, tok, chat, text):
     if t in ("/start", "yardım", "yardim", "help"):
         return "Komutlar: tara · adaylar · 3 (numara ile seç) · durum · önizle · yayınla · reddet · revize: <not> · bir link (viral Reel)"
     if t in ("tara", "/tara"):
-        return "Tarama başladı." if studio.start_scan() else "Zaten bir tarama çalışıyor."
+        return "Tarama başladı." if studio.start_scan("Telegram") else "Zaten bir tarama çalışıyor."
     if t in ("adaylar", "/adaylar"):
         cs = studio.latest_candidates().get("candidates", [])[:12]
         return "\n".join(f"{i+1}. [{c['kind']}] {c['title']} ★{c['score']}" for i, c in enumerate(cs)) or "Aday yok."

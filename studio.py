@@ -15,7 +15,7 @@ LOCK = threading.RLock()
 TOOLS = ["WebSearch", "WebFetch", "Read", "Write", "Edit", "Glob", "Grep", "Bash(python carousel.py:*)", "Bash(python reel.py:*)",
          "Bash(python news.py:*)", "Bash(python cover.py:*)", "Bash(python clip.py:*)"]
 
-SCAN = [("collect", "code"), ("scout", "ai"), ("pick", "human")]
+SCAN = [("trigger", "code"), ("collect", "code"), ("scout", "ai"), ("pick", "human")]
 POST = [("write", "ai"), ("cover", "code"), ("carousel", "code"), ("video", "code"), ("qa", "ai"), ("approve", "human"),
         ("prepare", "publish"), ("upload", "publish"), ("ig_carousel", "publish"), ("fb_photos", "publish"), ("yt_short", "publish"), ("log", "code")]
 CLIP = [("fetch", "code"), ("hook", "ai"), ("frame", "code"), ("qa", "ai"), ("approve", "human"), ("prepare", "publish"),
@@ -168,13 +168,27 @@ def content_path(st):
     return ROOT / ("content/clips" if st["kind"] == "clip" else "content") / f"{st['post']}.json"
 
 
+def set_info(st, name, text):
+    st["nodes"][name]["info"] = str(text)[:160]
+
+
+def pub_info(st):
+    f = ROOT / "output" / str(st.get("post")) / "publish.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
 def do_node(st, name):
     d, day = run_dir(st["id"]), datetime.now().strftime("%Y-%m-%d")
     lg = d / f"{name}.log"
     k = st["kind"]
     if k == "scan":
+        if name == "trigger":
+            set_info(st, name, st.get("source", "Elle başlatıldı"))
+            return "done"
         if name == "collect":
             py("news.py", log=lg)
+            rf = json.loads((ROOT / "research" / f"{day}.json").read_text(encoding="utf-8"))
+            set_info(st, name, f"{len(rf['items'])} haber · {len(rf['errors'])} hata")
             try:
                 py("viral.py", log=lg)
             except Exception:  # noqa: BLE001
@@ -186,6 +200,7 @@ def do_node(st, name):
             prev = [c["id"] for f in (ROOT / "research").glob(f"{day}_*_candidates.json") for c in json.loads(f.read_text(encoding="utf-8")).get("candidates", [])]
             run_claude(st, name, fill("scout", date=day, research=ROOT / "research" / f"{day}.json", out=out, posted=posted, previous=prev), out)
             st["candidates_file"] = str(out)
+            set_info(st, name, f"{len(json.loads(out.read_text(encoding='utf-8')).get('candidates', []))} aday")
         elif name == "pick":
             return "waiting"
     elif k == "post":
@@ -194,14 +209,19 @@ def do_node(st, name):
             cand = st["candidate"]
             run_claude(st, name, fill("write", date=day, candidate=json.dumps(cand, ensure_ascii=False), out=cpath, proof=d / "write.json",
                                       note=st.get("notes", ""), recent_designs="\n".join(posted_slugs()["lines"][-6:])), [cpath, d / "write.json"])
+            set_info(st, name, f"{len(json.loads(cpath.read_text(encoding='utf-8')).get('slides', []))} slayt")
         elif name == "cover":
             py("cover.py", cpath, log=lg)
+            set_info(st, name, (json.loads(cpath.read_text(encoding="utf-8")).get("cover", {}).get("photo") or {}).get("file", "Flux / gradyan"))
         elif name == "carousel":
             py("carousel.py", cpath, log=lg)
         elif name == "video":
             py("reel.py", cpath, log=lg)
+            set_info(st, name, json.loads(cpath.read_text(encoding="utf-8")).get("voice", ""))
         elif name == "qa":
             run_claude(st, name, fill("qa", content=cpath, outdir=ROOT / "output" / post, qa_out=d / "qa.json"), d / "qa.json")
+            qa = json.loads((d / "qa.json").read_text(encoding="utf-8"))
+            set_info(st, name, "sorun yok" if qa.get("ok") else "sorun var: " + str(qa.get("summary_tr", "")))
         elif name == "approve":
             qa = json.loads((d / "qa.json").read_text(encoding="utf-8")) if (d / "qa.json").exists() else {"ok": True}
             if settings()["approval"] or not qa.get("ok", True):
@@ -230,6 +250,10 @@ def do_node(st, name):
                 return "waiting"
     if name in ("prepare", "upload", "ig_carousel", "fb_photos", "yt_short", "ig_reel", "fb_reel"):
         py("publish.py", content_path(st), "--steps", name, log=lg)
+        pi = pub_info(st)
+        set_info(st, name, {"ig_carousel": pi.get("ig_url"), "ig_reel": pi.get("ig_reel_url"), "fb_photos": pi.get("fb_url"),
+                            "fb_reel": pi.get("fb_reel_url"), "yt_short": pi.get("yt_url"),
+                            "upload": "gh-pages'e yüklendi", "prepare": "JPEG + kapak hazır"}.get(name) or "tamam")
     elif name == "log":
         py("publish.py", content_path(st), "--steps", "log", log=lg)
         git_commit(st)
@@ -297,10 +321,10 @@ def worker():
             traceback.print_exc()
 
 
-def start_scan():
+def start_scan(source="Elle başlatıldı"):
     if any(r["kind"] == "scan" and r["status"] == "running" for r in list_runs()):
         return None
-    st = new_run("scan")
+    st = new_run("scan", source=source)
     threading.Thread(target=execute, args=(st["id"],), daemon=True).start()
     return st["id"]
 
@@ -317,6 +341,13 @@ def recover():
             enqueue(r["id"])
 
 
+def next_slot():
+    now = datetime.now()
+    slots = sorted(settings()["slots"])
+    nxt = next((x for x in slots if x > now.strftime("%H:%M")), None)
+    return (f"{now:%Y-%m-%d} " + nxt) if nxt else ("yarın " + slots[0])
+
+
 def scheduler():
     while True:
         try:
@@ -327,7 +358,7 @@ def scheduler():
                 slot = f"{now:%Y-%m-%d} {max(due)}"
                 if s.get("last_slot", "") < slot:
                     save_settings({"last_slot": slot})
-                    start_scan()
+                    start_scan("Zamanlayıcı · " + max(due))
         except Exception:  # noqa: BLE001
             traceback.print_exc()
         time.sleep(30)
@@ -393,8 +424,39 @@ class H(BaseHTTPRequestHandler):
             if u.path == "/":
                 return self.send((ROOT / "studio" / "index.html").read_bytes(), ctype="text/html")
             if u.path == "/api/state":
-                return self.send({"runs": [{k: r.get(k) for k in ("id", "kind", "status", "created", "post")} for r in list_runs()[:30]],
-                                  "settings": settings(), "candidates": latest_candidates(), "brand": brand.BRAND})
+                return self.send({"runs": [{k: r.get(k) for k in ("id", "kind", "status", "created", "post", "scan")} for r in list_runs()[:30]],
+                                  "settings": settings(), "brand": brand.BRAND, "next_scan": next_slot()})
+            if u.path == "/api/scans":
+                out = []
+                for f in sorted((ROOT / "research").glob("*_candidates.json"), reverse=True):
+                    d = json.loads(f.read_text(encoding="utf-8"))
+                    out.append({"file": f.name, "label": f.name[5:10] + " " + f.name[11:13] + ":" + f.name[13:15], "count": len(d.get("candidates", []))})
+                return self.send(out)
+            if u.path == "/api/candidates":
+                return self.send(load_candidates(ROOT / "research" / Path(q["file"][0]).name))
+            if u.path == "/api/research":
+                fs = sorted(p for p in (ROOT / "research").glob("????-??-??.json"))
+                return self.send(json.loads(fs[-1].read_text(encoding="utf-8")) if fs else {"items": []})
+            if u.path == "/api/timings":
+                agg = {}
+                for r in list_runs():
+                    for n, v in r["nodes"].items():
+                        if v.get("dur"):
+                            agg.setdefault(r["kind"] + "/" + n, []).append(v["dur"])
+                return self.send({k: {"avg": round(sum(v) / len(v), 1), "n": len(v)} for k, v in agg.items()})
+            if u.path == "/api/artifacts":
+                r = load_run(q["id"][0])
+                post = r.get("post")
+                out, d = {"files": [], "write": None, "qa": None}, run_dir(r["id"])
+                if post:
+                    od = ROOT / "output" / post
+                    out["files"] = sorted(f.name for f in od.glob("*") if f.suffix in (".png", ".mp4", ".jpg") and not f.name.startswith("frame_"))
+                    cp = content_path(r)
+                    out["content"] = json.loads(cp.read_text(encoding="utf-8")) if cp.exists() else None
+                for k in ("write", "qa"):
+                    f = d / f"{k}.json"
+                    out[k] = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+                return self.send(out)
             if u.path == "/api/run":
                 return self.send(load_run(q["id"][0]))
             if u.path == "/api/log":
