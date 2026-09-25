@@ -1,0 +1,114 @@
+{
+  "feeds": [
+    {
+      "name": "WHO news",
+      "url": "https://www.who.int/rss-feeds/news-english.xml",
+      "tier": "official",
+      "match": "(?i)child|infant|newborn|adolescen|parent|breastfeed|vaccin|immuniz|pregnan|school"
+    },
+    {
+      "name": "CDC newsroom",
+      "url": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
+      "tier": "official",
+      "match": "(?i)child|infant|baby|teen|adolescen|parent|vaccin|immuniz|pregnan|school|autism|asthma"
+    },
+    {
+      "name": "CPSC recalls",
+      "url": "https://www.cpsc.gov/Newsroom/CPSC-RSS-Feed/Recalls-RSS",
+      "tier": "official",
+      "match": "(?i)child|infant|baby|toddler|kid|crib|stroller|car seat|high chair|toy|sleeper|bassinet|nursery"
+    },
+    {
+      "name": "NPR Health",
+      "url": "https://feeds.npr.org/1128/rss.xml",
+      "tier": "signal",
+      "match": "(?i)child|infant|baby|kids|teen|parent|pregnan|screen|autism|school"
+    },
+    {
+      "name": "Child Mind Institute",
+      "url": "https://childmind.org/feed/",
+      "tier": "signal"
+    },
+    {
+      "name": "Zero to Three",
+      "url": "https://www.zerotothree.org/feed/",
+      "tier": "signal"
+    }
+  ],
+  "pages": [
+    {
+      "name": "FDA recalls (safety)",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "parser": "dated_sections",
+      "tier": "official",
+      "match": "(?i)infant|baby|child|formula|pediatric"
+    }
+  ],
+  "hn": {
+    "queries": [
+      "child development",
+      "parenting",
+      "screen time kids",
+      "infant sleep",
+      "toddler",
+      "teenagers social media",
+      "pediatric",
+      "kids and AI"
+    ],
+    "min_points": 80
+  },
+  "reddit": {
+    "enabled": false
+  },
+  "manual": [
+    {
+      "name": "AAP News (publications.aap.org)",
+      "url": "https://publications.aap.org/aapnews",
+      "why": "blocks scripts: check with web search"
+    },
+    {
+      "name": "Pediatrics journal",
+      "url": "https://publications.aap.org/pediatrics",
+      "why": "blocks scripts: check with web search"
+    },
+    {
+      "name": "NHS baby & toddler pages",
+      "url": "https://www.nhs.uk/conditions/baby/",
+      "why": "no feed: check with web search"
+    },
+    {
+      "name": "Official X accounts (AAP, CDC, WHO)",
+      "url": "https://x.com",
+      "why": "login required"
+    },
+    {
+      "name": "NIH / NICHD news",
+      "url": "https://www.nichd.nih.gov/newsroom/news",
+      "why": "nih.gov blocks scripts (403): check with web search"
+    },
+    {
+      "name": "UNICEF press releases",
+      "url": "https://www.unicef.org/press-releases",
+      "why": "no feed"
+    },
+    {
+      "name": "AAP HealthyChildren",
+      "url": "https://www.healthychildren.org",
+      "why": "no feed"
+    },
+    {
+      "name": "Harvard Center on the Developing Child",
+      "url": "https://developingchild.harvard.edu/news/",
+      "why": "no feed"
+    }
+  ],
+  "viral": {
+    "youtube_queries": [
+      "toddler funny",
+      "parenting hack",
+      "baby first steps",
+      "kids reaction"
+    ],
+    "youtube_min_views": 100000
+  }
+}

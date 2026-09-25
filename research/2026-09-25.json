@@ -1,0 +1,73 @@
+{
+ "generated": "2026-09-25T12:14+00:00",
+ "hours": 36,
+ "items": [
+  {
+   "source": "NPR Health",
+   "tier": "signal",
+   "title": "Mom! Mom! MOM! 3 ways to stay calm in stressful parenting moments",
+   "url": "https://www.npr.org/2026/09/25/nx-s1-5978936/how-to-manage-mom-rage",
+   "date": "2026-09-25T09:01:00+00:00",
+   "summary": "Parenthood can be overwhelming. A therapist and mom of three shares techniques to help calibrate your emotions — so you can show up better for yourself and your family."
+  },
+  {
+   "source": "NPR Health",
+   "tier": "signal",
+   "title": "$100 million in teen pregnancy prevention funds remain unused. What happened?",
+   "url": "https://www.npr.org/2026/09/24/nx-s1-5974336/teen-pregnancy-prevention-unspent-funding",
+   "date": "2026-09-25T08:40:30+00:00",
+   "summary": "With days left to go in the 2026 fiscal year, lawmakers push the health department to spend the money Congress allocated to prevent teen pregnancy. An NPR exclusive."
+  },
+  {
+   "source": "Child Mind Institute",
+   "tier": "signal",
+   "title": "Identifying Suicide Risk Based on the Words People Use",
+   "url": "https://childmind.org/blog/identifying-suicide-risk-based-on-the-words-people-use/",
+   "date": "2026-09-24T21:30:00+00:00",
+   "summary": "Researchers from the Child Mind Institute and MIT have developed a tool that can identify warning signs in text conversations, helping experts better understand who may need urgent support. The post Identifying Suicide Risk Based on the Words People Use appeared first on Child Mind Institute ."
+  }
+ ],
+ "errors": [],
+ "manual": [
+  {
+   "name": "AAP News (publications.aap.org)",
+   "url": "https://publications.aap.org/aapnews",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "Pediatrics journal",
+   "url": "https://publications.aap.org/pediatrics",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "NHS baby & toddler pages",
+   "url": "https://www.nhs.uk/conditions/baby/",
+   "why": "no feed: check with web search"
+  },
+  {
+   "name": "Official X accounts (AAP, CDC, WHO)",
+   "url": "https://x.com",
+   "why": "login required"
+  },
+  {
+   "name": "NIH / NICHD news",
+   "url": "https://www.nichd.nih.gov/newsroom/news",
+   "why": "nih.gov blocks scripts (403): check with web search"
+  },
+  {
+   "name": "UNICEF press releases",
+   "url": "https://www.unicef.org/press-releases",
+   "why": "no feed"
+  },
+  {
+   "name": "AAP HealthyChildren",
+   "url": "https://www.healthychildren.org",
+   "why": "no feed"
+  },
+  {
+   "name": "Harvard Center on the Developing Child",
+   "url": "https://developingchild.harvard.edu/news/",
+   "why": "no feed"
+  }
+ ]
+}

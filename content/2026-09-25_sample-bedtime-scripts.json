@@ -1,0 +1,119 @@
+{
+  "theme": "playbooks",
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "Bedtime scripts",
+  "cover": {
+    "headline": "5 calm phrases for bedtime battles that actually help toddlers wind down:",
+    "em": "calm phrases",
+    "person": null,
+    "scene": "soft watercolor night sky with moon and stars over a cozy empty nursery, no people"
+  },
+  "design": {
+    "mood": "sleepy dusk, soft indigo and peach",
+    "palette": {
+      "bg": "#1f2347",
+      "bg2": "#3a2f63",
+      "surface": "#fff4ea",
+      "ink": "#fdf6ee",
+      "muted": "#c9c3e6",
+      "accent": "#ffb178",
+      "accent2": "#7ad7c9"
+    },
+    "fonts": {
+      "display": "Bricolage Grotesque",
+      "body": "DM Sans",
+      "mono": "JetBrains Mono"
+    },
+    "shape": {
+      "radius": 30,
+      "shadow": "soft"
+    },
+    "background": {
+      "pattern": "dots",
+      "pattern_opacity": 0.1,
+      "glow": true
+    }
+  },
+  "caption": "5 calm phrases for bedtime battles (save this for tonight)\n\nShort, kind scripts you can say word for word.\nSave it, then send it to the other grown-up at home.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#parenting #toddlerlife #bedtimeroutine #gentleparenting #momsofinstagram #dadlife",
+  "sources": [
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "PARENT PLAYBOOK",
+      "title": "5 bedtime phrases",
+      "em": "that calm",
+      "sub": "Save this for tonight",
+      "voiceover": "Five calm phrases for bedtime battles. Save this for tonight."
+    },
+    {
+      "type": "script",
+      "label": "1 / 5",
+      "name": "Name the feeling",
+      "sub": "Feelings first, then limits",
+      "say": "I can see you are not ready to stop playing. It is hard to end fun time. It is still time for [BEDTIME ACTIVITY].",
+      "tip": "Ages 2-6",
+      "voiceover": "First, name the feeling. Then hold the limit kindly."
+    },
+    {
+      "type": "script",
+      "label": "2 / 5",
+      "name": "Offer two choices",
+      "sub": "Small choices, less pushback",
+      "say": "Do you want to brush teeth first, or pick the [BOOK]? You choose, then we head to bed.",
+      "tip": "Ages 2-6",
+      "voiceover": "Give two choices, both of which lead to bed."
+    },
+    {
+      "type": "script",
+      "label": "3 / 5",
+      "name": "Preview what's next",
+      "sub": "Predictability soothes",
+      "say": "After the story, lights go off, and I will give you a [HUG OR KISS]. Then it is sleepy time.",
+      "tip": "Ages 2-5",
+      "voiceover": "Preview what comes next so nothing feels like a surprise."
+    },
+    {
+      "type": "script",
+      "label": "4 / 5",
+      "name": "Calm reassurance",
+      "sub": "Safe and connected",
+      "say": "You are safe. I am right here in the house. I will check on you at [TIME] if you need me.",
+      "tip": "Ages 2-7",
+      "voiceover": "Reassure them that you are close and they are safe."
+    },
+    {
+      "type": "script",
+      "label": "5 / 5",
+      "name": "Warm goodnight",
+      "sub": "End on connection",
+      "say": "I love our [FAVORITE PART OF DAY]. Sleep well. See you in the morning.",
+      "tip": "All ages",
+      "voiceover": "End on connection with a warm, short goodnight."
+    },
+    {
+      "type": "cta",
+      "title": "Save it,",
+      "title2": "use it tonight",
+      "lines": [
+        [
+          "Save",
+          "for bedtime"
+        ],
+        [
+          "Share",
+          "with your co-parent"
+        ],
+        [
+          "Follow",
+          "@parentwise__"
+        ]
+      ],
+      "voiceover": "Save this, share it, and follow for more."
+    }
+  ],
+  "voice": "af_sarah",
+  "voice_speed": 1.1
+}

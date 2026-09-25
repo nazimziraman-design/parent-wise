@@ -1,0 +1,8 @@
+.env
+client_secret.json
+output/
+runs/
+__pycache__/
+*.pyc
+.pages/
+Untitled.docx

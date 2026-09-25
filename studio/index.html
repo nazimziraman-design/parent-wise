@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parent Wise Studio</title>
+<style>
+:root{--bg:#f6f4f1;--card:#fff;--ink:#22212b;--mut:#6d6b78;--line:#e5e1db;--acc:#ff6a88;--ok:#2fb67c;--run:#f5a524;--wait:#5b8def;--err:#e5484d}
+@media(prefers-color-scheme:dark){:root{--bg:#17161c;--card:#211f29;--ink:#f2eff7;--mut:#a29fb0;--line:#332f3d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,sans-serif;display:grid;grid-template-columns:380px 1fr;height:100vh}
+aside{border-right:1px solid var(--line);overflow:auto;padding:14px}main{overflow:auto;padding:18px}
+h1{font-size:17px;margin:0 0 10px}h2{font-size:14px;margin:18px 0 8px;color:var(--mut);text-transform:uppercase;letter-spacing:.06em}
+button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}
+button.p{background:var(--acc);border-color:var(--acc);color:#fff}button:disabled{opacity:.5}
+.tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}.tabs button.on{background:var(--ink);color:var(--bg)}
+.cand{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:10px}
+.cand .t{font-weight:600}.cand .m{color:var(--mut);font-size:13px;margin:4px 0}.tag{font-size:11px;padding:1px 7px;border-radius:99px;background:var(--line);margin-right:4px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}.node{padding:8px 12px;border-radius:10px;border:2px solid var(--line);background:var(--card);cursor:pointer;font-size:13px}
+.node.running{border-color:var(--run)}.node.waiting{border-color:var(--wait)}.node.done,.node.approved{border-color:var(--ok)}.node.error{border-color:var(--err)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px;white-space:pre-wrap;max-height:300px;overflow:auto;font-size:12px}
+.imgs{display:flex;gap:8px;overflow:auto;padding:6px 0}.imgs img{height:220px;border-radius:8px;border:1px solid var(--line)}video{height:360px;border-radius:10px}
+.runs div{padding:5px 8px;border-radius:8px;cursor:pointer;font-size:13px}.runs div:hover,.runs .sel{background:var(--line)}
+input,textarea{font:inherit;width:100%;padding:7px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+@media(max-width:800px){body{grid-template-columns:1fr;height:auto}aside{border:0}}
+</style>
+<aside>
+  <h1>Adaylar <button id="scan" class="p" style="float:right">Şimdi tara</button></h1>
+  <div id="cands"></div>
+</aside>
+<main>
+  <div class="tabs"><button data-t="flow" class="on">Akış</button><button data-t="viral">Viral</button><button data-t="perf">📊 Performans</button><button data-t="set">⚙ Ayarlar</button></div>
+  <div id="view"></div>
+</main>
+<script>
+const $=s=>document.querySelector(s);let S={},cur=null,tab='flow';
+const api=(p,b)=>fetch('/api/'+p,b?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}:{}).then(r=>r.json());
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function refresh(){S=await api('state');renderCands();if(!cur&&S.runs[0])cur=S.runs[0].id;render()}
+function renderCands(){
+  const scan=S.runs.find(r=>r.kind==='scan'&&r.status==='waiting')||S.runs.find(r=>r.kind==='scan');
+  $('#cands').innerHTML=(S.candidates.candidates||[]).map(c=>`<div class="cand"><div class="t">${esc(c.title)}</div>
+   <div class="m"><span class="tag">${esc(c.kind)}</span><span class="tag">${esc(c.area||'')}</span><span class="tag">★ ${c.score}</span>${c.seen_before?'<span class="tag">tekrar</span>':''}</div>
+   <div class="m">${esc(c.summary_tr)}</div><div class="m">${(c.sources||[]).map(u=>`<a href="${esc(u)}" target="_blank">kaynak</a>`).join(' · ')}</div>
+   <button class="p" onclick="pick('${scan?.id}','${c.id}')">Seç</button></div>`).join('')||'<div class="m">Aday yok. “Şimdi tara”.</div>';
+}
+async function pick(scan,id){if(!confirm('Bu adayı seç?'))return;const r=await api('select',{scan,candidate:id});cur=r.id;refresh()}
+$('#scan').onclick=async()=>{await api('scan',{});refresh()};
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');tab=b.dataset.t;render()});
+async function render(){
+  const v=$('#view');
+  if(tab==='flow'){
+    const runs=S.runs.map(r=>`<div class="${r.id===cur?'sel':''}" onclick="cur='${r.id}';render()">${esc(r.created.slice(5,16))} · ${r.kind} · ${esc(r.post||'')} <b>${r.status}</b></div>`).join('');
+    let body='';
+    if(cur){const r=await api('run?id='+cur);const out=r.post?`/file/${r.post}/`:null;
+      body=`<h2>${r.kind} — ${esc(r.post||r.id)}</h2><div class="flow">${Object.entries(r.nodes).map(([n,x])=>`<div class="node ${x.status}" onclick="showLog('${r.id}','${n}')">${n}<br><small>${x.status}${x.dur?' · '+x.dur+'s':''}</small></div>`).join('')}</div>`;
+      if(r.status==='waiting'&&r.kind!=='scan')body+=`<div><button class="p" onclick="act('approve','${r.id}')">Yayınla</button> <button onclick="rev('${r.id}')">Revize et</button> <button onclick="act('reject','${r.id}')">Reddet</button></div>`;
+      if(r.status==='error'||r.status==='cancelled')body+=`<button class="p" onclick="act('retry','${r.id}')">Tekrar dene</button> `;
+      if(r.status==='running')body+=`<button onclick="act('cancel','${r.id}')">İptal</button>`;
+      if(out&&r.nodes.carousel&&r.nodes.carousel.status==='done')body+=`<div class="imgs">${[1,2,3,4,5,6,7,8,9,10].map(i=>`<img src="${out}slide_${String(i).padStart(2,'0')}.png" onerror="this.remove()">`).join('')}</div><video controls src="${out}reel.mp4" onerror="this.remove()"></video>`;
+      body+=`<h2>Log</h2><pre id="log">Bir düğüme tıkla.</pre>`}
+    v.innerHTML=`<div class="runs">${runs}</div>`+body;
+  }else if(tab==='viral'){
+    const l=await api('viral');v.innerHTML=`<h2>Link yapıştır (viral Reel)</h2><input id="u" placeholder="https://..."><p><button class="p" onclick="clip()">Klip başlat</button></p><h2>Trend sinyalleri</h2>`+l.map(x=>`<div class="cand"><div class="t">${esc(x.title)}</div><div class="m">${esc(x.channel)} · ${x.views.toLocaleString()} izlenme · <a href="${esc(x.url)}" target="_blank">aç</a></div></div>`).join('');
+  }else if(tab==='perf'){
+    const m=await api('metrics');v.innerHTML=`<button onclick="api('metrics/refresh',{})">Yenile</button><pre>${esc(JSON.stringify(m,null,1))}</pre>`;
+  }else{
+    const s=S.settings;v.innerHTML=`<h2>Tarama saatleri</h2><input id="sl" value="${s.slots.join(', ')}"><h2>Yayından önce onay</h2><label><input type="checkbox" id="ap" style="width:auto" ${s.approval?'checked':''}> Açık</label><p><button class="p" onclick="saveSet()">Kaydet</button></p>`;
+  }
+}
+async function showLog(id,n){const r=await api(`log?id=${id}&node=${n}`);const l=$('#log');if(l)l.textContent=r.log||'(log yok)'}
+async function act(a,id){await api(a,{id});refresh()}
+async function rev(id){const note=prompt('Revizyon notu?');if(note)await api('revise',{id,note});refresh()}
+async function clip(){await api('clip',{url:$('#u').value});tab='flow';refresh()}
+async function saveSet(){await api('settings',{slots:$('#sl').value.split(',').map(x=>x.trim()),approval:$('#ap').checked});refresh()}
+refresh();setInterval(refresh,4000);
+</script></html>
