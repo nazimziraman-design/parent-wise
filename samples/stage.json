@@ -1,0 +1,103 @@
+{
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": false,
+  "theme": "stage",
+  "topic": "Age 3 stage guide",
+  "cover": {
+    "headline": "If your child is turning 3 soon, expect big feelings and even bigger opinions. Here are 5 things every parent should know.",
+    "em": "5 things"
+  },
+  "design": {
+    "palette": {
+      "accent": "#ff6a88",
+      "accent2": "#4ecdc4"
+    }
+  },
+  "caption": "Turning 3 changes everything (save this for later)\n\nBig feelings, big opinions, and a lot of \"no\". Here is what is really going on and what to say.\nSave it, and send it to someone who is in this stage right now.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#parenting #toddlerlife #3yearold #gentleparenting #parentingtips #childdevelopment",
+  "sources": [
+    "https://www.cdc.gov/act-early/milestones/"
+  ],
+  "slides": [
+    {
+      "type": "stagecover",
+      "headline": "If your child is turning 3 soon, expect big feelings and even bigger opinions. Here are 5 things every parent should know.",
+      "em": "5 things"
+    },
+    {
+      "type": "point",
+      "n": 1,
+      "title": "**\"No\" becomes their favorite word.**",
+      "body": [
+        "They are testing a brand-new idea: I am a separate person with my own wants.",
+        "It is a sign of growth, not a sign that you are failing."
+      ],
+      "say": "\"You can say no to the shoes. You cannot say no to staying safe. Which pair do you pick?\"",
+      "close": "Choices give them power without giving them the steering wheel."
+    },
+    {
+      "type": "point",
+      "n": 2,
+      "title": "**Feelings arrive faster than words.**",
+      "body": [
+        "They feel it all, and cannot yet explain it.",
+        "Meltdowns are often a language problem in disguise."
+      ],
+      "say": "\"You look so mad. You wanted the blue cup. I am right here.\"",
+      "close": "Name it first. Fix it second."
+    },
+    {
+      "type": "point",
+      "n": 3,
+      "title": "**They suddenly want to do everything alone.**",
+      "body": [
+        "Getting dressed takes 20 minutes. Pouring the milk makes a lake.",
+        "That is practice, and practice is messy."
+      ],
+      "say": "\"Do you want to try first, or shall we do it together?\"",
+      "close": "Extra time now saves you months of power struggles later."
+    },
+    {
+      "type": "point",
+      "n": 4,
+      "title": "**Pretend play is doing real work.**",
+      "body": [
+        "Feeding a teddy bear is rehearsing empathy, language and problem solving.",
+        "Join in for ten minutes and let them lead."
+      ],
+      "say": "\"Oh no, teddy is hungry. What should we cook for him?\"",
+      "close": "You do not need special toys. You need your attention."
+    },
+    {
+      "type": "point",
+      "n": 5,
+      "title": "**Routine is their safety net.**",
+      "body": [
+        "When the day feels predictable, they feel safe enough to cooperate.",
+        "A simple order for morning and bedtime does most of the work."
+      ],
+      "say": "\"First pajamas, then book, then lights out. I will show you the pictures.\"",
+      "close": "Predictable days make calmer kids."
+    },
+    {
+      "type": "cta",
+      "title": "Save this. **Follow for more.**",
+      "lines": [
+        [
+          "Save",
+          "for the next meltdown"
+        ],
+        [
+          "Share",
+          "with a co-parent"
+        ],
+        [
+          "Follow",
+          "@parentwise__"
+        ]
+      ]
+    }
+  ]
+}

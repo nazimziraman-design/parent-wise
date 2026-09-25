@@ -12,6 +12,10 @@ video, a cover and a caption, and after approval publishes to Instagram, Faceboo
 - Content language: **English**. Owner communication (Studio UI, Telegram, candidate `summary_tr` / `why_tr`): **Turkish**.
 - Tone: warm, calm, practical, non-judgmental. Never shame parents. No fear-mongering, no "shocking" clickbait.
 
+## Formats (carousel)
+A) stage guide (theme stage): cover + numbered points (what is happening -> why -> what to say) + CTA. B) problem -> short fix text carousel (theme problem).
+C) single image quote (theme single). Verified news also uses theme stage. Videos are switched off for now (`video: false`). Last slide CTA = Save & follow.
+
 ## Two pillars
 1. **Verified news posts** (research, guidelines, recalls, policy changes, product safety).
 2. **Copy-paste playbooks** — reusable cards: scripts to say to a child, checklists, routines, conversation starters

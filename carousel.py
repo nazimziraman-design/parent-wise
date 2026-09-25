@@ -21,7 +21,7 @@ def render_pages(data, out_dir, reel=False):
         theme.configure(data)
     pages = theme.render(data)
     img = out_dir / "cover_image.jpg"
-    if data.get("cover", {}).get("headline") and img.exists():
+    if data.get("cover", {}).get("headline") and img.exists() and data.get("theme") not in ("stage", "problem", "single"):
         from themes import hookcover
         pages[0] = hookcover.render(data, img.resolve().as_uri(), reel)
     return pages

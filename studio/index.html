@@ -18,7 +18,7 @@ header .sp{flex:1}select{background:var(--card);color:var(--ink);border:1px soli
 .tabs button{flex:1;border:0;border-radius:0;background:none;color:var(--mut);padding:13px 4px;border-bottom:2px solid transparent}.tabs button.on{color:var(--ink);border-color:var(--acc)}
 .lp{padding:12px}.cand{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:12px}
 .cand .top{display:flex;gap:8px;align-items:center;margin-bottom:8px;font-size:12px;color:var(--mut)}.score{width:26px;height:26px;border-radius:50%;background:var(--run);color:#111;font-weight:800;display:grid;place-items:center}
-.tag{font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:2px 8px;border-radius:6px;background:#3a2530;color:#ff8fa3;text-transform:uppercase}.tag.evergreen{background:#1f3a2f;color:#5fd1a0}.tag.playbook{background:#2c2a4d;color:#a99bff}
+.tag{font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:2px 8px;border-radius:6px;background:#3a2530;color:#ff8fa3;text-transform:uppercase}.tag.evergreen{background:#1f3a2f;color:#5fd1a0}.tag.playbook,.tag.stage{background:#2c2a4d;color:#a99bff}.tag.problem{background:#3a2f1e;color:#ffbf6b}.tag.quote{background:#1e3a3a;color:#6bd6d6}
 .cand h3{font-size:15px;margin-bottom:6px}.cand p{color:#b6bccb;font-size:13px;margin-bottom:8px}.cand a{color:var(--acc2);font-size:12px;margin-right:8px}.why{background:#20242f;border-radius:8px;padding:6px 9px;color:var(--mut);font-size:12px;margin-bottom:8px}
 .cand button{width:100%}
 .canvasw{position:relative;overflow:auto;background:radial-gradient(circle at 1px 1px,#252a36 1px,transparent 0) 0 0/22px 22px}
@@ -164,7 +164,7 @@ async function renderLeft(){
     const d=await api('candidates?file='+encodeURIComponent(file));
     const scanRun=S.runs.find(r=>r.kind==='scan'&&r.status==='waiting')||S.runs.find(r=>r.kind==='scan');
     lp.innerHTML=`<select id="scsel" style="width:100%;margin-bottom:12px">${scans.map(s=>`<option value="${s.file}" ${s.file===file?'selected':''}>${s.label} · ${s.count} aday</option>`).join('')}</select>`+
-     (d.candidates||[]).map((c,i)=>`<div class="cand"><div class="top"><span class="score">${c.score}</span><span class="tag ${c.kind}">${c.kind==='news'?'HABER':c.kind}</span><span>${esc(c.area||'')}</span><span style="margin-left:auto">${esc(c.published||'')}</span></div>
+     (d.candidates||[]).map((c,i)=>`<div class="cand"><div class="top"><span class="score">${c.score}</span><span class="tag ${c.kind}">${c.kind==='news'?'HABER':c.kind==='stage'?'AŞAMA':c.kind==='problem'?'SORUN':c.kind==='quote'?'ALINTI':c.kind}</span><span>${esc(c.area||'')}</span><span style="margin-left:auto">${esc(c.published||'')}</span></div>
       <h3>${esc(c.title)}</h3><p>${esc(c.summary_tr)}</p>${c.why_tr?`<div class="why">💡 ${esc(c.why_tr)}</div>`:''}
       <div style="margin-bottom:8px">${(c.sources||[]).map(u=>`<a href="${esc(u)}" target="_blank">${esc(new URL(u).hostname)}</a>`).join('')}</div>
       <button class="p" onclick="pick('${scanRun?.id}','${c.id}')">Bu adayı seç</button></div>`).join('')+(d.notes_tr?`<div class="why">${esc(d.notes_tr)}</div>`:'');

@@ -7,7 +7,7 @@ Check
 - Cover: the photographed person really is cover.person (check the Commons filename); face above the headline band; headline
   correct, readable, not cut; photo credit on the cover and in the caption. NO identifiable children's faces anywhere.
 - Content: typos; any claim beyond `sources`; disclaimer on the last slide and in the caption; explicit age ranges.
-- Playbook: every script fully visible, [PLACEHOLDERS] meaningful.
+- Themes stage / problem / single: text fits inside the slide, numbered points are in order, `say` phrases fully visible, the last slide shows the disclaimer, no verified badge, no child photos.
 - Design: fits design.mood; cover art clear and relevant; every text readable on its background.
 
 Fix: edit the content JSON (shorten text, redraw SVG, adjust palette, pick another Commons photo / focus) and re-run the script.

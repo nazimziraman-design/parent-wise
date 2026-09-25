@@ -143,8 +143,16 @@ def step_ig_carousel(p):
     ig = ENV["IG_USER_ID"]
     if p.state.get("ig_media_id"):
         return
-    kids = p.state.setdefault("ig_children", [])
     names = [n for n in p.state["media"] if n.startswith("slide_")]
+    if len(names) == 1:  # single image post (a carousel needs at least 2 items)
+        if not p.state.get("ig_container"):
+            p.save(ig_container=graph("POST", f"{ig}/media", image_url=p.url(names[0]), caption=p.caption)["id"])
+        wait_container(p.state["ig_container"])
+        mid = graph("POST", f"{ig}/media_publish", creation_id=p.state["ig_container"])["id"]
+        p.save(ig_media_id=mid)
+        p.save(ig_url=permalink(mid))
+        return
+    kids = p.state.setdefault("ig_children", [])
     for n in names[len(kids):]:
         kids.append(graph("POST", f"{ig}/media", image_url=p.url(n), is_carousel_item="true")["id"])
         p.save()
@@ -177,6 +185,11 @@ def step_fb_photos(p):
         return
     ids = p.state.setdefault("fb_photo_ids", [])
     names = [n for n in p.state["media"] if n.startswith("slide_")]
+    if len(names) == 1:  # single photo post
+        r = graph("POST", f"{page}/photos", url=p.url(names[0]), caption=p.caption, published="true")
+        pid = r.get("post_id") or r["id"]
+        p.save(fb_post_id=pid, fb_url=f"https://www.facebook.com/{pid}")
+        return
     for n in names[len(ids):]:
         ids.append(graph("POST", f"{page}/photos", url=p.url(n), published="false")["id"])
         p.save()
@@ -211,6 +224,9 @@ def yt_token():
 
 def step_yt_short(p):
     if p.state.get("yt_id"):
+        return
+    if not (p.out / "reel.mp4").exists():
+        print("no reel.mp4: YouTube step skipped")
         return
     d = p.data
     tok = yt_token()

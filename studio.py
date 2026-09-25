@@ -210,11 +210,15 @@ def do_node(st, name):
             run_claude(st, name, fill("write", date=day, candidate=json.dumps(cand, ensure_ascii=False), out=cpath, proof=d / "write.json",
                                       note=st.get("notes", ""), recent_designs="\n".join(posted_slugs()["lines"][-6:])), [cpath, d / "write.json"])
             set_info(st, name, f"{len(json.loads(cpath.read_text(encoding='utf-8')).get('slides', []))} slayt")
+        elif name == "cover" and json.loads(cpath.read_text(encoding="utf-8")).get("theme") in ("stage", "problem", "single"):
+            set_info(st, name, "kodla çizildi")
         elif name == "cover":
             py("cover.py", cpath, log=lg)
             set_info(st, name, (json.loads(cpath.read_text(encoding="utf-8")).get("cover", {}).get("photo") or {}).get("file", "Flux / gradyan"))
         elif name == "carousel":
             py("carousel.py", cpath, log=lg)
+        elif name == "video" and json.loads(cpath.read_text(encoding="utf-8")).get("video") is False:
+            set_info(st, name, "bu format için kapalı")
         elif name == "video":
             py("reel.py", cpath, log=lg)
             set_info(st, name, json.loads(cpath.read_text(encoding="utf-8")).get("voice", ""))
@@ -248,6 +252,9 @@ def do_node(st, name):
         elif name == "approve":
             if settings()["approval"] and st["nodes"][name]["status"] != "approved":
                 return "waiting"
+    if name == "yt_short" and k == "post" and json.loads(content_path(st).read_text(encoding="utf-8")).get("video") is False:
+        set_info(st, name, "video yok, atlandı")
+        return "done"
     if name in ("prepare", "upload", "ig_carousel", "fb_photos", "yt_short", "ig_reel", "fb_reel"):
         py("publish.py", content_path(st), "--steps", name, log=lg)
         pi = pub_info(st)

@@ -1,0 +1,57 @@
+{
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": false,
+  "theme": "problem",
+  "topic": "Bedtime battles",
+  "cover": {
+    "headline": "Bedtime battles",
+    "em": ""
+  },
+  "caption": "If bedtime is a nightly battle, start here\n\nA few small changes to the routine often help more than any argument.\nSave it for tonight.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#bedtimeroutine #parenting #toddlermom #sleeptips #parentingtips",
+  "sources": [
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx"
+  ],
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "Your child fights bedtime **every single night.**\n\nBefore you raise your voice, **change these 3 things.**"
+    },
+    {
+      "type": "text",
+      "text": "The problem is rarely the child.\n\nIt is usually the **transition**: fun one minute, lights out the next."
+    },
+    {
+      "type": "text",
+      "text": "**1. Start winding down earlier.**\n\nDim the lights and slow the pace 30 minutes before bed. Screens go off first."
+    },
+    {
+      "type": "text",
+      "text": "**2. Keep the same order every night.**\n\nBath, pajamas, book, lights out. Children relax when they know what comes next."
+    },
+    {
+      "type": "text",
+      "text": "**3. Give one small choice.**\n\n\"Which book tonight?\" Choice feels like control, and control lowers the fight."
+    },
+    {
+      "type": "cta",
+      "title": "Save this for **tonight.**",
+      "lines": [
+        [
+          "Save",
+          "for bedtime"
+        ],
+        [
+          "Send",
+          "to a tired parent"
+        ],
+        [
+          "Follow",
+          "@parentwise__"
+        ]
+      ]
+    }
+  ]
+}
