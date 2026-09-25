@@ -5,9 +5,9 @@ Check
 - Layout: overflowing, clipped, overlapping or too-small text; empty or broken slides; tofu boxes; leftover placeholders.
 - Video: text inside the Shorts safe area (top ~190 px, bottom ~330 px); captions not covering content.
 - Cover: the photographed person really is cover.person (check the Commons filename); face above the headline band; headline
-  correct, readable, not cut; photo credit on the cover and in the caption. NO identifiable children's faces anywhere.
+  correct, readable, not cut; photo credit on the cover and in the caption. NO real children's photos anywhere.
 - Content: typos; any claim beyond `sources`; disclaimer on the last slide and in the caption; explicit age ranges.
-- Themes stage / problem / single: text fits inside the slide, numbered points are in order, `say` phrases fully visible, the last slide shows the disclaimer, no verified badge, no child photos.
+- Themes stage / problem / single: text fits inside the slide, numbered points are in order, `say` phrases fully visible, the last slide shows the disclaimer, no verified badge. Cover image: must look natural (no distorted faces or hands, no text artifacts), child clearly AI-generated not a real person, fully clothed, and the caption contains the AI-generated line.
 - Design: fits design.mood; cover art clear and relevant; every text readable on its background.
 
 Fix: edit the content JSON (shorten text, redraw SVG, adjust palette, pick another Commons photo / focus) and re-run the script.

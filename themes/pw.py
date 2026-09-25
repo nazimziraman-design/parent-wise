@@ -57,6 +57,14 @@ def art_svg(seed, accent, accent2):
             f'<ellipse cx="450" cy="235" rx="360" ry="215" fill="url(#r)"/>{lines}{dots}</svg>')
 
 
+def cover_visual(data):
+    uri = data.get("_cover_uri")
+    if uri:
+        return f'<div class="cv"><div class="ph" style="background-image:url({uri})"></div></div>'
+    art = base.clean_svg((data.get("design") or {}).get("art")) or art_svg(data.get("topic", "pw"), ACCENT, "#4ecdc4")
+    return f'<div class="cv"><div class="art">{art}</div></div>'
+
+
 def css(data, tex):
     p = (data.get("design") or {}).get("palette", {})
     a2 = p.get("accent2") if isinstance(p.get("accent2"), str) and base.HEX.match(p.get("accent2", "")) else brand.DEFAULT_PALETTE["accent2"]
@@ -78,6 +86,7 @@ background:{bgtex}radial-gradient(circle at 88% -6%,{ACCENT}33,transparent 46%),
 .close{{font:italic 400 calc(42px*var(--k))/1.32 Inter;color:#c4c9d4}}
 .foot{{padding:0 84px 70px;display:flex;justify-content:space-between;align-items:center;min-height:120px}}
 .handle{{font:600 30px Inter;color:#8e95a3}}.arrow{{width:150px;height:34px}}
+.cv .ph{{height:760px;background-size:cover;background-position:50% 20%;-webkit-mask-image:linear-gradient(#000 78%,transparent);mask-image:linear-gradient(#000 78%,transparent)}}
 .cv .art{{height:610px;-webkit-mask-image:linear-gradient(#000 62%,transparent);mask-image:linear-gradient(#000 62%,transparent)}}.cv .art svg{{width:100%;height:100%;display:block}}
 .hl{{padding:0 76px;font:400 calc(88px*var(--k))/1.02 Anton,Impact,sans-serif;text-transform:uppercase;letter-spacing:.005em}}.hl em,.hl b{{font-style:normal;color:var(--a);font-weight:400}}
 .hl .sm{{color:#fff}}
@@ -109,8 +118,7 @@ def slide(data, s, i, n):
     t, last = s.get("type"), i == n - 1
     tex = False
     if t == "tcover":  # same cover look as the stage guide
-        art = base.clean_svg((data.get("design") or {}).get("art")) or art_svg(data.get("topic", "pw"), ACCENT, "#4ecdc4")
-        body = (f'<div class="cv"><div class="art">{art}</div></div><div class="fitbox"><div class="hl">{md(s.get("text"))}</div></div>')
+        body = (f'{cover_visual(data)}<div class="fitbox"><div class="hl">{md(s.get("text"))}</div></div>')
         return f'<style>{css(data, False)}</style><div class="s">{body}{_foot(data, last)}</div>{FIT}'
     if t == "stagecover":
         art = base.clean_svg((data.get("design") or {}).get("art")) or art_svg(data.get("topic", "pw"), ACCENT, "#4ecdc4")
@@ -118,7 +126,7 @@ def slide(data, s, i, n):
         em = s.get("em")
         if em and esc(em) in head:
             head = head.replace(esc(em), f"<em>{esc(em)}</em>", 1)
-        body = f'<div class="cv"><div class="art">{art}</div></div><div class="fitbox"><div class="hl">{head}</div></div>'
+        body = f'{cover_visual(data)}<div class="fitbox"><div class="hl">{head}</div></div>'
         return f'<style>{css(data, False)}</style><div class="s">{body}{_foot(data, last)}</div>{FIT}'
     if t == "point":
         rows = f'<div class="n"><span>{esc(s.get("n", ""))}.</span> {md(s.get("title"))}</div>'

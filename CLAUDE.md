@@ -28,8 +28,10 @@ C) single image quote (theme single). Verified news also uses theme stage. Video
 - **Medical/safety**: every post carries "General information, not medical advice. Talk to your pediatrician." in the caption
   and on the last slide. Never give dosages, diagnoses or "cure" claims. Never contradict AAP/WHO guidance.
 - Product recalls: product, hazard and remedy exactly as the CPSC/FDA notice says; link the notice.
-- **Children's privacy**: never use photos of real, identifiable children. Covers = licensed photos of adult experts
-  (Wikimedia CC BY / CC BY-SA / CC0 / public domain only) or generated scenes with no children's faces, no text, no logos.
+- **Children in images**: covers of the carousel formats show a child or a family moment relevant to the topic, but ALWAYS an
+  AI-generated image (imagegen.py, local model): never a real child's photo, never a named or identifiable real person, always fully clothed,
+  calm and dignified (no distress exploitation, no bath / medical / nudity scenes). The caption then carries "Cover image: AI-generated
+  (not a real child)." Expert photos (adults) may still come from Wikimedia Commons (CC BY / CC BY-SA / CC0 / PD) with credit.
 - No invented quotes, statistics, endorsements or "doctor approved" badges. No fake verified badge. No logo imitation.
 - No repeats: a topic already posted never becomes a candidate again (code filter + scout rule).
 - Human approval for every post during the first 2 weeks; a QA failure always forces approval.

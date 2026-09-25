@@ -23,10 +23,18 @@ B) kind problem -> "theme": "problem" (6-9 slides).
    last: cta as above.
 C) kind quote -> "theme": "single", exactly one slide: {{"type":"quote","text":"warm true sentence or short letter with **bold** on the key words","by":""}}. Max 45 words.
 
+COVER IMAGE (formats A and B; the pipeline generates it locally with AI, never a real child)
+   "cover": {{"scene": "<English photo prompt>", "overlay": "brain" or null}}
+   scene = photorealistic candid portrait of ONE child of the exact age in the topic (or a calm family moment that matches the problem),
+   warm natural light, looking slightly aside, smiling or neutral, fully clothed, plain soft dark background; NO text, logos or brand names.
+   Stage guides about brain / development / learning -> overlay "brain" (a glowing neural brain is composited beside the child). Otherwise null.
+   Example: "photorealistic portrait of a smiling 3 year old girl with light brown hair, soft window light, dark blurry background".
+   Format C (single) needs no image.
+
 RULES
 - Tone: warm, calm, non-judgmental, never shames parents, no fear-mongering, no "most parents waste this". Hook = curiosity + benefit.
 - Do not copy other accounts' sentences. Original wording only.
-- No child photos, no fake verified badge, no invented quotes or statistics. Statistics only with an official source in `sources`.
+- No real children's photos, no fake verified badge, no invented quotes or statistics. Statistics only with an official source in `sources`.
 - Every post ends with the disclaimer: the cta slide already prints it; the caption must contain
   "General information, not medical advice. Talk to your pediatrician."
 - caption: hook first line, 2-4 short lines (you may tell a short warm story), "Save this / send to a co-parent" CTA, 4-8 hashtags, disclaimer line.

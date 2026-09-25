@@ -210,8 +210,6 @@ def do_node(st, name):
             run_claude(st, name, fill("write", date=day, candidate=json.dumps(cand, ensure_ascii=False), out=cpath, proof=d / "write.json",
                                       note=st.get("notes", ""), recent_designs="\n".join(posted_slugs()["lines"][-6:])), [cpath, d / "write.json"])
             set_info(st, name, f"{len(json.loads(cpath.read_text(encoding='utf-8')).get('slides', []))} slayt")
-        elif name == "cover" and json.loads(cpath.read_text(encoding="utf-8")).get("theme") in ("stage", "problem", "single"):
-            set_info(st, name, "kodla çizildi")
         elif name == "cover":
             py("cover.py", cpath, log=lg)
             set_info(st, name, (json.loads(cpath.read_text(encoding="utf-8")).get("cover", {}).get("photo") or {}).get("file", "Flux / gradyan"))

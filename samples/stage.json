@@ -7,8 +7,9 @@
   "theme": "stage",
   "topic": "Age 3 stage guide",
   "cover": {
-    "headline": "If your child is turning 3 soon, expect big feelings and even bigger opinions. Here are 5 things every parent should know.",
-    "em": "5 things"
+    "scene": "photorealistic candid portrait of a smiling 3 year old girl with light brown hair looking slightly aside, soft warm window light, plain dark blurry background",
+    "overlay": "brain",
+    "ai_image": true
   },
   "design": {
     "palette": {
@@ -16,7 +17,7 @@
       "accent2": "#4ecdc4"
     }
   },
-  "caption": "Turning 3 changes everything (save this for later)\n\nBig feelings, big opinions, and a lot of \"no\". Here is what is really going on and what to say.\nSave it, and send it to someone who is in this stage right now.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#parenting #toddlerlife #3yearold #gentleparenting #parentingtips #childdevelopment",
+  "caption": "Turning 3 changes everything (save this for later)\n\nBig feelings, big opinions, and a lot of \"no\". Here is what is really going on and what to say.\nSave it, and send it to someone who is in this stage right now.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#parenting #toddlerlife #3yearold #gentleparenting #parentingtips #childdevelopment\n\nCover image: AI-generated (not a real child).",
   "sources": [
     "https://www.cdc.gov/act-early/milestones/"
   ],

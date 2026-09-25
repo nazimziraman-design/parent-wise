@@ -7,10 +7,11 @@
   "theme": "problem",
   "topic": "Bedtime battles",
   "cover": {
-    "headline": "Bedtime battles",
-    "em": ""
+    "scene": "photorealistic portrait of a sleepy 4 year old boy in soft pajamas hugging a teddy bear, warm bedside lamp light, dark cozy bedroom background",
+    "overlay": null,
+    "ai_image": true
   },
-  "caption": "If bedtime is a nightly battle, start here\n\nA few small changes to the routine often help more than any argument.\nSave it for tonight.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#bedtimeroutine #parenting #toddlermom #sleeptips #parentingtips",
+  "caption": "If bedtime is a nightly battle, start here\n\nA few small changes to the routine often help more than any argument.\nSave it for tonight.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#bedtimeroutine #parenting #toddlermom #sleeptips #parentingtips\n\nCover image: AI-generated (not a real child).",
   "sources": [
     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx"
   ],
