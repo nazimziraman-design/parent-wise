@@ -96,7 +96,7 @@ def posted_slugs():
         d = json.loads(f.read_text(encoding="utf-8"))
         out["ids"].add(f.stem.split("_", 1)[-1])
         out["urls"].update(u for u in d.get("sources", []) if not re.search(r"/(changelog|release-notes|news)/?$", u))
-        out["lines"].append(f"{f.stem[:10]} · {d.get('topic')} · {d.get('cover', {}).get('headline', '')[:70]} · {f.stem}")
+        out["lines"].append(f"{f.stem[:10]} · {d.get('topic')} · {d.get('cover', {}).get('headline', '')[:70]} · {f.stem} · keyword {d.get('cta_keyword', '-')}")
     return out
 
 

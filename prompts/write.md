@@ -16,12 +16,20 @@ A) kind stage / news / evergreen -> "theme": "stage" (max 10 slides, Instagram l
      evergreen: "[Problem]. Here is what actually helps.")  em = 1-3 words to highlight (usually "K things").
    slides 2..: {{"type":"point","n":1,"title":"**Bold short claim.**","body":["what is happening / why (1-2 short lines)"],"say":"\"phrase to say\"","close":"one punchy closing line"}}
      Each point = what is happening, why (verified), what to say or do. 35-60 words. Use **bold** for key words. Age ranges explicit.
-   last: {{"type":"cta","title":"Save this. **Follow for more.**","lines":[["Save","..."],["Share","..."],["Follow","@parentwise__"]]}}
+   last: the comment CTA (see COMMENT CTA below).
 B) kind problem -> "theme": "problem" (6-9 slides).
    slide 1: {{"type":"tcover","text":"[The problem, named in the parent's own words]\n\n**[Promise of a short fix]**"}}  (e.g. "Before you raise your voice, change these 3 things.")
    middle: {{"type":"text","text":"..."}} short paragraphs (max ~35 words, line breaks with \n, **bold** key words): reframe (rarely the child's fault) -> fixes -> phrase to say.
-   last: cta as above.
+   last: the comment CTA (see COMMENT CTA below).
 C) kind quote -> "theme": "single", exactly one slide: {{"type":"quote","text":"warm true sentence or short letter with **bold** on the key words","by":""}}. Max 45 words.
+
+COMMENT CTA (last slide of A and B; also the last lines of every caption, including format C)
+   {{"type":"cta","intro":"If you are in this stage right now and every day feels like a new challenge,","offer":"The Parent Wise [Topic] Cheat Sheet puts the exact phrases from this post on one page.","keyword":"CALM","reward":"the free cheat sheet"}}
+   Also set top-level "cta_keyword": same word. Choose ONE short uppercase word (4-9 letters, no spaces) that fits THIS topic and is easy to type
+   (BEDTIME, CALM, SCRIPTS, TANTRUM, SLEEP, FOCUS...). It must differ from the keywords of recent posts (see the recently posted list).
+   `intro` speaks to the parent in the situation of this post; `offer` names the one-page cheat sheet built from THIS post's phrases (never promise
+   anything else); `reward` = "the free cheat sheet". Caption ends with: Comment KEYWORD and I'll send you the free cheat sheet.
+   Format C: no slide, caption only.
 
 COVER IMAGE (formats A and B; the pipeline generates it locally with AI, never a real child)
    "cover": {{"scene": "<English photo prompt>", "overlay": "brain" or null}}

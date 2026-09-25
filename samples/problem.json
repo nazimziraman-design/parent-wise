@@ -11,7 +11,7 @@
     "overlay": null,
     "ai_image": true
   },
-  "caption": "If bedtime is a nightly battle, start here\n\nA few small changes to the routine often help more than any argument.\nSave it for tonight.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#bedtimeroutine #parenting #toddlermom #sleeptips #parentingtips\n\nCover image: AI-generated (not a real child).",
+  "caption": "If bedtime is a nightly battle, start here\n\nA few small changes to the routine often help more than any argument.\nSave it for tonight.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#bedtimeroutine #parenting #toddlermom #sleeptips #parentingtips\n\nCover image: AI-generated (not a real child).\n\nComment BEDTIME and I'll send you the free cheat sheet.",
   "sources": [
     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/default.aspx"
   ],
@@ -38,21 +38,11 @@
     },
     {
       "type": "cta",
-      "title": "Save this for **tonight.**",
-      "lines": [
-        [
-          "Save",
-          "for bedtime"
-        ],
-        [
-          "Send",
-          "to a tired parent"
-        ],
-        [
-          "Follow",
-          "@parentwise__"
-        ]
-      ]
+      "intro": "If bedtime is a nightly battle in your house,",
+      "offer": "The Parent Wise Bedtime Cheat Sheet puts the 3 changes and the phrases from this post on one page.",
+      "keyword": "BEDTIME",
+      "reward": "the free cheat sheet"
     }
-  ]
+  ],
+  "cta_keyword": "BEDTIME"
 }

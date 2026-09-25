@@ -17,7 +17,7 @@
       "accent2": "#4ecdc4"
     }
   },
-  "caption": "Turning 3 changes everything (save this for later)\n\nBig feelings, big opinions, and a lot of \"no\". Here is what is really going on and what to say.\nSave it, and send it to someone who is in this stage right now.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#parenting #toddlerlife #3yearold #gentleparenting #parentingtips #childdevelopment\n\nCover image: AI-generated (not a real child).",
+  "caption": "Turning 3 changes everything (save this for later)\n\nBig feelings, big opinions, and a lot of \"no\". Here is what is really going on and what to say.\nSave it, and send it to someone who is in this stage right now.\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#parenting #toddlerlife #3yearold #gentleparenting #parentingtips #childdevelopment\n\nCover image: AI-generated (not a real child).\n\nComment CALM and I'll send you the free cheat sheet.",
   "sources": [
     "https://www.cdc.gov/act-early/milestones/"
   ],
@@ -84,21 +84,11 @@
     },
     {
       "type": "cta",
-      "title": "Save this. **Follow for more.**",
-      "lines": [
-        [
-          "Save",
-          "for the next meltdown"
-        ],
-        [
-          "Share",
-          "with a co-parent"
-        ],
-        [
-          "Follow",
-          "@parentwise__"
-        ]
-      ]
+      "intro": "If you are in this stage right now and every day feels like a new challenge,",
+      "offer": "The Parent Wise Big Feelings Cheat Sheet puts the exact phrases from this post on one page.",
+      "keyword": "CALM",
+      "reward": "the free cheat sheet"
     }
-  ]
+  ],
+  "cta_keyword": "CALM"
 }

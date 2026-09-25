@@ -96,6 +96,8 @@ background:{bgtex}radial-gradient(circle at 88% -6%,{ACCENT}33,transparent 46%),
 .top{{text-align:center;font:600 34px Inter;color:#cfd4de;padding:84px 0 0}}
 .swipepill{{position:absolute;right:0;bottom:120px;background:var(--a);color:#111;font:800 30px Inter;padding:12px 30px 12px 40px;border-radius:99px 0 0 99px;letter-spacing:.08em}}
 .ctal{{display:flex;gap:26px;align-items:baseline;margin-bottom:22px}}.ctal .v{{font:700 calc(48px*var(--k)) 'Inter';color:var(--a);min-width:190px}}.ctal .t{{font:500 calc(46px*var(--k)) Inter}}
+.cm{{font:700 calc(56px*var(--k))/1.3 Inter;margin:8px 0 26px}}.cm b{{background:var(--a);color:#111;padding:2px 22px;border-radius:14px;font-weight:800;white-space:nowrap}}
+.mini{{font:600 calc(34px*var(--k)) Inter;color:#8e95a3;margin-bottom:8px}}
 .disc{{font:400 27px/1.35 Inter;color:#8e95a3;margin-top:26px}}
 """
 
@@ -137,6 +139,13 @@ def slide(data, s, i, n):
         if s.get("close"):
             rows += f'<div class="close">{md(s["close"])}</div>'
         body = f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0">{rows}</div>'
+    elif t == "cta" and s.get("keyword"):
+        kw = esc(str(s["keyword"]).upper())
+        body = (f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0">'
+                f'<div class="p">{md(s.get("intro"))}</div><div class="p">{md(s.get("offer"))}</div>'
+                f'<div class="cm">Comment <b>{kw}</b> and I’ll send you {md(s.get("reward", "the link"))}.</div>'
+                f'<div class="mini">Save · Share · Follow {esc(data.get("handle", brand.HANDLE))}</div>'
+                f'<div class="disc">{esc(brand.DISCLAIMER)}</div></div>')
     elif t == "cta":
         lines = "".join(f'<div class="ctal"><span class="v">{esc(v)}</span><span class="t">{md(x)}</span></div>' for v, x in s.get("lines", []))
         body = (f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0"><div class="n">{md(s.get("title"))}</div>{lines}'
