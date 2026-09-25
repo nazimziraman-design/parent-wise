@@ -368,6 +368,40 @@ def worker():
             traceback.print_exc()
 
 
+VSCAN = {"running": False, "msg": "", "at": None}
+
+
+def viral_scan():
+    """Claude finds candidate URLs via web search; code verifies views. Runs in a thread; status in VSCAN."""
+    if VSCAN["running"]:
+        return False
+    VSCAN.update(running=True, msg="Claude web'de viral video arıyor…")
+
+    def work():
+        try:
+            day = datetime.now().strftime("%Y-%m-%d")
+            rid = f"{datetime.now():%Y%m%d-%H%M%S}-viralscan"
+            run_dir(rid).mkdir(parents=True, exist_ok=True)
+            raw = ROOT / "research" / f"{day}_viral_raw.json"
+            known = [i["url"] for i in json.loads((ROOT / "research" / "viral_social.json").read_text(encoding="utf-8")).get("items", [])] if (ROOT / "research" / "viral_social.json").exists() else []
+            cfg = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))["viral_social"]
+            try:
+                run_claude({"id": rid}, "viralscout", fill("viralscout", date=day, out=raw, days=cfg["max_age_days"], known=known[:40]), raw)
+            except Exception as e:  # noqa: BLE001
+                VSCAN["msg"] = "Claude adım hatası, sadece TikTok hesap taraması yapılıyor: " + str(e)[:80]
+            VSCAN["msg"] = "İzlenme sayıları doğrulanıyor…"
+            py("viral_social.py")
+            n = len(json.loads((ROOT / "research" / "viral_social.json").read_text(encoding="utf-8"))["items"])
+            VSCAN["msg"] = f"Bitti: {n} doğrulanmış video"
+            notify(f"Viral video listesi güncellendi: {n} video")
+        except Exception as e:  # noqa: BLE001
+            VSCAN["msg"] = "Hata: " + str(e)[-160:]
+        finally:
+            VSCAN.update(running=False, at=datetime.now().isoformat(timespec="minutes"))
+    threading.Thread(target=work, daemon=True).start()
+    return True
+
+
 def start_scan(source="Elle başlatıldı"):
     if any(r["kind"] == "scan" and r["status"] == "running" for r in list_runs()):
         return None
@@ -512,6 +546,11 @@ class H(BaseHTTPRequestHandler):
             if u.path == "/api/metrics":
                 f = RUNS / "metrics.json"
                 return self.send(json.loads(f.read_text(encoding="utf-8")) if f.exists() else {})
+            if u.path == "/api/viral_social":
+                f = ROOT / "research" / "viral_social.json"
+                d = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"items": [], "errors": []}
+                d["status"] = VSCAN
+                return self.send(d)
             if u.path == "/api/viral":
                 fs = sorted((ROOT / "research").glob("*_viral.json"))
                 return self.send(json.loads(fs[-1].read_text(encoding="utf-8")) if fs else [])
@@ -536,6 +575,8 @@ class H(BaseHTTPRequestHandler):
                 return self.send({"id": start_scan()})
             if p == "/api/select":
                 return self.send({"id": select_candidate(b["scan"], b["candidate"])})
+            if p == "/api/viral_scan":
+                return self.send({"started": viral_scan()})
             if p == "/api/clip":
                 st = new_run("clip", url=b["url"], file=b.get("file", "").strip('" '), credit=b.get("credit", "")); enqueue(st["id"]); return self.send({"id": st["id"]})
             if p in ("/api/approve", "/api/revise", "/api/reject", "/api/retry", "/api/cancel"):

@@ -112,5 +112,17 @@
       "teen and parent conversation"
     ],
     "youtube_min_views": 100000
+  },
+  "viral_social": {
+    "min_views": 100000,
+    "max_duration": 90,
+    "max_age_days": 45,
+    "max_verify_per_run": 18,
+    "tiktok_creators": [
+      "modernmindfulparent",
+      "raisingkindkids",
+      "theparentingreframe",
+      "mrs.frazzled"
+    ]
   }
 }

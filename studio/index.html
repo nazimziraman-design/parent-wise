@@ -172,8 +172,18 @@ async function renderLeft(){
   }else if(ltab==='raw'){
     const r=await api('research');lp.innerHTML=(r.items||[]).map(i=>`<div class="raw"><a href="${esc(i.url)}" target="_blank">${esc(i.title)}</a><small>${esc(i.source)} · ${esc(i.tier)} · ${esc((i.date||'').slice(0,16))}</small></div>`).join('')||'<div class="empty">Ham haber yok.</div>';
   }else if(ltab==='viral'){
-    const v=await api('viral');lp.innerHTML=`<input id="u" placeholder="Klip linki (X / TikTok / Instagram / YouTube)"><input id="fl" placeholder="İndirdiğin video dosyasının yolu (isteğe bağlı, örn. D:\indirilenler\klip.mp4)" style="margin-top:8px"><input id="cr" placeholder="Kredi (örn. @creator on TikTok)" style="margin-top:8px"><p style="margin:8px 0 14px"><button class="p" onclick="clip()">Viral Reel başlat</button></p>`+
-     v.map(x=>`<div class="raw"><a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a><small>${esc(x.channel)} · ${x.views.toLocaleString()} izlenme</small></div>`).join('');
+    const v=await api('viral_social');const st=v.status||{};
+    const fm=n=>n>=1e6?(n/1e6).toFixed(1)+' M':n>=1e3?Math.round(n/1e3)+' B':n;
+    const ico={tiktok:'🎵',x:'𝕏',instagram:'📸'};
+    lp.innerHTML=`<input id="u" placeholder="Klip linki (X / TikTok / Instagram)"><input id="fl" placeholder="İndirdiğin video dosyası yolu (isteğe bağlı)" style="margin-top:8px"><input id="cr" placeholder="Kredi (örn. @creator on TikTok)" style="margin-top:8px">
+     <p style="margin:8px 0 14px"><button class="p" onclick="clip()">Viral Reel başlat</button></p>
+     <div class="cand" style="padding:10px"><button class="p" style="width:100%" onclick="vscan()" ${st.running?'disabled':''}>${st.running?'Aranıyor…':'🔎 Yeni viral video ara'}</button>
+     <div class="m" style="color:var(--mut);font-size:12px;margin-top:6px">${esc(st.msg||'')}${v.updated?' · liste: '+esc(v.updated.slice(5,16).replace('T',' ')):''}</div></div>`+
+     (v.items||[]).map(x=>{const cn=x.platform==='tiktok'?'TikTok':x.platform==='x'?'X':'Instagram';const cr='@'+x.creator+' on '+cn;
+      return `<div class="raw"><div style="display:flex;gap:8px;align-items:center;margin-bottom:3px"><span class="tag">${ico[x.platform]||''} ${cn}</span><b style="color:var(--ok)">${fm(x.views)} izlenme</b><span style="color:var(--mut);font-size:11px">${x.duration?Math.round(x.duration)+' sn':''} ${x.posted?'· '+x.posted.slice(4,6)+'/'+x.posted.slice(6):''}</span></div>
+      <a href="${esc(x.url)}" target="_blank">${esc(x.title||x.url)}</a><small>@${esc(x.creator)}</small>
+      <button style="margin-top:6px;padding:4px 12px" onclick="useClip('${esc(x.url)}','${esc(cr)}')">Kullan</button></div>`}).join('')||'<div class="empty">Henüz doğrulanmış video yok. “Yeni viral video ara”.</div>'+
+     ((v.errors||[]).length?`<div class="m" style="color:var(--mut);font-size:11px;padding:8px">${v.errors.map(esc).join('<br>')}</div>`:'');
   }else{
     const h=await api('history');lp.innerHTML=h.slice().reverse().map(x=>`<div class="raw"><b>${esc(x.topic||x.post)}</b><small>${esc(x.date.slice(0,16))}</small>${['ig_url','ig_reel_url','fb_url','fb_reel_url','yt_url'].filter(k=>x[k]).map(k=>`<a href="${esc(x[k])}" target="_blank" style="color:var(--acc2);font-size:12px;margin-right:8px">${k.split('_')[0].toUpperCase()}</a>`).join('')}</div>`).join('')||'<div class="empty">Henüz yayın yok.</div>';
   }
@@ -182,6 +192,8 @@ $$('.tabs button').forEach(b=>b.onclick=()=>{$$('.tabs button').forEach(x=>x.cla
 $$('.flowbar button').forEach(b=>b.onclick=()=>{$$('.flowbar button').forEach(x=>x.classList.remove('on'));b.classList.add('on');flow=b.dataset.f;sel=null;lastHash='';if(flow==='clip'){ltab='viral';$$('.tabs button').forEach(x=>x.classList.toggle('on',x.dataset.t==='viral'));renderLeft()}refresh()});
 $('#runsel').onchange=e=>{cur[flow]=e.target.value;sel=null;lastHash='';refresh()};
 async function pick(scan,id){if(!scan||scan==='undefined')return alert('Önce bir tarama gerekli.');if(!confirm('Bu adayı seç? Akış başlayacak.'))return;const r=await api('select',{scan,candidate:id});if(r.error)return alert(r.error);cur.post=r.id;flow='post';sel=null;lastHash='';refresh()}
+async function vscan(){await api('viral_scan',{});renderLeft();const t=setInterval(async()=>{const v=await api('viral_social');if(!v.status.running){clearInterval(t)}if(ltab==='viral')renderLeft()},4000)}
+function useClip(u,c){$('#u').value=u;$('#cr').value=c;$('#u').scrollIntoView()}
 async function clip(){const u=$('#u').value.trim();if(!u)return;const r=await api('clip',{url:u,file:$('#fl').value.trim(),credit:$('#cr').value.trim()});cur.clip=r.id;flow='clip';$$('.flowbar button').forEach(x=>x.classList.toggle('on',x.dataset.f==='clip'));lastHash='';refresh()}
 async function act(a,id){await api(a,{id});lastHash='';refresh()}
 async function rev(id){const note=prompt('Revizyon notu?');if(note){await api('revise',{id,note});lastHash='';refresh()}}
