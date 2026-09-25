@@ -24,14 +24,16 @@ B) kind problem -> "theme": "problem" (6-9 slides).
 C) kind quote -> "theme": "single", exactly one slide: {{"type":"quote","text":"warm true sentence or short letter with **bold** on the key words","by":""}}. Max 45 words.
 
 COMMENT CTA (last slide of A and B; also the last line of every caption, including format C)
-   {{"type":"cta","intro":"If you are in this stage right now and every day feels like a new challenge,","offer":"","keyword":"CALM"}}
-   Also set top-level "cta_keyword": same word. Choose ONE short uppercase word (4-9 letters, no spaces) that fits THIS topic and is easy to type
+   Stage guide:   {{"type":"cta","stage":"2-4","keyword":"CALM"}}   -> prints "If you're in the 2-4 stage right now and every day feels like a new challenge,"
+   Problem post:  {{"type":"cta","intro":"If bedtime is a nightly battle in your house,","keyword":"BEDTIME"}}
+   `stage` = the age range of the post (e.g. "2-4", "5-7"). Use `intro` instead when the post is a problem, not an age stage: one sentence speaking to the parent.
+   Do NOT write an `offer`: the theme prints the fixed line "The ParentWise Playbook puts decades of research in one place, with simple scripts,
+   regulation tools and real-life support for the moments that test you most." then "Comment KEYWORD and I'll send you the link." then
+   "Save . Share . Follow / Subscribe @parentwise__" and the disclaimer.
+   Also set top-level "cta_keyword" = the keyword. Choose ONE short uppercase word (4-9 letters, no spaces) that fits THIS topic and is easy to type
    (BEDTIME, CALM, SCRIPTS, TANTRUM, SLEEP, FOCUS...). It must differ from the keywords of recent posts (see the recently posted list).
-   The slide prints exactly: "Comment KEYWORD and I'll send you the link." `intro` = one sentence speaking to the parent in the situation of this post.
-   `offer` is optional (leave "" if unsure): at most one plain sentence about what the link leads to.
-   FORBIDDEN in slides, captions and offer: the words "free", "guide", "ebook", "e-book", "cheat sheet", "PDF", "download", "playbook", "bundle".
-   Never describe or promise a product. Caption ends with: Comment KEYWORD and I'll send you the link.
-   Format C: no slide, caption only.
+   FORBIDDEN in slides and captions: "free", "guide", "ebook", "e-book", "cheat sheet", "PDF", "download", "bundle". Never describe another product.
+   Caption ends with: Comment KEYWORD and I'll send you the link.  (Format C: no slide, caption only.)
 
 COVER IMAGE (formats A and B; the pipeline generates it locally with AI, never a real child)
    "cover": {{"scene": "<English photo prompt>", "overlay": "brain" or null}}

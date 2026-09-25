@@ -84,8 +84,7 @@
     },
     {
       "type": "cta",
-      "intro": "If you are in this stage right now and every day feels like a new challenge,",
-      "offer": "",
+      "stage": "2-4",
       "keyword": "CALM"
     }
   ],

@@ -168,7 +168,7 @@ def content_path(st):
     return ROOT / ("content/clips" if st["kind"] == "clip" else "content") / f"{st['post']}.json"
 
 
-BANNED = re.compile(r"(?i)\b(free\s+(guide|ebook|e-book|pdf|download|cheat\s*sheet|resource|playbook)|ebook|e-book|cheat\s*sheet|pdf|download|playbook|bundle)\b")
+BANNED = re.compile(r"(?i)\b(free\s+(guide|ebook|e-book|pdf|download|cheat\s*sheet|resource)|ebook|e-book|cheat\s*sheet|pdf|download|bundle)\b")
 
 
 def check_banned(cpath):

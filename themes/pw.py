@@ -17,6 +17,7 @@ CC_ACTIVE = "#ff6a88"
 REEL_CSS = "html,body,.s{height:1920px}.arrow,.swipepill{display:none}"
 CC_CSS = ""
 FORMATS = ("stage", "problem", "single")
+OFFER = "The ParentWise Playbook puts decades of research in one place, with simple scripts, regulation tools and real-life support for the moments that test you most."
 
 NOISE = ("url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'>"
          "<filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/>"
@@ -141,10 +142,12 @@ def slide(data, s, i, n):
         body = f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0">{rows}</div>'
     elif t == "cta" and s.get("keyword"):
         kw = esc(str(s["keyword"]).upper())
+        intro = s.get("intro") or (f"If you’re in the {s['stage']} stage right now and every day feels like a new challenge," if s.get("stage") else "")
+        offer = s.get("offer") or OFFER
         body = (f'<div class="pad">{_head(data)}</div><div class="fitbox pad" style="padding-top:0">'
-                f'<div class="p">{md(s.get("intro"))}</div>' + (f'<div class="p">{md(s.get("offer"))}</div>' if s.get("offer") else "") +
+                + (f'<div class="p">{md(intro)}</div>' if intro else "") + f'<div class="p">{md(offer)}</div>'
                 f'<div class="cm">Comment <b>{kw}</b> and I’ll send you the link.</div>'
-                f'<div class="mini">Save · Share · Follow {esc(data.get("handle", brand.HANDLE))}</div>'
+                f'<div class="mini">Save · Share · Follow / Subscribe {esc(data.get("handle", brand.HANDLE))}</div>'
                 f'<div class="disc">{esc(brand.DISCLAIMER)}</div></div>')
     elif t == "cta":
         lines = "".join(f'<div class="ctal"><span class="v">{esc(v)}</span><span class="t">{md(x)}</span></div>' for v, x in s.get("lines", []))
