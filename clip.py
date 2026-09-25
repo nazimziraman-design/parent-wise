@@ -32,10 +32,11 @@ def fetch(url, file=None, credit=None):
         shutil.copy2(file, out / "source.mp4")
         info = {"uploader": credit, "uploader_id": credit, "extractor_key": url.split("/")[2] if "//" in url else "local"}
     else:
-        r = run([sys.executable, "-m", "yt_dlp", "--no-playlist", "-f", "mp4/bestvideo+bestaudio/best", "--merge-output-format", "mp4",
+        ck = ROOT / "cookies.txt"  # optional: exported browser cookies (never committed); needed for YouTube
+        r = run([sys.executable, "-m", "yt_dlp", "--js-runtimes", "node", *(["--cookies", str(ck)] if ck.exists() else []), "--no-playlist", "-f", "mp4/bestvideo+bestaudio/best", "--merge-output-format", "mp4",
                  "--write-info-json", "-o", str(out / "source.%(ext)s"), url])
         if r.returncode:
-            sys.exit("yt-dlp failed (the platform may need cookies; save the video yourself and pass the file path): " + r.stderr[-300:])
+            sys.exit("yt-dlp failed. X links work; YouTube/TikTok/Instagram usually need cookies.txt in the project folder, or save the video yourself and pass the file path: " + r.stderr[-300:])
         info = json.loads((out / "source.info.json").read_text(encoding="utf-8"))
     pr = run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(out / "source.mp4")])
     dur = float(info.get("duration") or (pr.stdout.strip() or 0))
