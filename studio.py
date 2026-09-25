@@ -269,8 +269,12 @@ def do_node(st, name):
     elif k == "clip":
         cpath = content_path(st)
         if name == "fetch":
-            out = py("clip.py", "fetch", st["url"], log=lg)
-            st["post"] = "clip-" + json.loads(out.strip().splitlines()[-1])["id"]
+            extra = (["--file", st["file"]] if st.get("file") else []) + (["--credit", st["credit"]] if st.get("credit") else [])
+            out = py("clip.py", "fetch", st["url"], *extra, log=lg)
+            meta = json.loads(out.strip().splitlines()[-1])
+            st["post"] = "clip-" + meta["id"]
+            v = meta.get("views")
+            set_info(st, name, (f"{v:,} izlenme" if v else "izlenme bilinmiyor") + ("" if v and v >= 100000 else " · 100k altı!"))
             cpath = content_path(st)
         elif name == "hook":
             cid = st["post"]
@@ -532,7 +536,7 @@ class H(BaseHTTPRequestHandler):
             if p == "/api/select":
                 return self.send({"id": select_candidate(b["scan"], b["candidate"])})
             if p == "/api/clip":
-                st = new_run("clip", url=b["url"]); enqueue(st["id"]); return self.send({"id": st["id"]})
+                st = new_run("clip", url=b["url"], file=b.get("file", "").strip('" '), credit=b.get("credit", "")); enqueue(st["id"]); return self.send({"id": st["id"]})
             if p in ("/api/approve", "/api/revise", "/api/reject", "/api/retry", "/api/cancel"):
                 decide(b["id"], p.split("/")[-1], b.get("note", ""))
                 if p.endswith("retry") and load_run(b["id"])["kind"] == "scan":

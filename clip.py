@@ -15,25 +15,38 @@ def run(cmd):
     return subprocess.run(cmd, capture_output=True, text=True, creationflags=NOWIN)
 
 
-def fetch(url):
+def fetch(url, file=None, credit=None):
+    """Download the clip with yt-dlp, or take a local video file you saved yourself (file=...). Records views if the platform reports them."""
+    import shutil
     posted = ROOT / "publish_log.jsonl"
     if posted.exists() and url in posted.read_text(encoding="utf-8"):
         sys.exit("already posted: " + url)
     cid = re.sub(r"\W+", "-", url.split("//")[-1])[-24:].strip("-").lower()
     out = ROOT / "output" / f"clip-{cid}"
     out.mkdir(parents=True, exist_ok=True)
-    r = run([sys.executable, "-m", "yt_dlp", "--no-playlist", "-f", "mp4/bestvideo+bestaudio/best", "--merge-output-format", "mp4",
-             "--write-info-json", "-o", str(out / "source.%(ext)s"), url])
-    if r.returncode:
-        sys.exit("yt-dlp failed: " + r.stderr[-400:])
-    info = json.loads((out / "source.info.json").read_text(encoding="utf-8"))
-    dur = float(info.get("duration") or 0)
+    info = {}
+    if file:
+        if not Path(file).exists():
+            sys.exit("file not found: " + file)
+        shutil.copy2(file, out / "source.mp4")
+        info = {"uploader": credit, "uploader_id": credit, "extractor_key": url.split("/")[2] if "//" in url else "local"}
+    else:
+        r = run([sys.executable, "-m", "yt_dlp", "--no-playlist", "-f", "mp4/bestvideo+bestaudio/best", "--merge-output-format", "mp4",
+                 "--write-info-json", "-o", str(out / "source.%(ext)s"), url])
+        if r.returncode:
+            sys.exit("yt-dlp failed (the platform may need cookies; save the video yourself and pass the file path): " + r.stderr[-300:])
+        info = json.loads((out / "source.info.json").read_text(encoding="utf-8"))
+    pr = run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(out / "source.mp4")])
+    dur = float(info.get("duration") or (pr.stdout.strip() or 0))
     for k in range(8):
         run(["ffmpeg", "-y", "-ss", str(dur * (k + 0.5) / 8), "-i", str(out / "source.mp4"), "-frames:v", "1", "-vf", "scale=540:-1",
              str(out / f"frame_{k}.jpg")])
     meta = {"id": cid, "url": url, "uploader": info.get("uploader"), "handle": info.get("uploader_id"),
-            "description": (info.get("description") or "")[:500], "duration": dur, "platform": info.get("extractor_key")}
+            "description": (info.get("description") or "")[:500], "duration": dur, "platform": info.get("extractor_key"),
+            "views": info.get("view_count"), "likes": info.get("like_count"), "posted": info.get("upload_date"), "credit_hint": credit}
     (out / "meta.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
+    v = meta["views"]
+    print("views: %s%s" % (f"{v:,}" if v else "unknown (check it yourself)", "" if v and v >= 100000 else "  [not verified as 100k+]"), file=sys.stderr)
     print(json.dumps(meta))
     return out
 
@@ -96,4 +109,9 @@ h.querySelectorAll('.t').forEach(e=>e.style.fontSize=(62*k)+'px');h.querySelecto
 
 
 if __name__ == "__main__":
-    {"fetch": lambda: fetch(sys.argv[2]), "frame": lambda: frame(sys.argv[2])}[sys.argv[1]]()
+    a = sys.argv
+    if a[1] == "fetch":
+        opt = {a[k]: a[k + 1] for k in range(3, len(a) - 1, 2)}
+        fetch(a[2], opt.get("--file"), opt.get("--credit"))
+    else:
+        frame(a[2])

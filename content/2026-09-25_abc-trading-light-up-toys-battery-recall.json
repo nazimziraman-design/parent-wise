@@ -7,26 +7,34 @@
   "voice": "",
   "voice_speed": 1.1,
   "cta_keyword": "BATTERY",
-  "design": {"palette": {"accent": "#ff6a88", "accent2": "#4ecdc4"}},
+  "design": {
+    "palette": {
+      "accent": "#ff6a88",
+      "accent2": "#4ecdc4"
+    }
+  },
   "cover": {
     "scene": "photorealistic candid portrait of a calm 5 year old boy with short dark hair sitting at a kitchen table, soft warm window light, looking slightly aside, neutral relaxed expression, fully clothed in a plain sweater, plain soft dark blurry background, no text, no logos",
-    "overlay": null
+    "overlay": null,
+    "ai_image": true
   },
-  "caption": "Those $1 light-up party toys? One brand has just been recalled.\nThe US CPSC says ABC Trading's light-up glasses, crown and sparkle headbands and ties have button batteries that children can easily reach. Swallowed button batteries can cause serious injuries, internal chemical burns and death.\nNo injuries have been reported. Check your party bags and dress-up box, and see the slides for model numbers and how to get a refund.\nSave this and send it to a co-parent or grandparent.\nComment BATTERY and I'll send you the link.\n#productrecall #childsafety #parentingtips #toddlermom #babysafety #parenthood #batterysafety\nCover image: AI-generated (not a real child).\nGeneral information, not medical advice. Talk to your pediatrician.\nSource: US CPSC recall 26-799, 24 Sep 2026.",
+  "caption": "Those $1 light-up party toys? One brand has just been recalled.\nThe US CPSC says ABC Trading's light-up glasses, crown and sparkle headbands and ties have button batteries that children can easily reach. Swallowed button batteries can cause serious injuries, internal chemical burns and death.\nNo injuries have been reported. Check your party bags and dress-up box, and see the slides for model numbers and how to get a refund.\nSave this and send it to a co-parent or grandparent.\nComment BATTERY and I’ll send you the link.\n#productrecall #childsafety #parentingtips #toddlermom #babysafety #parenthood #batterysafety\nCover image: AI-generated (not a real child).\nGeneral information, not medical advice. Talk to your pediatrician.\nSource: US CPSC recall 26-799, 24 Sep 2026.",
   "sources": [
     "https://www.cpsc.gov/Recalls/2026/ABC-Trading-Recalls-Light-Up-Childrens-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys"
   ],
   "slides": [
     {
       "type": "stagecover",
-      "headline": "If your child loves light-up dress-up toys, check the toy box today. A recall covers about 43,674 glasses, headbands and ties with reachable button batteries. Here are 5 things to know.",
+      "headline": "Check the toy box today: a recall covers about 43,674 light-up toys with reachable button batteries. 5 things to know.",
       "em": "5 things"
     },
     {
       "n": 1,
       "type": "point",
       "title": "**What was recalled.**",
-      "body": ["ABC Trading light-up glasses, crown headbands, sparkle headbands and ties. Look for model **L-508** (glasses), **HD-10** (headbands) and **6502** (light-up tie). About 43,674 units."],
+      "body": [
+        "ABC Trading light-up glasses, crown headbands, sparkle headbands and ties. Look for model **L-508** (glasses), **HD-10** (headbands) and **6502** (light-up tie). About 43,674 units."
+      ],
       "say": "\"Let's check the dress-up box together.\"",
       "close": "Match the model number, not just the look."
     },
@@ -34,7 +42,9 @@
       "n": 2,
       "type": "point",
       "title": "**The hazard is the battery.**",
-      "body": ["The button batteries and their compartments can be easily reached by children. Swallowed, they can cause serious injuries, internal chemical burns and death. No injuries have been reported so far."],
+      "body": [
+        "The button batteries and their compartments can be easily reached by children. Swallowed, they can cause serious injuries, internal chemical burns and death. No injuries have been reported so far."
+      ],
       "say": "\"This one isn't safe, so we're putting it away.\"",
       "close": "Small, shiny and easy to swallow."
     },
@@ -42,7 +52,9 @@
       "n": 3,
       "type": "point",
       "title": "**Where and when it was sold.**",
-      "body": ["Sold for about **$1** from September 2016 through May 2026, at ABC Trading stores in Los Angeles, other specialty stores nationwide and at abctradinginc.com. Check party favor bags too."],
+      "body": [
+        "Sold for about **$1** from September 2016 through May 2026, at ABC Trading stores in Los Angeles, other specialty stores nationwide and at abctradinginc.com. Check party favor bags too."
+      ],
       "say": "\"Did you get this at a party?\"",
       "close": "Cheap party items are easy to forget."
     },
@@ -50,7 +62,9 @@
       "n": 4,
       "type": "point",
       "title": "**What to do now.**",
-      "body": ["**Stop using them immediately** and contact ABC Trading for a refund. You will be asked to email recallabc@gmail.com a photo showing the product being thrown away. Phone: 323-581-3688."],
+      "body": [
+        "**Stop using them immediately** and contact ABC Trading for a refund. You will be asked to email recallabc@gmail.com a photo showing the product being thrown away. Phone: 323-581-3688."
+      ],
       "say": "\"Thank you for telling me. Let's fix it.\"",
       "close": "Keep it out of reach until it is gone."
     },
@@ -58,14 +72,28 @@
       "n": 5,
       "type": "point",
       "title": "**Check other toys, too.**",
-      "body": ["Look at any toy with batteries. If the compartment opens easily with small fingers, keep that toy away from young children. Worried a child swallowed a battery? Call emergency services or your doctor right away."],
+      "body": [
+        "Look at any toy with batteries. If the compartment opens easily with small fingers, keep that toy away from young children. Ask your pediatrician if you have questions about button battery safety."
+      ],
       "say": "\"Batteries stay inside; grown-ups open them.\"",
       "close": "A two-minute check can save a lot of worry."
     },
     {
       "type": "cta",
-      "intro": "If your home is full of light-up toys and party favors,",
-      "keyword": "BATTERY"
+      "intro": "Light-up toys and party favors are everywhere.",
+      "keyword": "BATTERY",
+      "v": {
+        "intro": 0,
+        "offer": 0,
+        "comment": 0,
+        "foot": 1
+      }
     }
-  ]
+  ],
+  "cta_variant": {
+    "intro": 0,
+    "offer": 0,
+    "comment": 0,
+    "foot": 1
+  }
 }

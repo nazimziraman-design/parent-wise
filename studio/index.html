@@ -172,7 +172,7 @@ async function renderLeft(){
   }else if(ltab==='raw'){
     const r=await api('research');lp.innerHTML=(r.items||[]).map(i=>`<div class="raw"><a href="${esc(i.url)}" target="_blank">${esc(i.title)}</a><small>${esc(i.source)} · ${esc(i.tier)} · ${esc((i.date||'').slice(0,16))}</small></div>`).join('')||'<div class="empty">Ham haber yok.</div>';
   }else if(ltab==='viral'){
-    const v=await api('viral');lp.innerHTML=`<input id="u" placeholder="X / Reddit / YouTube linki yapıştır"><p style="margin:8px 0 14px"><button class="p" onclick="clip()">Viral Reel başlat</button></p>`+
+    const v=await api('viral');lp.innerHTML=`<input id="u" placeholder="Klip linki (X / TikTok / Instagram / YouTube)"><input id="fl" placeholder="İndirdiğin video dosyasının yolu (isteğe bağlı, örn. D:\indirilenler\klip.mp4)" style="margin-top:8px"><input id="cr" placeholder="Kredi (örn. @creator on TikTok)" style="margin-top:8px"><p style="margin:8px 0 14px"><button class="p" onclick="clip()">Viral Reel başlat</button></p>`+
      v.map(x=>`<div class="raw"><a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a><small>${esc(x.channel)} · ${x.views.toLocaleString()} izlenme</small></div>`).join('');
   }else{
     const h=await api('history');lp.innerHTML=h.slice().reverse().map(x=>`<div class="raw"><b>${esc(x.topic||x.post)}</b><small>${esc(x.date.slice(0,16))}</small>${['ig_url','ig_reel_url','fb_url','fb_reel_url','yt_url'].filter(k=>x[k]).map(k=>`<a href="${esc(x[k])}" target="_blank" style="color:var(--acc2);font-size:12px;margin-right:8px">${k.split('_')[0].toUpperCase()}</a>`).join('')}</div>`).join('')||'<div class="empty">Henüz yayın yok.</div>';
@@ -182,7 +182,7 @@ $$('.tabs button').forEach(b=>b.onclick=()=>{$$('.tabs button').forEach(x=>x.cla
 $$('.flowbar button').forEach(b=>b.onclick=()=>{$$('.flowbar button').forEach(x=>x.classList.remove('on'));b.classList.add('on');flow=b.dataset.f;sel=null;lastHash='';if(flow==='clip'){ltab='viral';$$('.tabs button').forEach(x=>x.classList.toggle('on',x.dataset.t==='viral'));renderLeft()}refresh()});
 $('#runsel').onchange=e=>{cur[flow]=e.target.value;sel=null;lastHash='';refresh()};
 async function pick(scan,id){if(!scan||scan==='undefined')return alert('Önce bir tarama gerekli.');if(!confirm('Bu adayı seç? Akış başlayacak.'))return;const r=await api('select',{scan,candidate:id});if(r.error)return alert(r.error);cur.post=r.id;flow='post';sel=null;lastHash='';refresh()}
-async function clip(){const u=$('#u').value.trim();if(!u)return;const r=await api('clip',{url:u});cur.clip=r.id;flow='clip';$$('.flowbar button').forEach(x=>x.classList.toggle('on',x.dataset.f==='clip'));lastHash='';refresh()}
+async function clip(){const u=$('#u').value.trim();if(!u)return;const r=await api('clip',{url:u,file:$('#fl').value.trim(),credit:$('#cr').value.trim()});cur.clip=r.id;flow='clip';$$('.flowbar button').forEach(x=>x.classList.toggle('on',x.dataset.f==='clip'));lastHash='';refresh()}
 async function act(a,id){await api(a,{id});lastHash='';refresh()}
 async function rev(id){const note=prompt('Revizyon notu?');if(note){await api('revise',{id,note});lastHash='';refresh()}}
 $('#scan').onclick=async()=>{await api('scan',{});lastHash='';refresh()};
