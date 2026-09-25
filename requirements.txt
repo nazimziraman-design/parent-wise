@@ -3,3 +3,4 @@ Pillow
 numpy
 curl_cffi
 yt-dlp
+faster-whisper

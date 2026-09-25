@@ -217,11 +217,22 @@ def run(studio):
                     api(tok, "answerCallbackQuery", callback_query_id=cb["id"])
                     continue
                 text = msg.get("text")
-                if msg.get("voice"):
-                    fid = api(tok, "getFile", file_id=msg["voice"]["file_id"])["result"]["file_path"]
-                    f = ROOT / "runs" / "voice.oga"
-                    f.write_bytes(urllib.request.urlopen(f"https://api.telegram.org/file/bot{tok}/{fid}").read())
-                    text = subprocess.run([sys.executable, str(ROOT / "stt.py"), str(f)], capture_output=True, text=True, encoding="utf-8").stdout.strip()
+                media = msg.get("voice") or msg.get("audio") or msg.get("video_note")
+                if media:
+                    api(tok, "sendChatAction", chat_id=chat, action="typing")
+                    try:
+                        info = api(tok, "getFile", file_id=media["file_id"])["result"]
+                        f = ROOT / "runs" / ("voice_in" + Path(info["file_path"]).suffix)
+                        f.write_bytes(urllib.request.urlopen(f"https://api.telegram.org/file/bot{tok}/{info['file_path']}", timeout=60).read())
+                        import stt
+                        text = stt.transcribe(f)
+                    except Exception as e:  # noqa: BLE001
+                        api(tok, "sendMessage", chat_id=chat, text="Sesi yazıya çeviremedim: " + str(e)[:120])
+                        continue
+                    if not text:
+                        api(tok, "sendMessage", chat_id=chat, text="Sesi anlayamadım, biraz daha net tekrar söyler misin?")
+                        continue
+                    api(tok, "sendMessage", chat_id=chat, text="🎤 Anladığım: " + text)
                 if text:
                     reply = handle(studio, tok, chat, text)
                     if reply:
