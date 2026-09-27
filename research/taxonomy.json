@@ -1,0 +1,93 @@
+{
+ "_about": "Parent problem taxonomy (category -> subcategory -> regex over Reddit title+text and Google searches). Used by categorize.py.",
+ "Sleep": {
+  "Bedtime battles & stalling": "bedtime|stalling|won'?t (go to|stay in) bed|keeps? getting out of bed|bedtime routine|fight(s|ing)? sleep",
+  "Night waking": "night ?wak\\w+|wakes? up (crying|screaming|at night|every)|waking up (at night|crying|screaming)|sleep through the night|night terrors?|nightmares?",
+  "Sleeping alone / leaving our bed": "co-?sleep\\w*|sleep (alone|in (his|her|their|own) (own )?(bed|room))|own bed|bed ?shar\\w+|lie down with (him|her|them)|stay with (him|her) until",
+  "Naps": "\\bnaps?\\b|napping|drop(ping)? (the )?nap|contact nap",
+  "Early waking": "early (wak|ris)\\w+|wakes? up at [4-6]|up at [4-6] ?am",
+  "Baby sleep & regressions": "sleep regression|sleep train\\w*|drowsy but awake|swaddl\\w+|bassinet|crib|safe sleep|sids|4 month regression|wake windows?"
+ },
+ "Behavior & discipline": {
+  "Tantrums & meltdowns": "tantrums?|meltdowns?|melts? down|screams? (when|at|every)|screaming fits?|throws? (himself|herself) on the floor",
+  "Hitting, biting & aggression": "\bhit(s|ting)? (me|him|her|them|us|other|kids|his|her|people|the)|stop hitting|hitting|\bbit(e|es|ing)\b|kick(s|ing)|push(es|ing) (other|his|her|kids)|aggressi\\w+|violent|throw(s|ing) things|scratch\\w*",
+  "Not listening & defiance": "(not|doesn'?t|won'?t|never) listen\\w*|to listen|ignor\\w+ (me|us)|defian\\w+|oppositional|says no to everything|power struggles?|refuses? everything",
+  "Talking back & disrespect": "talk(s|ing)? back|back ?talk|disrespect\\w*|rude|sass\\w*|attitude|mean to (me|us)|hates? me|swear\\w*|curs(e|ing)",
+  "Whining & constant crying": "whin(e|es|ing|y)|cries (over|about|at) (everything|nothing)|cry(ing)? (all the time|constantly|so much)|clingy",
+  "Lying & sneaking": "lying (to|about)|lies (to|about)|lied (to|about)|\blies\b|tell(s|ing)? lies|sneak\\w*|steal\\w*|stole",
+  "Consequences & boundaries": "consequences?|punish\\w*|time[- ]?outs?|grounded|boundar\\w+|discipline|natural consequence|gentle parenting (isn'?t|not) working|permissive"
+ },
+ "Eating & feeding": {
+  "Picky eating": "picky|won'?t eat|refuses? (to )?eat|only eats?|eat (anything|vegetables|veggies|dinner|meat)|beige food|snacks? all day",
+  "Breastfeeding, bottles & formula": "breastfe\\w+|nursing|latch\\w*|pump\\w*|formula|bottle|milk supply|wean\\w*|exclusively (pump|breast)",
+  "Starting solids & baby-led weaning": "solids|baby[- ]led|purees?|blw\\b|first foods|gag\\w*|chok\\w*",
+  "Mealtime behavior": "mealtime|dinner ?time|sit (at|still at) the table|throw(s|ing) food|table manners"
+ },
+ "Potty & toileting": {
+  "Potty training": "potty train\\w*|toilet train\\w*|use the potty|underwear|pull-?ups|diaper free|oh crap",
+  "Poop withholding & accidents": "withhold\\w*|poop(s|ing)? (in|on) (his|her|their) (pants|underwear)|constipat\\w+|accidents?|soiling|encopresis|refuses? to poop",
+  "Bedwetting & night dryness": "bed ?wett\\w+|wets? the bed|night ?time (dry|potty|diaper)|dry at night|enuresis",
+  "Potty regression": "potty regress\\w+|regress\\w+ (in|with) potty|was potty trained"
+ },
+ "Screens & technology": {
+  "Screen time limits & meltdowns": "screen ?time|screens?|ipad|tablet|tv time|youtube|cocomelon|bluey|turn(ing)? off the (tv|ipad|tablet)",
+  "Gaming": "video games?|gaming|roblox|minecraft|fortnite|nintendo|switch|xbox|playstation",
+  "Phones & social media": "(first|own) (smart)?phone|phones?|social media|tiktok|instagram|snapchat|group chats?|online safety|porn\\w*|internet"
+ },
+ "Development & neurodivergence": {
+  "Speech & language delay": "speech (delay|therap\\w*)|not talking|late talker|words? (at|by) \\d|speech",
+  "Autism": "autis\\w+|asd\\b|level [123]|stimm?\\w*|non-?verbal|echolalia",
+  "ADHD, focus & executive function": "adhd|add\\b|focus|executive function\\w*|impulsiv\\w+|hyperactiv\\w+|stimulant|medicat\\w+|vyvanse|ritalin|adderall|guanfacine",
+  "Sensory & overstimulation": "sensory|overstimulat\\w+|meltdowns? after school|noise|textures?|spd\\b",
+  "Milestones & delays": "milestones?|delay(ed)?|not walking|not crawling|early intervention|evaluation|developmental"
+ },
+ "School & learning": {
+  "School refusal & school anxiety": "school refus\\w+|doesn'?t want to go to school|won'?t go to school|school anxiety|drop-?off|separation anxiety at (school|daycare)",
+  "Homework & grades": "homework|grades|failing|report card|studying|math",
+  "Reading & learning": "reading|read(ing)? (level|to)|phonics|learn(ing)? to read|dyslexi\\w+|learning disabilit\\w+",
+  "Behavior at school & daycare": "(teacher|daycare|preschool|school) (says|called|report\\w*)|sent home|suspend\\w*|expel\\w*|behavior (at|in) (school|class|daycare)|iep|504",
+  "Starting daycare, preschool & kindergarten": "start(ing)? (daycare|preschool|kindergarten|school)|kindergarten|first day|transition to (school|daycare)"
+ },
+ "Anxiety & emotional health": {
+  "Child anxiety & fears": "anxi\\w+|worr\\w+|fears?|afraid|scared of|panic|phobia",
+  "Separation anxiety": "separation anxiety|won'?t let me leave|cries when i leave|clingy",
+  "Self-esteem & confidence": "self-?esteem|confidence|hates? (himself|herself)|i'?m stupid|perfectionis\\w+|gives up easily|sore loser|losing",
+  "Kids' mental health & therapy": "depress\\w+|self-?harm|suicid\\w+|therap\\w+|counsel\\w+|mental health|ocd|eating disorder"
+ },
+ "Siblings & family life": {
+  "Sibling fighting & jealousy": "siblings?|brother|sister|fight(ing)? with (his|her|each other)|jealous\\w*",
+  "New baby & big sibling": "new baby|second (baby|child)|big (brother|sister)|pregnan\\w+ with (our|my) second|2 under 2|two under two",
+  "Only child & family size": "only child|one and done|second kid|another baby|family size",
+  "Routines, mornings & chores": "morning routine|getting (ready|dressed)|out the door|chores?|responsibilit\\w+|allowance|transitions?|independent play|entertain (himself|herself|themselves)|bored"
+ },
+ "Teens & tweens": {
+  "Teen withdrawal & communication": "teen\\w* (won'?t|doesn'?t) talk|shut(s)? (me )?out|stays? in (his|her) room|moody|eye roll\\w*|won'?t talk to (me|us)",
+  "Dating, sex & puberty": "dating|boyfriend|girlfriend|crush|sex\b|sexual\\w*|sex ed|puberty|(her|first) period|nudes|consent|masturbat\\w+",
+  "Risky behavior (vaping, alcohol, drugs)": "vap(e|ing)|weed|marijuana|drunk|drinking|alcohol|drugs?|smok\\w+|thc",
+  "Independence, driving, jobs & money": "learner'?s permit|driver'?s (license|ed)|learning to drive|teen driv\\w+|curfew|first job|part[- ]time job|allowance|college applications?|moving out|1[89] ?(yo|y/o|year old)",
+  "Teen phones & social media": "teen\\w*.{0,40}(phone|social media|tiktok|snapchat|instagram)|(phone|social media).{0,40}teen\\w*"
+ },
+ "Parent wellbeing": {
+  "Yelling & losing my temper": "yell\\w*|scream(ed|ing)? at (my|him|her|them)|lose my (temper|cool)|lost my (temper|cool)|snap(ped)? at|mom rage|dad rage|rage",
+  "Burnout & exhaustion": "burn(ed|t)? ?out|exhausted|touched out|no time for (myself|me)|drowning|can'?t do this|running on empty|tired all the time",
+  "Guilt, regret & identity": "guilt\\w*|bad (mom|dad|parent|mother|father)|failing (as a|my)|regret\\w*|miss my old life|identity|lonely|loneliness|resent\\w*",
+  "Postpartum mental health": "postpartum|ppd|ppa|baby blues|intrusive thoughts|birth trauma|pmad"
+ },
+ "Partner, co-parenting & relatives": {
+  "Partner not helping & mental load": "(husband|wife|partner|spouse|bf|dh)\\b.{0,60}(doesn'?t|won'?t|never) (help|do)|mental load|default parent|weaponized incompetence|division of labou?r|resent\\w* (my|him|her)",
+  "Disagreeing on parenting": "(husband|wife|partner|spouse)\\b.{0,60}(disagree\\w*|different parenting|too strict|too soft|undermin\\w+)|on the same page",
+  "Divorce, custody & co-parenting with an ex": "divorc\\w+|custody|co-?parent\\w*|\\bex\\b|ex-(husband|wife)|baby (daddy|mama)|visitation|child support|50/50",
+  "Single parenting": "single (mom|dad|parent|mother|father)|solo parent\\w*|doing it alone",
+  "Grandparents & in-laws": "in-?laws?|mother-in-law|\\bmil\\b|grandparents?|grandma|grandpa|nana|my (mom|mother|dad|father) (keeps|won'?t|always)"
+ },
+ "Friends & social life": {
+  "Friendships & being left out": "(no|any|making|make|keep|lost) friends|friendships?|left out|excluded|no one plays with|playdates?|(his|her|their|son'?s|daughter'?s) friends?",
+  "Bullying": "bull(y|ies|ied|ying)|picked on|teas(ed|ing)|mean girls?",
+  "Shyness & social skills": "shy|social skills|won'?t talk to (other|new) (kids|people)|introvert\\w*|say hi"
+ },
+ "Health & safety (signal only)": {
+  "Illness & symptoms": "fever|sick|cough\\w*|vomit\\w*|throw(s|ing)? up|rash|ear infection|rsv|covid|flu\\b|antibiotic|diarrh\\w+",
+  "Safety & accidents": "car ?seat|choking hazard|baby ?proof\\w*|drown\\w*|poison\\w*|fell off|head injury|recall",
+  "Vaccines & doctor visits": "vaccin\\w+|shots?\\b|pediatrician|well visit|dentist|teeth"
+ }
+}

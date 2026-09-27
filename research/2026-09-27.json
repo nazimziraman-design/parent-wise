@@ -1,0 +1,70 @@
+{
+ "generated": "2026-09-27T15:43+00:00",
+ "hours": 36,
+ "items": [
+  {
+   "source": "NPR Health",
+   "tier": "signal",
+   "title": "Photos: These shepherds climb down a mountain to go to night school",
+   "url": "https://www.npr.org/2026/09/27/g-s1-143582/night-school-shepherds-lesotho",
+   "date": "2026-09-27T11:53:42+00:00",
+   "summary": "Many thousands of boys and men in Lesotho take up the vital profession of herding but have to give up their education. A small network of schools on a shoestring budget is teaching them the ABCs."
+  },
+  {
+   "source": "NPR Health",
+   "tier": "signal",
+   "title": "The U.S. has more thalidomide survivors than the government admits",
+   "url": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+   "date": "2026-09-26T09:00:00+00:00",
+   "summary": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition."
+  }
+ ],
+ "errors": [
+  {
+   "source": "Zero to Three",
+   "error": "HTTP Error 403: Forbidden"
+  }
+ ],
+ "manual": [
+  {
+   "name": "AAP News (publications.aap.org)",
+   "url": "https://publications.aap.org/aapnews",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "Pediatrics journal",
+   "url": "https://publications.aap.org/pediatrics",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "NHS baby & toddler pages",
+   "url": "https://www.nhs.uk/conditions/baby/",
+   "why": "no feed: check with web search"
+  },
+  {
+   "name": "Official X accounts (AAP, CDC, WHO)",
+   "url": "https://x.com",
+   "why": "login required"
+  },
+  {
+   "name": "NIH / NICHD news",
+   "url": "https://www.nichd.nih.gov/newsroom/news",
+   "why": "nih.gov blocks scripts (403): check with web search"
+  },
+  {
+   "name": "UNICEF press releases",
+   "url": "https://www.unicef.org/press-releases",
+   "why": "no feed"
+  },
+  {
+   "name": "AAP HealthyChildren",
+   "url": "https://www.healthychildren.org",
+   "why": "no feed"
+  },
+  {
+   "name": "Harvard Center on the Developing Child",
+   "url": "https://developingchild.harvard.edu/news/",
+   "why": "no feed"
+  }
+ ]
+}

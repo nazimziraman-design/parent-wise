@@ -1,0 +1,90 @@
+{
+  "theme": "problem",
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "Toddler hitting when frustrated",
+  "age_range": "1-5 years",
+  "cover": {
+    "photo_queries": [
+      "toddler tantrum",
+      "crying toddler",
+      "angry toddler",
+      "child hitting parent"
+    ],
+    "focus_y": 0.35,
+    "photo": {
+      "id": "783941",
+      "source": "Pexels",
+      "page": "https://www.pexels.com/photo/toddler-with-red-adidas-sweat-shirt-783941/",
+      "author": "mohamed abdelghaffar",
+      "author_url": "https://www.pexels.com/@moh-adbelghaffar",
+      "alt": "A young child expressing strong emotions during a studio portrait shoot.",
+      "credit": "Cover photo: mohamed abdelghaffar / Pexels",
+      "key": "pexels:783941"
+    },
+    "photo_pick": "pexels:783941"
+  },
+  "design": {
+    "palette": "sage"
+  },
+  "caption": "\"Why does my toddler keep hitting me?\" Here is what to do in the moment.\n\nYou've tried time-outs and a firm \"no hitting\", and nothing seems to be working.\nOccasional outbursts are normal at 1–5 years. Self-control is something we teach, one calm moment at a time.\n\nSave this for the next playdate, and send it to a co-parent.\n\n#toddlerlife #toddlerbehavior #positivediscipline #gentleparenting #parentingtips #momlife #dadlife\n\nCover photo: mohamed abdelghaffar / Pexels\nGeneral information, not medical advice. Talk to your pediatrician.\n\nComment CALM and I’ll send you the link.",
+  "sources": [
+    "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Aggressive-Behavior.aspx",
+    "https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx"
+  ],
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "\"My toddler keeps hitting me.\"\nNothing seems to be working.\n\n**Here is what to do and say in the moment.**"
+    },
+    {
+      "type": "text",
+      "text": "First, breathe.\n\n**Occasional outbursts are normal** at 1–5 years, especially during tantrums.\n\nYoung children aren't born with self-control. They need us to **teach them to use words** instead of hitting."
+    },
+    {
+      "type": "text",
+      "text": "**1. Step in calmly.**\n\nIf they hit another child, pull the children apart and keep them separate **until everyone has calmed down**.\n\nSay: **\"I won't let you hit. We don't hurt each other.\"**"
+    },
+    {
+      "type": "text",
+      "text": "**2. Show what to do instead.**\n\n\"Stop it or else\" teaches less than a new skill. Teach a **firm \"No!\"** or turning their back.\n\nSay: **\"You can stomp your feet or say 'I'm mad!'\"**"
+    },
+    {
+      "type": "text",
+      "text": "**3. Distract early.**\n\nWhen you see frustration building, **move to another activity**. It can help them calm down.\n\nSay: **\"Come help me find the ball.\"**"
+    },
+    {
+      "type": "text",
+      "text": "**4. Catch the gentle moments.**\n\nWhen they use words instead of hands, **say so out loud**.\n\nSay: **\"You were so mad, and you used your words. That was so grown-up.\"**"
+    },
+    {
+      "type": "text",
+      "text": "**5. Your calm is the lesson.**\n\nWhen you handle anger in **quiet, peaceful ways**, your child is likely to follow your example.\n\nThat's why the AAP advises parents **not to spank or hit** children."
+    },
+    {
+      "type": "text",
+      "text": "**When to talk to your pediatrician**\n\nIf your child seems **unusually aggressive for more than a few weeks**, or they're sent home from play or school.\n\nAsking for help is a strong move."
+    },
+    {
+      "type": "cta",
+      "intro": "If your toddler hits when they're frustrated and you're running out of ideas,",
+      "keyword": "CALM",
+      "v": {
+        "intro": 0,
+        "offer": 0,
+        "comment": 0,
+        "foot": 1
+      }
+    }
+  ],
+  "cta_keyword": "CALM",
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": false,
+  "cta_variant": {
+    "intro": 0,
+    "offer": 0,
+    "comment": 0,
+    "foot": 1
+  }
+}

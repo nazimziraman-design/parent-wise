@@ -1,0 +1,2110 @@
+{
+ "generated": "2026-09-26T22:42",
+ "reddit_labels": "claude",
+ "problem_posts": 3457,
+ "window": "last 365 days",
+ "since": "2025-09-26",
+ "posts": 6743,
+ "help_posts": 2438,
+ "searches": 5401,
+ "subreddits": [
+  "ADHDparenting",
+  "AskParents",
+  "Autism_Parenting",
+  "GentleParenting",
+  "Mommit",
+  "NewParents",
+  "Parenting",
+  "Preschoolers",
+  "ScienceBasedParenting",
+  "SingleParents",
+  "beyondthebump",
+  "breakingmom",
+  "daddit",
+  "toddlers"
+ ],
+ "categories": {
+  "Parent wellbeing": {
+   "score": 389.6,
+   "reddit_posts": 875,
+   "google_searches": 96,
+   "subcategories": {
+    "Burnout & exhaustion": {
+     "score": 185.9,
+     "reddit_posts": 468,
+     "help_posts": 153,
+     "google_searches": 3,
+     "subreddits": 14,
+     "trend": 0.49,
+     "ages": {
+      "1-3 years": 96,
+      "0-12 months": 81,
+      "3-5 years": 64,
+      "6-12 years": 54,
+      "13-18 years": 11
+     },
+     "example_posts": [
+      "Can you die from parenting a 4yo?",
+      "Does anyone else feel like they’re failing at everything except keeping the kids alive?",
+      "Are we all just rotting once they’re in bed?",
+      "I can't.",
+      "Gentle parenting while burned out with an intense 4.5 year old?",
+      "Is anyone else burnt the fuck out?",
+      "I don't think I need self-care... I think I just need a real break.",
+      "How do you not absolutely seethe with anger that you’re doing this alone?"
+     ],
+     "example_searches": [
+      "is it normal for a teenager to be tired all the time",
+      "is it normal to feel exhausted with a toddler",
+      "why does my toddler seem tired all the time"
+     ]
+    },
+    "Guilt, regret & identity": {
+     "score": 102.1,
+     "reddit_posts": 252,
+     "help_posts": 81,
+     "google_searches": 18,
+     "subreddits": 14,
+     "trend": 0.46,
+     "ages": {
+      "0-12 months": 71,
+      "1-3 years": 36,
+      "3-5 years": 31,
+      "6-12 years": 21,
+      "13-18 years": 9
+     },
+     "example_posts": [
+      "How to accept your life is gone?",
+      "Anyone else here grieving their toddlers becoming pre-schoolers 🥲 (my 4 year old suddenly feels so big!!)",
+      "Anyone else feeling really defeated and hopeless with the announcement about the possibility of AI wiping out humanity and trying to parent through it.",
+      "“You need to remember who you are outside of being a mom”",
+      "Am I depriving my child?",
+      "Does anyone else grieve the life they thought they’d have… while still loving their child more than anything?",
+      "Tell me if I’m living the right way or if my mentality is correct? I don’t know… Single mom of two",
+      "Constantly telling my kids “we don’t do that in our family” do I need new friends?😭"
+     ],
+     "example_searches": [
+      "am i a bad parent if i don't play with my child",
+      "am i a bad parent if my child has odd",
+      "i feel like a bad dad reddit",
+      "i feel like a bad father",
+      "i feel like a bad mom all the time",
+      "i feel like a bad mom and wife",
+      "i feel like a bad mom because i yell",
+      "i feel like a bad mom for yelling at my toddler",
+      "i feel like a bad mom newborn",
+      "i feel like a bad mom reddit",
+      "i feel like a bad mom to my baby",
+      "i feel like a bad mom to my toddler"
+     ]
+    },
+    "Yelling & losing my temper": {
+     "score": 58.7,
+     "reddit_posts": 45,
+     "help_posts": 19,
+     "google_searches": 78,
+     "subreddits": 11,
+     "trend": 0.58,
+     "ages": {
+      "3-5 years": 31,
+      "1-3 years": 23,
+      "6-12 years": 13,
+      "0-12 months": 4
+     },
+     "example_posts": [
+      "Tips to stop yelling at my kids…",
+      "Practical advice for managing my own anger?",
+      "I want to change...please help",
+      "Help. I’m in the constantly yelling for them to listen trap",
+      "Yelling... Help me stop",
+      "How do I stop being an angry father?",
+      "Husband is a great dad but has a short fuse - how do I minimise impact on toddler?",
+      "Mom rage - will they remember?"
+     ],
+     "example_searches": [
+      "get your kids to listen without nagging yelling or losing control",
+      "get your kids to listen without yelling threats and punishments",
+      "how do i stop yelling at my 3 year old",
+      "how do i stop yelling at my 4 year old",
+      "how do i stop yelling at my adhd child",
+      "how do i stop yelling at my child",
+      "how do i stop yelling at my dog",
+      "how do i stop yelling at my husband",
+      "how do i stop yelling at my kids",
+      "how do i stop yelling at my kids and get them to listen",
+      "how do i stop yelling at my partner",
+      "how do i stop yelling at my toddler"
+     ]
+    },
+    "Postpartum mental health": {
+     "score": 42.9,
+     "reddit_posts": 110,
+     "help_posts": 36,
+     "google_searches": 0,
+     "subreddits": 8,
+     "trend": 0.54,
+     "ages": {
+      "0-12 months": 96,
+      "1-3 years": 5,
+      "3-5 years": 1
+     },
+     "example_posts": [
+      "[UPDATE] my sister hasn’t spoken a word since losing her baby? How do I support?",
+      "I’m regretting calling for help and now CPS is involved.",
+      "My sister hasn’t spoken a word after losing her baby. How do I support her?",
+      "Left when my baby was 2 weeks old. Will I be okay?",
+      "Does grey matter grow back after pregnancy?",
+      "my wife is drowning and i don't know how to help us hold it together",
+      "I miss my old life so much it physically hurts. Is that bad?",
+      "Is the Lindsay Clancy case destroying any other moms?"
+     ],
+     "example_searches": []
+    }
+   }
+  },
+  "Behavior & discipline": {
+   "score": 351.1,
+   "reddit_posts": 423,
+   "google_searches": 340,
+   "subcategories": {
+    "Not listening & defiance": {
+     "score": 96.2,
+     "reddit_posts": 84,
+     "help_posts": 45,
+     "google_searches": 122,
+     "subreddits": 10,
+     "trend": 0.49,
+     "ages": {
+      "3-5 years": 92,
+      "6-12 years": 46,
+      "1-3 years": 35,
+      "13-18 years": 12
+     },
+     "example_posts": [
+      "How to handle “accidents” that are deliberate?",
+      "Dealing with newly 2 year olds not listening?",
+      "I have no idea how to communicate with my strong-willed kid",
+      "Does anyone else’s five year old just not f***ing listen?",
+      "kids will not give wife a break, how do I help?",
+      "Parenting advice 2 year old",
+      "Am I being too harsh / not “gentle parenting” here?",
+      "Trying to break generational curses?"
+     ],
+     "example_searches": [
+      "10 year old refuses to listen",
+      "2 year old refuses to listen",
+      "3 year old refuses to listen",
+      "3 year old refuses to listen reddit",
+      "3 year old won't listen to me",
+      "4 year old refuses to listen",
+      "5 year old refuses to listen",
+      "5 year old refuses to listen reddit",
+      "5 year old won't listen to me",
+      "7 year old refuses to listen",
+      "8 year old refuses to listen",
+      "8 year old.doesn't listen"
+     ]
+    },
+    "Hitting, biting & aggression": {
+     "score": 78.8,
+     "reddit_posts": 94,
+     "help_posts": 36,
+     "google_searches": 83,
+     "subreddits": 11,
+     "trend": 0.62,
+     "ages": {
+      "3-5 years": 61,
+      "1-3 years": 44,
+      "6-12 years": 31,
+      "0-12 months": 7,
+      "13-18 years": 4
+     },
+     "example_posts": [
+      "How to stop toddler when throwing things",
+      "Developmentally appropriate response to hitting/throwing for a 15 month old?",
+      "How do I reprimand my toddler hitting my 4 month old?",
+      "My 3y/o little brother wont stop hitting me, how do i teach him to stop?",
+      "doc wants to sterilize 11yo girl....I think maybe I should...?",
+      "I've been trying to get my 2.5 yr old to stop hitting me for a year. Wtf do I do if nothing works?",
+      "3 Year Old Suddenly Hitting and Won't Stop",
+      "This cute little girl is always trying to bite me. How do I teach her not to?"
+     ],
+     "example_searches": [
+      "2 year old keeps hitting",
+      "5 month old won t stop kicking legs",
+      "how do i stop my 5 year old from hitting",
+      "how do you stop your 3 year old from hitting",
+      "how to get 3 year old to stop hitting",
+      "how to get my 2 year old to stop hitting",
+      "how to get my 3 year old to stop hitting",
+      "how to get my 3 year old to stop hitting other kids",
+      "how to get my 3 year old to stop kicking",
+      "how to get my 3 year old to stop scratching others",
+      "how to get my 4 year old to stop hitting",
+      "how to get my 5 year old to stop hitting"
+     ]
+    },
+    "Tantrums & meltdowns": {
+     "score": 68.9,
+     "reddit_posts": 139,
+     "help_posts": 44,
+     "google_searches": 22,
+     "subreddits": 14,
+     "trend": 0.53,
+     "ages": {
+      "3-5 years": 69,
+      "1-3 years": 46,
+      "6-12 years": 28,
+      "0-12 months": 4
+     },
+     "example_posts": [
+      "4pm postschool meltdowns are driving me insane. how are you guys actually dealing with after school collapse?",
+      "Why did your toddler have a meltdown today?? I’ll go first",
+      "The \"name the feeling out loud\" thing, does it actually calm your kid down, or am I just narrating a hurricane?",
+      "Does anyone else have a 4/5 year old that tantrums hard?",
+      "Being triggered by my 4yo's \"victim\" mindset and wondering how to tackle this",
+      "Don’t really understand what I’m meant to do when my child tantrums?",
+      "Desperately seeking advice",
+      "“Telling off” inanimate objects - setting up for a life of victimisation?"
+     ],
+     "example_searches": [
+      "how to deal with a 7 year old who tantrums every day",
+      "how to stop 3 year old tantrums",
+      "how to stop 5 year old tantrums",
+      "how to stop a toddler meltdown",
+      "how to stop my 3 year old from throwing tantrums",
+      "how to stop my 3 year old tantrums",
+      "how to stop my 5 year old having tantrums",
+      "is it normal for a 4 year old to have tantrums",
+      "is it normal for a 5 year old to throw tantrums",
+      "is it normal for a 7 year old to have meltdowns",
+      "is it normal for a 7 year old to have tantrums",
+      "my baby screams when i change his diaper"
+     ]
+    },
+    "Talking back & disrespect": {
+     "score": 42.1,
+     "reddit_posts": 34,
+     "help_posts": 11,
+     "google_searches": 52,
+     "subreddits": 10,
+     "trend": 0.5,
+     "ages": {
+      "3-5 years": 30,
+      "6-12 years": 24,
+      "13-18 years": 9,
+      "1-3 years": 5
+     },
+     "example_posts": [
+      "Anyone else?",
+      "Did I do the right thing?",
+      "The \"I hate you\" stage - help!",
+      "How do you handle bratty, ungrateful behavior towards gifts?",
+      "Would it be cruel to record my daughter talking to her brother and show it to her?",
+      "Is your ADHD child argumentative?",
+      "Your kid is increasingly rude/dismissive toward parents and grandparents — what actually worked?",
+      "How to get almost 4yo to stop saying “be quiet” and “shut up”?"
+     ],
+     "example_searches": [
+      "how do i stop my 5 year old from swearing",
+      "how do you deal with a disrespectful 5 year old",
+      "how to deal with a 4 year old that talks back",
+      "how to deal with a 5 year old that talks back",
+      "how to deal with a child who constantly talks back",
+      "how to deal with a disrespectful 10 year old boy",
+      "how to deal with a disrespectful 5 year old",
+      "how to deal with a teenager who is disrespectful",
+      "how to deal with rude 8 year old",
+      "how to get my 8 year old to stop cursing",
+      "how to get my child to stop swearing",
+      "how to stop 5 year old being rude"
+     ]
+    },
+    "Whining & constant crying": {
+     "score": 31.6,
+     "reddit_posts": 23,
+     "help_posts": 4,
+     "google_searches": 42,
+     "subreddits": 10,
+     "trend": 0.74,
+     "ages": {
+      "3-5 years": 25,
+      "1-3 years": 16,
+      "6-12 years": 10,
+      "0-12 months": 4,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "How do you raise a securely attached child without teaching them that screaming gets them what they want?",
+      "How to deal with constant whining from my 5 year old?",
+      "Help with Screaming",
+      "Todler won't stop talking and it is driving us crazy"
+     ],
+     "example_searches": [
+      "how do i stop my 8 year old from crying all the time",
+      "how do i stop my 8 year old from whining",
+      "how to deal with a 2 year old that cries over everything",
+      "how to deal with a 3 year old who cries over everything",
+      "how to deal with a baby that cries over everything",
+      "how to deal with a child who cries over everything",
+      "how to deal with a toddler who cries over everything",
+      "how to get my 8 year old to stop whining",
+      "how to stop my 3 year old from whining",
+      "how to stop my 3 year old from whining and crying",
+      "how to stop my 4 year old from crying all the time",
+      "how to stop my 5 year old from crying all the time"
+     ]
+    },
+    "Consequences & boundaries": {
+     "score": 21.6,
+     "reddit_posts": 41,
+     "help_posts": 30,
+     "google_searches": 4,
+     "subreddits": 11,
+     "trend": 0.63,
+     "ages": {
+      "6-12 years": 11,
+      "1-3 years": 10,
+      "3-5 years": 9,
+      "13-18 years": 6,
+      "0-12 months": 1
+     },
+     "example_posts": [
+      "is \"bribing\" kids actually harmful or is this just outdated montessori dogma?",
+      "12 year old keeps breaking things, costing $1000s in damage. What can I do?",
+      "How to teach a child not to \"save\" their toys?",
+      "What phone do you give your kid who threw his in a bayou?",
+      "Daughter lost a toy she just bought with her own money. Do you replace or not?",
+      "Right to be concerned about preschool encouraging \"tattling\"?",
+      "How do I make sure my privileged kid doesn't grow up spoiled?",
+      "What's wrong with calling a toddler 'naughty' or 'good girl' or 'bad boy'?"
+     ],
+     "example_searches": [
+      "gentle parenting not working reddit",
+      "get your kids to listen without yelling threats and punishments",
+      "my 5 year old doesn't care about consequences",
+      "my 5 year old doesn't understand consequences"
+     ]
+    },
+    "Lying & sneaking": {
+     "score": 11.9,
+     "reddit_posts": 8,
+     "help_posts": 3,
+     "google_searches": 17,
+     "subreddits": 5,
+     "trend": 0.5,
+     "ages": {
+      "6-12 years": 8,
+      "13-18 years": 5,
+      "3-5 years": 3,
+      "1-3 years": 1
+     },
+     "example_posts": [
+      "How to respond to a 5yo repeatedly throwing small objects into an air filter in a way that disincentivizes the behavior?",
+      "18 year old unnecessary ER visit, should she pay?",
+      "How to deal with my 12 year old stealing a small thing from a Mineral & Gem show?"
+     ],
+     "example_searches": [
+      "how to deal with a child who steals and lies",
+      "how to deal with a teenager who lies and steals",
+      "how to deal with a teenager who steals from you",
+      "how to stop a child from lying and stealing",
+      "how to stop my 10 year old from stealing",
+      "how to stop my 5 year old from stealing",
+      "how to stop my 8 year old from stealing",
+      "how to stop my child from lying and stealing",
+      "how to stop the baby from stealing fuses",
+      "how to stop the baby in yellow from stealing fuses",
+      "how to stop the baby in yellow from stealing fuses 2025",
+      "how to stop the baby in yellow stealing fuses"
+     ]
+    }
+   }
+  },
+  "Health & safety (signal only)": {
+   "score": 341.2,
+   "reddit_posts": 372,
+   "google_searches": 387,
+   "subcategories": {
+    "Illness & symptoms": {
+     "score": 178.9,
+     "reddit_posts": 136,
+     "help_posts": 34,
+     "google_searches": 252,
+     "subreddits": 13,
+     "trend": 0.46,
+     "ages": {
+      "3-5 years": 121,
+      "1-3 years": 89,
+      "0-12 months": 48,
+      "6-12 years": 35,
+      "13-18 years": 10
+     },
+     "example_posts": [
+      "I need you guys",
+      "Struggling to find deodorant that will work for my teen daughter. What do you recommend?",
+      "“Don’t you have someone else to help you?”",
+      "Is the first year of preschool really this brutal?",
+      "Parents of cavity prone kids how do you actually deal with this?",
+      "They need to say the cost up front in the ER",
+      "Foreskin on uncircumcised penis care?",
+      "Guess who was right about their own son pulling out a g tube? Me. Fuck everyone."
+     ],
+     "example_searches": [
+      "2 year old keeps throwing up",
+      "3 year old keeps throwing up",
+      "3 year old refuses to take antibiotics",
+      "3 year old won t stop vomiting",
+      "5 year old keeps throwing up",
+      "5 year old refusing to take antibiotics",
+      "5 year old won t stop vomiting",
+      "7 year old keeps throwing up",
+      "8 month old won t stop vomiting",
+      "8 year old won t stop throwing up",
+      "baby keeps throwing up",
+      "baby refuses to take antibiotics"
+     ]
+    },
+    "Safety & accidents": {
+     "score": 92.0,
+     "reddit_posts": 219,
+     "help_posts": 56,
+     "google_searches": 14,
+     "subreddits": 14,
+     "trend": 0.48,
+     "ages": {
+      "0-12 months": 72,
+      "1-3 years": 65,
+      "3-5 years": 29,
+      "6-12 years": 23,
+      "13-18 years": 3
+     },
+     "example_posts": [
+      "Worried about the guy I'm dating is interested too much in my toddler?",
+      "I had the scariest day of my life and just need to vent",
+      "My IVF baby was taken after unexplained medical findings and I’m struggling with the guilt of needing answers",
+      "My idiot SIL and her kid just taught my son how to open child safety door locks.",
+      "Toddler water safety. Am I overreacting?",
+      "How important is it to anchor furniture during toddler years?",
+      "They found Parker :( Is anyone else struggling today?",
+      "Educating children on how to protect themselves from sexual abuse/misconduct from childhood to adulthood? (Covering all grounds)"
+     ],
+     "example_searches": [
+      "3 year old refuses to get in car seat",
+      "baby refuses to get in car seat",
+      "how to get my baby to like the car seat",
+      "how to keep a toddler from unbuckling car seat",
+      "how to keep my child from unbuckling his car seat",
+      "how to stop a child from unbuckling car seat",
+      "how to stop my child opening car seat buckle",
+      "how to stop my child's head falling forward in car seat",
+      "how to stop my toddler from unbuckling car seat",
+      "how to stop your child from unbuckling their car seat",
+      "how to stop your child from unclipping car seat",
+      "my 3 year old fell off the bed and hit his head"
+     ]
+    },
+    "Vaccines & doctor visits": {
+     "score": 70.3,
+     "reddit_posts": 17,
+     "help_posts": 9,
+     "google_searches": 121,
+     "subreddits": 4,
+     "trend": 0.53,
+     "ages": {
+      "3-5 years": 46,
+      "1-3 years": 24,
+      "6-12 years": 14,
+      "0-12 months": 13,
+      "13-18 years": 5
+     },
+     "example_posts": [
+      "Starting catch up vaccines at 2?",
+      "The antivax community is getting to me. Help?",
+      "Parents, how would you feel about this situation during your daughter’s annual check-up?",
+      "Help explaining to my sister that the Vitamin K shot is much more important than not getting it?",
+      "Will your baby get a hep B vaccine? What RFK panel's ruling means",
+      "I’m pregnant with my first child and my brother is an anti-vaxxer with a 5 and 1.5 year old. When will it be safe for the children to meet?",
+      "Missed RhoGAM Shot—consequences for second child?",
+      "How Would you Debate This?"
+     ],
+     "example_searches": [
+      "10 year old refuses to brush teeth",
+      "2 year old refuses to brush teeth",
+      "3 year old refuses to brush teeth",
+      "3 year old refuses to clean teeth",
+      "5 year old refuses to brush teeth",
+      "7 year old refuses to brush teeth",
+      "8 year old refuses to brush teeth",
+      "baby refuses to drink after vaccination",
+      "baby refuses to eat after vaccines",
+      "baby refuses to eat while teething",
+      "baby refuses to feed after vaccination",
+      "baby refuses to let me brush teeth"
+     ]
+    }
+   }
+  },
+  "Partner, co-parenting & relatives": {
+   "score": 296.1,
+   "reddit_posts": 717,
+   "google_searches": 7,
+   "subcategories": {
+    "Partner not helping & mental load": {
+     "score": 110.7,
+     "reddit_posts": 292,
+     "help_posts": 61,
+     "google_searches": 0,
+     "subreddits": 14,
+     "trend": 0.48,
+     "ages": {
+      "0-12 months": 65,
+      "1-3 years": 38,
+      "3-5 years": 17,
+      "6-12 years": 11,
+      "13-18 years": 3
+     },
+     "example_posts": [
+      "Some of you need to be meaner to your husbands",
+      "is it important for kids to see their parents / mom having hobbies?",
+      "I threw out my husbands dinner and now I’m on strike. Decentering men?",
+      "Are you SURE its not just your period?",
+      "Men just don’t understand children’s schedules do they?!",
+      "Are you stuck in there?",
+      "Can't grieve my cat and it makes me mad",
+      "I’m upset about dating someone for 2ish years and still feeling like a single mom, and I wonder if I will always feel this way…advice from other single parents who have moved on, please?"
+     ],
+     "example_searches": []
+    },
+    "Divorce, custody & co-parenting with an ex": {
+     "score": 81.1,
+     "reddit_posts": 192,
+     "help_posts": 58,
+     "google_searches": 7,
+     "subreddits": 11,
+     "trend": 0.54,
+     "ages": {
+      "6-12 years": 31,
+      "1-3 years": 30,
+      "0-12 months": 26,
+      "3-5 years": 19,
+      "13-18 years": 11
+     },
+     "example_posts": [
+      "How do you survive 50/50?",
+      "Adults who grew up with high-conflict parents—what could your parents have done differently when you were two?",
+      "How do I teach my kids (4M, 5F) not to share the front door code for our new security system with their dad, without telling them more than they need to know?",
+      "Anyone else trapped in one location due to custody?",
+      "Why am I still sending photos to a dad who hasn’t seen his daughter in 4 years?",
+      "UPDATE: He’s Cheating Right?",
+      "Another update: He’s Cheating Right?",
+      "What \"normal\" thing felt like freedom after leaving a controlling relationship?"
+     ],
+     "example_searches": [
+      "child refuses visitation",
+      "child refuses visitation with father",
+      "how to deal with a baby daddy who ignores you",
+      "my child hates me after divorce",
+      "my son won t talk to me after divorce",
+      "teenager refusing visitation",
+      "why does my baby daddy hate me so much"
+     ]
+    },
+    "Single parenting": {
+     "score": 45.9,
+     "reddit_posts": 85,
+     "help_posts": 35,
+     "google_searches": 0,
+     "subreddits": 6,
+     "trend": 0.56,
+     "ages": {
+      "0-12 months": 14,
+      "6-12 years": 12,
+      "1-3 years": 11,
+      "3-5 years": 11,
+      "13-18 years": 5
+     },
+     "example_posts": [
+      "I want to die. Being a single mom with virtually no help is a living hell.",
+      "Am I allowed to blow my life up yet?",
+      "Are we just accepting the loneliness?",
+      "Do you date?",
+      "Single dad with daughter need feminine product advice.",
+      "Single parents with no real co-parent: how do you do this long term?",
+      "Why do people assume that single parents don’t have standards?",
+      "Do you think other parents feel wary or judgmental of single/ solo parents?"
+     ],
+     "example_searches": []
+    },
+    "Grandparents & in-laws": {
+     "score": 30.9,
+     "reddit_posts": 88,
+     "help_posts": 20,
+     "google_searches": 0,
+     "subreddits": 12,
+     "trend": 0.41,
+     "ages": {
+      "0-12 months": 43,
+      "1-3 years": 15,
+      "3-5 years": 11,
+      "6-12 years": 5,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Does anyone else deal with \"preschool denier\" relatives?",
+      "FIL showered naked with my 3 year old - struggling with trust and boundaries",
+      "Mom left 3 days postpartum. What did I do wrong?",
+      "Do you feel obligated to facilitate a grandparent relationship for your in laws?",
+      "Grown arse adults intentionally aggravating my 2 year old... Is my concern an overreaction?",
+      "Sometimes you just need to think like a man",
+      "Bridesmaid with a 3-month-old (EBF) — SIL now says no babies at wedding. What would you do?",
+      "Why all the negativity on girls?"
+     ],
+     "example_searches": []
+    },
+    "Disagreeing on parenting": {
+     "score": 27.5,
+     "reddit_posts": 60,
+     "help_posts": 24,
+     "google_searches": 0,
+     "subreddits": 12,
+     "trend": 0.42,
+     "ages": {
+      "0-12 months": 16,
+      "1-3 years": 13,
+      "3-5 years": 12,
+      "6-12 years": 7,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Is being a good parent having to wake up early every day to hand-make a warm breakfast for your kids?",
+      "Husband is stuck on Babywise and I don’t know how to disprove him",
+      "Husband struggling",
+      "Research based discipline?",
+      "Husband wants to do a detox bath post vaccines for our baby, please help!",
+      "Husband thinks spanking is ok as long as its done the \"right way.\" Is there research that can disprove this?",
+      "Wife claims TV and tablet screen time should be evaluated differently, any truth to this?",
+      "Has anyone else become a secret garbage tosser?"
+     ],
+     "example_searches": []
+    }
+   }
+  },
+  "Sleep": {
+   "score": 242.0,
+   "reddit_posts": 181,
+   "google_searches": 320,
+   "subcategories": {
+    "Bedtime battles & stalling": {
+     "score": 52.9,
+     "reddit_posts": 81,
+     "help_posts": 32,
+     "google_searches": 34,
+     "subreddits": 14,
+     "trend": 0.53,
+     "ages": {
+      "3-5 years": 44,
+      "1-3 years": 25,
+      "0-12 months": 22,
+      "6-12 years": 14,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "The longest bedtime book ever? I’ll go first:",
+      "Clock with schedule - anyone tried this?",
+      "Why do babies fight sleep?",
+      "What routine are you so mad you started?",
+      "Is there any evidence that rocking a toddler to sleep is bad? At any age?",
+      "At what age did your ADHD kid stop needing to be put to bed?",
+      "Bedtime struggle - 3 yr old",
+      "Is melatonin a game changer? My 4.5 yr old took it for the first time and WOW... he is asleep by 9. Is this typical? Sustainable?"
+     ],
+     "example_searches": [
+      "2 year old keeps getting out of bed",
+      "3 year old keeps getting out of bed",
+      "4 year old keeps getting out of bed",
+      "7 year old keeps getting out of bed",
+      "how to deal with a baby who fights sleep",
+      "how to get my toddler to calm down at bedtime",
+      "how to stop my baby from fighting sleep",
+      "how to stop my child from installing apps on android",
+      "my 3 year old won't go to bed",
+      "my 3 year old won't go to bed at night",
+      "my 3 year old won't stay in bed",
+      "my 3 year old won't stay in bed at night"
+     ]
+    },
+    "Naps": {
+     "score": 51.6,
+     "reddit_posts": 12,
+     "help_posts": 4,
+     "google_searches": 94,
+     "subreddits": 7,
+     "trend": 0.5,
+     "ages": {
+      "1-3 years": 28,
+      "3-5 years": 22,
+      "0-12 months": 16,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Is *not* contact napping worse for development, regulation, attachment, etc?",
+      "Nap Help for SAHM of 2",
+      "at what age did your kid drop their nap?",
+      "Do you just do nothing on the weekends?"
+     ],
+     "example_searches": [
+      "2 5 year old refuses to nap",
+      "2 year old refuses to nap",
+      "3 month old refuses to nap",
+      "3 month old refuses to nap in crib",
+      "3 year old doesn t want to nap",
+      "3 year old doesn t want to nap anymore",
+      "3 year old refuses to nap",
+      "3 year old refuses to nap at daycare",
+      "3 year old refuses to nap at home",
+      "3 year old refuses to nap but is tired",
+      "3 year old refuses to nap reddit",
+      "3 year old toddler refuses to nap"
+     ]
+    },
+    "Night waking": {
+     "score": 49.1,
+     "reddit_posts": 35,
+     "help_posts": 8,
+     "google_searches": 68,
+     "subreddits": 12,
+     "trend": 0.4,
+     "ages": {
+      "1-3 years": 36,
+      "3-5 years": 33,
+      "0-12 months": 12,
+      "6-12 years": 8
+     },
+     "example_posts": [
+      "Waking up at 2am just to peacefully practice her words?",
+      "At what age is bedsharing safe(er)?",
+      "Help - No Cry Sleep Training 12 Months",
+      "Toddler Sleep Help",
+      "How do people do this with 9-5s and more than one kid?",
+      "I’m worried this chronic sleep deprivation has permanently damaged my health",
+      "Those who did NOT sleep train — what eventually happened?",
+      "4YO wakes up from naps or early bedtimes crying and can’t be consoled for 15-30mins. Happens 90% of the time, is it normal?"
+     ],
+     "example_searches": [
+      "10 year old keeps waking up at night",
+      "2 year old keeps waking up at night",
+      "2 year old keeps waking up at night crying",
+      "2 year old keeps waking up crying",
+      "3 year old keeps waking up at night",
+      "4 year old keeps waking up at night",
+      "5 year old keeps waking up at night",
+      "7 year old keeps waking up at night",
+      "how to get my 2 year old to sleep through the night",
+      "how to get my 3 year old to sleep through the night",
+      "how to get my 4 year old to sleep through the night",
+      "how to get my 5 year old to sleep through the night"
+     ]
+    },
+    "Sleeping alone / leaving our bed": {
+     "score": 48.5,
+     "reddit_posts": 30,
+     "help_posts": 16,
+     "google_searches": 74,
+     "subreddits": 8,
+     "trend": 0.33,
+     "ages": {
+      "3-5 years": 36,
+      "6-12 years": 33,
+      "0-12 months": 15,
+      "1-3 years": 15,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Adults like to sleep next to somebody. So why is there so much pressure for children to sleep alone?",
+      "Co-sleeping confusion: What does science say VS. what is your opinion?",
+      "Is it okay to leave a 7 month old in bed for 30min on their own?",
+      "Anyone who DIDN’T bed share?",
+      "Cosleeping with 12 month old - need tips",
+      "When does bedsharing become reasonably safe?",
+      "How dangerous is it actually to fall asleep while holding a baby?",
+      "Mom lies back on couch and “closes eyes” while newborn is on her stomach/chest. Is this safe?"
+     ],
+     "example_searches": [
+      "10 year old refuses to sleep alone",
+      "2 year old refuses to sleep alone",
+      "3 year old refuses to sleep alone",
+      "3 year old refuses to sleep in own bed",
+      "3 year old refuses to sleep in own room",
+      "5 year old refuses to sleep alone",
+      "5 year old refuses to sleep in own bed",
+      "7 year old refuses to sleep in own bed",
+      "8 month old refuses to sleep alone",
+      "8 year old doesn t want to sleep alone",
+      "8 year old doesn't want to sleep alone",
+      "8 year old refuses to sleep alone"
+     ]
+    },
+    "Baby sleep & regressions": {
+     "score": 33.1,
+     "reddit_posts": 16,
+     "help_posts": 5,
+     "google_searches": 53,
+     "subreddits": 7,
+     "trend": 0.69,
+     "ages": {
+      "0-12 months": 30,
+      "1-3 years": 6
+     },
+     "example_posts": [
+      "Night nurse/doula told me I should wake her up for feeds?",
+      "Tips on sleep and pain (10mo)",
+      "Is husband wrong for trying to discipline our 7 m/o?",
+      "Sleep with rubber duck?",
+      "Breastfeeding sleep association -- how bad can it be really?"
+     ],
+     "example_searches": [
+      "3 month old refuses to nap in crib",
+      "5 month old refuses to nap in crib",
+      "5 month old refuses to sleep in crib",
+      "8 month old doesn t want to sleep in crib",
+      "8 month old refuses crib",
+      "8 month old refuses to nap in crib",
+      "8 month old refuses to sleep in crib",
+      "8 month old suddenly refusing to sleep in crib",
+      "8 month old won t transfer to crib",
+      "baby doesn t want to sleep in bassinet",
+      "baby doesn t want to sleep in crib",
+      "baby refuses to be swaddled"
+     ]
+    },
+    "Early waking": {
+     "score": 6.8,
+     "reddit_posts": 7,
+     "help_posts": 2,
+     "google_searches": 9,
+     "subreddits": 5,
+     "trend": 0.71,
+     "ages": {
+      "3-5 years": 6,
+      "1-3 years": 3,
+      "6-12 years": 2,
+      "0-12 months": 1
+     },
+     "example_posts": [
+      "Kiddo who wakes up before 5am every day - am I wrong?",
+      "How reasonable is 6am daily wake up for 5yo?"
+     ],
+     "example_searches": [
+      "how to get my 3 year old to stop waking up at 5am",
+      "how to stop my 3 year old from waking up at 5am",
+      "how to stop my 5 year old from waking up at 5am",
+      "how to stop my baby from waking up at 4am",
+      "how to stop my baby from waking up at 5am",
+      "how to stop my child from waking up at 5am",
+      "how to stop my toddler from waking up at 5am",
+      "toddler keeps waking up at 5am",
+      "why does my baby wake up at 5am"
+     ]
+    }
+   }
+  },
+  "Eating & feeding": {
+   "score": 223.3,
+   "reddit_posts": 113,
+   "google_searches": 344,
+   "subcategories": {
+    "Picky eating": {
+     "score": 99.4,
+     "reddit_posts": 41,
+     "help_posts": 19,
+     "google_searches": 164,
+     "subreddits": 10,
+     "trend": 0.51,
+     "ages": {
+      "3-5 years": 65,
+      "1-3 years": 53,
+      "6-12 years": 21,
+      "0-12 months": 11,
+      "13-18 years": 10
+     },
+     "example_posts": [
+      "Any other parents who have thrown out clean eating in the name of their child just eating?",
+      "How do i deal with a picky eater who seems to catch everything?",
+      "Does anyone else have \"Meal Decision Fatigue\"? I feel like I'm just rotating the same 3 beige foods. 🫠",
+      "Why doesn't my child require calories to survive?",
+      "How do kids even grow when they're basically constantly fed against their will?",
+      "What vegetables does your preschooler eat?",
+      "What age did you start vitamins for your kids?",
+      "Has anyone tried the \"if you don't eat it fine, but this is all there is\" approach?"
+     ],
+     "example_searches": [
+      "10 year old refuses to eat",
+      "2 year old refuses to eat",
+      "2 year old refuses to eat anything",
+      "2 year old refuses to eat meat",
+      "3 year old refuses to eat",
+      "3 year old refuses to eat anything",
+      "3 year old refuses to eat anything new",
+      "3 year old refuses to eat breakfast",
+      "3 year old refuses to eat dinner",
+      "3 year old refuses to eat dinner every night",
+      "3 year old refuses to eat fruit and vegetables",
+      "3 year old refuses to eat meals"
+     ]
+    },
+    "Breastfeeding, bottles & formula": {
+     "score": 96.7,
+     "reddit_posts": 41,
+     "help_posts": 21,
+     "google_searches": 161,
+     "subreddits": 5,
+     "trend": 0.46,
+     "ages": {
+      "0-12 months": 58,
+      "1-3 years": 11,
+      "3-5 years": 5
+     },
+     "example_posts": [
+      "Why is it recommended to breastfeed up to 2 years or beyond?",
+      "Are there studies that support a target of breastfeeding for two years?",
+      "Why does prolactin peak in the middle of the night?",
+      "Is “tongue tie” fake? Idk who’s right or wrong, but it saved us thousands in procedure bills…",
+      "Any negative to producing breast milk for a long time?",
+      "Is it true that what we eat (for example spicy food, beans, garlic, milk) does not directly affect breastfed baby, as milk is made from blood, not from food that moms consume?",
+      "Lack of periods whilst breastfeeding- improved fertility as you age?",
+      "Who else thinks 99% of PPD is caused by breastfeeding issues? Usually expectations vs. reality"
+     ],
+     "example_searches": [
+      "3 month old refuses to breastfeed",
+      "3 month old refuses to latch",
+      "3 year old refuses to stop breastfeeding",
+      "5 month old refuses to breastfeed",
+      "5 month old refusing morning bottle",
+      "5 month old refusing to finish bottle",
+      "5 month old refusing to latch",
+      "5 month old refusing to take bottle",
+      "8 month old doesn t want to finish bottle",
+      "8 month old doesn't want to hold bottle",
+      "8 month old refuses formula",
+      "8 month old refuses to breastfeed"
+     ]
+    },
+    "Starting solids & baby-led weaning": {
+     "score": 15.4,
+     "reddit_posts": 12,
+     "help_posts": 5,
+     "google_searches": 20,
+     "subreddits": 4,
+     "trend": 0.58,
+     "ages": {
+      "0-12 months": 15,
+      "1-3 years": 6
+     },
+     "example_posts": [
+      "Why are European countries not worried about iron rich foods?",
+      "\"By age one, solid foods should be the main source of nutrition.\" \"Until age one, breastmilk or formula should be the main source of nutrition.\" Which is it?",
+      "A colleague told me their 3 year old is currently only having milk and hasn’t started on solids yet, how to approach the conversation?",
+      "Any leeway in “food is just for fun until the age of 1”?",
+      "Limiting treats completely vs early introduction. Is there any research on this?"
+     ],
+     "example_searches": [
+      "5 month old refusing milk but eating solids",
+      "8 month old doesnt want to eat solids",
+      "8 month old refuses purees",
+      "8 month old refuses to eat solids",
+      "8 month old refusing milk and solids",
+      "8 month old refusing milk but eating solids",
+      "baby refuses milk after starting solids",
+      "baby refuses to eat solids",
+      "baby refuses to open mouth for solids",
+      "baby refusing veg puree",
+      "how to get my baby to eat more solids",
+      "how to get my baby to eat solids"
+     ]
+    },
+    "Mealtime behavior": {
+     "score": 11.8,
+     "reddit_posts": 19,
+     "help_posts": 9,
+     "google_searches": 7,
+     "subreddits": 8,
+     "trend": 0.84,
+     "ages": {
+      "1-3 years": 11,
+      "0-12 months": 5,
+      "3-5 years": 5,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      "First time parents needing advice :(",
+      "How can I get my baby brother to eat?",
+      "How to handle temper tantrums during food prep",
+      "Is there a science-based reason to avoid regular cake for a first birthday as a one time special treat?",
+      "How to improve slowwww eating in a toddler. Not picky eating.",
+      "Whole milk after two?",
+      "How do people have the mental capacity to feed a child 5x a day?",
+      "Any tips to get your kids to sit and eat dinner?"
+     ],
+     "example_searches": [
+      "how to get my toddler to stop throwing food",
+      "how to stop a baby from throwing food",
+      "how to stop a toddler from throwing food",
+      "how to stop my baby from throwing food",
+      "how to stop my baby from throwing food on the floor",
+      "how to stop my toddler from throwing food",
+      "how to stop my toddler from throwing food on the floor"
+     ]
+    }
+   }
+  },
+  "Potty & toileting": {
+   "score": 83.3,
+   "reddit_posts": 61,
+   "google_searches": 123,
+   "subcategories": {
+    "Poop withholding & accidents": {
+     "score": 36.8,
+     "reddit_posts": 28,
+     "help_posts": 9,
+     "google_searches": 55,
+     "subreddits": 11,
+     "trend": 0.36,
+     "ages": {
+      "3-5 years": 45,
+      "1-3 years": 16,
+      "6-12 years": 8,
+      "13-18 years": 3
+     },
+     "example_posts": [
+      "Is this how preschool teachers handle this in the U.S. ?",
+      "How can I look either of them in the face again?",
+      "Why does my 14yr/ son have poop stains in most of his underwear?",
+      "Help before we get kicked out of preschool",
+      "His bathroom trips have become a whole event lately?",
+      "How do I get my 7 year old stepson to care about pooping his pants?",
+      "Will my 4 1/2 year old daughter ever get tired of pooping herself?",
+      "3yo severe poop withholding. We’ve tried EVERYTHING. Facing a hospital cleanout and at our wit’s end. Please help."
+     ],
+     "example_searches": [
+      "3 year old keeps having accidents",
+      "3 year old refuses to poop",
+      "3 year old refuses to poop in potty",
+      "3 year old refuses to poop in toilet",
+      "3 year old refuses to poop on potty",
+      "3 year old refuses to poop on potty reddit",
+      "3 year old refuses to poop on toilet",
+      "4 year old keeps having accidents",
+      "4 year old refuses to poop",
+      "4 year old refuses to poop in toilet",
+      "4 year old refuses to poop on potty",
+      "5 year old keeps having accidents"
+     ]
+    },
+    "Potty training": {
+     "score": 32.1,
+     "reddit_posts": 22,
+     "help_posts": 9,
+     "google_searches": 48,
+     "subreddits": 7,
+     "trend": 0.64,
+     "ages": {
+      "3-5 years": 36,
+      "1-3 years": 19,
+      "6-12 years": 4
+     },
+     "example_posts": [
+      "Is there data that early potty training has negative impacts?",
+      "Why is potty training delayed so late ?",
+      "Butt wiping. What is a realistic timeline of progress?",
+      "How did older generations potty train??",
+      "21 month-old potty training - it’s working, but is it worth it?",
+      "“Why is he STILL wearing a diaper”?",
+      "Urgent wiping help",
+      "How did you teach your toddler girl to wipe from front to back?"
+     ],
+     "example_searches": [
+      "10 year old refuses to wear underwear",
+      "3 year old doesn't want to be potty trained",
+      "3 year old refuses to be potty trained",
+      "3 year old refuses to potty train",
+      "3 year old refuses to potty train reddit",
+      "3 year old refuses to toilet train",
+      "3 year old refuses to wear underwear",
+      "3 year old toddler refuses to potty train",
+      "4 year old refuses to potty train",
+      "5 year old refuses to potty train",
+      "5 year old refuses to wear underwear",
+      "8 year old refuses to wear underwear"
+     ]
+    },
+    "Bedwetting & night dryness": {
+     "score": 13.9,
+     "reddit_posts": 9,
+     "help_posts": 5,
+     "google_searches": 21,
+     "subreddits": 5,
+     "trend": 0.56,
+     "ages": {
+      "6-12 years": 13,
+      "3-5 years": 9,
+      "13-18 years": 5,
+      "1-3 years": 1
+     },
+     "example_posts": [
+      "Is it appropriate to night time potty train my 5-year-old?",
+      "ATA?- my fiancé requires full clothes all the time",
+      "Friend’s 10yr old sleeps over and wets beds..advice?",
+      "How do I tell my mom that i acidentally wet the bed at 13 yrs old?",
+      "Younger sister still wearing diapers?"
+     ],
+     "example_searches": [
+      "how to get my 5 year old to not wet the bed",
+      "how to stop my 3 year old from bedwetting",
+      "how to stop my 5 year old from bed wetting",
+      "how to stop my 5 year old stop bedwetting",
+      "how to stop my 7 year old from bed wetting",
+      "how to stop my 8 year old from bedwetting",
+      "how to stop my child from bed wetting",
+      "how to stop my toddler from bed wetting",
+      "is it normal for a 10 year old to wet the bed",
+      "is it normal for a 5 year old to wet the bed",
+      "is it normal for a 7 year old to wet the bed",
+      "my 5 year old wets the bed every night"
+     ]
+    },
+    "Potty regression": {
+     "score": 0.5,
+     "reddit_posts": 2,
+     "help_posts": 0,
+     "google_searches": 0,
+     "subreddits": 2,
+     "trend": 0.5,
+     "ages": {
+      "3-5 years": 2
+     },
+     "example_posts": [
+      "I can’t take it anymore and I’m gonna lose it…",
+      "Completely failed potty training 4y/o"
+     ],
+     "example_searches": []
+    }
+   }
+  },
+  "Anxiety & emotional health": {
+   "score": 82.2,
+   "reddit_posts": 174,
+   "google_searches": 23,
+   "subcategories": {
+    "Child anxiety & fears": {
+     "score": 29.6,
+     "reddit_posts": 70,
+     "help_posts": 25,
+     "google_searches": 8,
+     "subreddits": 14,
+     "trend": 0.54,
+     "ages": {
+      "3-5 years": 34,
+      "6-12 years": 22,
+      "1-3 years": 9,
+      "0-12 months": 4,
+      "13-18 years": 2
+     },
+     "example_posts": [
+      "How would frequent loud and sudden scary noises affect an infant?",
+      "AIO? 9/11",
+      "Best location on car?",
+      "My 4 year old witnessed a bad motorcycle accident. Seeking on advice in helping him.",
+      "My about to turn 5 year old daughter's favourite song mentions the word \"suicide\". If she asks me what that word means, what is an age appropriate way to explain it?",
+      "3 years old is a nightmare at the swimming lessons. How to encourage her to follow the instructions?",
+      "First time flying, advice?",
+      "How would you help support a 4 yo m who witnessed a bad motorcycle accident?"
+     ],
+     "example_searches": [
+      "how to deal with a baby who has separation anxiety",
+      "how to deal with a child who is scared of everything",
+      "how to help my 8 year old with anxiety",
+      "my teenager won t go to school because of anxiety",
+      "nothing helps with my anxiety",
+      "what do 8 year olds worry about",
+      "why is my 5 year old scared of everything",
+      "why is my 8 year old scared of everything"
+     ]
+    },
+    "Kids' mental health & therapy": {
+     "score": 25.7,
+     "reddit_posts": 51,
+     "help_posts": 24,
+     "google_searches": 6,
+     "subreddits": 10,
+     "trend": 0.45,
+     "ages": {
+      "3-5 years": 16,
+      "13-18 years": 15,
+      "6-12 years": 14,
+      "1-3 years": 5,
+      "0-12 months": 1
+     },
+     "example_posts": [
+      "Does anyone else suffer from the fear of your child becoming suicidal and depressed one day?",
+      "HELP dealing with reaction to a bereavement",
+      "4 year old's friend just died - how do I handle this?",
+      "Omg my 14 year Old Son is an actual psychopath like really?",
+      "How do I tell my 5 year old about the death of her 9 year old cousin?",
+      "My ADHD son carries extreme guilt over his brother’s vision issues… how do I help him heal?",
+      "So what do we actually do about Rejection Sensitivity Disorder?",
+      "My 18yo says he \"hates\" us for bringing him into this world, idk how to respond"
+     ],
+     "example_searches": [
+      "child refuses reunification therapy",
+      "nothing helps with my depression",
+      "nothing works for my depression",
+      "teen refuses mental health treatment",
+      "teen refuses to take antidepressant",
+      "what to do if your teenager is depressed"
+     ]
+    },
+    "Separation anxiety": {
+     "score": 13.7,
+     "reddit_posts": 27,
+     "help_posts": 12,
+     "google_searches": 3,
+     "subreddits": 9,
+     "trend": 0.67,
+     "ages": {
+      "0-12 months": 11,
+      "3-5 years": 6,
+      "1-3 years": 5,
+      "6-12 years": 5
+     },
+     "example_posts": [
+      "Alone time?",
+      "My 2-year-old is crying nonstop at daycare. What should I do?",
+      "We made a simple little box to help our child with goodbyes… and it accidentally worked",
+      "Pediatricians/Baby Experts: At what age “can” a baby separate from his mother for a long period of time?",
+      "Stranger danger at 3 months old?",
+      "Anyone else with a velcro kid?",
+      "Why does baby start crying when I pick her up from daycare/babysitting?",
+      "How much damage can hysterical crying due to separation from main caregiver do ?"
+     ],
+     "example_searches": [
+      "how to deal with a baby who has separation anxiety",
+      "my 8 year old is very clingy",
+      "my toddler won't let me leave the room at bedtime"
+     ]
+    },
+    "Self-esteem & confidence": {
+     "score": 13.2,
+     "reddit_posts": 26,
+     "help_posts": 11,
+     "google_searches": 7,
+     "subreddits": 8,
+     "trend": 0.46,
+     "ages": {
+      "3-5 years": 15,
+      "6-12 years": 10,
+      "13-18 years": 3,
+      "1-3 years": 2
+     },
+     "example_posts": [
+      "How to teach a child a bit of resilience?",
+      "5yo drew this, kinda broke my heart. Am I overthinking it?",
+      "How to help avoidant son?",
+      "How do you deal with a 3-year-old starting to compare what they have with what other kids have?",
+      "My daughter uses silicone to make her nose look smaller... Should I do something?",
+      "My 8 year old cried about her body today?",
+      "I need something for my 11 year old to be good at",
+      "How to develop a child’s self-esteem"
+     ],
+     "example_searches": [
+      "get your kids to listen without nagging yelling or losing control",
+      "how to stop a baby from losing hair",
+      "how to stop my baby from losing hair",
+      "my 10 year old won t eat and is losing weight",
+      "my 3 year old won t eat and is losing weight",
+      "my 5 year old won t eat and is losing weight",
+      "my 8 year old won t eat and is losing weight"
+     ]
+    }
+   }
+  },
+  "School & learning": {
+   "score": 68.9,
+   "reddit_posts": 142,
+   "google_searches": 25,
+   "subcategories": {
+    "Behavior at school & daycare": {
+     "score": 28.6,
+     "reddit_posts": 67,
+     "help_posts": 16,
+     "google_searches": 8,
+     "subreddits": 9,
+     "trend": 0.42,
+     "ages": {
+      "3-5 years": 26,
+      "6-12 years": 23,
+      "1-3 years": 8,
+      "0-12 months": 3,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Does it break anyone else’s heart?",
+      "How to respond to teachers/ classmates without sounding rude or just upset. Because I'm tired of trying to explain myself and my son.",
+      "Encouraging \"good\" behaviors at preschool?",
+      "Is anyone else’s child becoming a scapegoat?",
+      "4.5yo kicked out of daycare for behavior, how to tell him?",
+      "What do I do with my kid?",
+      "We need to talk about how teachers are treating autistic kids online.",
+      "Where is the line between discipline and understanding with ADHD?"
+     ],
+     "example_searches": [
+      "how do i stop my child from copying bad behavior in school",
+      "how to get my child a 504 plan",
+      "how to get my child an iep",
+      "how to get my child iep",
+      "how to get my child in iep",
+      "how to get my child on a 504 plan",
+      "how to get my child on an iep",
+      "my 5 year old got suspended from school"
+     ]
+    },
+    "Homework & grades": {
+     "score": 15.8,
+     "reddit_posts": 24,
+     "help_posts": 10,
+     "google_searches": 11,
+     "subreddits": 7,
+     "trend": 0.5,
+     "ages": {
+      "6-12 years": 19,
+      "13-18 years": 7,
+      "3-5 years": 4,
+      "1-3 years": 1
+     },
+     "example_posts": [
+      "ADHD kids just need a win.",
+      "Is this much homework normal for a 4-year-old?",
+      "What to do with a kid who seems to have given up on everything?",
+      "My son is really struggling at school",
+      "We Need to Talk About the Homework",
+      "How are your kids standing out for university admissions today?",
+      "Does this look like standard 2nd grade work?",
+      "Is an IEP really helpful?"
+     ],
+     "example_searches": [
+      "10 year old refuses to do homework",
+      "5 year old doesn't want to do.homework",
+      "5 year old refuses to do homework",
+      "7 year old refuses to do homework",
+      "8 year old doesn t want to do homework",
+      "8 year old refuses to do homework",
+      "child refuses to do homework",
+      "my son won t do his homework",
+      "my teen sim doesn t have homework",
+      "teen refuses to do homework",
+      "teenager refuses to do homework"
+     ]
+    },
+    "Starting daycare, preschool & kindergarten": {
+     "score": 9.4,
+     "reddit_posts": 17,
+     "help_posts": 8,
+     "google_searches": 2,
+     "subreddits": 8,
+     "trend": 0.65,
+     "ages": {
+      "3-5 years": 7,
+      "1-3 years": 6,
+      "6-12 years": 3,
+      "0-12 months": 2
+     },
+     "example_posts": [
+      "Help. Just... help.",
+      "father from China looking for advice about my autistic son’s future",
+      "Help me stop my kindergarten teacher from showing AI slop to the children",
+      "Do babies get a stronger immune system if in daycare and exposed to germs vs the ones who wait until preschool?",
+      "Is there a 'best age' to put kids in daycare specifically for socialisation?",
+      "My son is going to be 4 this summer. Is there actual, scientific-backed benefits of sending him to preschool?",
+      "We started preschool. It changed my child for the worse. HELP.",
+      "Ideal age to start daycare?"
+     ],
+     "example_searches": [
+      "5 year old doesn t want to go to kindergarten",
+      "toddler refusing kindergarten"
+     ]
+    },
+    "School refusal & school anxiety": {
+     "score": 8.2,
+     "reddit_posts": 21,
+     "help_posts": 12,
+     "google_searches": 0,
+     "subreddits": 8,
+     "trend": 0.62,
+     "ages": {
+      "6-12 years": 9,
+      "3-5 years": 7,
+      "1-3 years": 2,
+      "13-18 years": 2
+     },
+     "example_posts": [
+      "Logical consequences?",
+      "5yo won't stop crying at drop off",
+      "Do you let your kid [11] skip a field trip?",
+      "Struggling after today’s incident at my son’s preschool. Feeling jealous of NT kids and ashamed of myself.",
+      "Letting kid skip school for a concert, how to handle the school?",
+      "School refusal and safety concerns from 11 year old - at a loss",
+      "Can someone tell me it gets better?",
+      "Should I pull my daughter out of preschool?"
+     ],
+     "example_searches": []
+    },
+    "Reading & learning": {
+     "score": 6.9,
+     "reddit_posts": 13,
+     "help_posts": 7,
+     "google_searches": 4,
+     "subreddits": 5,
+     "trend": 0.46,
+     "ages": {
+      "3-5 years": 8,
+      "6-12 years": 8
+     },
+     "example_posts": [
+      "Does this look intense for pre-k?",
+      "are you teaching your kids phonics so they have a better chance of being well read?",
+      "I'm Teaching My Little Brother to Read, but Nothing Seems to Work, what do i change?",
+      "What are some ways to instil a growth mindset in a possibly gifted child?",
+      "How do you motivate yout child to read books?",
+      "Kid writing on his own - should we be correcting spelling…?",
+      "How can they practice reading without learning to hate it?"
+     ],
+     "example_searches": [
+      "5 year old refuses to learn to read",
+      "8 year old not reading",
+      "how to get my 8 year old to enjoy reading",
+      "how to get my 8 year old to love reading"
+     ]
+    }
+   }
+  },
+  "Development & neurodivergence": {
+   "score": 65.8,
+   "reddit_posts": 110,
+   "google_searches": 47,
+   "subcategories": {
+    "ADHD, focus & executive function": {
+     "score": 18.5,
+     "reddit_posts": 23,
+     "help_posts": 12,
+     "google_searches": 18,
+     "subreddits": 5,
+     "trend": 0.43,
+     "ages": {
+      "6-12 years": 15,
+      "3-5 years": 8,
+      "13-18 years": 8,
+      "1-3 years": 1
+     },
+     "example_posts": [
+      "Does anyone not medicate? My preteen has been pretending that she takes her meds...",
+      "How to teach executive functioning skills?",
+      "How to help my 6 year old focus better",
+      "Coparenting - best practices?",
+      "What worked to get your kid active?",
+      "Play dates give me anxiety and I need help getting over it please",
+      "So... if sticker charts don't work then... what?",
+      "How do you teach a kid to let that shit go?"
+     ],
+     "example_searches": [
+      "has my 3 year old got adhd",
+      "has my 5 year old got adhd",
+      "has my teenager got adhd",
+      "has my toddler got adhd",
+      "how do i stop yelling at my adhd child",
+      "how to deal with a 7 year old girl with adhd",
+      "how to deal with a child who has adhd",
+      "how to get my 5 year old to focus",
+      "how to get my 5 year old to focus in school",
+      "how to get my child adhd diagnosed",
+      "how to get my child adhd tested",
+      "how to get my child assessed for adhd"
+     ]
+    },
+    "Sensory & overstimulation": {
+     "score": 16.0,
+     "reddit_posts": 26,
+     "help_posts": 12,
+     "google_searches": 13,
+     "subreddits": 9,
+     "trend": 0.54,
+     "ages": {
+      "3-5 years": 12,
+      "1-3 years": 8,
+      "6-12 years": 8,
+      "0-12 months": 3,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Are light up, noisy toys predisposing babies to dopamine addiction?",
+      "Anyone else trying to gentle parent an intense sensory seeker?",
+      "What do you do when your kid needs to calm down but won’t be touched?",
+      "My 4yr old is struggling 🥺",
+      "Really struggling - highly sensitive, reactive, almost four year old",
+      "Interoceptice awareness?",
+      "Is it damaging in the short or long term to chronically overstimulate a baby with constant entertainment?",
+      "Anyone else’s kid go “beyond” lining up toys?"
+     ],
+     "example_searches": [
+      "my 3 year old covers his ears with loud noises",
+      "my 8 year old doesn t like loud noises",
+      "why does my 3 year old make grunting noises",
+      "why does my 3 year old make noises but not talk",
+      "why does my 3 year old make weird noises",
+      "why does my 3 year old not like loud noises",
+      "why does my 5 year old constantly make noises",
+      "why does my 5 year old make weird noises",
+      "why does my 8 year old constantly make noises",
+      "why does my 8 year old make random noises",
+      "why does my baby make a gasping noise",
+      "why does my toddler make noises while eating"
+     ]
+    },
+    "Autism": {
+     "score": 13.6,
+     "reddit_posts": 18,
+     "help_posts": 5,
+     "google_searches": 14,
+     "subreddits": 8,
+     "trend": 0.56,
+     "ages": {
+      "3-5 years": 10,
+      "1-3 years": 4,
+      "13-18 years": 3,
+      "6-12 years": 2
+     },
+     "example_posts": [
+      "At a loss for how to respond to stepsons black & white thinking?",
+      "If you had a 17yo autistic child and they were crying in public, would you hug them?",
+      "Does anyone else have a kid in the in-between gap?",
+      "Does high-functioning autism get worse as kids get older?",
+      "I just need to hear positive stories…"
+     ],
+     "example_searches": [
+      "how to get my autistic child to eat",
+      "how to get my autistic child to sleep",
+      "how to stop my 3 year old autistic son from biting",
+      "how to stop my autistic child from eloping",
+      "how to stop my autistic child from hitting",
+      "how to stop my autistic child from hitting himself",
+      "how to stop my autistic child from hitting me",
+      "how to stop my autistic child from jumping",
+      "how to stop my autistic child from screaming",
+      "how to stop my child from vocal stimming",
+      "my 5 year old autistic",
+      "my 5 year old was just diagnosed with autism"
+     ]
+    },
+    "Milestones & delays": {
+     "score": 10.4,
+     "reddit_posts": 27,
+     "help_posts": 10,
+     "google_searches": 0,
+     "subreddits": 11,
+     "trend": 0.59,
+     "ages": {
+      "0-12 months": 10,
+      "3-5 years": 7,
+      "1-3 years": 3,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Do any of your kids struggle with gratitude as badly as mine?",
+      "What should I have done?",
+      "13+ months old boy with development concerns",
+      "Do you need to “teach” developmental milestones?",
+      "Is Limited Exposure to People and Places an Issue for Infants?",
+      "How Do I Parent 17F With An IQ Of 61.5?",
+      "Babywearing — tummy time or container time?",
+      "Do I talk to my friends about possible developmental delay with their baby?"
+     ],
+     "example_searches": []
+    },
+    "Speech & language delay": {
+     "score": 7.3,
+     "reddit_posts": 16,
+     "help_posts": 7,
+     "google_searches": 2,
+     "subreddits": 6,
+     "trend": 0.69,
+     "ages": {
+      "3-5 years": 6,
+      "1-3 years": 5,
+      "0-12 months": 3,
+      "6-12 years": 2
+     },
+     "example_posts": [
+      "preschool struggles 4yo",
+      "Does my baby really know who I am?",
+      "Delays and gender — are the boys okay?",
+      "Is it better to “let them be” or to name things during play for language development?",
+      "Can absence of conversation at home adversely impact speech development in babies?",
+      "Parents of Kids With Speech/Developmental Delays—How Are They Doing Now?",
+      "3.5 year old constantly asking \"what?\""
+     ],
+     "example_searches": [
+      "my 3 year old not talking properly",
+      "my son won the first prize in speech competition"
+     ]
+    }
+   }
+  },
+  "Screens & technology": {
+   "score": 56.6,
+   "reddit_posts": 78,
+   "google_searches": 36,
+   "subcategories": {
+    "Screen time limits & meltdowns": {
+     "score": 35.6,
+     "reddit_posts": 64,
+     "help_posts": 26,
+     "google_searches": 11,
+     "subreddits": 12,
+     "trend": 0.42,
+     "ages": {
+      "3-5 years": 16,
+      "0-12 months": 13,
+      "6-12 years": 13,
+      "1-3 years": 10,
+      "13-18 years": 2
+     },
+     "example_posts": [
+      "I'm bored. Can we go watch \"Is It Cake\" in the car?",
+      "Trying not to be judgemental but is the world going crazy or am I? Screen time rant",
+      "Is there an age where my child will start to miss out on benefits if we continue to keep him screen free?",
+      "Ending screen time without it turning into a power struggle, what’s actually worked for you?",
+      "My kid wants the iPhone 17 after just getting the 16 Pro a few months ago. How do I say no without being \"the worst parent ever\"?",
+      "Adult TV around kids. When to stop?",
+      "Do toddlers actually need some cartoons/child-appropriate shows for development?",
+      "Is everyone lying about the amount of screen time they allow their toddler or am I just a bad mom? 😔"
+     ],
+     "example_searches": [
+      "how to block my child from youtube",
+      "how to stop my child accessing youtube",
+      "how to stop my child from commenting on youtube",
+      "how to stop my child from downloading apps on amazon fire tablet",
+      "how to stop my child from watching youtube",
+      "how to stop my child watching certain videos on youtube",
+      "how to turn off my child's ipad from my phone",
+      "my child's ipad won t connect to wifi",
+      "my child's ipad won t download apps",
+      "my child's ipad won t share location",
+      "teen refuses to wear sunscreen"
+     ]
+    },
+    "Phones & social media": {
+     "score": 11.4,
+     "reddit_posts": 7,
+     "help_posts": 4,
+     "google_searches": 15,
+     "subreddits": 4,
+     "trend": 0.14,
+     "ages": {
+      "6-12 years": 4,
+      "13-18 years": 3
+     },
+     "example_posts": [
+      "12 year old looking up hardcore and very inappropriate porn topics. How to handle this? Is it normal?",
+      "Went through my 11 y.o.’s phone this morning - how to proceed?",
+      "How do I get my 14yr old son to stop looking up nudes or inappropriate stuff on his school laptop?",
+      "Found 11yo son watching porn, what is a good sex ed to help reinforce normal understanding of sex?"
+     ],
+     "example_searches": [
+      "child refuses to hand over phone",
+      "how to block my child from calling a number iphone",
+      "how to block my child from downloading apps on iphone",
+      "how to block my child from using snapchat",
+      "how to stop my child from deleting text messages iphone",
+      "how to stop my child from downloading apps on iphone",
+      "how to stop my child from turning off location on iphone",
+      "how to stop my child from using phone",
+      "how to stop my child from using snapchat",
+      "how to stop your child from turning off location on iphone",
+      "how to turn off my child's ipad from my phone",
+      "how to turn off my child's iphone remotely"
+     ]
+    },
+    "Gaming": {
+     "score": 9.6,
+     "reddit_posts": 7,
+     "help_posts": 4,
+     "google_searches": 11,
+     "subreddits": 6,
+     "trend": 0.43,
+     "ages": {
+      "6-12 years": 4,
+      "3-5 years": 1,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "Help! So much stress around video games and my 8 year old",
+      "Is “yart” a drug slang? I’m a single mother and I’m not ready for this",
+      "If your 10 year old child spent 4000 dollars (or your local currency) buying robux on the game roblox, how would you punish him?",
+      "What year to introduce video games?"
+     ],
+     "example_searches": [
+      "how to buy my child xbox game pass",
+      "how to get my child xbox game pass",
+      "how to make a child xbox account an adult account",
+      "how to make my child an xbox account",
+      "how to make my child's xbox account an adult account",
+      "how to make my son an xbox account",
+      "how to stop my child buying on xbox",
+      "how to stop my child from downloading roblox",
+      "how to stop my child from playing roblox",
+      "how to stop my son from playing roblox",
+      "my 5 year old just wants to play video games"
+     ]
+    }
+   }
+  },
+  "Teens & tweens": {
+   "score": 47.0,
+   "reddit_posts": 65,
+   "google_searches": 37,
+   "subcategories": {
+    "Risky behavior (vaping, alcohol, drugs)": {
+     "score": 14.0,
+     "reddit_posts": 7,
+     "help_posts": 4,
+     "google_searches": 23,
+     "subreddits": 4,
+     "trend": 0.86,
+     "ages": {
+      "13-18 years": 12,
+      "1-3 years": 6,
+      "3-5 years": 3,
+      "0-12 months": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      "How to deal with a 18yr old who sits in empty parking lots alone at night?",
+      "Son, 19, transported to ER twice now for being intoxicated at school. What to do?",
+      "How do I help my 15-year-old son who thinks he is ugly and wants grey-market hormones/steroids?",
+      "Should I tell a fellow parent that their kid has a vape?"
+     ],
+     "example_searches": [
+      "how to deal with a teenager who is vaping",
+      "how to stop a baby from drinking milk",
+      "how to stop a baby from drinking milk at night",
+      "how to stop a toddler from drinking milk",
+      "how to stop a toddler from drinking milk at night",
+      "how to stop my 3 year old from drinking from a bottle",
+      "how to stop my 3 year old from drinking milk at night",
+      "how to stop my baby from drinking milk at night",
+      "how to stop my baby from drinking too fast",
+      "how to stop my child from vaping",
+      "how to stop my daughter from vaping",
+      "how to stop my newborn from drinking too fast"
+     ]
+    },
+    "Independence, driving, jobs & money": {
+     "score": 11.3,
+     "reddit_posts": 23,
+     "help_posts": 17,
+     "google_searches": 0,
+     "subreddits": 5,
+     "trend": 0.43,
+     "ages": {
+      "13-18 years": 21,
+      "6-12 years": 2
+     },
+     "example_posts": [
+      "Allow 17yo to camp overnight with her boyfriend?",
+      "When did your ADHD teen finally start gaining independence and responsibility?",
+      "would you let your 15 yo daughter go to spain alone with her girl best friend for a weekend/a week ?",
+      "Would you be mad/sad if your kid didn't want you at their graduation?",
+      "Parents of teens: What's the new protocol on looking for a first job?",
+      "would you let your daughter go to this sleepover?",
+      "Would it be overprotective to stay nearby during my teen’s beach trip?",
+      "House rules caused my daughter to live with her dad?"
+     ],
+     "example_searches": []
+    },
+    "Dating, sex & puberty": {
+     "score": 9.8,
+     "reddit_posts": 15,
+     "help_posts": 5,
+     "google_searches": 7,
+     "subreddits": 6,
+     "trend": 0.4,
+     "ages": {
+      "6-12 years": 12,
+      "13-18 years": 9
+     },
+     "example_posts": [
+      "When parenting a teenage lesbian should the open door rule still apply?",
+      "My (45F) daughter (13F) has been talking to a boy (15M) in ways that aren’t age-appropriate and it’s getting out of control?",
+      "How do we address our teen son and his girlfriend making out in front of us?",
+      "My 14yo's partner ignores us completely - how do we handle this?",
+      "How would you respond (if at all)?"
+     ],
+     "example_searches": [
+      "is it normal for a 10 year old to get her period",
+      "is it normal for a 10 year old to start her period",
+      "is it normal for a 7 year old to get her period",
+      "my 10 year old got her first period",
+      "my 10 year old got her period",
+      "my 8 year old got her period",
+      "my son won t talk to me because of his girlfriend"
+     ]
+    },
+    "Teen withdrawal & communication": {
+     "score": 9.0,
+     "reddit_posts": 15,
+     "help_posts": 8,
+     "google_searches": 6,
+     "subreddits": 3,
+     "trend": 0.4,
+     "ages": {
+      "13-18 years": 17,
+      "6-12 years": 2
+     },
+     "example_posts": [
+      "How do you cope with teen moods when it’s just the two of you?",
+      "My 14yo son keeps talking about “Snarky Snappy” or “Woahjack Farty” or something and I’m genuinely concerned (heccin transphobic, uses weird slang)?",
+      "Dad here.. Just trying to figure out how to be a parent to a 13 year old girl.",
+      "How do I help my son get over his first real girlfriend? How do I stop feeling so horrible for him and sick? Why do I feel so sick? Is this a mom thing?",
+      "My son is turning 17 and he’s the most detached kid I’ve ever met, What do I even get him?",
+      "Does it get better? 13 year old daughter is so emotionally draining.",
+      "My 15-year-old son barely talks to me anymore, and I can't tell why",
+      "Advice: Sweet Little Girl turned to mean tween."
+     ],
+     "example_searches": [
+      "my son won't talk to me",
+      "my son wont talk to me reddit",
+      "my teen won't talk to me",
+      "my teenager won't talk to me",
+      "what to do when your teenager won't talk to you",
+      "why is my 8 year old so moody"
+     ]
+    },
+    "Teen phones & social media": {
+     "score": 2.9,
+     "reddit_posts": 5,
+     "help_posts": 3,
+     "google_searches": 1,
+     "subreddits": 4,
+     "trend": 0.4,
+     "ages": {
+      "13-18 years": 5,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      "“Strict parents make sneaky kids” — but what if your ADHD teen genuinely can’t self-regulate screens yet?",
+      "How to figure out if your kid has a secret phone?",
+      "Phone at bedtime?"
+     ],
+     "example_searches": [
+      "teen refuses to give up phone"
+     ]
+    }
+   }
+  },
+  "Friends & social life": {
+   "score": 44.3,
+   "reddit_posts": 90,
+   "google_searches": 9,
+   "subcategories": {
+    "Friendships & being left out": {
+     "score": 27.9,
+     "reddit_posts": 53,
+     "help_posts": 11,
+     "google_searches": 5,
+     "subreddits": 12,
+     "trend": 0.58,
+     "ages": {
+      "6-12 years": 22,
+      "3-5 years": 18,
+      "13-18 years": 6,
+      "1-3 years": 4,
+      "0-12 months": 1
+     },
+     "example_posts": [
+      "What should I do about the fact that my son’s best friend isn’t allowed to sleep over because we live in a “bad area”?",
+      "Shit. How do I break it to my daughter that she has to end a friendship?",
+      "Thoughts?",
+      "Anyone else have an ADHD kid who is the “floater friend”?",
+      "kid playdates turn into hosting the whole family?",
+      "Is suburban gatekeeping always this unhinged? Invited to join a private mom group, only to be removed for being \"too new\" the second I left the playdate.",
+      "Kid desperately wants a birthday party but has no friends, what would you do?",
+      "What if my kid is just kind of…unlikable?"
+     ],
+     "example_searches": [
+      "5 year old doesn't want to make friends",
+      "child refuses to make friends",
+      "my 5 year old doesn't know how to make friends",
+      "my 5 year old is mean to her friends",
+      "teenager unable to make friends"
+     ]
+    },
+    "Shyness & social skills": {
+     "score": 8.5,
+     "reddit_posts": 16,
+     "help_posts": 11,
+     "google_searches": 3,
+     "subreddits": 6,
+     "trend": 0.44,
+     "ages": {
+      "3-5 years": 11,
+      "6-12 years": 6,
+      "1-3 years": 1
+     },
+     "example_posts": [
+      "Do you stop your kids from playing with other kids in public?",
+      "Got this message from the teacher today. How can I help my 4.5 year old with the concept of personal space lol",
+      "Do you actively try to teach your kid how to navigate “playground politics”?",
+      "My kid has maybe one friend. Maybe none?",
+      "Advice for getting kid to play with others instead of just one friend",
+      "How do you teach your child to “read the room”?",
+      "What helped your AuDHD child with social issues?",
+      "Struggling socially?"
+     ],
+     "example_searches": [
+      "my 3 year old won t say his name",
+      "why does my 3 year old always say his tummy hurts",
+      "why does my 3 year olds urine smell fishy"
+     ]
+    },
+    "Bullying": {
+     "score": 7.9,
+     "reddit_posts": 21,
+     "help_posts": 7,
+     "google_searches": 1,
+     "subreddits": 8,
+     "trend": 0.52,
+     "ages": {
+      "6-12 years": 14,
+      "3-5 years": 5,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      "How do I keep nightmare neighborhood kids from harrassing my kids?",
+      "Are mean girls really a thing at this age?",
+      "Should I remove my kid from middle school?",
+      "How do I deal with my 10yo being a \"Mean Girl\" to a classmate?",
+      "How do I explain to my 5 year old the reason why he’s getting picked on? Also posted on r/toddlers",
+      "How do I explain to my 5 year old the reason why he’s getting picked on?",
+      "My 10yo was called “stupid” by his friend’s father, and I need to know if I handled it right."
+     ],
+     "example_searches": [
+      "how to stop my 5 year old from bullying"
+     ]
+    }
+   }
+  },
+  "Siblings & family life": {
+   "score": 29.1,
+   "reddit_posts": 56,
+   "google_searches": 10,
+   "subcategories": {
+    "Routines, mornings & chores": {
+     "score": 15.6,
+     "reddit_posts": 33,
+     "help_posts": 20,
+     "google_searches": 5,
+     "subreddits": 7,
+     "trend": 0.52,
+     "ages": {
+      "6-12 years": 17,
+      "13-18 years": 6,
+      "1-3 years": 5,
+      "3-5 years": 5
+     },
+     "example_posts": [
+      "Going out everyday with toddler?",
+      "Teaching her to clean her room - should I bother?",
+      "What chores are your kids doing?",
+      "Travel Sports: Son (10) asked about no summer vacay. Went on two sports trips. Response?",
+      "Do you parents teach your children/teens how to cook or clean?",
+      "Should I be Feeding my Son's 21 year-old Friend Every Night?",
+      "What do you do with kids’ friends who invite themselves over for dinner?",
+      "Is it the norm these days to miss out on special family events because of a toddler’s nap?"
+     ],
+     "example_searches": [
+      "8 year old refuses to do chores",
+      "child refuses to accept responsibility",
+      "child refuses to help with chores",
+      "how to get my toddler to independent play",
+      "teenager refuses to do chores"
+     ]
+    },
+    "Sibling fighting & jealousy": {
+     "score": 5.9,
+     "reddit_posts": 8,
+     "help_posts": 3,
+     "google_searches": 5,
+     "subreddits": 4,
+     "trend": 0.75,
+     "ages": {
+      "1-3 years": 2,
+      "3-5 years": 2,
+      "6-12 years": 2,
+      "13-18 years": 2
+     },
+     "example_posts": [
+      "Is there any research on how promote healthy and close sibling relationships that last into adulthood?",
+      "Need some help with toddlers fighting",
+      "Would you let one teen take a special opportunity if you knew it might hurt their sibling?"
+     ],
+     "example_searches": [
+      "how to stop a child from being jealous",
+      "how to stop my child being jealous",
+      "my 5 year old is jealous of the baby",
+      "why is my 5 year old so jealous",
+      "why is my 8 year old so jealous"
+     ]
+    },
+    "New baby & big sibling": {
+     "score": 4.0,
+     "reddit_posts": 7,
+     "help_posts": 3,
+     "google_searches": 0,
+     "subreddits": 4,
+     "trend": 0.57,
+     "ages": {
+      "1-3 years": 3,
+      "0-12 months": 2,
+      "3-5 years": 1
+     },
+     "example_posts": [
+      "I'm 17 and just found out I have a 1-year-old baby brother. I want to be a good big brother (and sort of father figure) I can be for him. Where do I even start?",
+      "Easiest age gap for older‐child transition when a sibling arrives?",
+      "Brother in law much more strict to first born nephew after birth of second. Advice?"
+     ],
+     "example_searches": []
+    },
+    "Only child & family size": {
+     "score": 3.6,
+     "reddit_posts": 8,
+     "help_posts": 4,
+     "google_searches": 0,
+     "subreddits": 5,
+     "trend": 0.38,
+     "ages": {
+      "3-5 years": 2,
+      "1-3 years": 1
+     },
+     "example_posts": [
+      "Any evidence for pros and cons of siblings?",
+      "Impact of family size on children’s mental health/wellbeing?",
+      "anyone have a second child after your first?",
+      "Single parents with one child, do you ever think they’re lonely?"
+     ],
+     "example_searches": []
+    }
+   }
+  }
+ },
+ "unmatched_help_posts": 0,
+ "unmatched_sample": []
+}
