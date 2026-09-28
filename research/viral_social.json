@@ -1,6 +1,118 @@
 {
  "items": [
   {
+   "url": "https://www.tiktok.com/@krystianatiana/video/7666990026269429023",
+   "platform": "tiktok",
+   "creator": "krystianatiana",
+   "creator_name": "Krystiana",
+   "views": 50800000,
+   "views_estimated": false,
+   "likes": 3800000,
+   "duration": 94,
+   "posted": "20260726",
+   "title": "Help it’s almost every night 😭 #moms #parents #parenting #babies #pos...",
+   "verified": true,
+   "person": "Krystiana (@krystianatiana)",
+   "person_type": "creator",
+   "credential": "Parenting / family creator (10.9M followers), mother of several children; not a medical professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Night waking",
+   "what_they_say": "Baby-monitor footage of the parents trying to sleep while their baby daughter wakes in her portable crib, babbles, and ends up in the parents' bed, then the nursery for playtime. Caption: \"Help, it's almost every night.\"",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/a-parents-guide-to-safe-sleep.aspx"
+   },
+   "why_viral_tr": "34 milyon izlenme: gece uyanan bebek yüzünden her gece uykusuz kalan ebeveynler kendi gecelerini gördü, yorumlarda herkes 'bizde de aynısı' dedi ve tavsiye yağdırdı.",
+   "hook": "\"Help, it's almost every night.\" If your little one is up and chatting at 2 am, this one's for you.",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "Yahoo Lifestyle / SheKnows article 'Viral TikTok Causes Parents to Tell Mom to Crack Down on Baby's Nighttime Routine' (2026-07-31): 34M views",
+   "risk_flags": [
+    "child_on_camera_at_night",
+    "shows_infant_brought_into_adult_bed: AAP advises no bed-sharing under 12 months; our caption must not present bed-sharing as a fix",
+    "exact baby age not stated"
+   ]
+  },
+  {
+   "url": "https://www.tiktok.com/@aminajgray/video/7634014714418203934",
+   "platform": "tiktok",
+   "creator": "aminajgray",
+   "creator_name": "AMINA GRAY",
+   "views": 43700000,
+   "views_estimated": false,
+   "likes": 5100000,
+   "duration": 127,
+   "posted": "20260429",
+   "title": "Soooo many excuses at bedtime 🥲 #2yearsold #toddlersoftiktok #aminagr...",
+   "verified": true,
+   "person": "@aminajgray",
+   "person_type": "meme",
+   "credential": "Parent; not a professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Bedtime battles & stalling",
+   "what_they_say": "A 2-year-old in bed runs through every bedtime excuse: daddy huggies, cereal, pasta and, famously, needing to floss her teeth.",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": ""
+   },
+   "why_viral_tr": "TAG24 'Günün Viral Videosu' (29 Mayıs 2026): 'bir bardak su daha' tipi erteleme taktiklerinin en tatlı hali; çocuk komik ama alay edilmiyor, ebeveynler kendi listesini yorumlara yazdı.",
+   "hook": "Bedtime is an absolute nightmare: huggies, cereal, pasta... and now she needs to floss.",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "TAG24 'Viral Video of the Day for May 29, 2026: Tiny tot's bedtime stalling tactics'",
+   "risk_flags": [
+    "views_unverified (article gave no count)",
+    "child_on_camera"
+   ]
+  },
+  {
+   "url": "https://www.tiktok.com/@krystianatiana/video/7681466887766560031",
+   "platform": "tiktok",
+   "creator": "krystianatiana",
+   "creator_name": "Krystiana",
+   "views": 10100000,
+   "views_estimated": false,
+   "likes": 631800,
+   "duration": 129,
+   "posted": "20260904",
+   "title": "My kindergartener 🥹 #moms #momlife #family #motherhood",
+   "verified": true,
+   "person_type": "creator",
+   "topic_category": "School & learning",
+   "topic_subcategory": "Starting daycare, preschool & kindergarten"
+  },
+  {
+   "url": "https://www.tiktok.com/@hannahbethf/video/7620195163641613581",
+   "platform": "tiktok",
+   "creator": "hannahbethf",
+   "creator_name": "Hannah 🎀",
+   "views": 8500000,
+   "views_estimated": false,
+   "likes": 1800000,
+   "duration": 9,
+   "posted": "20260322",
+   "title": "I almost had a stroke when I didn’t see him in his bed. 😅 This one is...",
+   "verified": true,
+   "person": "Hannah Fugleberg (@hannahbethf)",
+   "person_type": "meme",
+   "credential": "Parent (military family, Fort Benning); not a professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Naps",
+   "what_they_say": "An hour into nap time the mom can't find her toddler in his bed or closet, then finds him sound asleep underneath the bed.",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": ""
+   },
+   "why_viral_tr": "5 milyondan fazla izlenme: 'uyumuyor' dediğimiz öğle uykusu nerede olursa olsun kazanç; Peppa Pig, Pampers gibi markalar bile yorum yaptı. Çocuk huzurla uyuyor, alay yok.",
+   "hook": "When your toddler refuses to nap... and then naps under the bed. A win is a win.",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "Newsweek 'Toddler Goes Missing From His Bed During Nap, Hysterics Over What Mom Sees' (2026-04-01): 5M+ views",
+   "risk_flags": [
+    "child_on_camera (asleep)"
+   ]
+  },
+  {
    "url": "https://www.tiktok.com/@dadbehindthechair/video/7622837748453346573",
    "platform": "tiktok",
    "creator": "dadbehindthechair",
@@ -98,6 +210,22 @@
    ]
   },
   {
+   "url": "https://www.tiktok.com/@krystianatiana/video/7681093785207590175",
+   "platform": "tiktok",
+   "creator": "krystianatiana",
+   "creator_name": "Krystiana",
+   "views": 5300000,
+   "views_estimated": false,
+   "likes": 348000,
+   "duration": 111,
+   "posted": "20260903",
+   "title": "First day of pre-k 🥹 #moms #momlife #family #motherhood",
+   "verified": true,
+   "person_type": "creator",
+   "topic_category": "School & learning",
+   "topic_subcategory": "Starting daycare, preschool & kindergarten"
+  },
+  {
    "url": "https://www.instagram.com/reel/DbbK7u7PYfV/",
    "platform": "instagram",
    "creator": "tanyaclose.dpt",
@@ -132,6 +260,69 @@
    ]
   },
   {
+   "url": "https://www.tiktok.com/@bluethepig/video/7625069874590534926",
+   "platform": "tiktok",
+   "creator": "bluethepig",
+   "creator_name": "💙blue💙",
+   "views": 2700000,
+   "views_estimated": false,
+   "likes": 678500,
+   "duration": 20,
+   "posted": "20260405",
+   "title": "She said ‘I love you’ for the first time… and his reaction 😭 #baby #n...",
+   "verified": true,
+   "person": "Jahaira (@bluethepig)",
+   "person_type": "creator",
+   "credential": "Parent; not a professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Bedtime routine / goodbye at bedtime",
+   "what_they_say": "Dad lays his 1-year-old in her crib and says \"I love you\"; she says it back clearly for the first time and he melts.",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": ""
+   },
+   "why_viral_tr": "1,2 milyon izlenme, 331 bin beğeni: yatma anındaki sevgi dolu vedanın ne kadar değerli olduğunu gösteriyor; DREAMS'teki 'E = Exit with love' için birebir, olumlu ve umut veren bir klip.",
+   "hook": "The bedtime goodbye doesn't have to be a battle. Sometimes it ends like this.",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "Newsweek 'Toddler's Comment During Bedtime Stuns Dad, His Reaction Is Everything' (2026-04-11): 1.2M views",
+   "risk_flags": [
+    "not a struggle clip; use as the calm 'Exit with love' contrast",
+    "child_on_camera"
+   ]
+  },
+  {
+   "url": "https://www.tiktok.com/@tracy.jane.home/video/7575286599848561940",
+   "platform": "tiktok",
+   "creator": "tracy.jane.girlmom",
+   "creator_name": "Tracy Jane | Toddler Girl Mum",
+   "views": 2000000,
+   "views_estimated": false,
+   "likes": 97400,
+   "duration": 16,
+   "posted": "20251121",
+   "title": "Toddlers can be brutal… little does she know.. I was in a deep sleep,...",
+   "verified": true,
+   "person": "Tracy (@tracy.jane.home)",
+   "person_type": "meme",
+   "credential": "Parent; not a professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Night waking",
+   "what_they_say": "Nanit footage of an almost-2-year-old standing in her crib at night calling \"Daddy, you there?\"; when mom walks in instead she sighs, \"Not again! I wanted daddy!\"",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": ""
+   },
+   "why_viral_tr": "1,7 milyon izlenme: gece uyanmalarında 'anne değil baba istiyorum' anı; gece kalkan ebeveyn gülerek kendini gördü. Ağlama yok, çocuk tatlı.",
+   "hook": "3 am, I get up for the night waking... and she says \"Not again! I wanted daddy!\"",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "Newsweek 'Toddler Wakes in Night, What She Says on Baby Cam Leaves Mom Humbled' (2025-11-30): 1.7M views",
+   "risk_flags": [
+    "child_on_camera_at_night (not crying)"
+   ]
+  },
+  {
    "url": "https://www.tiktok.com/@pedsdoctalk/video/7571149730865073422",
    "platform": "tiktok",
    "creator": "pedsdoctalk",
@@ -160,6 +351,69 @@
    "risk_flags": [
     "stitch with @brookeeewoods: the stitched part may show her real toddler hitting; check the video before re-sharing",
     "caption promotes her paid Toddlers & Tantrums course"
+   ]
+  },
+  {
+   "url": "https://www.tiktok.com/@lvwalld1/video/7615514755519876374",
+   "platform": "tiktok",
+   "creator": "lvwa11d1",
+   "creator_name": "lvwa11d1",
+   "views": 1600000,
+   "views_estimated": false,
+   "likes": 121000,
+   "duration": 14,
+   "posted": "20260310",
+   "title": "But why the plant tough?😂 #toddlerlife #momlife #toddlersoftiktok #re...",
+   "verified": true,
+   "person": "Linea Wallden (@lvwalld1)",
+   "person_type": "meme",
+   "credential": "Parent from Norway; not a professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Sleeping alone / leaving our bed",
+   "what_they_say": "Room-camera footage of a 2-year-old getting up at 1 a.m. and collecting her 'emotional support items' (toy car, water bottle, yogurt, unicorn, a houseplant) to carry into her parents' room. The mom says she does it every night.",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": ""
+   },
+   "why_viral_tr": "1,1 milyon izlenme: her gece yatağımıza gelen çocuğu sevgiyle ve komik haliyle gösteriyor; çocuk alay konusu değil, tatlı. Ebeveynler 'bizimki de valizini toplayıp geliyor' diye paylaştı.",
+   "hook": "1 a.m. and my 2 year old is packing for the move into our bed. Every. Single. Night.",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "Newsweek 'Toddler Wakes Up at 1AM, Hysterics at What Mom Notices on Baby Cam' (2026-03-12): 1.1M views",
+   "risk_flags": [
+    "child_on_camera_at_night (calm, not crying)"
+   ]
+  },
+  {
+   "url": "https://www.tiktok.com/@kclarkka/video/7600741522065198367",
+   "platform": "tiktok",
+   "creator": "kclarkka",
+   "creator_name": "kiley | toddler mom 🧸",
+   "views": 1400000,
+   "views_estimated": false,
+   "likes": 179800,
+   "duration": 11,
+   "posted": "20260129",
+   "title": "I about jumped out of my skin he was so quiet and I just saw movement...",
+   "verified": true,
+   "person": "@kclarkka",
+   "person_type": "meme",
+   "credential": "Parent; not a professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Bedtime battles & stalling",
+   "what_they_say": "About 45 minutes after bedtime, a toddler silently peeks his head around the doorway again and again while his mom tries to watch TV.",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": ""
+   },
+   "why_viral_tr": "Yaklaşık 1 milyon izlenme: 'yatırdım ama yatakta durmuyor' anını tek karede anlatıyor; akşamını geri isteyen her ebeveyn kendini gördü. Çocuk ağlamıyor, alay yok.",
+   "hook": "Bedtime was 45 minutes ago. My toddler keeps getting out of bed.",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "Newsweek 'Toddler Is Unusually Quiet at Bedtime, Then Mom Spots Something' (2026-03-16): almost 1M views",
+   "risk_flags": [
+    "views reported as 'almost 1 million' (verify)",
+    "child_on_camera"
    ]
   },
   {
@@ -479,6 +733,22 @@
    "person_type": "creator"
   },
   {
+   "url": "https://www.tiktok.com/@aminajgray/video/7689942687654399262",
+   "platform": "tiktok",
+   "creator": "aminajgray",
+   "creator_name": "AMINA GRAY",
+   "views": 269900,
+   "views_estimated": false,
+   "likes": 31600,
+   "duration": 18,
+   "posted": "20260926",
+   "title": "🥲🥲🥲 #2YearsOld #toddlersbelike #toddlersoftiktok #toddlerlife #aminaj...",
+   "verified": true,
+   "person_type": "creator",
+   "topic_category": "Screens & technology",
+   "topic_subcategory": "Phones & social media"
+  },
+  {
    "url": "https://www.instagram.com/reel/DXbxw_so_J9/",
    "platform": "instagram",
    "creator": "dr.sulakshane",
@@ -722,6 +992,37 @@
    "person_type": "creator",
    "topic_category": "School & learning",
    "topic_subcategory": "Homework & grades"
+  },
+  {
+   "url": "https://www.instagram.com/p/DQaBrnPEk_g/",
+   "platform": "instagram",
+   "creator": "",
+   "creator_name": "Mikayla Pierce (@mikaylamakesmoves)",
+   "views": null,
+   "verified": false,
+   "unverified_reason": "ERROR: [Instagram] DQaBrnPEk_g: Instagram sent an empty media response. Check if this post is accessible in your browser",
+   "title": "Mom builds her 2-year-old a toddler bed; the baby monitor shows him climbing out about 47 times in one night, and she ends up putting the cr",
+   "found": "20260928",
+   "person": "Mikayla Pierce (@mikaylamakesmoves)",
+   "person_type": "meme",
+   "credential": "Parent from Iowa; not a professional",
+   "topic_category": "Sleep",
+   "topic_subcategory": "Toddler keeps getting out of bed",
+   "what_they_say": "Mom builds her 2-year-old a toddler bed; the baby monitor shows him climbing out about 47 times in one night, and she ends up putting the crib back together, after which he goes straight to sleep.",
+   "claim_check": {
+    "verdict": "not_medical",
+    "official_url": "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx"
+   },
+   "why_viral_tr": "1,4 milyon izlenme: yer yatağına/küçük yatağa geçişte 'çocuk yatakta durmuyor' kâbusunu çok samimi gösteriyor; yorumlarda yüzlerce ebeveyn 'kısa ama kaotik toddler yatağı dönemi'ni anlattı.",
+   "hook": "We moved our 2 year old to a big bed. He got out 47 times. The crib went back up.",
+   "rights": "original",
+   "original_url": "",
+   "found_via": "Newsweek 'Mom Switches to Toddler Bed - Baby Cam Shows What Happens That Night' (2025-11-13): 1.4M views on Instagram",
+   "risk_flags": [
+    "posted ~late Oct / early Nov 2025, near the 365-day edge (verify date)",
+    "Instagram views could not be checked anonymously",
+    "child_on_camera"
+   ]
   }
  ],
  "checked": {
@@ -857,10 +1158,50 @@
   "https://www.tiktok.com/@solidstarts/video/7671150182507040013": "offtopic",
   "https://www.tiktok.com/@solidstarts/video/7667318788735405325": "offtopic",
   "https://www.tiktok.com/@solidstarts/video/7663109918395780366": "offtopic",
-  "https://www.tiktok.com/@solidstarts/video/7662331943563939086": "err"
+  "https://www.tiktok.com/@solidstarts/video/7662331943563939086": "err",
+  "https://www.tiktok.com/@krystianatiana/video/7666990026269429023": "ok",
+  "https://www.tiktok.com/@lvwalld1/video/7615514755519876374": "ok",
+  "https://www.tiktok.com/@kclarkka/video/7600741522065198367": "ok",
+  "https://www.instagram.com/p/DQaBrnPEk_g/": "unverified",
+  "https://www.tiktok.com/@hannahbethf/video/7620195163641613581": "ok",
+  "https://www.tiktok.com/@tracy.jane.home/video/7575286599848561940": "ok",
+  "https://www.tiktok.com/@bluethepig/video/7625069874590534926": "ok",
+  "https://www.tiktok.com/@aminajgray/video/7634014714418203934": "ok",
+  "https://www.tiktok.com/@babysleepteam/video/7626454429897608469": "no",
+  "https://www.tiktok.com/@krystianatiana/video/7690604841369914655": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7690370750288514335": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7688883152693103903": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7688434554939493663": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7688142387826216222": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7687772233565097246": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7686554207129783583": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7686287490998701342": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7685923258725567774": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7685774244667526430": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7685544905719975198": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7685170989700844831": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7684681120343952671": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7684055481563761950": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7683933057543408927": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7683681738597420318": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7683310179491794207": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7682950091090562335": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7682079727531674910": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7681694483351735583": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7681466887766560031": "ok",
+  "https://www.tiktok.com/@krystianatiana/video/7681093785207590175": "ok",
+  "https://www.tiktok.com/@krystianatiana/video/7680718482077469982": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7680350294882045214": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7679977486775618847": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7679494706589453598": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7678718071590227230": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7678375918754155806": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7678118882581810463": "offtopic",
+  "https://www.tiktok.com/@krystianatiana/video/7677748415991778590": "offtopic",
+  "https://www.tiktok.com/@aminajgray/video/7689942687654399262": "ok"
  },
- "updated": "2026-09-27T23:50",
+ "updated": "2026-09-28T20:45",
  "errors": [
-  "tiktok: ERROR: [TikTok] 7662331943563939086: Unable to download webpage: Failed to perform, curl: (6) Could not resolve host: ww"
+  "instagram: ERROR: [Instagram] DQaBrnPEk_g: Instagram sent an empty media response. Check if this post is accessible in your browser"
  ]
 }

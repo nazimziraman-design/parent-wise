@@ -1,0 +1,70 @@
+{
+ "generated": "2026-09-28T15:10+00:00",
+ "hours": 36,
+ "items": [
+  {
+   "source": "NPR Health",
+   "tier": "signal",
+   "title": "5 tips for parents worried about their kids' screen time and online safety",
+   "url": "https://www.npr.org/2026/09/28/nx-s1-5965849/screens-teens-parents-social-media-safety",
+   "date": "2026-09-28T09:00:00+00:00",
+   "summary": "Parental monitoring can help protect kids from the harms of social media and excess screen time. Screen time boundaries plus early and open conversations about online habits can make kids less vulnerable."
+  },
+  {
+   "source": "NPR Health",
+   "tier": "signal",
+   "title": "Photos: This may be the most inspirational night school on Earth",
+   "url": "https://www.npr.org/2026/09/27/g-s1-143582/night-school-shepherds-lesotho",
+   "date": "2026-09-27T11:53:42+00:00",
+   "summary": "Many thousands of boys and men in Lesotho take up the vital profession of herding but have to give up their education. A small network of schools on a shoestring budget is teaching them the ABCs."
+  }
+ ],
+ "errors": [
+  {
+   "source": "Zero to Three",
+   "error": "HTTP Error 403: Forbidden"
+  }
+ ],
+ "manual": [
+  {
+   "name": "AAP News (publications.aap.org)",
+   "url": "https://publications.aap.org/aapnews",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "Pediatrics journal",
+   "url": "https://publications.aap.org/pediatrics",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "NHS baby & toddler pages",
+   "url": "https://www.nhs.uk/conditions/baby/",
+   "why": "no feed: check with web search"
+  },
+  {
+   "name": "Official X accounts (AAP, CDC, WHO)",
+   "url": "https://x.com",
+   "why": "login required"
+  },
+  {
+   "name": "NIH / NICHD news",
+   "url": "https://www.nichd.nih.gov/newsroom/news",
+   "why": "nih.gov blocks scripts (403): check with web search"
+  },
+  {
+   "name": "UNICEF press releases",
+   "url": "https://www.unicef.org/press-releases",
+   "why": "no feed"
+  },
+  {
+   "name": "AAP HealthyChildren",
+   "url": "https://www.healthychildren.org",
+   "why": "no feed"
+  },
+  {
+   "name": "Harvard Center on the Developing Child",
+   "url": "https://developingchild.harvard.edu/news/",
+   "why": "no feed"
+  }
+ ]
+}
