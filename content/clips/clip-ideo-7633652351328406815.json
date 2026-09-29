@@ -1,0 +1,15 @@
+{
+ "hook": "Trevor Noah and a woman guest discuss arguing with a parent until you win, as others laugh in the studio",
+ "title": "",
+ "credit": "@trevornoah / TikTok",
+ "caption": "A podcast moment on kids, arguing and ADHD. Could you tell what this conversation was really about?\n\nGeneral information, not medical advice. Talk to your pediatrician.\n\n#parenting #adhd #parentingtips #kidsbehavior #parentwise\n\nSource: @trevornoah / TikTok",
+ "checked": [
+  "Watched all 8 frames: podcast studio (What Now? with Trevor Noah), host and a woman guest, adults only, no minors shown",
+  "Only fragments of the burned-in subtitles are visible ('arguing', 'with your parent', 'until you win', 'so instead of'), so the full claim cannot be confirmed from the frames",
+  "Post title claims 'ADHD brains actually love to argue'. This is not a statement in AAP, CDC, NHS or NIMH ADHD guidance, so it cannot be verified against an official source",
+  "The guest's name and credentials are not shown on screen, so expert status is unconfirmed",
+  "Dropped view and like counts from the source post"
+ ],
+ "reject": "Unverifiable medical claim: the clip's premise that ADHD brains love to argue is not backed by AAP/CDC/NHS/NIMH guidance. The guest has no visible credentials, and the audio and full subtitles were not checked, so it could push a generalisation about ADHD that parents may act on. Owner can re-enable it only after watching the clip and confirming what the guest says against an official source.",
+ "id": "ideo-7633652351328406815"
+}

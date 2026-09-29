@@ -1,0 +1,74 @@
+{
+ "generated": "2026-09-29T19:45+00:00",
+ "hours": 36,
+ "items": [
+  {
+   "source": "NPR Health",
+   "tier": "signal",
+   "title": "5 tips for parents worried about their kids' screen time and online safety",
+   "url": "https://www.npr.org/2026/09/28/nx-s1-5965849/screens-teens-parents-social-media-safety",
+   "date": "2026-09-28T09:00:00+00:00",
+   "summary": "Parental monitoring can help protect kids from the harms of social media and excess screen time. Screen time boundaries plus early and open conversations about online habits can make kids less vulnerable."
+  },
+  {
+   "source": "Hacker News",
+   "tier": "community",
+   "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+   "url": "https://hn.watch/",
+   "date": "2026-09-28T15:16:13Z",
+   "summary": "206 points, 97 comments"
+  }
+ ],
+ "errors": [
+  {
+   "source": "Zero to Three",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "FDA recalls (safety)",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+  }
+ ],
+ "manual": [
+  {
+   "name": "AAP News (publications.aap.org)",
+   "url": "https://publications.aap.org/aapnews",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "Pediatrics journal",
+   "url": "https://publications.aap.org/pediatrics",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "NHS baby & toddler pages",
+   "url": "https://www.nhs.uk/conditions/baby/",
+   "why": "no feed: check with web search"
+  },
+  {
+   "name": "Official X accounts (AAP, CDC, WHO)",
+   "url": "https://x.com",
+   "why": "login required"
+  },
+  {
+   "name": "NIH / NICHD news",
+   "url": "https://www.nichd.nih.gov/newsroom/news",
+   "why": "nih.gov blocks scripts (403): check with web search"
+  },
+  {
+   "name": "UNICEF press releases",
+   "url": "https://www.unicef.org/press-releases",
+   "why": "no feed"
+  },
+  {
+   "name": "AAP HealthyChildren",
+   "url": "https://www.healthychildren.org",
+   "why": "no feed"
+  },
+  {
+   "name": "Harvard Center on the Developing Child",
+   "url": "https://developingchild.harvard.edu/news/",
+   "why": "no feed"
+  }
+ ]
+}
