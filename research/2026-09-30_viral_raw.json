@@ -1,0 +1,5 @@
+{
+  "candidates": [],
+  "tiktok_creators": [],
+  "notes_tr": "Bu turda hiç aday listelenmedi (uydurma URL yok). Neden: (1) YouTube arama/CC-BY filtresi için gereken Nexlev youtube_search aracı için izin verilmedi; (2) WebSearch sadece genel sayfa döndürdü, doğrudan video URL'si, görüntülenme sayısı veya YouTube lisans satırı vermedi; (3) WebFetch YouTube sonuç sayfalarını okuyamadı (yalnızca footer geldi, @CDCgov/shorts 404). Wikimedia Commons'ta 'parenting toddler' aramasında tek video çıktı (Oregon Deputy Saves 2 Year-Old, 43 sn) ama lisansı doğrulanamadı ve çocuk kurtarma/kriz görüntüsü olduğu için uygun değil. Bulunan resmi kaynak sayfaları (aday değil, yalnızca yön): cdc.gov/act-early/resources/videos.html (CDC Act Early videoları, paylaşıma açık, kamu malı), nichd.nih.gov/news/resources/links/Pages/Videos.aspx ve safetosleep.nichd.nih.gov (NICHD Safe to Sleep videoları). Bu videoların YouTube/IG/TikTok doğrudan URL'leri ve tarihleri elle veya Nexlev/VidIQ izni verilerek çıkarılmalı. Öneri: Nexlev youtube_search izni verilirse CCommons filtresi + upload_date=week/month ile konu bazında tekrar çalıştırılsın."
+}

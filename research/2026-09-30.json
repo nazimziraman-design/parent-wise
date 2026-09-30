@@ -1,0 +1,57 @@
+{
+ "generated": "2026-09-30T05:00+00:00",
+ "hours": 36,
+ "items": [],
+ "errors": [
+  {
+   "source": "Zero to Three",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "FDA recalls (safety)",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+  }
+ ],
+ "manual": [
+  {
+   "name": "AAP News (publications.aap.org)",
+   "url": "https://publications.aap.org/aapnews",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "Pediatrics journal",
+   "url": "https://publications.aap.org/pediatrics",
+   "why": "blocks scripts: check with web search"
+  },
+  {
+   "name": "NHS baby & toddler pages",
+   "url": "https://www.nhs.uk/conditions/baby/",
+   "why": "no feed: check with web search"
+  },
+  {
+   "name": "Official X accounts (AAP, CDC, WHO)",
+   "url": "https://x.com",
+   "why": "login required"
+  },
+  {
+   "name": "NIH / NICHD news",
+   "url": "https://www.nichd.nih.gov/newsroom/news",
+   "why": "nih.gov blocks scripts (403): check with web search"
+  },
+  {
+   "name": "UNICEF press releases",
+   "url": "https://www.unicef.org/press-releases",
+   "why": "no feed"
+  },
+  {
+   "name": "AAP HealthyChildren",
+   "url": "https://www.healthychildren.org",
+   "why": "no feed"
+  },
+  {
+   "name": "Harvard Center on the Developing Child",
+   "url": "https://developingchild.harvard.edu/news/",
+   "why": "no feed"
+  }
+ ]
+}

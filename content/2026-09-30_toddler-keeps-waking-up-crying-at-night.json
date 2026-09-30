@@ -1,0 +1,117 @@
+{
+  "theme": "problem",
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "My toddler keeps waking up crying at night",
+  "age_range": "1-5 years",
+  "cover": {
+    "photo_queries": [
+      "crying toddler",
+      "toddler crying in bed",
+      "toddler won't sleep",
+      "sad toddler night"
+    ],
+    "focus_y": 0.35,
+    "photo_pick": "unsplash:Em8I8Z_DwA4",
+    "photo": {
+      "id": "Em8I8Z_DwA4",
+      "source": "Unsplash",
+      "page": "https://unsplash.com/photos/boy-wearing-pink-long-sleeved-top-Em8I8Z_DwA4",
+      "author": "Alexander Dummer",
+      "author_url": "https://unsplash.com/@4dgraphic",
+      "alt": "boy wearing pink long-sleeved top",
+      "credit": "Cover photo: Alexander Dummer / Unsplash",
+      "key": "unsplash:Em8I8Z_DwA4"
+    }
+  },
+  "design": {
+    "palette": "sage"
+  },
+  "caption": "\"My toddler keeps waking up crying at night.\" Here is what actually helps.\n\nYou're tired, you want them to sleep through the night, and every night feels like a coin toss.\nLots of young children find it hard to settle and wake in the night. A calm, predictable routine and a quiet, boring response can help.\n\nSave this for tonight, and send it to a co-parent.\n\n#toddlersleep #nightwaking #sleeptips #toddlerlife #parentingtips #gentleparenting #momlife #dadlife\n\nCover photo: Alexander Dummer / Unsplash\nGeneral information, not medical advice. Talk to your pediatrician.\n\nComment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+  "sources": [
+    "https://www.nhs.uk/conditions/baby/health/sleep-problems-in-young-children/",
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/bedtime-trouble.aspx"
+  ],
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "\"My toddler keeps waking up crying at night.\"\nI just want them to sleep through.\n\n**Here is what helps, and what to say.**",
+      "voiceover": "Toddler keeps waking crying? Here's what helps."
+    },
+    {
+      "type": "text",
+      "text": "First, you're not doing it wrong.\n\n**Lots of young children find it hard to settle** and wake up during the night.\n\nIt's a common stage at 1–5 years, not a parenting failure.",
+      "voiceover": ""
+    },
+    {
+      "type": "text",
+      "text": "**1. Make bedtime predictable.**\n\nA **calm routine at the same time, with the same steps**, helps your child know what to expect.\n\nSay: **\"Bath, book, cuddle, lights out. Same as always.\"**",
+      "voiceover": "One: predictable bedtime. Say, bath, book, cuddle."
+    },
+    {
+      "type": "text",
+      "text": "**2. Wind down before bed.**\n\nThe NHS suggests about **30 minutes of quiet time** and no screens for 30–60 minutes before sleep, as light can interfere with sleep.\n\nSay: **\"Tablet is asleep now. Let's pick a book.\"**",
+      "voiceover": "Two: no screens first. Say, tablet's asleep."
+    },
+    {
+      "type": "text",
+      "text": "**3. Let them have a comfort.**\n\nA **teddy, special blanket or favorite toy** is fine at this age. A nightlight can help if the dark feels scary.\n\nSay: **\"Teddy is right here with you.\"**",
+      "voiceover": "Three: comfort toys are fine. Say, teddy's here."
+    },
+    {
+      "type": "text",
+      "text": "**4. Keep night wakings boring.**\n\n**Lights off, few words, no games.** Being boring keeps them from waking up more.\n\nSay softly: **\"It's still sleeping time. I'm here.\"**",
+      "voiceover": "Four: keep wakings boring. Say, still sleeping time."
+    },
+    {
+      "type": "text",
+      "text": "**5. Give them a chance to settle.**\n\nChildren need the chance to **learn how to fall back asleep on their own**. If they get up, take them back to bed with as little fuss as you can.\n\nSay: **\"Back to bed. Goodnight, love.\"**",
+      "voiceover": "Five: let them settle. Say, goodnight, love."
+    },
+    {
+      "type": "text",
+      "text": "**Still stuck?**\n\nIf nights stay hard, **talk to your pediatrician or health visitor**. They may have other ideas or point you to a sleep clinic.\n\nAsking for help is a strong move.",
+      "voiceover": "Still stuck? Ask your pediatrician or health visitor."
+    },
+    {
+      "type": "cta",
+      "intro": "If your toddler keeps waking up at night and you're running on empty,",
+      "keyword": "SLEEP",
+      "voiceover": "Save this and follow for more. Comment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+      "v": {
+        "intro": 2,
+        "offer": 3,
+        "comment": 4,
+        "foot": 2
+      }
+    }
+  ],
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": true,
+  "video_title": "My toddler keeps waking up crying: what to do tonight (ages 1-5)",
+  "yt_tags": [
+    "toddler keeps waking up crying",
+    "toddler keeps waking up at night",
+    "toddler night waking",
+    "toddler sleep through the night",
+    "how to help toddler sleep through the night",
+    "toddler waking up crying at night",
+    "1 year old waking at night",
+    "2 year old waking at night",
+    "3 year old night waking",
+    "toddler bedtime routine",
+    "toddler sleep tips",
+    "parenting tips",
+    "toddler sleep",
+    "night wakings"
+  ],
+  "cta_keyword": "SLEEP",
+  "cta_variant": {
+    "intro": 2,
+    "offer": 3,
+    "comment": 4,
+    "foot": 2
+  },
+  "kind": "cvideo"
+}

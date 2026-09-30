@@ -2,3 +2,4 @@
 {"run": "20260927-235706-clip", "kind": "clip", "fetch": 6.1, "hook": 35.0, "frame": 12.8, "qa": 27.5, "approve": 0.0, "prepare": 0.3, "upload": 45.2, "ig_reel": 53.9, "fb_reel": 35.1, "log": null}
 {"run": "20260926-173629-post", "kind": "post", "write": 78.0, "cover": 76.1, "carousel": 7.2, "video": 0.0, "qa": 89.8, "approve": 0.0, "prepare": 0.6, "upload": 37.6, "ig_carousel": 104.5, "fb_photos": 33.4, "yt_short": 0.0, "log": null}
 {"run": "20260928-211624-clip", "kind": "clip", "fetch": 17.4, "hook": 25.4, "frame": 15.8, "qa": 48.9, "approve": 0.0, "prepare": 0.2, "upload": 38.8, "ig_reel": 43.0, "fb_reel": 45.7, "yt_short": 8.9, "log": null}
+{"run": "20260929-230001-clip", "kind": "clip", "fetch": 6.1, "hook": 18.4, "frame": 24.3, "qa": 48.2, "title": 10.9, "approve": 0.0, "prepare": 0.2, "upload": 1.7, "ig_reel": 64.8, "fb_reel": 54.1, "yt_short": 12.2, "verify": 2.3, "log": null}
