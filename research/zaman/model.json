@@ -1,0 +1,662 @@
+{
+ "priors": {
+  "instagram": [
+   {
+    "utc_start": "17:00",
+    "utc_end": "21:00",
+    "weight": 1.0,
+    "why": "1-5 pm ET weekdays: Sprout/SocialPilot-type studies favour early-afternoon Reels; our two posts at 20-21 UTC reached 143-182 (n=2, weak)"
+   },
+   {
+    "utc_start": "00:00",
+    "utc_end": "02:30",
+    "weight": 0.9,
+    "why": "8-10:30 pm ET after kids' bedtime; late-evening spike reported (Later, Sprout); our 01 UTC post got 48 reach in 5 h"
+   },
+   {
+    "utc_start": "11:00",
+    "utc_end": "13:00",
+    "weight": 0.6,
+    "why": "7-9 am ET before work/school; SocialPilot 8am-12pm weekday finding; also catches UK/EU parents"
+   }
+  ],
+  "facebook": [
+   {
+    "utc_start": "23:00",
+    "utc_end": "02:00",
+    "weight": 1.0,
+    "why": "7-10 pm ET: Facebook Reels peak 6-9 pm when users are in entertainment mode; parents scroll after bedtime"
+   },
+   {
+    "utc_start": "11:00",
+    "utc_end": "14:00",
+    "weight": 0.9,
+    "why": "7-10 am ET: Buffer 2026 points to weekday mornings (Thu 9 am), Hootsuite early morning; older parent audience"
+   },
+   {
+    "utc_start": "16:00",
+    "utc_end": "20:00",
+    "weight": 0.6,
+    "why": "noon-4 pm ET: Sprout 2026 strongest blocks Tue/Wed noon-8 pm; our one 21 UTC post did best (n=1)"
+   }
+  ],
+  "youtube": [
+   {
+    "utc_start": "16:00",
+    "utc_end": "19:00",
+    "weight": 1.0,
+    "why": "12-3 pm ET: most repeated Shorts window (SocialPilot, Hopper); Tue/Wed late morning-afternoon strongest"
+   },
+   {
+    "utc_start": "23:00",
+    "utc_end": "01:30",
+    "weight": 0.9,
+    "why": "7-9:30 pm ET evening Shorts viewing peak; parents after dinner and bedtime"
+   },
+   {
+    "utc_start": "11:00",
+    "utc_end": "13:00",
+    "weight": 0.5,
+    "why": "7-9 am ET morning; Tuesday 11 am local reported by one guide"
+   }
+  ]
+ },
+ "platforms": {
+  "instagram": {
+   "posts_used": 3,
+   "median_score": 144.0,
+   "hours": [
+    {
+     "h": 0,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 1,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 2,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 3,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 4,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 5,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 6,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 7,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 8,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 9,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 10,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 11,
+     "prior": 0.6,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.6,
+     "bonus": 0.35
+    },
+    {
+     "h": 12,
+     "prior": 0.6,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.6,
+     "bonus": 0.35
+    },
+    {
+     "h": 13,
+     "prior": 0.6,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.6,
+     "bonus": 0.35
+    },
+    {
+     "h": 14,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 15,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 16,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 17,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 18,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 19,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 20,
+     "prior": 1.0,
+     "n": 1,
+     "mean_norm": 0.99,
+     "value": 0.997,
+     "bonus": 0.247
+    },
+    {
+     "h": 21,
+     "prior": 1.0,
+     "n": 1,
+     "mean_norm": 1.26,
+     "value": 1.064,
+     "bonus": 0.247
+    },
+    {
+     "h": 22,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 23,
+     "prior": 0.05,
+     "n": 1,
+     "mean_norm": 0.99,
+     "value": 0.286,
+     "bonus": 0.247
+    }
+   ]
+  },
+  "facebook": {
+   "posts_used": 3,
+   "median_score": 2.0,
+   "hours": [
+    {
+     "h": 0,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 1,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 2,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 3,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 4,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 5,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 6,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 7,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 8,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 9,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 10,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 11,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 12,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 13,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 14,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 15,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 16,
+     "prior": 0.6,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.6,
+     "bonus": 0.35
+    },
+    {
+     "h": 17,
+     "prior": 0.6,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.6,
+     "bonus": 0.35
+    },
+    {
+     "h": 18,
+     "prior": 0.6,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.6,
+     "bonus": 0.35
+    },
+    {
+     "h": 19,
+     "prior": 0.6,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.6,
+     "bonus": 0.35
+    },
+    {
+     "h": 20,
+     "prior": 0.6,
+     "n": 1,
+     "mean_norm": 0.67,
+     "value": 0.617,
+     "bonus": 0.247
+    },
+    {
+     "h": 21,
+     "prior": 0.05,
+     "n": 1,
+     "mean_norm": 7.33,
+     "value": 1.288,
+     "bonus": 0.247
+    },
+    {
+     "h": 22,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 23,
+     "prior": 1.0,
+     "n": 1,
+     "mean_norm": 0.33,
+     "value": 0.833,
+     "bonus": 0.247
+    }
+   ]
+  },
+  "youtube": {
+   "posts_used": 3,
+   "median_score": 5.0,
+   "hours": [
+    {
+     "h": 0,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 1,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 2,
+     "prior": 0.9,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.9,
+     "bonus": 0.35
+    },
+    {
+     "h": 3,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 4,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 5,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 6,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 7,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 8,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 9,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 10,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 11,
+     "prior": 0.5,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.5,
+     "bonus": 0.35
+    },
+    {
+     "h": 12,
+     "prior": 0.5,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.5,
+     "bonus": 0.35
+    },
+    {
+     "h": 13,
+     "prior": 0.5,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.5,
+     "bonus": 0.35
+    },
+    {
+     "h": 14,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 15,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 16,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 17,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 18,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 19,
+     "prior": 1.0,
+     "n": 0,
+     "mean_norm": null,
+     "value": 1.0,
+     "bonus": 0.35
+    },
+    {
+     "h": 20,
+     "prior": 0.05,
+     "n": 1,
+     "mean_norm": 1.83,
+     "value": 0.496,
+     "bonus": 0.247
+    },
+    {
+     "h": 21,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 22,
+     "prior": 0.05,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 23,
+     "prior": 0.9,
+     "n": 2,
+     "mean_norm": 0.83,
+     "value": 0.873,
+     "bonus": 0.202
+    }
+   ]
+  }
+ },
+ "updated": "2026-10-01T06:01+00:00",
+ "research_updated": "2026-10-01T06:01+00:00"
+}

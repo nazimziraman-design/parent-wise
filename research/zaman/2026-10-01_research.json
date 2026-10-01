@@ -1,0 +1,28 @@
+{
+ "summary_tr": "Bugünkü araştırma önceki karar ile büyük ölçüde örtüşüyor: hafta içi öğle/öğleden sonra (ET 12-4) ve çocuklar uyuduktan sonraki akşam (ET 7-10) iki ana tepe. Instagram'da kendi verimizde UTC 20-21 civarı iyi göründüğü için ilk pencereyi 21:00'e kadar uzattım. Facebook Reels için akşam 6-9 (ET) en tutarlı bulgu, sabah ikinci tepe olarak duruyor. YouTube Shorts için 12-3 pm ET ve 7-9 pm ET pencereleri korundu. Kendi verimiz çok az olduğu için ağırlık hâlâ araştırmada.",
+ "learned_tr": "Kendi verimiz çok az (Instagram 4, Facebook 3, YouTube 4 gönderi) ve saat başına en fazla 1-2 gönderi var; bu gürültüdür, sonuç sayılmaz. Gözlem: Instagram'da UTC 20-21 gönderileri 143-182 erişim aldı, UTC 23 gönderisi 138; UTC 09'da 15 erişim, UTC 01'de 5 saatte 48 erişim. Hesap yeni olduğundan fark saatten çok videonun kendisinden veya hesabın yaşından da gelebilir. Facebook'ta UTC 21 gönderisi 17 izlenme ile en iyisiydi ama diğerleri 1-2; n=1. YouTube'da 0-6 izlenme, saat farkı okunamıyor. Kendi veri 8 gönderiye ulaşana kadar araştırma önceliği sürecek.",
+ "audience_tr": "Kitle tahmini: ağırlıklı ABD (ET/CT/PT arası dağılım, planlama ET baz alındı), daha az İngiltere, Kanada, Avustralya. Eminlik orta-düşük: platformlar henüz kitle saat/ülke verisi vermiyor (yaklaşık 100 takipçiye kadar). Avustralya/İngiltere izleyicisi UTC 20-02 ve 11-13 pencerelerinin bir kısmını da yakalar.",
+ "data_note_tr": "Instagram erişim/izlenme verisi geliyor; Facebook'ta yalnızca izlenme, oynatma ve ortalama izleme süresi var, erişim yok. YouTube'da yeni videolarda ortalama izlenme yüzdesi henüz 0 görünüyor (analytics gecikmesi). Kitle saat ve ülke dağılımı boş: hesaplar yaklaşık 100 takipçiye ulaşınca Instagram/Facebook audience verisi açılacak; o zaman gerçek saat dilimi tahmini yapılabilir. Şu an için ek izin gerekmiyor, sadece gönderi sayısı ve takipçi birikmeli.",
+ "priors": {
+  "instagram": [
+   {"utc_start": "17:00", "utc_end": "21:00", "weight": 1.0, "why": "1-5 pm ET weekdays: Sprout/SocialPilot-type studies favour early-afternoon Reels; our two posts at 20-21 UTC reached 143-182 (n=2, weak)"},
+   {"utc_start": "00:00", "utc_end": "02:30", "weight": 0.9, "why": "8-10:30 pm ET after kids' bedtime; late-evening spike reported (Later, Sprout); our 01 UTC post got 48 reach in 5 h"},
+   {"utc_start": "11:00", "utc_end": "13:00", "weight": 0.6, "why": "7-9 am ET before work/school; SocialPilot 8am-12pm weekday finding; also catches UK/EU parents"}
+  ],
+  "facebook": [
+   {"utc_start": "23:00", "utc_end": "02:00", "weight": 1.0, "why": "7-10 pm ET: Facebook Reels peak 6-9 pm when users are in entertainment mode; parents scroll after bedtime"},
+   {"utc_start": "11:00", "utc_end": "14:00", "weight": 0.9, "why": "7-10 am ET: Buffer 2026 points to weekday mornings (Thu 9 am), Hootsuite early morning; older parent audience"},
+   {"utc_start": "16:00", "utc_end": "20:00", "weight": 0.6, "why": "noon-4 pm ET: Sprout 2026 strongest blocks Tue/Wed noon-8 pm; our one 21 UTC post did best (n=1)"}
+  ],
+  "youtube": [
+   {"utc_start": "16:00", "utc_end": "19:00", "weight": 1.0, "why": "12-3 pm ET: most repeated Shorts window (SocialPilot, Hopper); Tue/Wed late morning-afternoon strongest"},
+   {"utc_start": "23:00", "utc_end": "01:30", "weight": 0.9, "why": "7-9:30 pm ET evening Shorts viewing peak; parents after dinner and bedtime"},
+   {"utc_start": "11:00", "utc_end": "13:00", "weight": 0.5, "why": "7-9 am ET morning; Tuesday 11 am local reported by one guide"}
+  ]
+ },
+ "experiments": [
+  {"platform": "facebook", "window_utc": "20:00-21:30", "why": "our only strong Facebook result (17 views) was at 21 UTC while the evening prior is 23-02; test whether early evening ET works as well"},
+  {"platform": "instagram", "window_utc": "13:00-14:00", "why": "9-10 am ET mid-morning window is supported by SocialPilot but untested by us; it separates the morning peak from the 11-13 UTC prior"}
+ ],
+ "sources": ["Sprout Social 2026", "Buffer 2026", "Hootsuite 2025", "Later 2026", "SocialPilot 2026", "Adobe Express 2026", "Hopper HQ 2026", "eClincher 2026"]
+}

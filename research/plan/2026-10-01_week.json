@@ -1,0 +1,447 @@
+{
+ "summary_tr": "Bu hafta 14 videonun tamamı Uyku kampanyasında ve Bedtime Starter Kit'e (ücretsiz) bağlanıyor. Akış: önce en acı yatma savaşı, ortada çözümler ve DREAMS yöntemi, sonda onarım, tekrar başlama ve doktora ne zaman. Konular farklı yaş bantlarını (1-6 yaş) ve günün farklı anlarını (akşam, gece, sabah 5, hafta sonu) kapsıyor. Şimdiye kadar yapılan 5 konu tekrar edilmedi. İlk iki gün Araştırmacı raporunda en güçlü kanıtı olan Uyku konularına ayrıldı. Yeni doğan/bassinet konusu Kit'in yaş grubuna (1-6) uymadığı için kampanya sonrasına bırakıldı.",
+ "arc_tr": "1 Ekim: yatma saati kabusu + sabah 5 uyanışı. 2 Ekim: şekerleme reddi + yatmadan önce coşku. 3 Ekim: DREAMS hızlı başlangıç + büyük yatağa geçiş. 4 Ekim: hafta sonu uykusu + karanlık korkusu. 5 Ekim: gece 3 planı + ekran krizi. 6 Ekim: bağırdıktan sonra onarım + babanın ilk yatırma gecesi. 7 Ekim: horlama ve doktora ne zaman + tatil sonrası geri dönüş.",
+ "balance": {
+  "Sleep": 14
+ },
+ "owner_tasks_tr": [
+  "Her animasyon videosu için 4 Flow klibi gerekiyor: 1, 2, 3, 4, 5, 6 ve 7 Ekim günleri (toplam 7 paket, 28 klip). Senaryo ve Flow promptları her günün sabahı Telegram'a gelir.",
+  "İstersen animasyon paketlerini önceden (örn. 2-3 günlük) isteyerek klipleri erken hazırlayabilirsin; bunun için Telegram'dan haber ver.",
+  "2 Ekim (koşan çocuk) ve 6 Ekim (Baba ile yatırma) sahneleri biraz daha zor; bu günlerin kliplerini önceden yapmak iyi olur.",
+  "Carousel videolarının hepsini onaylaman gerekiyor (onay olmadan yayınlanmaz); 7 Ekim videosu tıbbi olduğu için metnine ekstra dikkatle bak."
+ ],
+ "risks_tr": [
+  "14 konunun 14'ü Uyku: 'aynı videoyu yedi kez izledim' riski var. Konular yaş ve an olarak ayrıldı ama hafta yine de yoğun Uyku olacak.",
+  "Şekerleme konusunda kanıt daha çok Reddit tarafında ve başlıklar zayıf eşleşiyor; yalnızca doğrulanmış gerçeklerle yazılmalı.",
+  "7 Ekim horlama/nefes duraklaması videosu tıbbi: teşhis ve doz yok, yalnızca resmi belirtiler ve 'pediatristine danış'; animasyon değil, carousel.",
+  "Büyük yatak (F44-F47) ve karanlık korkusu (F59-F61) konularının fact_id'leri anahat dosyasındaki bölümlerden alındı; yazar cümleleri facts.json'dan tek tek doğrulamalı.",
+  "2 ve 6 Ekim animasyonları hareketli ve iki kişilik sahne içeriyor; 4 klipte basit tutulmalı.",
+  "Ekran konusunda WHO gerçekleri (F10, F11) genel ekran süresi için; uyku bağlamında AAP (F14, F21) ile desteklenmeli."
+ ],
+ "days": [
+  {
+   "date": "2026-10-01",
+   "theme_tr": "Hook: 'Yatma saati tam bir kabus' ve sabah 5 uyanışı",
+   "carousel_video": {
+    "id": "bedtime-is-an-absolute-nightmare",
+    "topic": "Bedtime is an absolute nightmare: one more book, one more drink",
+    "parent_phrases": [
+     "bedtime is a nightmare",
+     "one more book, one more drink",
+     "won't go to bed"
+    ],
+    "category": "Sleep",
+    "subcategory": "Bedtime battles & stalling",
+    "age_range": "2-5 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "hook",
+    "fact_ids": [
+     "F35",
+     "F37",
+     "F40",
+     "F22"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/bedtime-trouble.aspx",
+     "https://medlineplus.gov/ency/article/002392.htm"
+    ],
+    "campaign_match": true,
+    "why_tr": "Kampanyanın açılışı: en çok aranan 'yatmıyor' acısı, ebeveynin kendi kelimeleriyle. Daha önce yapılan 'sakin cümleler' ve 'yataktan çıkma' videolarından farklı açı: 'son bir istek' kuralı."
+   },
+   "animated": {
+    "id": "toddler-up-at-5-am-ready-for-the-day",
+    "topic": "My toddler is up at 5 am and ready for the day",
+    "parent_phrases": [
+     "up at 5 am",
+     "wakes up too early",
+     "ready for the day"
+    ],
+    "category": "Sleep",
+    "subcategory": "Night waking",
+    "age_range": "1-5 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F15",
+     "F16",
+     "F87",
+     "F26"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx",
+     "https://www.nhs.uk/baby/health/sleep-and-young-children/"
+    ],
+    "campaign_match": true,
+    "why_tr": "Gece uyanmalarının (Google'da Uyku'nun en güçlü alt konusu) erken uyanma yönü. Sahne basit: çocuk sabah karanlıkta yatağında oturuyor, ebeveyn yorgun."
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "theme_tr": "Öğle uykusu ve yatmadan önce coşku",
+   "carousel_video": {
+    "id": "toddler-refuses-to-nap",
+    "topic": "My toddler refuses to nap: is it normal to stop napping?",
+    "parent_phrases": [
+     "refuses to nap",
+     "won't nap",
+     "is it normal to stop napping"
+    ],
+    "category": "Sleep",
+    "subcategory": "Naps",
+    "age_range": "1-3 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F12",
+     "F31",
+     "F75",
+     "F77",
+     "F28"
+    ],
+    "official_sources": [
+     "https://www.nhs.uk/conditions/baby/health/sleep-problems-in-young-children/",
+     "https://pubmed.ncbi.nlm.nih.gov/31862445/"
+    ],
+    "campaign_match": true,
+    "why_tr": "Raporda Uyku'nun en yüksek skorlu alt konularından (45 Reddit, 9 arama); net arama cümleleri var. Kanıt Reddit ağırlıklı ve başlıklar zayıf eşleşiyor; o yüzden ikinci gün ve yalnızca doğrulanmış şekerleme gerçekleriyle."
+   },
+   "animated": {
+    "id": "toddler-hyper-at-bedtime-running-laps",
+    "topic": "My toddler is hyper at bedtime and runs laps around the room",
+    "parent_phrases": [
+     "hyper at bedtime",
+     "not tired",
+     "running around"
+    ],
+    "category": "Sleep",
+    "subcategory": "Bedtime battles & stalling",
+    "age_range": "3-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F30",
+     "F14",
+     "F82",
+     "F22"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx",
+     "https://www.nhs.uk/baby/health/sleep-and-young-children/"
+    ],
+    "campaign_match": true,
+    "why_tr": "Dim-down saati (D harfi): akşam hareketi ve ışık. Sahne orta zorlukta (koşan çocuk) ama tek mekan."
+   }
+  },
+  {
+   "date": "2026-10-03",
+   "theme_tr": "Yöntem: DREAMS ve büyük yatağa geçiş",
+   "carousel_video": {
+    "id": "tried-everything-bedtime-quick-start",
+    "topic": "We've tried everything and bedtime still fails: 6 steps to try tonight",
+    "parent_phrases": [
+     "we've tried everything",
+     "nothing works at bedtime",
+     "sleep through the night"
+    ],
+    "category": "Sleep",
+    "subcategory": "Bedtime routine",
+    "age_range": "1-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "method",
+    "fact_ids": [
+     "F13",
+     "F14",
+     "F22",
+     "F24",
+     "F35",
+     "F36"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/bedtime-trouble.aspx",
+     "https://www.nhs.uk/baby/health/sleep-and-young-children/"
+    ],
+    "campaign_match": true,
+    "why_tr": "Haftanın orta noktası: 15 dakikalık hızlı başlangıç ve DREAMS'i tek videoda özetler; ücretsiz Kit'e doğal köprü."
+   },
+   "animated": {
+    "id": "toddler-wont-stay-in-big-kid-bed",
+    "topic": "My toddler won't stay in the new big-kid bed",
+    "parent_phrases": [
+     "won't stay in bed",
+     "climbs out of the crib",
+     "big-kid bed"
+    ],
+    "category": "Sleep",
+    "subcategory": "Crib to bed",
+    "age_range": "2-3 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F44",
+     "F45",
+     "F46",
+     "F47"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/bedtime-trouble.aspx",
+     "https://www.nhs.uk/conditions/baby/health/sleep-problems-in-young-children/"
+    ],
+    "campaign_match": true,
+    "why_tr": "2-3 yaş grubu; önceki videolardan farklı yaş bandı. Sahne basit: yatak ve kapı."
+   }
+  },
+  {
+   "date": "2026-10-04",
+   "theme_tr": "Hafta sonu ve karanlık korkusu",
+   "carousel_video": {
+    "id": "weekend-sleep-ins-wreck-sunday-bedtime",
+    "topic": "Weekend sleep-ins wreck our Sunday bedtime",
+    "parent_phrases": [
+     "sleeps in on weekends",
+     "Sunday bedtime is a mess",
+     "bedtime keeps getting later"
+    ],
+    "category": "Sleep",
+    "subcategory": "Schedule & body clock",
+    "age_range": "1-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F15",
+     "F16",
+     "F87",
+     "F97"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx"
+    ],
+    "campaign_match": true,
+    "why_tr": "Cumartesiye denk gelir; hafta sonu düzeni (M harfi), sabah ışığı ve aynı kalkış saati."
+   },
+   "animated": {
+    "id": "toddler-scared-of-the-dark-at-bedtime",
+    "topic": "It's too dark, I'm scared: my child is afraid of the dark at bedtime",
+    "parent_phrases": [
+     "afraid of the dark",
+     "it's too dark",
+     "keeps calling me back"
+    ],
+    "category": "Sleep",
+    "subcategory": "Fears at bedtime",
+    "age_range": "3-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F25",
+     "F59",
+     "F60",
+     "F61"
+    ],
+    "official_sources": [
+     "https://www.nhs.uk/baby/health/sleep-and-young-children/",
+     "https://medlineplus.gov/ency/article/002392.htm"
+    ],
+    "campaign_match": true,
+    "why_tr": "Gecenin farklı bir anı (korku); çözüm sıcak ve basit: loş ışık, korkuyu küçümsememe. Tek odalı basit sahne."
+   }
+  },
+  {
+   "date": "2026-10-05",
+   "theme_tr": "Gece planı ve ekran krizi",
+   "carousel_video": {
+    "id": "3-am-plan-both-parents-can-follow",
+    "topic": "Who's going? The 3 am plan both parents can follow half asleep",
+    "parent_phrases": [
+     "keeps waking up at night",
+     "who's going",
+     "keeps getting up at night"
+    ],
+    "category": "Sleep",
+    "subcategory": "Night waking",
+    "age_range": "1-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "method",
+    "fact_ids": [
+     "F24",
+     "F29",
+     "F42",
+     "F43"
+    ],
+    "official_sources": [
+     "https://www.nhs.uk/baby/health/sleep-and-young-children/",
+     "https://www.nhs.uk/conditions/baby/health/sleep-problems-in-young-children/"
+    ],
+    "campaign_match": true,
+    "why_tr": "Gece yönetimi (A harfi): iki ebeveynin aynı planı, 'sıkıcı gece cevabı'. İlk günkü videolardan farkı pratik plan."
+   },
+   "animated": {
+    "id": "just-one-more-episode-at-bedtime",
+    "topic": "Just one more episode! My child melts down when I turn off the screen before bed",
+    "parent_phrases": [
+     "just one more episode",
+     "melts down when I turn off the tablet",
+     "screen before bed"
+    ],
+    "category": "Sleep",
+    "subcategory": "Screens & wind-down",
+    "age_range": "2-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F14",
+     "F21",
+     "F10",
+     "F11"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Sleep-and-Mental-Health.aspx",
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx"
+    ],
+    "campaign_match": true,
+    "why_tr": "Ekran krizi pain listesinde güçlü (sıra 13); akşam sahnesi basit ve anlaşılır."
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "theme_tr": "Destek: onarım ve babanın ilk yatırma gecesi",
+   "carousel_video": {
+    "id": "i-yelled-at-bedtime-and-feel-terrible",
+    "topic": "I yelled at bedtime and she cried herself to sleep: how do I repair it?",
+    "parent_phrases": [
+     "i yelled at bedtime",
+     "i feel like a bad mom",
+     "how do i stop yelling"
+    ],
+    "category": "Sleep",
+    "subcategory": "Repair & guilt",
+    "age_range": "1-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "support",
+    "fact_ids": [
+     "F20",
+     "F60",
+     "F69",
+     "F72"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Sleep-and-Mental-Health.aspx",
+     "https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx"
+    ],
+    "campaign_match": true,
+    "why_tr": "Suçluluk ve bağırma raporda güçlü (skor 34.1 ve 27.4). Uyku haftasının duygusal noktası: onarım, asla utandırmadan."
+   },
+   "animated": {
+    "id": "dads-first-time-doing-bedtime-falls-apart",
+    "topic": "Dad's first time doing bedtime and it all falls apart",
+    "parent_phrases": [
+     "dad does bedtime",
+     "bedtime falls apart",
+     "we're not on the same page"
+    ],
+    "category": "Sleep",
+    "subcategory": "Routine & same page",
+    "age_range": "1-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "teach",
+    "fact_ids": [
+     "F13",
+     "F38",
+     "F72",
+     "F73"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/bedtime-trouble.aspx",
+     "https://medlineplus.gov/ency/article/002392.htm"
+    ],
+    "campaign_match": true,
+    "why_tr": "Sabit karakter Baba ile sevimli bir sahne; tutarlılık (S harfi). İki kişilik, orta zorlukta ama 4 klipte çözülür."
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "theme_tr": "Kapanış: doktora ne zaman ve tekrar başlama",
+   "carousel_video": {
+    "id": "toddler-loud-snoring-when-to-call-the-pediatrician",
+    "topic": "My child snores loudly and stops breathing for a moment: when to call the pediatrician",
+    "parent_phrases": [
+     "loud snoring",
+     "stops breathing in sleep",
+     "wakes up tired"
+    ],
+    "category": "Sleep",
+    "subcategory": "When to get help",
+    "age_range": "2-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": true,
+    "funnel_role": "support",
+    "fact_ids": [
+     "F93",
+     "F94",
+     "F95"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/Sleep-Apnea-Detection.aspx",
+     "https://www.nhlbi.nih.gov/health/sleep-apnea/children"
+    ],
+    "campaign_match": true,
+    "why_tr": "Hafta sonunda 'doktora ne zaman' mesajı. Tıbbi konu: teşhis yok, doz yok; yalnızca resmi belirtiler ve 'pediatristinle konuş'."
+   },
+   "animated": {
+    "id": "back-from-vacation-and-bedtime-is-gone",
+    "topic": "It was working and now it isn't: back from vacation and bedtime is gone",
+    "parent_phrases": [
+     "it was working and now it isn't",
+     "back from vacation",
+     "bedtime is gone"
+    ],
+    "category": "Sleep",
+    "subcategory": "Relapse",
+    "age_range": "1-6 years",
+    "playbook": "sleep",
+    "keyword": "SLEEP",
+    "medical": false,
+    "funnel_role": "support",
+    "fact_ids": [
+     "F15",
+     "F64",
+     "F68",
+     "F101"
+    ],
+    "official_sources": [
+     "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx",
+     "https://www.nhs.uk/baby/health/sleep-and-young-children/"
+    ],
+    "campaign_match": true,
+    "why_tr": "Geri dönüş (relapse): hafta boyunca takip eden aileye umut. Sahne basit: bavul, yatak."
+   }
+  }
+ ],
+ "start": "2026-10-01",
+ "end": "2026-10-07",
+ "generated": "2026-09-30T14:38+03:00"
+}

@@ -1,0 +1,101 @@
+{
+  "theme": "problem",
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "Bedtime is an absolute nightmare: one more book, one more drink",
+  "age_range": "2-5 years",
+  "cover": {
+    "character": "kid_cheeky_blanket_cape"
+  },
+  "design": {
+    "palette": "sage"
+  },
+  "caption": "\"It's an absolute nightmare.\" One more drink, one more question, one more...\n\nYou've tried starting earlier, starting later, even staying right beside them. Still, it takes hours.\nTry a quiet routine, sort out their needs first, and keep the last request simple.\n\nSave this for tonight, and send it to a co-parent.\n\n#toddlersleep #bedtimeroutine #toddlerbedtime #sleeptips #parentingtips #gentleparenting #momlife #dadlife\n\nSources: AAP, NHS, MedlinePlus\nGeneral information, not medical advice. Talk to your pediatrician.\n\nComment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+  "sources": [
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/bedtime-trouble.aspx",
+    "https://medlineplus.gov/ency/article/002392.htm",
+    "https://www.nhs.uk/baby/health/sleep-and-young-children/"
+  ],
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "\"It's an absolute nightmare.\"\nOne more drink, one more question...\n\n**Here is a calmer way to end it.**",
+      "voiceover": "Bedtime a nightmare? Here's a calmer way."
+    },
+    {
+      "type": "text",
+      "text": "You've tried starting earlier, starting later, even staying right beside them.\n\n**A routine that goes on for hours isn't proof you're doing it wrong.**\n\nIt usually just needs a clearer ending.",
+      "voiceover": ""
+    },
+    {
+      "type": "text",
+      "text": "**1. Same quiet routine every night.**\n\nThe AAP's first tip: a **quiet routine** helps your child understand that sleep is coming soon.\n\nSay: **\"Same steps as always. Then we're done.\"**",
+      "voiceover": "One: same quiet routine. Say: same steps, then done."
+    },
+    {
+      "type": "text",
+      "text": "**2. Start winding down early.**\n\nThe NHS suggests starting about **30 minutes before** the time they usually fall asleep, then moving it **5 to 10 minutes earlier each week**.\n\nSay: **\"Cozy time starts now.\"**",
+      "voiceover": "Two: wind down early. Say: cozy time starts now."
+    },
+    {
+      "type": "text",
+      "text": "**3. Sort out their needs first.**\n\nThe AAP says to take care of your child's needs **before** the routine ends, so they can't become reasons to put sleep off.\n\nSay: **\"Drink done, potty done, hug done. All set.\"**",
+      "voiceover": "Three: needs first. Say: drink done, hug done."
+    },
+    {
+      "type": "text",
+      "text": "**4. Ask once, then say yes to one.**\n\nBefore the routine ends, ask if they need anything else. MedlinePlus says **meeting one simple request is OK.**\n\nSay: **\"One last thing? Okay. Then we're all done.\"**",
+      "voiceover": "Four: ask once, then say yes to one request."
+    },
+    {
+      "type": "text",
+      "text": "**5. Once the door is closed, stay calm and brief.**\n\nMedlinePlus says once the door has been closed, it is best to **ignore further requests.**\n\nStay kind: **\"It's sleeping time. I love you. See you in the morning.\"**",
+      "voiceover": "Five: door closed, stay calm, kind and brief."
+    },
+    {
+      "type": "text",
+      "text": "**Still stuck?**\n\nIf evenings stay hard, **talk to your pediatrician.** They can look at your child's sleep and your routine with you.\n\nAsking for help is a strong move.",
+      "voiceover": ""
+    },
+    {
+      "type": "cta",
+      "intro": "If the evening wind-down is a nightly battle in your house,",
+      "keyword": "SLEEP",
+      "voiceover": "Save this and follow for more. Comment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+      "v": {
+        "intro": 4,
+        "offer": 1,
+        "comment": 0,
+        "foot": 0
+      }
+    }
+  ],
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": true,
+  "video_title": "Bedtime is a nightmare? One more book, one more drink (ages 2-5)",
+  "yt_tags": [
+    "bedtime is a nightmare",
+    "toddler won't go to bed",
+    "toddler bedtime stalling",
+    "toddler bedtime routine",
+    "one more drink at bedtime",
+    "toddler keeps getting out of bed",
+    "3 year old won't go to bed",
+    "toddler sleep tips",
+    "parenting tips",
+    "toddler sleep",
+    "toddler bedtime battles",
+    "2 year old won't go to bed",
+    "4 year old bedtime stalling",
+    "bedtime routine for toddlers"
+  ],
+  "cta_keyword": "SLEEP",
+  "kind": "cvideo",
+  "cta_variant": {
+    "intro": 4,
+    "offer": 1,
+    "comment": 0,
+    "foot": 0
+  }
+}

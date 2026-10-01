@@ -1,0 +1,30 @@
+{
+ "date": "2026-09-30",
+ "summary_tr": "Bugünkü karar: ABD Doğu saati (ET) merkezli bir kitle varsayarak pencereleri yeniden düzenledim. Instagram için öğleden sonra (17:00-20:00 UTC) ve çocuklar uyuduktan sonraki akşam (00:00-02:30 UTC) öne çıktı. Facebook Reels için akşam 6-10 ET (22:00-02:00 UTC) en güçlü pencere; sabah penceresi ikinci. YouTube Shorts için öğle-öğleden sonra (16:00-19:00 UTC) ve akşam (23:00-01:30 UTC) zirve. Araştırmalar birbirini tutmuyor, bu yüzden hiçbir saate tam güvenmiyorum ve iki küçük deney ekledim.",
+ "learned_tr": "Kendi verimiz çok az: 30 günde toplam 12 gönderi (platform başına 3-5), saat başına en fazla 1-2 gönderi. Yani hiçbir saat hakkında sonuç çıkaramayız, hepsi gürültü. Tek küçük işaret: 21:00 UTC'de Facebook'ta bir Reel 17 görüntülenme aldı (diğerleri 0-2), ama bu tek gönderi ve büyük olasılıkla saatten çok konudan kaynaklanıyor. Instagram'da neredeyse her şey 0 beğeni/yorum. Kendi verimizin ağırlığı şu an yaklaşık %5-10; her platformda en az 8 gönderi olana kadar kararı araştırma verisi yönlendirecek.",
+ "data_note_tr": "Eksikler: (1) Instagram'da instagram_manage_insights izni yok, sadece beğeni ve yorum görüyoruz; erişim, gösterim ve izlenme yok. (2) Facebook'ta read_insights izni yok, sadece görüntülenme/tepki/yorum var. (3) Her iki platformda içgörü sorgusu HTTP 400 hatası veriyor (nesne kimliği yüklenemedi), Meta uygulamasında izinlerin ve token'ın (sayfa/işletme hesabı) yenilenmesi gerekiyor. Bu olmadan Instagram ve Facebook için saat öğrenmesi neredeyse kör; en güvenilir öğrenme kaynağı şimdilik YouTube. (4) Takipçilerin ülke/saat dağılımı bilinmiyor; izinler açılınca 'takipçilerin en aktif olduğu saatler' verisi alınmalı.",
+ "audience_tr": "Kitle tahmini: çoğunluk ABD (ET ve CT, yani UTC-4/-5), ardından İngiltere, Kanada, Avustralya. Emin olma düzeyi orta-düşük: hesaplar yeni, takipçi yok ve platformlar kitle dağılımını henüz göstermiyor. Ebeveyn günü: sabah işe/okula gitmeden önce (7-9 ET), öğle ve şekerleme saati, akşam çocuklar uyuduktan sonra (8-10 ET). Hafta sonları çalışmaların çoğunda daha zayıf çıkıyor.",
+ "experiments": [
+  {
+   "platform": "facebook",
+   "window_utc": "21:00-22:00",
+   "why": "Our only visible Facebook signal (17 views) came at 21:00 UTC (5 pm ET); one post is noise, so test it again with a second post"
+  },
+  {
+   "platform": "youtube",
+   "window_utc": "12:00-13:00",
+   "why": "Test the morning window against the afternoon and evening peaks, because 2026 guides disagree and YouTube gives us the most readable data"
+  }
+ ],
+ "sources": [
+  "Sprout Social 2026",
+  "Buffer 2026",
+  "Later 2026",
+  "SocialPilot 2026",
+  "Adobe Express 2026",
+  "NapoleonCat 2026",
+  "eClincher 2026",
+  "Hopper HQ 2026",
+  "Blogging Wizard 2026"
+ ]
+}
