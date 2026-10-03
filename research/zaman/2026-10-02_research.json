@@ -1,0 +1,28 @@
+{
+ "summary_tr": "Bugün araştırma kanıtı dünkü pencereleri büyük ölçüde doğruladı: Instagram Reels için hafta içi öğleden sonra ve geç akşam, Facebook için sabah (Buffer) ile öğleden sonra-akşam (Sprout), YouTube Shorts için öğlen ve akşam. Kendi verimiz çok az (platform başına 3-5 gönderi) olduğundan ağırlığın yaklaşık %80'i araştırmada, %20'si bizim verimizde. Tek net sinyal: Instagram'da 20-01 UTC (ABD akşamı) 95-182 erişim alırken 09 UTC (ABD sabaha karşı) sadece 17 aldı. Bu yüzden Instagram'da 09-10 UTC'yi tamamen düşük tuttum, 17-21 ve 23-02 UTC pencerelerini yüksek bıraktım. Facebook ve YouTube'da henüz sonuç çıkaracak veri yok; ağırlıklar ağırlıkla kanıta dayanıyor.",
+ "learned_tr": "Kendi verimizden öğrenilen şey çok sınırlı ve çoğunlukla gürültü: Instagram'da 20 UTC (143 erişim), 21 UTC (181), 23 UTC (138), 01 UTC (95) iyi; 09 UTC (17) zayıf. Her saatte n=1 olduğu için bu kesin değil, yalnızca 'ABD akşamı gece yarısı UTC çevresi sabaha karşı UTC'den iyi' yönünde zayıf bir işaret. Facebook'ta neredeyse tüm gönderiler 0-2 görüntüleme aldı (tek istisna 21 UTC'deki 17 görüntüleme, n=1); hesap yeni olduğu için dağıtım neredeyse yok, saat farkını ayırt edemiyoruz. YouTube'da 0-18 görüntüleme, saatler arasında anlamlı fark yok. Sonuçlar içerik farkından da etkileniyor (klip mi, hikaye mi), bu yüzden saat etkisi ayrıştırılamıyor.",
+ "audience_tr": "Kitle tahmini: ağırlıklı ABD (Doğu saati UTC-4/-5, kısmen Pasifik UTC-7/-8), ardından İngiltere, Kanada, Avustralya. Ebeveynlerin günü: sabah işe/okula çıkmadan önce (11-13 UTC), öğle arası ve öğleden sonra (16-20 UTC), çocuklar yattıktan sonra akşam (00-02 UTC). Eminlik orta-düşük: kanıt genel ve sektör ortalaması, ebeveyn nişine özel veri bulamadım; kendi hesabımızın kitle saatleri (takipçi ~100'e ulaşana kadar) görünmeyecek.",
+ "data_note_tr": "Eksikler: (1) Instagram/Facebook kitle saat ve ülke dağılımı yaklaşık 100 takipçiye kadar görünmüyor; ulaşınca zaman modeli kitle saatlerini doğrudan kullanmalı. (2) Facebook'ta görüntüleme sayıları çok düşük, saat etkisi ölçülemiyor; takipçi ve etkileşim artınca anlamlı hale gelir. (3) YouTube'da kitle ülke/saat verisi yok; YouTube Analytics 'izleyicilerin YouTube'da olduğu zamanlar' raporu kanal büyüyünce bakılabilir. (4) Platform başına en az 8 gönderiye kadar kendi verimiz araştırmayı geçmeyecek; bu yaklaşık 4-5 gün sürer. Yapılacak: bu hafta deney saatlerini denemeye devam etmek, gönderi sayısını artırmak.",
+ "priors": {
+  "instagram": [
+   {"utc_start": "17:00", "utc_end": "21:00", "weight": 1.0, "why": "1-5 pm ET Mon-Thu (Sprout, Adobe Express: Tue 1-7 pm, Wed noon-9 pm); our 20-21 UTC posts reached 143-181 (n=2, weak)"},
+   {"utc_start": "23:00", "utc_end": "02:00", "weight": 0.95, "why": "7-10 pm ET after kids' bedtime; late spike in Sprout (Wed 11 pm), Later midnight; our 23 and 01 UTC posts reached 138 and 95 (n=2)"},
+   {"utc_start": "11:00", "utc_end": "13:00", "weight": 0.5, "why": "7-9 am ET, SocialPilot 8 am-12 pm Mon-Thu; also UK lunch; untested by us, 09 UTC did poorly (17 reach)"}
+  ],
+  "facebook": [
+   {"utc_start": "23:00", "utc_end": "02:00", "weight": 1.0, "why": "7-10 pm ET evening entertainment scrolling, parents after bedtime; no own data yet"},
+   {"utc_start": "13:00", "utc_end": "15:00", "weight": 0.9, "why": "Buffer 2026 (14M posts): weekday mornings, Thu 9 am ET best; 9-11 am ET fits older parent audience"},
+   {"utc_start": "16:00", "utc_end": "21:00", "weight": 0.7, "why": "Sprout 2026: Tue/Wed noon-8 pm ET strongest; our 21 UTC post did best (17 views, n=1, noise)"}
+  ],
+  "youtube": [
+   {"utc_start": "16:00", "utc_end": "19:00", "weight": 1.0, "why": "12-3 pm ET most repeated Shorts window (SocialPilot, Hopper); weekday afternoon strong"},
+   {"utc_start": "23:00", "utc_end": "02:00", "weight": 0.9, "why": "7-9 pm ET evening Shorts peak (SocialPilot: Fri 4-7 pm, evenings dominate Shorts); parents after bedtime"},
+   {"utc_start": "12:00", "utc_end": "14:00", "weight": 0.5, "why": "8-10 am ET weekday morning; Tue 11 am local reported by one guide"}
+  ]
+ },
+ "experiments": [
+  {"platform": "facebook", "window_utc": "13:00-14:00", "why": "Buffer's morning finding (9-10 am ET) conflicts with Sprout's afternoon finding; test the morning window against the evening to see which gets any distribution"},
+  {"platform": "youtube", "window_utc": "12:00-13:00", "why": "UK/ET morning slot is untested for Shorts; compare with the 16-19 UTC and 23-01 UTC windows"}
+ ],
+ "sources": ["Sprout Social 2026", "Buffer 2026", "SocialPilot 2026", "Adobe Express 2026", "Later 2026", "Hopper HQ 2026"]
+}

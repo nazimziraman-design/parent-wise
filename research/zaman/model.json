@@ -5,19 +5,19 @@
     "utc_start": "17:00",
     "utc_end": "21:00",
     "weight": 1.0,
-    "why": "1-5 pm ET weekdays: Sprout/SocialPilot-type studies favour early-afternoon Reels; our two posts at 20-21 UTC reached 143-182 (n=2, weak)"
+    "why": "1-5 pm ET Mon-Thu (Sprout, Adobe Express: Tue 1-7 pm, Wed noon-9 pm); our 20-21 UTC posts reached 143-181 (n=2, weak)"
    },
    {
-    "utc_start": "00:00",
-    "utc_end": "02:30",
-    "weight": 0.9,
-    "why": "8-10:30 pm ET after kids' bedtime; late-evening spike reported (Later, Sprout); our 01 UTC post got 48 reach in 5 h"
+    "utc_start": "23:00",
+    "utc_end": "02:00",
+    "weight": 0.95,
+    "why": "7-10 pm ET after kids' bedtime; late spike in Sprout (Wed 11 pm), Later midnight; our 23 and 01 UTC posts reached 138 and 95 (n=2)"
    },
    {
     "utc_start": "11:00",
     "utc_end": "13:00",
-    "weight": 0.6,
-    "why": "7-9 am ET before work/school; SocialPilot 8am-12pm weekday finding; also catches UK/EU parents"
+    "weight": 0.5,
+    "why": "7-9 am ET, SocialPilot 8 am-12 pm Mon-Thu; also UK lunch; untested by us, 09 UTC did poorly (17 reach)"
    }
   ],
   "facebook": [
@@ -25,19 +25,19 @@
     "utc_start": "23:00",
     "utc_end": "02:00",
     "weight": 1.0,
-    "why": "7-10 pm ET: Facebook Reels peak 6-9 pm when users are in entertainment mode; parents scroll after bedtime"
+    "why": "7-10 pm ET evening entertainment scrolling, parents after bedtime; no own data yet"
    },
    {
-    "utc_start": "11:00",
-    "utc_end": "14:00",
+    "utc_start": "13:00",
+    "utc_end": "15:00",
     "weight": 0.9,
-    "why": "7-10 am ET: Buffer 2026 points to weekday mornings (Thu 9 am), Hootsuite early morning; older parent audience"
+    "why": "Buffer 2026 (14M posts): weekday mornings, Thu 9 am ET best; 9-11 am ET fits older parent audience"
    },
    {
     "utc_start": "16:00",
-    "utc_end": "20:00",
-    "weight": 0.6,
-    "why": "noon-4 pm ET: Sprout 2026 strongest blocks Tue/Wed noon-8 pm; our one 21 UTC post did best (n=1)"
+    "utc_end": "21:00",
+    "weight": 0.7,
+    "why": "Sprout 2026: Tue/Wed noon-8 pm ET strongest; our 21 UTC post did best (17 views, n=1, noise)"
    }
   ],
   "youtube": [
@@ -45,57 +45,57 @@
     "utc_start": "16:00",
     "utc_end": "19:00",
     "weight": 1.0,
-    "why": "12-3 pm ET: most repeated Shorts window (SocialPilot, Hopper); Tue/Wed late morning-afternoon strongest"
+    "why": "12-3 pm ET most repeated Shorts window (SocialPilot, Hopper); weekday afternoon strong"
    },
    {
     "utc_start": "23:00",
-    "utc_end": "01:30",
+    "utc_end": "02:00",
     "weight": 0.9,
-    "why": "7-9:30 pm ET evening Shorts viewing peak; parents after dinner and bedtime"
+    "why": "7-9 pm ET evening Shorts peak (SocialPilot: Fri 4-7 pm, evenings dominate Shorts); parents after bedtime"
    },
    {
-    "utc_start": "11:00",
-    "utc_end": "13:00",
+    "utc_start": "12:00",
+    "utc_end": "14:00",
     "weight": 0.5,
-    "why": "7-9 am ET morning; Tuesday 11 am local reported by one guide"
+    "why": "8-10 am ET weekday morning; Tue 11 am local reported by one guide"
    }
   ]
  },
  "platforms": {
   "instagram": {
-   "posts_used": 3,
-   "median_score": 144.0,
+   "posts_used": 5,
+   "median_score": 143.0,
    "hours": [
     {
      "h": 0,
-     "prior": 0.9,
+     "prior": 0.95,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 0.95,
      "bonus": 0.35
     },
     {
      "h": 1,
-     "prior": 0.9,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.9,
-     "bonus": 0.35
+     "prior": 0.95,
+     "n": 1,
+     "mean_norm": 0.66,
+     "value": 0.877,
+     "bonus": 0.247
     },
     {
      "h": 2,
-     "prior": 0.9,
+     "prior": 0.95,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 0.95,
      "bonus": 0.35
     },
     {
      "h": 3,
-     "prior": 0.9,
+     "prior": 0.05,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 0.05,
      "bonus": 0.35
     },
     {
@@ -141,10 +141,10 @@
     {
      "h": 9,
      "prior": 0.05,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.05,
-     "bonus": 0.35
+     "n": 1,
+     "mean_norm": 0.12,
+     "value": 0.067,
+     "bonus": 0.247
     },
     {
      "h": 10,
@@ -156,26 +156,26 @@
     },
     {
      "h": 11,
-     "prior": 0.6,
+     "prior": 0.5,
      "n": 0,
      "mean_norm": null,
-     "value": 0.6,
+     "value": 0.5,
      "bonus": 0.35
     },
     {
      "h": 12,
-     "prior": 0.6,
+     "prior": 0.5,
      "n": 0,
      "mean_norm": null,
-     "value": 0.6,
+     "value": 0.5,
      "bonus": 0.35
     },
     {
      "h": 13,
-     "prior": 0.6,
+     "prior": 0.5,
      "n": 0,
      "mean_norm": null,
-     "value": 0.6,
+     "value": 0.5,
      "bonus": 0.35
     },
     {
@@ -231,7 +231,7 @@
      "prior": 1.0,
      "n": 1,
      "mean_norm": 0.99,
-     "value": 0.997,
+     "value": 0.998,
      "bonus": 0.247
     },
     {
@@ -239,7 +239,7 @@
      "prior": 1.0,
      "n": 1,
      "mean_norm": 1.26,
-     "value": 1.064,
+     "value": 1.066,
      "bonus": 0.247
     },
     {
@@ -252,16 +252,16 @@
     },
     {
      "h": 23,
-     "prior": 0.05,
+     "prior": 0.95,
      "n": 1,
-     "mean_norm": 0.99,
-     "value": 0.286,
+     "mean_norm": 1.0,
+     "value": 0.962,
      "bonus": 0.247
     }
    ]
   },
   "facebook": {
-   "posts_used": 3,
+   "posts_used": 4,
    "median_score": 2.0,
    "hours": [
     {
@@ -339,10 +339,10 @@
     {
      "h": 9,
      "prior": 0.05,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.05,
-     "bonus": 0.35
+     "n": 1,
+     "mean_norm": 0.67,
+     "value": 0.204,
+     "bonus": 0.247
     },
     {
      "h": 10,
@@ -354,18 +354,18 @@
     },
     {
      "h": 11,
-     "prior": 0.9,
+     "prior": 0.05,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 0.05,
      "bonus": 0.35
     },
     {
      "h": 12,
-     "prior": 0.9,
+     "prior": 0.05,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 0.05,
      "bonus": 0.35
     },
     {
@@ -386,58 +386,58 @@
     },
     {
      "h": 15,
-     "prior": 0.05,
+     "prior": 0.9,
      "n": 0,
      "mean_norm": null,
-     "value": 0.05,
+     "value": 0.9,
      "bonus": 0.35
     },
     {
      "h": 16,
-     "prior": 0.6,
+     "prior": 0.7,
      "n": 0,
      "mean_norm": null,
-     "value": 0.6,
+     "value": 0.7,
      "bonus": 0.35
     },
     {
      "h": 17,
-     "prior": 0.6,
+     "prior": 0.7,
      "n": 0,
      "mean_norm": null,
-     "value": 0.6,
+     "value": 0.7,
      "bonus": 0.35
     },
     {
      "h": 18,
-     "prior": 0.6,
+     "prior": 0.7,
      "n": 0,
      "mean_norm": null,
-     "value": 0.6,
+     "value": 0.7,
      "bonus": 0.35
     },
     {
      "h": 19,
-     "prior": 0.6,
+     "prior": 0.7,
      "n": 0,
      "mean_norm": null,
-     "value": 0.6,
+     "value": 0.7,
      "bonus": 0.35
     },
     {
      "h": 20,
-     "prior": 0.6,
+     "prior": 0.7,
      "n": 1,
      "mean_norm": 0.67,
-     "value": 0.617,
+     "value": 0.692,
      "bonus": 0.247
     },
     {
      "h": 21,
-     "prior": 0.05,
+     "prior": 0.7,
      "n": 1,
      "mean_norm": 7.33,
-     "value": 1.288,
+     "value": 1.775,
      "bonus": 0.247
     },
     {
@@ -459,8 +459,8 @@
    ]
   },
   "youtube": {
-   "posts_used": 3,
-   "median_score": 5.0,
+   "posts_used": 4,
+   "median_score": 11.0,
    "hours": [
     {
      "h": 0,
@@ -537,10 +537,10 @@
     {
      "h": 9,
      "prior": 0.05,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.05,
-     "bonus": 0.35
+     "n": 1,
+     "mean_norm": 1.5,
+     "value": 0.412,
+     "bonus": 0.247
     },
     {
      "h": 10,
@@ -552,10 +552,10 @@
     },
     {
      "h": 11,
-     "prior": 0.5,
+     "prior": 0.05,
      "n": 0,
      "mean_norm": null,
-     "value": 0.5,
+     "value": 0.05,
      "bonus": 0.35
     },
     {
@@ -576,10 +576,10 @@
     },
     {
      "h": 14,
-     "prior": 0.05,
+     "prior": 0.5,
      "n": 0,
      "mean_norm": null,
-     "value": 0.05,
+     "value": 0.5,
      "bonus": 0.35
     },
     {
@@ -626,8 +626,8 @@
      "h": 20,
      "prior": 0.05,
      "n": 1,
-     "mean_norm": 1.83,
-     "value": 0.496,
+     "mean_norm": 0.92,
+     "value": 0.267,
      "bonus": 0.247
     },
     {
@@ -650,13 +650,13 @@
      "h": 23,
      "prior": 0.9,
      "n": 2,
-     "mean_norm": 0.83,
-     "value": 0.873,
+     "mean_norm": 0.46,
+     "value": 0.723,
      "bonus": 0.202
     }
    ]
   }
  },
- "updated": "2026-10-01T06:01+00:00",
- "research_updated": "2026-10-01T06:01+00:00"
+ "updated": "2026-10-02T21:49+00:00",
+ "research_updated": "2026-10-02T06:01+00:00"
 }

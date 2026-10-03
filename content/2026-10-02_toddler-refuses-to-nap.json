@@ -1,0 +1,102 @@
+{
+  "theme": "problem",
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "My toddler refuses to nap: is it normal to stop napping?",
+  "age_range": "1-3 years",
+  "cover": {
+    "character": "kid_sleepy_yawn"
+  },
+  "design": {
+    "palette": "sage"
+  },
+  "caption": "\"My toddler refuses to nap. Is it normal to stop napping?\"\n\nSome days the nap fight lasts longer than the nap ever would.\nHere is what the research says about when naps end, and five calm things to keep in mind before you give up.\n\nSave this for nap time, and send it to a co-parent.\n\n#toddlernap #toddlersleep #napstrike #toddlerparenting #sleeptips #parentingtips #momlife #dadlife\n\nSources: MedlinePlus, AAP, NHS, Sleep Medicine Reviews\nGeneral information, not medical advice. Talk to your pediatrician.\n\nType SLEEP in the comments and I’ll send you the link.\n\nComment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/31862445/",
+    "https://pubmed.ncbi.nlm.nih.gov/25691291/",
+    "https://medlineplus.gov/ency/article/002392.htm",
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx",
+    "https://cambspborochildrenshealth.nhs.uk/sleep/healthy-sleep-routines/sleep-routines-for-toddlers-and-children/",
+    "https://www.nhs.uk/conditions/baby/health/sleep-problems-in-young-children/"
+  ],
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "\"My toddler refuses to nap.\"\nIs it normal to stop napping?\n\n**Here is what to know before you give up.**",
+      "voiceover": "Toddler won't nap? Is it normal to stop napping?"
+    },
+    {
+      "type": "text",
+      "text": "You've offered the nap, and they said no. Again.\n\n**One refused nap doesn't mean the nap is over.**\n\nLet's look at what is usual first.",
+      "voiceover": ""
+    },
+    {
+      "type": "text",
+      "text": "**1. Stopping before age 2 is rare.**\n\nA review of many studies found fewer than **2.5%** of children stop napping before 2. By age 5, **94%** have stopped.\n\nSay to yourself: **\"We're still in the nap years.\"**",
+      "voiceover": "One: stopping before age two is rare."
+    },
+    {
+      "type": "text",
+      "text": "**2. Between 3 and 5, it varies a lot.**\n\nThe same review found big differences in when naps end. So a 3-year-old skipping naps can be **well within normal.**\n\nSay: **\"My child has their own timing.\"**",
+      "voiceover": "Two: from three to five, it varies."
+    },
+    {
+      "type": "text",
+      "text": "**3. Count the whole day, not just the nap.**\n\nMedlinePlus says toddlers (1-3 years) typically sleep **11-14 hours a day**. The AAP says naps count toward that total.\n\nSay: **\"Is the day's sleep enough overall?\"**",
+      "voiceover": "Three: count the whole day, eleven to fourteen hours."
+    },
+    {
+      "type": "text",
+      "text": "**4. Keep the nap before 3pm.**\n\nAn NHS trust advises naps **before 3pm**, so your child is tired enough at bedtime.\n\nSay: **\"Rest now, then outside play.\"**",
+      "voiceover": "Four: keep naps before three p.m. for bedtime."
+    },
+    {
+      "type": "text",
+      "text": "**5. Watch what the nap does to the night.**\n\nBeyond age 2, research links napping with **later sleep onset** and shorter night sleep. If bedtime is the real fight, the nap may be part of it.\n\nSay: **\"Quiet time, then we'll see.\"**",
+      "voiceover": "Five: watch what the nap does to the night."
+    },
+    {
+      "type": "text",
+      "text": "**Still worried?**\n\nIf your child seems very tired, or sleep is hard day and night, **talk to your pediatrician.** They can look at the whole picture with you.\n\nAsking is never overreacting.",
+      "voiceover": ""
+    },
+    {
+      "type": "cta",
+      "intro": "If nap time is a daily standoff in your house,",
+      "keyword": "SLEEP",
+      "voiceover": "Save this and follow for more. Comment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+      "v": {
+        "intro": 1,
+        "offer": 4,
+        "comment": 3,
+        "foot": 1
+      }
+    }
+  ],
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": true,
+  "video_title": "Toddler refuses to nap? Is it normal to stop napping? (ages 1-3)",
+  "yt_tags": [
+    "toddler refuses to nap",
+    "toddler won't nap",
+    "is it normal to stop napping",
+    "toddler nap strike",
+    "when do toddlers stop napping",
+    "2 year old won't nap",
+    "3 year old stopped napping",
+    "toddler nap tips",
+    "toddler sleep",
+    "parenting tips",
+    "toddler naps",
+    "how much sleep does a toddler need"
+  ],
+  "cta_keyword": "SLEEP",
+  "kind": "cvideo",
+  "cta_variant": {
+    "intro": 1,
+    "offer": 4,
+    "comment": 3,
+    "foot": 1
+  }
+}

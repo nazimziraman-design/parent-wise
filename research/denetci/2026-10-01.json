@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-01T13:58+03:00",
- "now_utc": "2026-10-01T10:58+00:00",
+ "generated": "2026-10-01T23:45+03:00",
+ "now_utc": "2026-10-01T20:45+00:00",
  "rows": [
   {
    "post": "2026-09-25_sample-bedtime-scripts",
@@ -249,33 +249,64 @@
    "kind": "cvideo",
    "platforms": {
     "instagram": {
+     "live": 1,
+     "url": "https://www.instagram.com/reel/Dd8wITwjrRp/",
+     "time": "2026-10-01T11:00+00:00",
+     "slot": "2026-10-01T11:00+00:00",
+     "late_min": 0,
+     "state": "live"
+    },
+    "facebook": {
+     "live": 1,
+     "url": "https://www.facebook.com/reel/969255586226116",
+     "time": "2026-10-01T11:00+00:00",
+     "slot": "2026-10-01T11:00+00:00",
+     "late_min": 0,
+     "state": "live"
+    },
+    "youtube": {
+     "live": 1,
+     "url": "https://youtube.com/shorts/N0fjaq-9F-Y",
+     "time": "2026-10-01T11:00+00:00",
+     "slot": "2026-10-01T11:00+00:00",
+     "late_min": 0,
+     "state": "live"
+    }
+   }
+  },
+  {
+   "post": "2026-10-01_toddler-up-at-5-am-ready-for-the-day-animated",
+   "topic": "My toddler is up at 5 am and ready for the day",
+   "kind": "animated",
+   "platforms": {
+    "instagram": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-01T11:00+00:00",
+     "slot": "2026-10-01T21:00+00:00",
      "state": "scheduled"
     },
     "facebook": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-01T11:00+00:00",
+     "slot": "2026-10-01T21:00+00:00",
      "state": "scheduled"
     },
     "youtube": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-01T11:00+00:00",
+     "slot": "2026-10-02T02:00+00:00",
      "state": "scheduled"
     }
    }
   }
  ],
  "per_day_today": {
-  "instagram": 1,
-  "facebook": 1,
-  "youtube": 1
+  "instagram": 2,
+  "facebook": 2,
+  "youtube": 2
  },
  "plan": [
   {
@@ -284,17 +315,21 @@
    "topic": "Bedtime is an absolute nightmare: one more book, one more drink",
    "post": "2026-10-01_bedtime-is-an-absolute-nightmare",
    "platforms": {
-    "instagram": "scheduled",
-    "facebook": "scheduled",
-    "youtube": "scheduled"
+    "instagram": "live",
+    "facebook": "live",
+    "youtube": "live"
    }
   },
   {
    "date": "2026-10-01",
    "slot": "animated",
    "topic": "My toddler is up at 5 am and ready for the day",
-   "post": null,
-   "platforms": {}
+   "post": "2026-10-01_toddler-up-at-5-am-ready-for-the-day-animated",
+   "platforms": {
+    "instagram": "scheduled",
+    "facebook": "scheduled",
+    "youtube": "scheduled"
+   }
   },
   {
    "date": "2026-10-02",
@@ -359,9 +394,9 @@
   }
  ],
  "live_counts": {
-  "instagram": 6,
-  "facebook": 13,
-  "youtube": 6
+  "instagram": 7,
+  "facebook": 15,
+  "youtube": 7
  },
  "orphans": [
   {

@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-03T03:00+03:00",
- "now_utc": "2026-10-03T00:00+00:00",
+ "generated": "2026-10-02T23:46+03:00",
+ "now_utc": "2026-10-02T20:46+00:00",
  "rows": [
   {
    "post": "2026-09-25_sample-bedtime-scripts",
@@ -213,34 +213,6 @@
    }
   },
   {
-   "post": "2026-10-09_sample-bedtime-stalling-one-more-drink-animated",
-   "topic": "My toddler keeps stalling at bedtime: one more drink, one more story, one more hug",
-   "kind": "animated",
-   "platforms": {
-    "instagram": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "missing"
-    },
-    "facebook": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "missing"
-    },
-    "youtube": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "missing"
-    }
-   }
-  },
-  {
    "post": "2026-09-30_toddler-keeps-getting-out-of-bed-animated",
    "topic": "My toddler keeps getting out of bed at bedtime",
    "kind": "animated",
@@ -339,27 +311,25 @@
    "kind": "cvideo",
    "platforms": {
     "instagram": {
-     "live": 1,
-     "url": "https://www.instagram.com/reel/DeAZm5DDrh0/",
-     "time": "2026-10-02T21:00+00:00",
+     "live": 0,
+     "url": null,
+     "time": null,
      "slot": "2026-10-02T21:00+00:00",
-     "late_min": 0,
-     "state": "live"
+     "state": "scheduled"
     },
     "facebook": {
-     "live": 1,
-     "url": "https://www.facebook.com/reel/2148721849048135",
-     "time": "2026-10-02T21:00+00:00",
+     "live": 0,
+     "url": null,
+     "time": null,
      "slot": "2026-10-02T21:00+00:00",
-     "late_min": 0,
-     "state": "live"
+     "state": "scheduled"
     },
     "youtube": {
      "live": 0,
      "url": null,
      "time": null,
      "slot": "2026-10-03T00:00+00:00",
-     "state": "due_now"
+     "state": "scheduled"
     }
    }
   },
@@ -395,7 +365,7 @@
  "per_day_today": {
   "instagram": 1,
   "facebook": 1,
-  "youtube": 0
+  "youtube": 1
  },
  "plan": [
   {
@@ -426,9 +396,9 @@
    "topic": "My toddler refuses to nap: is it normal to stop napping?",
    "post": "2026-10-02_toddler-refuses-to-nap",
    "platforms": {
-    "instagram": "live",
-    "facebook": "live",
-    "youtube": "due_now"
+    "instagram": "scheduled",
+    "facebook": "scheduled",
+    "youtube": "scheduled"
    }
   },
   {
@@ -455,28 +425,9 @@
    "topic": "My toddler won't stay in the new big-kid bed",
    "post": null,
    "platforms": {}
-  },
-  {
-   "date": "2026-10-04",
-   "slot": "carousel_video",
-   "topic": "Weekend sleep-ins wreck our Sunday bedtime",
-   "post": null,
-   "platforms": {}
-  },
-  {
-   "date": "2026-10-04",
-   "slot": "animated",
-   "topic": "It's too dark, I'm scared: my child is afraid of the dark at bedtime",
-   "post": null,
-   "platforms": {}
   }
  ],
  "problems": [
-  {
-   "level": "critical",
-   "id": "aerr:2026-10-09_sample-bedtime-stalling-one-more-drink",
-   "text": "animasyon 2026-10-09 hata: no free slot for instagram"
-  },
   {
    "level": "info",
    "id": "gone:2026-09-25_sample-bedtime-scripts:instagram",
@@ -524,8 +475,8 @@
   }
  ],
  "live_counts": {
-  "instagram": 9,
-  "facebook": 19,
+  "instagram": 8,
+  "facebook": 17,
   "youtube": 8
  },
  "orphans": [
@@ -544,5 +495,5 @@
    "text": ""
   }
  ],
- "ok": false
+ "ok": true
 }
