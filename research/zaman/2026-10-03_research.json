@@ -1,0 +1,28 @@
+{
+ "summary_tr": "Bugün öncelikleri büyük ölçüde korudum: araştırmalar (Sprout Social 2026, Buffer 2026, SocialPilot, Later) ABD Doğu saatiyle hafta içi öğleden sonra ve akşam (17:00-02:00 UTC) ile Facebook için sabah 9-11 ET (13:00-15:00 UTC) pencerelerini öne çıkarıyor. Çalışmalar birbiriyle çelişiyor (örneğin SocialPilot Instagram için sabah 8-12 derken Buffer akşam 6-11 diyor), bu yüzden tek bir çalışmayı kopyalamadım. Kendi verimiz çok az (platform başına 2-6 gönderi), bu yüzden araştırma baskın; kendi verimiz sadece hafif bir yönlendirme. Çocukların yatış saatinden sonraki akşam (23:00-02:00 UTC) ve öğleden sonra (17:00-21:00 UTC) iki ana tepe olarak kaldı.",
+ "learned_tr": "Instagram'da 20-23 UTC'de yayınlanan videolar 138-181 erişime ulaştı, 09 UTC'deki 17 erişimde kaldı ve 01 UTC'deki 96 oldu; ama bu gönderilerin bir kısmı farklı içerik türleri olduğu için saatten çok içerik farkı olabilir (n=1-2, gürültü). Facebook'ta neredeyse hiç görüntüleme yok (0-17), saat farkı anlamlı değil. YouTube'da 09 UTC'de 22, 23 UTC'de 10 ve 6, 02 UTC'de 3 görüntüleme var; yine n=1-2 ve anlamsız. Hiçbir platformda 8 gönderi eşiğine ulaşmadık, bu yüzden verimiz öncelikleri henüz değiştirmedi.",
+ "audience_tr": "Kitle tahmini: ağırlıklı ABD (Doğu ve Orta saat dilimi, UTC-4/-5), ardından Birleşik Krallık, Kanada ve Avustralya. Eminlik düşük: hesaplar yeni, takipçi sayısı yaklaşık 0, kendi kitle verisi yok. Ebeveynlerin günü: sabah işe gitmeden önce, öğle arası, çocuk uykusu sonrası akşam 20:00-22:00 ET (00:00-02:00 UTC) en rahat gezinme zamanı.",
+ "data_note_tr": "Instagram ve Facebook'ta kitle saatleri ve ülke dağılımı yaklaşık 100 takipçiye kadar görünmüyor; bu yüzden gerçek kitle saat dilimini bilemiyoruz. Facebook Reels görüntülemeleri çok düşük olduğu için saat karşılaştırması yapılamıyor. Yapılacak: her platformda en az 8 gönderi biriktirmek, günlük 2 yayını farklı saat pencerelerine dağıtmak (deneyler), takipçi 100'ü geçince kitle saatlerini okumak. Aksi halde araştırma öncelikleri kör tahmin olarak kalır.",
+ "priors": {
+  "instagram": [
+   {"utc_start": "17:00", "utc_end": "21:00", "weight": 1.0, "why": "1-5 pm ET weekdays; Sprout 2026 Tue/Wed midday-afternoon, Buffer 2026 weekday evenings; our 20-21 UTC posts reached 143-181 (n=2, weak)"},
+   {"utc_start": "23:00", "utc_end": "02:00", "weight": 0.95, "why": "7-10 pm ET after kids' bedtime; Buffer evening peak; our 23 and 01 UTC posts reached 138 and 96 (n=2)"},
+   {"utc_start": "12:00", "utc_end": "14:00", "weight": 0.45, "why": "8-10 am ET, SocialPilot morning window and UK lunch; our 09 UTC post did poorly (17 reach, n=1)"}
+  ],
+  "facebook": [
+   {"utc_start": "13:00", "utc_end": "15:00", "weight": 1.0, "why": "Buffer 2026: weekday mornings, Thu 9 am ET best; 9-11 am ET fits an older parent audience"},
+   {"utc_start": "23:00", "utc_end": "02:00", "weight": 0.9, "why": "7-10 pm ET evening scrolling after bedtime; no own signal (views near 0)"},
+   {"utc_start": "16:00", "utc_end": "21:00", "weight": 0.7, "why": "Sprout 2026 Tue/Wed midday-evening ET; our 21 UTC post had the most views but n=1-2, noise"}
+  ],
+  "youtube": [
+   {"utc_start": "16:00", "utc_end": "19:00", "weight": 1.0, "why": "12-3 pm ET most repeated Shorts window (SocialPilot, Hopper); weekday afternoon"},
+   {"utc_start": "23:00", "utc_end": "02:00", "weight": 0.9, "why": "7-10 pm ET evening Shorts peak (Buffer 2026: YouTube 6-10 pm Thu-Sun); parents after bedtime; our 23 UTC posts got 6-10 views (n=2)"},
+   {"utc_start": "12:00", "utc_end": "14:00", "weight": 0.5, "why": "8-10 am ET weekday morning; our only 09 UTC Short got 22 views (n=1, noise)"}
+  ]
+ },
+ "experiments": [
+  {"platform": "youtube", "window_utc": "13:00-14:00", "why": "Test weekday morning ET against the afternoon and evening peaks; one early result of 22 views at 09 UTC is too thin to trust."},
+  {"platform": "facebook", "window_utc": "13:00-15:00", "why": "Facebook has shown almost no views at any hour; test Buffer's 9-11 am ET window to see whether any time gives real reach."}
+ ],
+ "sources": ["Sprout Social 2026", "Buffer 2026", "SocialPilot 2026", "Later 2026", "Hopper HQ 2025"]
+}

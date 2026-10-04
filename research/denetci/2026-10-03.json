@@ -1,56 +1,7 @@
 {
- "generated": "2026-10-03T03:00+03:00",
- "now_utc": "2026-10-03T00:00+00:00",
+ "generated": "2026-10-03T23:59+03:00",
+ "now_utc": "2026-10-03T20:59+00:00",
  "rows": [
-  {
-   "post": "2026-09-25_sample-bedtime-scripts",
-   "topic": "Bedtime scripts",
-   "kind": "carousel",
-   "platforms": {
-    "instagram": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "removed"
-    },
-    "facebook": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "removed"
-    }
-   }
-  },
-  {
-   "post": "clip-ideo-7678908942352649485",
-   "topic": "A dad in orange glasses cradles a sleeping foster puppy on the couch and talks quietly to camera",
-   "kind": "clip",
-   "platforms": {
-    "instagram": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "removed"
-    },
-    "facebook": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "removed"
-    },
-    "youtube": {
-     "live": 0,
-     "url": null,
-     "time": null,
-     "slot": null,
-     "state": "removed"
-    }
-   }
-  },
   {
    "post": "clip-ideo-7622837748453346573",
    "topic": "A giggling toddler hugging a stuffed toy runs laps around the house to stay up past bedtime",
@@ -355,11 +306,12 @@
      "state": "live"
     },
     "youtube": {
-     "live": 0,
-     "url": null,
-     "time": null,
+     "live": 1,
+     "url": "https://youtube.com/shorts/KlAXwX0D168",
+     "time": "2026-10-03T00:00+00:00",
      "slot": "2026-10-03T00:00+00:00",
-     "state": "due_now"
+     "late_min": 0,
+     "state": "live"
     }
    }
   },
@@ -369,33 +321,92 @@
    "kind": "animated",
    "platforms": {
     "instagram": {
+     "live": 1,
+     "url": "https://www.instagram.com/reel/DeCOTu7IHCf/",
+     "time": "2026-10-03T14:00+00:00",
+     "slot": "2026-10-03T13:00+00:00",
+     "late_min": 60,
+     "state": "live"
+    },
+    "facebook": {
+     "live": 1,
+     "url": "https://www.facebook.com/reel/2013099172723421",
+     "time": "2026-10-03T13:59+00:00",
+     "slot": "2026-10-03T13:00+00:00",
+     "late_min": 59,
+     "state": "live"
+    },
+    "youtube": {
+     "live": 1,
+     "url": "https://youtube.com/shorts/5PjX3bieTbY",
+     "time": "2026-10-03T17:00+00:00",
+     "slot": "2026-10-03T17:00+00:00",
+     "late_min": 0,
+     "state": "live"
+    }
+   }
+  },
+  {
+   "post": "2026-10-03_tried-everything-bedtime-quick-start",
+   "topic": "We've tried everything and bedtime still fails: 6 steps to try tonight",
+   "kind": "cvideo",
+   "platforms": {
+    "instagram": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-03T13:00+00:00",
+     "slot": "2026-10-03T21:00+00:00",
      "state": "scheduled"
     },
     "facebook": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-03T13:00+00:00",
+     "slot": "2026-10-03T21:00+00:00",
      "state": "scheduled"
     },
     "youtube": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-03T17:00+00:00",
+     "slot": "2026-10-04T01:00+00:00",
+     "state": "scheduled"
+    }
+   }
+  },
+  {
+   "post": "2026-10-03_toddler-wont-stay-in-big-kid-bed-animated",
+   "topic": "My toddler won't stay in the new big-kid bed",
+   "kind": "animated",
+   "platforms": {
+    "instagram": {
+     "live": 0,
+     "url": null,
+     "time": null,
+     "slot": "2026-10-04T14:00+00:00",
+     "state": "scheduled"
+    },
+    "facebook": {
+     "live": 0,
+     "url": null,
+     "time": null,
+     "slot": "2026-10-04T14:00+00:00",
+     "state": "scheduled"
+    },
+    "youtube": {
+     "live": 0,
+     "url": null,
+     "time": null,
+     "slot": "2026-10-04T18:00+00:00",
      "state": "scheduled"
     }
    }
   }
  ],
  "per_day_today": {
-  "instagram": 1,
-  "facebook": 1,
-  "youtube": 0
+  "instagram": 2,
+  "facebook": 2,
+  "youtube": 2
  },
  "plan": [
   {
@@ -428,7 +439,7 @@
    "platforms": {
     "instagram": "live",
     "facebook": "live",
-    "youtube": "due_now"
+    "youtube": "live"
    }
   },
   {
@@ -437,6 +448,17 @@
    "topic": "My toddler is hyper at bedtime and runs laps around the room",
    "post": "2026-10-02_toddler-hyper-at-bedtime-running-laps-animated",
    "platforms": {
+    "instagram": "live",
+    "facebook": "live",
+    "youtube": "live"
+   }
+  },
+  {
+   "date": "2026-10-03",
+   "slot": "carousel_video",
+   "topic": "We've tried everything and bedtime still fails: 6 steps to try tonight",
+   "post": "2026-10-03_tried-everything-bedtime-quick-start",
+   "platforms": {
     "instagram": "scheduled",
     "facebook": "scheduled",
     "youtube": "scheduled"
@@ -444,17 +466,14 @@
   },
   {
    "date": "2026-10-03",
-   "slot": "carousel_video",
-   "topic": "We've tried everything and bedtime still fails: 6 steps to try tonight",
-   "post": null,
-   "platforms": {}
-  },
-  {
-   "date": "2026-10-03",
    "slot": "animated",
    "topic": "My toddler won't stay in the new big-kid bed",
-   "post": null,
-   "platforms": {}
+   "post": "2026-10-03_toddler-wont-stay-in-big-kid-bed-animated",
+   "platforms": {
+    "instagram": "scheduled",
+    "facebook": "scheduled",
+    "youtube": "scheduled"
+   }
   },
   {
    "date": "2026-10-04",
@@ -524,9 +543,9 @@
   }
  ],
  "live_counts": {
-  "instagram": 9,
-  "facebook": 19,
-  "youtube": 8
+  "instagram": 10,
+  "facebook": 21,
+  "youtube": 10
  },
  "orphans": [
   {

@@ -1,0 +1,2806 @@
+{
+ "date": "2026-10-03",
+ "generated": "2026-10-03T17:14+03:00",
+ "reddit_posts": 427,
+ "google_searches": 983,
+ "subreddits": 14,
+ "errors": [
+  "google: is it normal for a newborn to: HTTP Error 500: Internal Server Error",
+  "google: how to deal with a 7 year old who: <urlopen error [Errno 11001] getaddrinfo failed>"
+ ],
+ "top": [
+  {
+   "category": "Anxiety & emotional health",
+   "subcategory": "Child anxiety & fears",
+   "score": 50.9,
+   "reddit_posts": 49,
+   "google_searches": 3,
+   "trend": "sabit",
+   "vs_prev_day": 0.2
+  },
+  {
+   "category": "Sleep",
+   "subcategory": "Baby sleep & regressions",
+   "score": 47.3,
+   "reddit_posts": 46,
+   "google_searches": 10,
+   "trend": "sabit",
+   "vs_prev_day": 8.7
+  },
+  {
+   "category": "Eating & feeding",
+   "subcategory": "Breastfeeding, bottles & formula",
+   "score": 42.6,
+   "reddit_posts": 40,
+   "google_searches": 14,
+   "trend": "sabit",
+   "vs_prev_day": -9.8
+  },
+  {
+   "category": "Behavior & discipline",
+   "subcategory": "Hitting, biting & aggression",
+   "score": 39.8,
+   "reddit_posts": 27,
+   "google_searches": 25,
+   "trend": "sabit",
+   "vs_prev_day": 8.7
+  },
+  {
+   "category": "Sleep",
+   "subcategory": "Naps",
+   "score": 39.4,
+   "reddit_posts": 37,
+   "google_searches": 8,
+   "trend": "sabit",
+   "vs_prev_day": -5.9
+  },
+  {
+   "category": "Development & neurodivergence",
+   "subcategory": "ADHD, focus & executive function",
+   "score": 34.4,
+   "reddit_posts": 34,
+   "google_searches": 2,
+   "trend": "sabit",
+   "vs_prev_day": -1.4
+  },
+  {
+   "category": "Development & neurodivergence",
+   "subcategory": "Autism",
+   "score": 32.3,
+   "reddit_posts": 30,
+   "google_searches": 2,
+   "trend": "sabit",
+   "vs_prev_day": -5.1
+  },
+  {
+   "category": "Parent wellbeing",
+   "subcategory": "Yelling & losing my temper",
+   "score": 31.5,
+   "reddit_posts": 17,
+   "google_searches": 29,
+   "trend": "sabit",
+   "vs_prev_day": -1.2
+  },
+  {
+   "category": "Behavior & discipline",
+   "subcategory": "Not listening & defiance",
+   "score": 28.9,
+   "reddit_posts": 7,
+   "google_searches": 46,
+   "trend": "sabit",
+   "vs_prev_day": 2.0
+  },
+  {
+   "category": "Eating & feeding",
+   "subcategory": "Picky eating",
+   "score": 28.2,
+   "reddit_posts": 4,
+   "google_searches": 48,
+   "trend": "sabit",
+   "vs_prev_day": -5.1
+  },
+  {
+   "category": "Siblings & family life",
+   "subcategory": "Sibling fighting & jealousy",
+   "score": 26.0,
+   "reddit_posts": 26,
+   "google_searches": 0,
+   "trend": "sabit",
+   "vs_prev_day": -6.4
+  },
+  {
+   "category": "Siblings & family life",
+   "subcategory": "Routines, mornings & chores",
+   "score": 26.0,
+   "reddit_posts": 24,
+   "google_searches": 1,
+   "trend": "sabit",
+   "vs_prev_day": 0.0
+  },
+  {
+   "category": "Parent wellbeing",
+   "subcategory": "Guilt, regret & identity",
+   "score": 24.1,
+   "reddit_posts": 16,
+   "google_searches": 18,
+   "trend": "sabit",
+   "vs_prev_day": -13.2
+  },
+  {
+   "category": "Anxiety & emotional health",
+   "subcategory": "Kids' mental health & therapy",
+   "score": 22.3,
+   "reddit_posts": 20,
+   "google_searches": 2,
+   "trend": "sabit",
+   "vs_prev_day": 0.5
+  }
+ ],
+ "categories": {
+  "Sleep": {
+   "score": 146.1,
+   "subcategories": {
+    "Baby sleep & regressions": {
+     "score": 47.3,
+     "reddit_posts": 46,
+     "help_posts": 19,
+     "google_searches": 10,
+     "vs_prev_day": 8.7,
+     "avg_7d": 39.9,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 28,
+      "1-3 years": 5,
+      "3-5 years": 4,
+      "6-12 years": 2,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "How were your “contractions” in terms of pain?",
+       "sub": "beyondthebump",
+       "rank": 3
+      },
+      {
+       "title": "13m dual diagnosis ADHD/ODD, is violent at school, inappropriate at home, and gets disregulated easily with peers, what can I do to curb this?",
+       "sub": "ADHDparenting",
+       "rank": 9
+      },
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "Pediatrician advice for sleep",
+       "sub": "NewParents",
+       "rank": 23
+      },
+      {
+       "title": "advice for stopping cosleeping? son is 6.5 years old 😬",
+       "sub": "Mommit",
+       "rank": 23
+      },
+      {
+       "title": "HELP! Early morning wakings",
+       "sub": "Parenting",
+       "rank": 24
+      }
+     ],
+     "example_searches": [
+      "baby refuses to sleep in bassinet",
+      "baby refuses to sleep in crib",
+      "how to get my baby to sleep in his crib",
+      "how to get my baby to sleep in the bassinet",
+      "how to get my newborn to sleep in bassinet",
+      "how to get my newborn to sleep in bassinet at night",
+      "my baby won't sleep in the bassinet",
+      "newborn keeps breaking out of swaddle",
+      "newborn refuses to sleep in bassinet",
+      "newborn refuses to sleep in bassinet at night"
+     ],
+     "new_searches": [
+      "my baby won't sleep in the bassinet",
+      "newborn keeps breaking out of swaddle"
+     ]
+    },
+    "Naps": {
+     "score": 39.4,
+     "reddit_posts": 37,
+     "help_posts": 18,
+     "google_searches": 8,
+     "vs_prev_day": -5.9,
+     "avg_7d": 44.1,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 23,
+      "1-3 years": 19,
+      "3-5 years": 7
+     },
+     "example_posts": [
+      {
+       "title": "Does anyone love their kids but hate being a mom sometimes?",
+       "sub": "Parenting",
+       "rank": 1
+      },
+      {
+       "title": "What are we supposed to be doing all day?",
+       "sub": "beyondthebump",
+       "rank": 7
+      },
+      {
+       "title": "When did you start going to bed before baby?",
+       "sub": "beyondthebump",
+       "rank": 8
+      },
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "How long are your 24 month olds napping for?",
+       "sub": "toddlers",
+       "rank": 16
+      },
+      {
+       "title": "Struggling with sleep and managing 2 kids",
+       "sub": "beyondthebump",
+       "rank": 21
+      }
+     ],
+     "example_searches": [
+      "2 year old refuses to nap",
+      "3 year old refuses to nap",
+      "baby refuses to nap",
+      "how to get my 2 year old to nap",
+      "is it normal for a 2 year old to stop napping",
+      "my 2 year old won't nap",
+      "toddler refuses to nap",
+      "toddler refuses to nap but is tired"
+     ],
+     "new_searches": [
+      "how to get my 2 year old to nap"
+     ]
+    },
+    "Bedtime battles & stalling": {
+     "score": 21.6,
+     "reddit_posts": 17,
+     "help_posts": 9,
+     "google_searches": 9,
+     "vs_prev_day": 0.5,
+     "avg_7d": 21.1,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 9,
+      "1-3 years": 9,
+      "3-5 years": 7,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Does anyone love their kids but hate being a mom sometimes?",
+       "sub": "Parenting",
+       "rank": 1
+      },
+      {
+       "title": "What toy always makes you roll your eyes?",
+       "sub": "toddlers",
+       "rank": 2
+      },
+      {
+       "title": "How long do you read to your kids before bed?",
+       "sub": "Mommit",
+       "rank": 4
+      },
+      {
+       "title": "what’s one toddler thing you wish you could freeze in time?",
+       "sub": "toddlers",
+       "rank": 10
+      },
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "Is this the 4 mo regression?!",
+       "sub": "beyondthebump",
+       "rank": 39
+      }
+     ],
+     "example_searches": [
+      "2 year old keeps getting out of bed",
+      "3 year old keeps getting out of bed",
+      "4 year old keeps getting out of bed",
+      "7 year old keeps getting out of bed",
+      "how to deal with a baby who fights sleep",
+      "my 3 year old won't go to bed",
+      "my 4 year old won't stay in bed",
+      "my toddler won't stay in bed",
+      "toddler keeps getting out of bed"
+     ],
+     "new_searches": [
+      "my 3 year old won't go to bed"
+     ]
+    },
+    "Night waking": {
+     "score": 19.6,
+     "reddit_posts": 4,
+     "help_posts": 3,
+     "google_searches": 31,
+     "vs_prev_day": -4.3,
+     "avg_7d": 27.3,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 15,
+      "3-5 years": 12,
+      "0-12 months": 4,
+      "6-12 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "My toddler will suddenly wake up screaming in the middle of the night but then immediately fall back asleep. Is this a night terror?",
+       "sub": "toddlers",
+       "rank": 41
+      },
+      {
+       "title": "6.5 month old wakes 2–8 times a night just to be held + only contact naps. Help!",
+       "sub": "beyondthebump",
+       "rank": 43
+      }
+     ],
+     "example_searches": [
+      "10 year old keeps waking up at night",
+      "2 year old keeps waking up at night",
+      "2 year old keeps waking up at night crying",
+      "2 year old keeps waking up crying",
+      "3 year old keeps waking up at night",
+      "3 year old keeps waking up crying",
+      "4 year old keeps waking up at night",
+      "5 year old keeps waking up at night",
+      "7 year old keeps waking up at night",
+      "how to get my 2 year old to sleep through the night"
+     ],
+     "new_searches": [
+      "why does my toddler wake up crying in the middle of the night"
+     ]
+    },
+    "Sleeping alone / leaving our bed": {
+     "score": 14.1,
+     "reddit_posts": 4,
+     "help_posts": 3,
+     "google_searches": 20,
+     "vs_prev_day": -0.9,
+     "avg_7d": 16.6,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 11,
+      "6-12 years": 9,
+      "0-12 months": 2,
+      "1-3 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "advice for stopping cosleeping? son is 6.5 years old 😬",
+       "sub": "Mommit",
+       "rank": 23
+      },
+      {
+       "title": "11.5 months - changes in sleep?",
+       "sub": "NewParents",
+       "rank": 27
+      },
+      {
+       "title": "I need advice - toddler sleep",
+       "sub": "beyondthebump",
+       "rank": 44
+      }
+     ],
+     "example_searches": [
+      "10 year old refuses to sleep alone",
+      "3 year old refuses to sleep alone",
+      "5 year old refuses to sleep in own bed",
+      "7 year old refuses to sleep in own bed",
+      "how to get my 10 year old to sleep alone",
+      "how to get my 2 year old to sleep in his own bed",
+      "how to get my 3 year old to sleep in her own bed",
+      "how to get my 3 year old to sleep in his own bed",
+      "how to get my 4 year old to sleep in her own bed",
+      "how to get my 4 year old to sleep in his own bed"
+     ],
+     "new_searches": [
+      "how to get my 4 year old to sleep in her own bed",
+      "how to get my 5 year old to sleep in her own bed",
+      "my 4 year old won't sleep in his own bed"
+     ]
+    },
+    "Early waking": {
+     "score": 4.1,
+     "reddit_posts": 3,
+     "help_posts": 2,
+     "google_searches": 2,
+     "vs_prev_day": 2.5,
+     "avg_7d": 2.7,
+     "trend": "yükseliyor",
+     "ages": {
+      "0-12 months": 3,
+      "1-3 years": 3
+     },
+     "example_posts": [
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "Early wakings (less than 10h sleep) but still tired. How to fix??",
+       "sub": "toddlers",
+       "rank": 28
+      }
+     ],
+     "example_searches": [
+      "how to stop my baby from waking up at 5am",
+      "toddler keeps waking up at 5am"
+     ],
+     "new_searches": []
+    }
+   }
+  },
+  "Behavior & discipline": {
+   "score": 131.5,
+   "subcategories": {
+    "Hitting, biting & aggression": {
+     "score": 39.8,
+     "reddit_posts": 27,
+     "help_posts": 10,
+     "google_searches": 25,
+     "vs_prev_day": 8.7,
+     "avg_7d": 31.8,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 18,
+      "1-3 years": 17,
+      "0-12 months": 10,
+      "6-12 years": 3,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Does anyone love their kids but hate being a mom sometimes?",
+       "sub": "Parenting",
+       "rank": 1
+      },
+      {
+       "title": "Choking another child?",
+       "sub": "Preschoolers",
+       "rank": 3
+      },
+      {
+       "title": "13m dual diagnosis ADHD/ODD, is violent at school, inappropriate at home, and gets disregulated easily with peers, what can I do to curb this?",
+       "sub": "ADHDparenting",
+       "rank": 9
+      },
+      {
+       "title": "Organic food??",
+       "sub": "AskParents",
+       "rank": 15
+      },
+      {
+       "title": "When did you feel ready to be intimate again after having your baby?",
+       "sub": "Mommit",
+       "rank": 16
+      },
+      {
+       "title": "Struggling with sibling boundaries and aggression (toddler & 11 months)",
+       "sub": "toddlers",
+       "rank": 39
+      }
+     ],
+     "example_searches": [
+      "2 year old keeps hitting",
+      "how to get my 2 year old to stop hitting",
+      "how to get my 3 year old to stop hitting",
+      "how to get my 4 year old to stop hitting",
+      "how to get my 5 year old to stop hitting at school",
+      "how to get my child to stop hitting",
+      "how to get my toddler to stop hitting",
+      "how to stop my 2 year old from hitting",
+      "how to stop my 2 year old from hitting me",
+      "how to stop my 2 year old from throwing things"
+     ],
+     "new_searches": [
+      "my toddler won't stop hitting me"
+     ]
+    },
+    "Not listening & defiance": {
+     "score": 28.9,
+     "reddit_posts": 7,
+     "help_posts": 2,
+     "google_searches": 46,
+     "vs_prev_day": 2.0,
+     "avg_7d": 27.6,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 22,
+      "6-12 years": 7,
+      "1-3 years": 6,
+      "13-18 years": 2,
+      "0-12 months": 1
+     },
+     "example_posts": [
+      {
+       "title": "How to do time-outs with a toddler that won't sit for it?",
+       "sub": "Parenting",
+       "rank": 32
+      },
+      {
+       "title": "Struggling with 2 year old behavior",
+       "sub": "NewParents",
+       "rank": 58
+      }
+     ],
+     "example_searches": [
+      "10 year old refuses to listen",
+      "2 year old refuses to listen",
+      "3 year old refuses to listen",
+      "4 year old refuses to listen",
+      "5 year old refuses to listen",
+      "7 year old refuses to listen",
+      "get your kids to listen without nagging yelling or losing control",
+      "get your kids to listen without yelling threats and punishments",
+      "how do i stop yelling at my kids and get them to listen",
+      "how to deal with a 3 year old who doesn't listen"
+     ],
+     "new_searches": [
+      "get your kids to listen without nagging yelling or losing control",
+      "get your kids to listen without yelling threats and punishments",
+      "how to deal with a child who has oppositional defiant disorder",
+      "how to get kids to listen to you without yelling",
+      "how to get kids to listen without shouting",
+      "how to get kids to listen without threats",
+      "how to get kids to listen without yelling reddit",
+      "how to get my 4 year old to listen and behave"
+     ]
+    },
+    "Tantrums & meltdowns": {
+     "score": 17.6,
+     "reddit_posts": 12,
+     "help_posts": 5,
+     "google_searches": 11,
+     "vs_prev_day": -5.8,
+     "avg_7d": 25.3,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 8,
+      "0-12 months": 6,
+      "3-5 years": 4,
+      "6-12 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "My kid has anger issues how to deal with it",
+       "sub": "Parenting",
+       "rank": 4
+      },
+      {
+       "title": "Divorce or unhappy cohabitation?",
+       "sub": "Autism_Parenting",
+       "rank": 6
+      },
+      {
+       "title": "Toddler acting crazy, is this normal?",
+       "sub": "toddlers",
+       "rank": 24
+      },
+      {
+       "title": "My kid just discovered that shadows exist and now he won't stop stepping on mine",
+       "sub": "daddit",
+       "rank": 29
+      },
+      {
+       "title": "Struggling with sibling boundaries and aggression (toddler & 11 months)",
+       "sub": "toddlers",
+       "rank": 39
+      }
+     ],
+     "example_searches": [
+      "is it normal for a 4 year old to have tantrums",
+      "is it normal for a 5 year old to throw tantrums",
+      "is it normal for a 7 year old to have meltdowns",
+      "is it normal for a 7 year old to have tantrums",
+      "my baby screams when i change his diaper",
+      "my baby screams when i put her down",
+      "my baby screams when i try to breastfeed",
+      "my toddler screams when excited",
+      "my toddler screams when frustrated",
+      "my toddler screams when i leave the room"
+     ],
+     "new_searches": []
+    },
+    "Talking back & disrespect": {
+     "score": 15.9,
+     "reddit_posts": 7,
+     "help_posts": 3,
+     "google_searches": 17,
+     "vs_prev_day": -4.3,
+     "avg_7d": 19.9,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 5,
+      "13-18 years": 3,
+      "6-12 years": 2,
+      "0-12 months": 1
+     },
+     "example_posts": [
+      {
+       "title": "what parenting thing did you judge before having kids, then end up doing yourself?",
+       "sub": "AskParents",
+       "rank": 1
+      },
+      {
+       "title": "Why does my dad suddenly seem to hate me now that I’m an adult?",
+       "sub": "AskParents",
+       "rank": 11
+      },
+      {
+       "title": "What do y’all do if they just won’t stop talking?",
+       "sub": "Autism_Parenting",
+       "rank": 25
+      }
+     ],
+     "example_searches": [
+      "how to deal with a 4 year old that talks back",
+      "how to deal with a 5 year old that talks back",
+      "how to deal with a child who constantly talks back",
+      "how to deal with a disrespectful 10 year old boy",
+      "how to deal with a teenager who is disrespectful",
+      "how to get my child to stop swearing",
+      "how to stop my 10 year old from swearing",
+      "my child hates me after divorce",
+      "my child hates me all of a sudden",
+      "my child hates me because i cheated"
+     ],
+     "new_searches": []
+    },
+    "Consequences & boundaries": {
+     "score": 13.3,
+     "reddit_posts": 11,
+     "help_posts": 8,
+     "google_searches": 2,
+     "vs_prev_day": 2.3,
+     "avg_7d": 10.2,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 4,
+      "3-5 years": 4,
+      "0-12 months": 2,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "My kid has anger issues how to deal with it",
+       "sub": "Parenting",
+       "rank": 4
+      },
+      {
+       "title": "Is it normal to send younger siblings to play at the older sibling’s friend’s home?",
+       "sub": "Mommit",
+       "rank": 5
+      },
+      {
+       "title": "3.5 Year Old Behavior: Normal or something more?",
+       "sub": "Parenting",
+       "rank": 13
+      },
+      {
+       "title": "Looking for 2 year old discipline advice",
+       "sub": "toddlers",
+       "rank": 19
+      },
+      {
+       "title": "How often should your child see their grandparents ?",
+       "sub": "beyondthebump",
+       "rank": 19
+      },
+      {
+       "title": "How to do time-outs with a toddler that won't sit for it?",
+       "sub": "Parenting",
+       "rank": 32
+      }
+     ],
+     "example_searches": [
+      "gentle parenting not working reddit",
+      "get your kids to listen without yelling threats and punishments"
+     ],
+     "new_searches": [
+      "get your kids to listen without yelling threats and punishments"
+     ]
+    },
+    "Whining & constant crying": {
+     "score": 10.3,
+     "reddit_posts": 4,
+     "help_posts": 0,
+     "google_searches": 14,
+     "vs_prev_day": -3.0,
+     "avg_7d": 14.3,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 7,
+      "3-5 years": 6,
+      "0-12 months": 2
+     },
+     "example_posts": [
+      {
+       "title": "Man cold vs woman cold",
+       "sub": "breakingmom",
+       "rank": 9
+      },
+      {
+       "title": "Omfg the WHINING",
+       "sub": "breakingmom",
+       "rank": 14
+      },
+      {
+       "title": "My 4 year old likes to be a dog",
+       "sub": "Mommit",
+       "rank": 31
+      },
+      {
+       "title": "It’s My 30th and It’s Been a Terrible Day So Far / Burnout.",
+       "sub": "toddlers",
+       "rank": 35
+      }
+     ],
+     "example_searches": [
+      "how to deal with a 2 year old that cries over everything",
+      "how to deal with a 3 year old who cries over everything",
+      "how to deal with a baby that cries over everything",
+      "how to deal with a child who cries over everything",
+      "how to deal with a toddler who cries over everything",
+      "how to stop my 5 year old from whining so much",
+      "is it normal for a 2 year old to cry all the time",
+      "why does my 2 year old cry all the time",
+      "why does my 2 year old cry so much",
+      "why does my 3 year old cry so much"
+     ],
+     "new_searches": [
+      "is it normal for a 2 year old to cry all the time",
+      "why does my 2 year old cry all the time",
+      "why does my newborn cry so much"
+     ]
+    },
+    "Lying & sneaking": {
+     "score": 5.7,
+     "reddit_posts": 4,
+     "help_posts": 1,
+     "google_searches": 4,
+     "vs_prev_day": 1.3,
+     "avg_7d": 6.9,
+     "trend": "sabit",
+     "ages": {
+      "6-12 years": 2,
+      "13-18 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "Which of your child(ren)'s snacks are you always stealing??",
+       "sub": "daddit",
+       "rank": 34
+      }
+     ],
+     "example_searches": [
+      "how to deal with a child who steals and lies",
+      "how to deal with a teenager who lies and steals",
+      "how to stop my 10 year old from stealing",
+      "is it normal for a teenager to sneak out"
+     ],
+     "new_searches": [
+      "is it normal for a teenager to sneak out"
+     ]
+    }
+   }
+  },
+  "Development & neurodivergence": {
+   "score": 105.9,
+   "subcategories": {
+    "ADHD, focus & executive function": {
+     "score": 34.4,
+     "reddit_posts": 34,
+     "help_posts": 9,
+     "google_searches": 2,
+     "vs_prev_day": -1.4,
+     "avg_7d": 39.1,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 7,
+      "6-12 years": 6,
+      "1-3 years": 5,
+      "3-5 years": 4,
+      "13-18 years": 3
+     },
+     "example_posts": [
+      {
+       "title": "What did he think would happen?!!",
+       "sub": "breakingmom",
+       "rank": 5
+      },
+      {
+       "title": "2e 5 year old Struggling at School",
+       "sub": "ADHDparenting",
+       "rank": 5
+      },
+      {
+       "title": "Need help with my daughter",
+       "sub": "ADHDparenting",
+       "rank": 7
+      },
+      {
+       "title": "13m dual diagnosis ADHD/ODD, is violent at school, inappropriate at home, and gets disregulated easily with peers, what can I do to curb this?",
+       "sub": "ADHDparenting",
+       "rank": 9
+      },
+      {
+       "title": "Teaching an ADHD kid about money — has anyone actually cracked this?",
+       "sub": "ADHDparenting",
+       "rank": 10
+      },
+      {
+       "title": "Major sleep disturbances and appetite loss - wrong medication?",
+       "sub": "ADHDparenting",
+       "rank": 12
+      }
+     ],
+     "example_searches": [
+      "how do i stop yelling at my adhd child",
+      "how to deal with a child who has adhd"
+     ],
+     "new_searches": []
+    },
+    "Autism": {
+     "score": 32.3,
+     "reddit_posts": 30,
+     "help_posts": 12,
+     "google_searches": 2,
+     "vs_prev_day": -5.1,
+     "avg_7d": 39.6,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 8,
+      "1-3 years": 7,
+      "3-5 years": 5,
+      "6-12 years": 3,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "update to \"How to ask friend to stop sharing her kid's incredible milestones with me\"",
+       "sub": "Autism_Parenting",
+       "rank": 2
+      },
+      {
+       "title": "What did he think would happen?!!",
+       "sub": "breakingmom",
+       "rank": 5
+      },
+      {
+       "title": "Divorce or unhappy cohabitation?",
+       "sub": "Autism_Parenting",
+       "rank": 6
+      },
+      {
+       "title": "Help please - newborn won't wake for feedings",
+       "sub": "NewParents",
+       "rank": 10
+      },
+      {
+       "title": "In home ABA schedule/general experience? Overall ABA rant.",
+       "sub": "Autism_Parenting",
+       "rank": 19
+      },
+      {
+       "title": "Is life skills development still possible for high support needs autistic adults?",
+       "sub": "Autism_Parenting",
+       "rank": 20
+      }
+     ],
+     "example_searches": [
+      "how to get my autistic child to eat",
+      "how to get my autistic child to sleep"
+     ],
+     "new_searches": []
+    },
+    "Milestones & delays": {
+     "score": 17.3,
+     "reddit_posts": 17,
+     "help_posts": 6,
+     "google_searches": 0,
+     "vs_prev_day": -2.8,
+     "avg_7d": 19.3,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 9,
+      "1-3 years": 6,
+      "3-5 years": 5,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "update to \"How to ask friend to stop sharing her kid's incredible milestones with me\"",
+       "sub": "Autism_Parenting",
+       "rank": 2
+      },
+      {
+       "title": "Choking another child?",
+       "sub": "Preschoolers",
+       "rank": 3
+      },
+      {
+       "title": "Teaching an ADHD kid about money — has anyone actually cracked this?",
+       "sub": "ADHDparenting",
+       "rank": 10
+      },
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "what completely ordinary dad moment gets you every time?",
+       "sub": "daddit",
+       "rank": 21
+      },
+      {
+       "title": "Multiple diagnosis, all different. How is this possible??",
+       "sub": "Autism_Parenting",
+       "rank": 24
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Sensory & overstimulation": {
+     "score": 14.2,
+     "reddit_posts": 14,
+     "help_posts": 7,
+     "google_searches": 0,
+     "vs_prev_day": -9.2,
+     "avg_7d": 19.5,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 7,
+      "0-12 months": 4,
+      "1-3 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "Noise sensitivity for a 3yo?",
+       "sub": "Preschoolers",
+       "rank": 11
+      },
+      {
+       "title": "Looking for perspective — 17mo high-energy boy - no pointing/waving, but shares excitement verbally. Normal range or worth flagging?",
+       "sub": "Autism_Parenting",
+       "rank": 14
+      },
+      {
+       "title": "Noise sensitivity for a 3yo?",
+       "sub": "Mommit",
+       "rank": 19
+      },
+      {
+       "title": "In home ABA schedule/general experience? Overall ABA rant.",
+       "sub": "Autism_Parenting",
+       "rank": 19
+      },
+      {
+       "title": "Multiple diagnosis, all different. How is this possible??",
+       "sub": "Autism_Parenting",
+       "rank": 24
+      },
+      {
+       "title": "Sudden terrible scream?",
+       "sub": "NewParents",
+       "rank": 26
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Speech & language delay": {
+     "score": 7.7,
+     "reddit_posts": 7,
+     "help_posts": 4,
+     "google_searches": 0,
+     "vs_prev_day": -4.0,
+     "avg_7d": 13.7,
+     "trend": "düşüyor",
+     "ages": {
+      "1-3 years": 3,
+      "0-12 months": 2,
+      "3-5 years": 2,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Does/Can happy babbling lead to speech?",
+       "sub": "Autism_Parenting",
+       "rank": 10
+      },
+      {
+       "title": "Is life skills development still possible for high support needs autistic adults?",
+       "sub": "Autism_Parenting",
+       "rank": 20
+      },
+      {
+       "title": "Multiple diagnosis, all different. How is this possible??",
+       "sub": "Autism_Parenting",
+       "rank": 24
+      },
+      {
+       "title": "What do y’all do if they just won’t stop talking?",
+       "sub": "Autism_Parenting",
+       "rank": 25
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Health & safety (signal only)": {
+   "score": 105.3,
+   "subcategories": {
+    "Illness & symptoms": {
+     "score": 59.1,
+     "reddit_posts": 43,
+     "help_posts": 20,
+     "google_searches": 33,
+     "vs_prev_day": 8.0,
+     "avg_7d": 50.2,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 19,
+      "1-3 years": 16,
+      "3-5 years": 14,
+      "6-12 years": 6,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "How were your “contractions” in terms of pain?",
+       "sub": "beyondthebump",
+       "rank": 3
+      },
+      {
+       "title": "My kid has anger issues how to deal with it",
+       "sub": "Parenting",
+       "rank": 4
+      },
+      {
+       "title": "10-month-old may need to be intubated I’m terrified and looking for positive experiences",
+       "sub": "beyondthebump",
+       "rank": 5
+      },
+      {
+       "title": "10 month old may need to be intubated terrified and looking for positive experiences that lead to a healthy normal child",
+       "sub": "NewParents",
+       "rank": 5
+      },
+      {
+       "title": "When did you start going to bed before baby?",
+       "sub": "beyondthebump",
+       "rank": 8
+      },
+      {
+       "title": "Chores for 9 year old kids with hyperactive ADHD?",
+       "sub": "Parenting",
+       "rank": 14
+      }
+     ],
+     "example_searches": [
+      "10 year old keeps getting ear infections",
+      "2 year old keeps throwing up",
+      "3 year old keeps throwing up",
+      "4 year old keeps throwing up",
+      "5 year old keeps throwing up",
+      "7 year old keeps throwing up",
+      "baby keeps throwing up",
+      "child refuses to take antibiotics uk",
+      "how to get my child to stop coughing",
+      "how to stop my 10 year old from coughing"
+     ],
+     "new_searches": [
+      "5 year old keeps throwing up",
+      "how to stop my toddler from having diarrhea",
+      "why does my baby have diarrhea"
+     ]
+    },
+    "Vaccines & doctor visits": {
+     "score": 39.6,
+     "reddit_posts": 31,
+     "help_posts": 10,
+     "google_searches": 23,
+     "vs_prev_day": -4.2,
+     "avg_7d": 45.2,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 18,
+      "3-5 years": 16,
+      "1-3 years": 10,
+      "6-12 years": 5,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Newly Single Mom Tips",
+       "sub": "SingleParents",
+       "rank": 2
+      },
+      {
+       "title": "Would you let your kids be around an unvaccinated dog?",
+       "sub": "AskParents",
+       "rank": 4
+      },
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "2.5 year old has been constantly sick since starting preschool. Does it ever get better?",
+       "sub": "toddlers",
+       "rank": 18
+      },
+      {
+       "title": "Pediatrician advice for sleep",
+       "sub": "NewParents",
+       "rank": 23
+      },
+      {
+       "title": "11.5 months - changes in sleep?",
+       "sub": "NewParents",
+       "rank": 27
+      }
+     ],
+     "example_searches": [
+      "10 year old refuses to brush teeth",
+      "2 year old refuses to brush teeth",
+      "3 year old refuses to brush teeth",
+      "how to stop my 3 year old from grinding her teeth at night",
+      "how to stop my 4 year old from grinding his teeth at night",
+      "how to stop my 4 year old from grinding teeth",
+      "how to stop my 5 year old from grinding his teeth",
+      "how to stop my 7 year old from grinding his teeth in his sleep",
+      "how to stop my baby from grinding her teeth",
+      "how to stop my baby from grinding his teeth"
+     ],
+     "new_searches": [
+      "3 year old refuses to brush teeth",
+      "how to stop my 4 year old from grinding teeth"
+     ]
+    },
+    "Safety & accidents": {
+     "score": 6.6,
+     "reddit_posts": 7,
+     "help_posts": 2,
+     "google_searches": 0,
+     "vs_prev_day": -4.3,
+     "avg_7d": 11.4,
+     "trend": "düşüyor",
+     "ages": {
+      "0-12 months": 3,
+      "3-5 years": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Car seat vs booster seat?",
+       "sub": "ScienceBasedParenting",
+       "rank": 5
+      },
+      {
+       "title": "Giant ass car seats???",
+       "sub": "beyondthebump",
+       "rank": 11
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Parent wellbeing": {
+   "score": 86.7,
+   "subcategories": {
+    "Yelling & losing my temper": {
+     "score": 31.5,
+     "reddit_posts": 17,
+     "help_posts": 8,
+     "google_searches": 29,
+     "vs_prev_day": -1.2,
+     "avg_7d": 33.8,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 5,
+      "0-12 months": 4,
+      "1-3 years": 4
+     },
+     "example_posts": [
+      {
+       "title": "My kid has anger issues how to deal with it",
+       "sub": "Parenting",
+       "rank": 4
+      },
+      {
+       "title": "When did you feel ready to be intimate again after having your baby?",
+       "sub": "Mommit",
+       "rank": 16
+      },
+      {
+       "title": "Help looking for a specific baby carrier",
+       "sub": "daddit",
+       "rank": 19
+      },
+      {
+       "title": "Spinal headache from epidural puncture - need encouragement / solidarity",
+       "sub": "beyondthebump",
+       "rank": 22
+      },
+      {
+       "title": "What do y’all do if they just won’t stop talking?",
+       "sub": "Autism_Parenting",
+       "rank": 25
+      },
+      {
+       "title": "Early wakings (less than 10h sleep) but still tired. How to fix??",
+       "sub": "toddlers",
+       "rank": 28
+      }
+     ],
+     "example_searches": [
+      "get your kids to listen without nagging yelling or losing control",
+      "get your kids to listen without yelling threats and punishments",
+      "how do i stop yelling at my 3 year old",
+      "how do i stop yelling at my 4 year old",
+      "how do i stop yelling at my adhd child",
+      "how do i stop yelling at my child",
+      "how do i stop yelling at my dog",
+      "how do i stop yelling at my husband",
+      "how do i stop yelling at my kids",
+      "how do i stop yelling at my kids and get them to listen"
+     ],
+     "new_searches": [
+      "get your kids to listen without nagging yelling or losing control",
+      "get your kids to listen without yelling threats and punishments",
+      "how to get kids to listen to you without yelling",
+      "how to get kids to listen without yelling reddit",
+      "how to get my kids to listen without yelling",
+      "how to get students to listen without yelling reddit",
+      "how to get your kids to listen to you without yelling",
+      "how to get your students to listen without yelling"
+     ]
+    },
+    "Guilt, regret & identity": {
+     "score": 24.1,
+     "reddit_posts": 16,
+     "help_posts": 4,
+     "google_searches": 18,
+     "vs_prev_day": -13.2,
+     "avg_7d": 34.9,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 6,
+      "1-3 years": 5,
+      "3-5 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Is wrapping birthday presents for parties still a thing or do you just use gift bags?",
+       "sub": "Parenting",
+       "rank": 5
+      },
+      {
+       "title": "What are we supposed to be doing all day?",
+       "sub": "beyondthebump",
+       "rank": 7
+      },
+      {
+       "title": "Sunday night rolls around and I'm already stressed about weekday dinners... just me?",
+       "sub": "Mommit",
+       "rank": 8
+      },
+      {
+       "title": "Help looking for a specific baby carrier",
+       "sub": "daddit",
+       "rank": 19
+      }
+     ],
+     "example_searches": [
+      "am i a bad parent if i don't play with my child",
+      "am i a bad parent if my child has odd",
+      "i feel like a bad dad reddit",
+      "i feel like a bad father",
+      "i feel like a bad mom all the time",
+      "i feel like a bad mom and wife",
+      "i feel like a bad mom because i yell",
+      "i feel like a bad mom for yelling at my toddler",
+      "i feel like a bad mom newborn",
+      "i feel like a bad mom reddit"
+     ],
+     "new_searches": []
+    },
+    "Postpartum mental health": {
+     "score": 19.0,
+     "reddit_posts": 20,
+     "help_posts": 8,
+     "google_searches": 0,
+     "vs_prev_day": -10.2,
+     "avg_7d": 24.9,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 5,
+      "1-3 years": 2,
+      "3-5 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Will I ever be not greasy again?",
+       "sub": "beyondthebump",
+       "rank": 18
+      },
+      {
+       "title": "Is life skills development still possible for high support needs autistic adults?",
+       "sub": "Autism_Parenting",
+       "rank": 20
+      },
+      {
+       "title": "Dandruff postpartum?",
+       "sub": "NewParents",
+       "rank": 25
+      },
+      {
+       "title": "Grieving The End Of The Pregnancy Chapter of My Life/Struggling With the Finality of All The Lasts With My 3rd Baby",
+       "sub": "beyondthebump",
+       "rank": 29
+      },
+      {
+       "title": "Bad tripping? PP & traumatized by Clancey story",
+       "sub": "NewParents",
+       "rank": 30
+      },
+      {
+       "title": "Need birthday ideas for wife who might deliver our child on her birthday",
+       "sub": "daddit",
+       "rank": 33
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Burnout & exhaustion": {
+     "score": 12.1,
+     "reddit_posts": 11,
+     "help_posts": 3,
+     "google_searches": 3,
+     "vs_prev_day": -1.7,
+     "avg_7d": 16.4,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 6,
+      "1-3 years": 4,
+      "3-5 years": 2,
+      "6-12 years": 1,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "When did you start going to bed before baby?",
+       "sub": "beyondthebump",
+       "rank": 8
+      },
+      {
+       "title": "Truely, when do they finally sleep through the night?",
+       "sub": "NewParents",
+       "rank": 13
+      },
+      {
+       "title": "Losing my mind",
+       "sub": "NewParents",
+       "rank": 52
+      }
+     ],
+     "example_searches": [
+      "is it normal for a teenager to be tired all the time",
+      "is it normal to feel exhausted with a toddler",
+      "why does my toddler seem tired all the time"
+     ],
+     "new_searches": []
+    }
+   }
+  },
+  "Eating & feeding": {
+   "score": 85.6,
+   "subcategories": {
+    "Breastfeeding, bottles & formula": {
+     "score": 42.6,
+     "reddit_posts": 40,
+     "help_posts": 14,
+     "google_searches": 14,
+     "vs_prev_day": -9.8,
+     "avg_7d": 57.1,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 19,
+      "1-3 years": 7,
+      "3-5 years": 2,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Struggling with sleep and managing 2 kids",
+       "sub": "beyondthebump",
+       "rank": 21
+      },
+      {
+       "title": "If you have had more than 1 child, has breastfeeding been similar for all of them?",
+       "sub": "beyondthebump",
+       "rank": 23
+      },
+      {
+       "title": "HELP! Early morning wakings",
+       "sub": "Parenting",
+       "rank": 24
+      },
+      {
+       "title": "Dandruff postpartum?",
+       "sub": "NewParents",
+       "rank": 25
+      },
+      {
+       "title": "Does anyone else feel like their nipple absorbs the Vitamin D drop and their baby isn’t getting it all?",
+       "sub": "beyondthebump",
+       "rank": 30
+      },
+      {
+       "title": "Bad tripping? PP & traumatized by Clancey story",
+       "sub": "NewParents",
+       "rank": 30
+      }
+     ],
+     "example_searches": [
+      "baby refuses to latch and cries",
+      "how to get my baby to latch",
+      "how to get my baby to latch better",
+      "how to get my newborn to latch",
+      "how to get my newborn to latch better",
+      "how to get my newborn to latch properly",
+      "how to stop my 2 year old from breastfeeding",
+      "how to stop my 3 year old from breastfeeding",
+      "how to stop my baby from breastfeeding",
+      "my baby screams when i try to breastfeed"
+     ],
+     "new_searches": [
+      "how to get my baby to latch better",
+      "how to get my newborn to latch properly"
+     ]
+    },
+    "Picky eating": {
+     "score": 28.2,
+     "reddit_posts": 4,
+     "help_posts": 3,
+     "google_searches": 48,
+     "vs_prev_day": -5.1,
+     "avg_7d": 33.6,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 15,
+      "3-5 years": 12,
+      "6-12 years": 5,
+      "0-12 months": 4,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "How much money is too much money for groceries?",
+       "sub": "AskParents",
+       "rank": 16
+      },
+      {
+       "title": "Is it a bad idea to take my 16 month old on a 20 hour road trip?",
+       "sub": "Mommit",
+       "rank": 51
+      },
+      {
+       "title": "Losing my mind",
+       "sub": "NewParents",
+       "rank": 52
+      }
+     ],
+     "example_searches": [
+      "10 year old refuses to eat",
+      "2 year old refuses to eat",
+      "2 year old refuses to eat anything",
+      "2 year old refuses to eat meat",
+      "3 year old refuses to eat",
+      "4 year old refuses to eat",
+      "4 year old refuses to eat dinner",
+      "5 year old refuses to eat",
+      "7 year old refuses to eat",
+      "baby refuses to eat"
+     ],
+     "new_searches": []
+    },
+    "Starting solids & baby-led weaning": {
+     "score": 14.8,
+     "reddit_posts": 13,
+     "help_posts": 9,
+     "google_searches": 0,
+     "vs_prev_day": 4.6,
+     "avg_7d": 17.3,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 6,
+      "3-5 years": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Choking another child?",
+       "sub": "Preschoolers",
+       "rank": 3
+      },
+      {
+       "title": "What causes mean boy (8 yo) personality toward girl classmates?",
+       "sub": "Parenting",
+       "rank": 12
+      },
+      {
+       "title": "High Attention Seeking Kid Advice?",
+       "sub": "breakingmom",
+       "rank": 13
+      },
+      {
+       "title": "Looking for perspective — 17mo high-energy boy - no pointing/waving, but shares excitement verbally. Normal range or worth flagging?",
+       "sub": "Autism_Parenting",
+       "rank": 14
+      },
+      {
+       "title": "Is life skills development still possible for high support needs autistic adults?",
+       "sub": "Autism_Parenting",
+       "rank": 20
+      },
+      {
+       "title": "Sudden terrible scream?",
+       "sub": "NewParents",
+       "rank": 26
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Mealtime behavior": {
+     "score": 0.0,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 0,
+     "vs_prev_day": 0.0,
+     "avg_7d": 1.2,
+     "trend": "düşüyor",
+     "ages": {},
+     "example_posts": [],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Anxiety & emotional health": {
+   "score": 80.2,
+   "subcategories": {
+    "Child anxiety & fears": {
+     "score": 50.9,
+     "reddit_posts": 49,
+     "help_posts": 26,
+     "google_searches": 3,
+     "vs_prev_day": 0.2,
+     "avg_7d": 59.0,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 19,
+      "1-3 years": 12,
+      "3-5 years": 8,
+      "6-12 years": 2,
+      "13-18 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "Newly Single Mom Tips",
+       "sub": "SingleParents",
+       "rank": 2
+      },
+      {
+       "title": "10-month-old may need to be intubated I’m terrified and looking for positive experiences",
+       "sub": "beyondthebump",
+       "rank": 5
+      },
+      {
+       "title": "10 month old may need to be intubated terrified and looking for positive experiences that lead to a healthy normal child",
+       "sub": "NewParents",
+       "rank": 5
+      },
+      {
+       "title": "What are we supposed to be doing all day?",
+       "sub": "beyondthebump",
+       "rank": 7
+      },
+      {
+       "title": "Need help with my daughter",
+       "sub": "ADHDparenting",
+       "rank": 7
+      },
+      {
+       "title": "Major sleep disturbances and appetite loss - wrong medication?",
+       "sub": "ADHDparenting",
+       "rank": 12
+      }
+     ],
+     "example_searches": [
+      "how to deal with a child who is scared of everything",
+      "my teenager won t go to school because of anxiety",
+      "nothing helps with my anxiety"
+     ],
+     "new_searches": []
+    },
+    "Kids' mental health & therapy": {
+     "score": 22.3,
+     "reddit_posts": 20,
+     "help_posts": 8,
+     "google_searches": 2,
+     "vs_prev_day": 0.5,
+     "avg_7d": 27.0,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 4,
+      "1-3 years": 3,
+      "13-18 years": 3,
+      "3-5 years": 2,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "update to \"How to ask friend to stop sharing her kid's incredible milestones with me\"",
+       "sub": "Autism_Parenting",
+       "rank": 2
+      },
+      {
+       "title": "Choking another child?",
+       "sub": "Preschoolers",
+       "rank": 3
+      },
+      {
+       "title": "What did he think would happen?!!",
+       "sub": "breakingmom",
+       "rank": 5
+      },
+      {
+       "title": "Need help with my daughter",
+       "sub": "ADHDparenting",
+       "rank": 7
+      },
+      {
+       "title": "13m dual diagnosis ADHD/ODD, is violent at school, inappropriate at home, and gets disregulated easily with peers, what can I do to curb this?",
+       "sub": "ADHDparenting",
+       "rank": 9
+      },
+      {
+       "title": "Does/Can happy babbling lead to speech?",
+       "sub": "Autism_Parenting",
+       "rank": 10
+      }
+     ],
+     "example_searches": [
+      "nothing helps with my depression",
+      "nothing works for my depression"
+     ],
+     "new_searches": []
+    },
+    "Self-esteem & confidence": {
+     "score": 7.0,
+     "reddit_posts": 6,
+     "help_posts": 3,
+     "google_searches": 2,
+     "vs_prev_day": -1.1,
+     "avg_7d": 9.5,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 2,
+      "0-12 months": 1,
+      "3-5 years": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "My kid has anger issues how to deal with it",
+       "sub": "Parenting",
+       "rank": 4
+      },
+      {
+       "title": "Making a list and checking it twice – am I Santa Claus or just a mom packing for vacation?",
+       "sub": "toddlers",
+       "rank": 32
+      },
+      {
+       "title": "Losing my mind",
+       "sub": "NewParents",
+       "rank": 52
+      }
+     ],
+     "example_searches": [
+      "get your kids to listen without nagging yelling or losing control",
+      "my 10 year old won t eat and is losing weight"
+     ],
+     "new_searches": [
+      "get your kids to listen without nagging yelling or losing control"
+     ]
+    },
+    "Separation anxiety": {
+     "score": 0.0,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 0,
+     "vs_prev_day": -4.4,
+     "avg_7d": 4.3,
+     "trend": "düşüyor",
+     "ages": {},
+     "example_posts": [],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Siblings & family life": {
+   "score": 61.5,
+   "subcategories": {
+    "Sibling fighting & jealousy": {
+     "score": 26.0,
+     "reddit_posts": 26,
+     "help_posts": 12,
+     "google_searches": 0,
+     "vs_prev_day": -6.4,
+     "avg_7d": 29.9,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 8,
+      "1-3 years": 6,
+      "3-5 years": 4,
+      "13-18 years": 3,
+      "6-12 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "Overwhelmed and talked out",
+       "sub": "breakingmom",
+       "rank": 4
+      },
+      {
+       "title": "Is it normal to send younger siblings to play at the older sibling’s friend’s home?",
+       "sub": "Mommit",
+       "rank": 5
+      },
+      {
+       "title": "Need to vent about my mom",
+       "sub": "breakingmom",
+       "rank": 11
+      },
+      {
+       "title": "3.5 Year Old Behavior: Normal or something more?",
+       "sub": "Parenting",
+       "rank": 13
+      },
+      {
+       "title": "Would you still feel loved if your kid chose to spend a whole week with their boyfriend instead of being home with you on your birthday?",
+       "sub": "AskParents",
+       "rank": 13
+      },
+      {
+       "title": "Is life skills development still possible for high support needs autistic adults?",
+       "sub": "Autism_Parenting",
+       "rank": 20
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Routines, mornings & chores": {
+     "score": 26.0,
+     "reddit_posts": 24,
+     "help_posts": 15,
+     "google_searches": 1,
+     "vs_prev_day": 0.0,
+     "avg_7d": 29.6,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 13,
+      "1-3 years": 7,
+      "3-5 years": 7,
+      "13-18 years": 2,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "2e 5 year old Struggling at School",
+       "sub": "ADHDparenting",
+       "rank": 5
+      },
+      {
+       "title": "Sad about kid's pre-school class, help",
+       "sub": "Preschoolers",
+       "rank": 5
+      },
+      {
+       "title": "What are we supposed to be doing all day?",
+       "sub": "beyondthebump",
+       "rank": 7
+      },
+      {
+       "title": "Teens and Money - Asking for Advice",
+       "sub": "Parenting",
+       "rank": 8
+      },
+      {
+       "title": "Teaching an ADHD kid about money — has anyone actually cracked this?",
+       "sub": "ADHDparenting",
+       "rank": 10
+      },
+      {
+       "title": "Where are we shopping? I want cute boy clothes (12 mo) that are not from Carter’s",
+       "sub": "NewParents",
+       "rank": 12
+      }
+     ],
+     "example_searches": [
+      "teenager refuses to do chores"
+     ],
+     "new_searches": []
+    },
+    "New baby & big sibling": {
+     "score": 6.0,
+     "reddit_posts": 6,
+     "help_posts": 3,
+     "google_searches": 0,
+     "vs_prev_day": -3.0,
+     "avg_7d": 7.8,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 2,
+      "1-3 years": 2
+     },
+     "example_posts": [
+      {
+       "title": "Help looking for a specific baby carrier",
+       "sub": "daddit",
+       "rank": 19
+      },
+      {
+       "title": "Grieving The End Of The Pregnancy Chapter of My Life/Struggling With the Finality of All The Lasts With My 3rd Baby",
+       "sub": "beyondthebump",
+       "rank": 29
+      },
+      {
+       "title": "Advice on 2nd child",
+       "sub": "daddit",
+       "rank": 44
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Only child & family size": {
+     "score": 3.5,
+     "reddit_posts": 4,
+     "help_posts": 2,
+     "google_searches": 0,
+     "vs_prev_day": 1.0,
+     "avg_7d": 3.9,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 4,
+      "0-12 months": 3
+     },
+     "example_posts": [
+      {
+       "title": "food rant?? idk",
+       "sub": "Mommit",
+       "rank": 48
+      },
+      {
+       "title": "We are still rocking/cuddling our almost 2 year old to sleep...anyone else?",
+       "sub": "toddlers",
+       "rank": 63
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Screens & technology": {
+   "score": 39.6,
+   "subcategories": {
+    "Phones & social media": {
+     "score": 15.2,
+     "reddit_posts": 15,
+     "help_posts": 5,
+     "google_searches": 0,
+     "vs_prev_day": 0.6,
+     "avg_7d": 18.2,
+     "trend": "sabit",
+     "ages": {
+      "13-18 years": 3,
+      "0-12 months": 2,
+      "6-12 years": 2,
+      "1-3 years": 1,
+      "3-5 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Looking for advice",
+       "sub": "SingleParents",
+       "rank": 1
+      },
+      {
+       "title": "Overwhelmed and talked out",
+       "sub": "breakingmom",
+       "rank": 4
+      },
+      {
+       "title": "Are dads like moms?",
+       "sub": "AskParents",
+       "rank": 7
+      },
+      {
+       "title": "Getting an iPhone without permission?",
+       "sub": "AskParents",
+       "rank": 14
+      },
+      {
+       "title": "Do you think your child got enough iron as a baby- in that important window?",
+       "sub": "toddlers",
+       "rank": 40
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Screen time limits & meltdowns": {
+     "score": 12.6,
+     "reddit_posts": 13,
+     "help_posts": 4,
+     "google_searches": 0,
+     "vs_prev_day": 5.8,
+     "avg_7d": 11.4,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 4,
+      "0-12 months": 3,
+      "1-3 years": 1,
+      "6-12 years": 1,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "2e 5 year old Struggling at School",
+       "sub": "ADHDparenting",
+       "rank": 5
+      },
+      {
+       "title": "What are we supposed to be doing all day?",
+       "sub": "beyondthebump",
+       "rank": 7
+      },
+      {
+       "title": "Getting an iPhone without permission?",
+       "sub": "AskParents",
+       "rank": 14
+      },
+      {
+       "title": "Which one of you beautiful dads is behind these wonderful mash-ups?",
+       "sub": "daddit",
+       "rank": 40
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Gaming": {
+     "score": 11.8,
+     "reddit_posts": 12,
+     "help_posts": 4,
+     "google_searches": 0,
+     "vs_prev_day": -4.3,
+     "avg_7d": 13.1,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 5,
+      "1-3 years": 2,
+      "3-5 years": 2,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "How much can a person handle?",
+       "sub": "breakingmom",
+       "rank": 6
+      },
+      {
+       "title": "Overnight diaper help",
+       "sub": "Parenting",
+       "rank": 22
+      },
+      {
+       "title": "My almost 11 month old is struggling and I don’t know what else to do.",
+       "sub": "Mommit",
+       "rank": 30
+      },
+      {
+       "title": "I’m a bit anxious about switching my baby to cows milk, help me plan this better.",
+       "sub": "NewParents",
+       "rank": 31
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "School & learning": {
+   "score": 36.7,
+   "subcategories": {
+    "Reading & learning": {
+     "score": 11.6,
+     "reddit_posts": 12,
+     "help_posts": 4,
+     "google_searches": 0,
+     "vs_prev_day": -4.3,
+     "avg_7d": 14.5,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 3,
+      "3-5 years": 2,
+      "1-3 years": 1,
+      "6-12 years": 1,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "How long do you read to your kids before bed?",
+       "sub": "Mommit",
+       "rank": 4
+      },
+      {
+       "title": "22 months old … worried about ASD",
+       "sub": "Autism_Parenting",
+       "rank": 27
+      },
+      {
+       "title": "When to be concerned with 2 year olds socialization",
+       "sub": "Mommit",
+       "rank": 42
+      },
+      {
+       "title": "Looking for advice - 4 y/o with Asthma and using a pulse oximeter.",
+       "sub": "daddit",
+       "rank": 45
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Starting daycare, preschool & kindergarten": {
+     "score": 10.1,
+     "reddit_posts": 10,
+     "help_posts": 4,
+     "google_searches": 0,
+     "vs_prev_day": 5.4,
+     "avg_7d": 11.6,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 5,
+      "0-12 months": 2,
+      "1-3 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Looking for advice",
+       "sub": "SingleParents",
+       "rank": 1
+      },
+      {
+       "title": "Daughter (6) gets bullied (?)",
+       "sub": "Parenting",
+       "rank": 6
+      },
+      {
+       "title": "2.5 year old has been constantly sick since starting preschool. Does it ever get better?",
+       "sub": "toddlers",
+       "rank": 18
+      },
+      {
+       "title": "Need book recommendations",
+       "sub": "toddlers",
+       "rank": 54
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Behavior at school & daycare": {
+     "score": 9.1,
+     "reddit_posts": 6,
+     "help_posts": 5,
+     "google_searches": 3,
+     "vs_prev_day": -3.3,
+     "avg_7d": 8.9,
+     "trend": "sabit",
+     "ages": {
+      "1-3 years": 1,
+      "3-5 years": 1,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "My kid has anger issues how to deal with it",
+       "sub": "Parenting",
+       "rank": 4
+      },
+      {
+       "title": "2e 5 year old Struggling at School",
+       "sub": "ADHDparenting",
+       "rank": 5
+      },
+      {
+       "title": "Need help with my daughter",
+       "sub": "ADHDparenting",
+       "rank": 7
+      },
+      {
+       "title": "13m dual diagnosis ADHD/ODD, is violent at school, inappropriate at home, and gets disregulated easily with peers, what can I do to curb this?",
+       "sub": "ADHDparenting",
+       "rank": 9
+      },
+      {
+       "title": "Potty training advice",
+       "sub": "toddlers",
+       "rank": 52
+      }
+     ],
+     "example_searches": [
+      "how to get my child in iep",
+      "how to get my child on a 504 plan",
+      "how to get my child on an iep"
+     ],
+     "new_searches": []
+    },
+    "Homework & grades": {
+     "score": 5.4,
+     "reddit_posts": 4,
+     "help_posts": 2,
+     "google_searches": 2,
+     "vs_prev_day": -8.5,
+     "avg_7d": 10.5,
+     "trend": "düşüyor",
+     "ages": {
+      "6-12 years": 3,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "How can I convince my parents that I'm responsible enough to go to a slumber party on halloween?",
+       "sub": "AskParents",
+       "rank": 12
+      },
+      {
+       "title": "How many activities is too many for kids?",
+       "sub": "daddit",
+       "rank": 13
+      }
+     ],
+     "example_searches": [
+      "10 year old refuses to do homework",
+      "7 year old refuses to do homework"
+     ],
+     "new_searches": []
+    },
+    "School refusal & school anxiety": {
+     "score": 0.5,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 1,
+     "vs_prev_day": 0.0,
+     "avg_7d": 2.2,
+     "trend": "düşüyor",
+     "ages": {
+      "13-18 years": 1
+     },
+     "example_posts": [],
+     "example_searches": [
+      "my teenager won't go to school"
+     ],
+     "new_searches": []
+    }
+   }
+  },
+  "Partner, co-parenting & relatives": {
+   "score": 32.4,
+   "subcategories": {
+    "Grandparents & in-laws": {
+     "score": 16.3,
+     "reddit_posts": 15,
+     "help_posts": 9,
+     "google_searches": 0,
+     "vs_prev_day": -0.4,
+     "avg_7d": 18.6,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 6,
+      "1-3 years": 3,
+      "13-18 years": 3,
+      "3-5 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Would you let your kids be around an unvaccinated dog?",
+       "sub": "AskParents",
+       "rank": 4
+      },
+      {
+       "title": "How to manage an MIL with very... different (read: Soviet) expectations about daycares?",
+       "sub": "daddit",
+       "rank": 7
+      },
+      {
+       "title": "Where are we shopping? I want cute boy clothes (12 mo) that are not from Carter’s",
+       "sub": "NewParents",
+       "rank": 12
+      },
+      {
+       "title": "Getting an iPhone without permission?",
+       "sub": "AskParents",
+       "rank": 14
+      },
+      {
+       "title": "How often should your child see their grandparents ?",
+       "sub": "beyondthebump",
+       "rank": 19
+      },
+      {
+       "title": "22 months old … worried about ASD",
+       "sub": "Autism_Parenting",
+       "rank": 27
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Divorce, custody & co-parenting with an ex": {
+     "score": 10.4,
+     "reddit_posts": 8,
+     "help_posts": 4,
+     "google_searches": 3,
+     "vs_prev_day": 5.0,
+     "avg_7d": 7.4,
+     "trend": "yükseliyor",
+     "ages": {
+      "0-12 months": 1,
+      "1-3 years": 1,
+      "3-5 years": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "How can this relationship be repaired?",
+       "sub": "AskParents",
+       "rank": 3
+      },
+      {
+       "title": "Divorce or unhappy cohabitation?",
+       "sub": "Autism_Parenting",
+       "rank": 6
+      },
+      {
+       "title": "Am i crazy or is my kid’s “step mom” out of line?",
+       "sub": "Mommit",
+       "rank": 26
+      },
+      {
+       "title": "How did you tell your older child that you were pregnant?",
+       "sub": "Parenting",
+       "rank": 27
+      }
+     ],
+     "example_searches": [
+      "how to deal with a baby daddy who ignores you",
+      "my child hates me after divorce",
+      "my son won t talk to me after divorce"
+     ],
+     "new_searches": []
+    },
+    "Single parenting": {
+     "score": 5.7,
+     "reddit_posts": 5,
+     "help_posts": 3,
+     "google_searches": 0,
+     "vs_prev_day": -4.3,
+     "avg_7d": 11.2,
+     "trend": "düşüyor",
+     "ages": {
+      "0-12 months": 2,
+      "1-3 years": 2,
+      "3-5 years": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Looking for advice",
+       "sub": "SingleParents",
+       "rank": 1
+      },
+      {
+       "title": "Newly Single Mom Tips",
+       "sub": "SingleParents",
+       "rank": 2
+      },
+      {
+       "title": "My almost 11 month old is struggling and I don’t know what else to do.",
+       "sub": "Mommit",
+       "rank": 30
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Partner not helping & mental load": {
+     "score": 0.0,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 0,
+     "vs_prev_day": -3.0,
+     "avg_7d": 1.7,
+     "trend": "düşüyor",
+     "ages": {},
+     "example_posts": [],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Disagreeing on parenting": {
+     "score": 0.0,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 0,
+     "vs_prev_day": 0.0,
+     "avg_7d": 0.5,
+     "trend": "sabit",
+     "ages": {},
+     "example_posts": [],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Potty & toileting": {
+   "score": 30.8,
+   "subcategories": {
+    "Poop withholding & accidents": {
+     "score": 15.7,
+     "reddit_posts": 8,
+     "help_posts": 4,
+     "google_searches": 16,
+     "vs_prev_day": 0.4,
+     "avg_7d": 15.8,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 14,
+      "1-3 years": 5,
+      "0-12 months": 2
+     },
+     "example_posts": [
+      {
+       "title": "Almost 2 — should we start potty training?",
+       "sub": "toddlers",
+       "rank": 14
+      },
+      {
+       "title": "Struggling with sibling boundaries and aggression (toddler & 11 months)",
+       "sub": "toddlers",
+       "rank": 39
+      },
+      {
+       "title": "Potty training advice",
+       "sub": "toddlers",
+       "rank": 52
+      },
+      {
+       "title": "Need book recommendations",
+       "sub": "toddlers",
+       "rank": 54
+      }
+     ],
+     "example_searches": [
+      "2 year old refuses to poop",
+      "3 year old keeps having accidents",
+      "3 year old refuses to poop",
+      "3 year old refuses to poop in potty",
+      "4 year old keeps having accidents",
+      "4 year old refuses to poop",
+      "4 year old refuses to poop in toilet",
+      "4 year old refuses to poop on potty",
+      "5 year old keeps having accidents",
+      "5 year old keeps having poop accidents"
+     ],
+     "new_searches": [
+      "2 year old refuses to poop",
+      "5 year old refuses to poop",
+      "toddler refuses to poop on potty"
+     ]
+    },
+    "Potty training": {
+     "score": 12.1,
+     "reddit_posts": 8,
+     "help_posts": 5,
+     "google_searches": 8,
+     "vs_prev_day": -10.4,
+     "avg_7d": 18.0,
+     "trend": "düşüyor",
+     "ages": {
+      "3-5 years": 9,
+      "1-3 years": 5,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Almost 2 — should we start potty training?",
+       "sub": "toddlers",
+       "rank": 14
+      },
+      {
+       "title": "Floor potty for a big 2.5-year-old boy?",
+       "sub": "Mommit",
+       "rank": 32
+      },
+      {
+       "title": "Potty training advice",
+       "sub": "toddlers",
+       "rank": 52
+      },
+      {
+       "title": "Need book recommendations",
+       "sub": "toddlers",
+       "rank": 54
+      },
+      {
+       "title": "How to stomach potty training",
+       "sub": "toddlers",
+       "rank": 55
+      }
+     ],
+     "example_searches": [
+      "10 year old refuses to wear underwear",
+      "3 year old refuses to potty train",
+      "4 year old refuses to potty train",
+      "5 year old refuses to potty train",
+      "child refuses to potty train",
+      "is it normal for a 3 year old to not be potty trained",
+      "is it normal for a 5 year old to not be potty trained",
+      "is it normal for a toddler to regress in potty training"
+     ],
+     "new_searches": [
+      "is it normal for a toddler to regress in potty training"
+     ]
+    },
+    "Bedwetting & night dryness": {
+     "score": 3.0,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 6,
+     "vs_prev_day": 0.0,
+     "avg_7d": 3.0,
+     "trend": "sabit",
+     "ages": {
+      "6-12 years": 5,
+      "3-5 years": 1
+     },
+     "example_posts": [],
+     "example_searches": [
+      "how to stop my 7 year old from bed wetting",
+      "is it normal for a 10 year old to wet the bed",
+      "is it normal for a 5 year old to wet the bed",
+      "is it normal for a 7 year old to wet the bed",
+      "why does my 10 year old still wet the bed",
+      "why does my 7 year old still wet the bed"
+     ],
+     "new_searches": []
+    },
+    "Potty regression": {
+     "score": 0.0,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 0,
+     "vs_prev_day": 0.0,
+     "avg_7d": 0.7,
+     "trend": "sabit",
+     "ages": {},
+     "example_posts": [],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Teens & tweens": {
+   "score": 27.0,
+   "subcategories": {
+    "Dating, sex & puberty": {
+     "score": 10.7,
+     "reddit_posts": 7,
+     "help_posts": 4,
+     "google_searches": 5,
+     "vs_prev_day": -6.4,
+     "avg_7d": 14.6,
+     "trend": "sabit",
+     "ages": {
+      "6-12 years": 4,
+      "13-18 years": 2,
+      "0-12 months": 1
+     },
+     "example_posts": [
+      {
+       "title": "Can we talk about this?",
+       "sub": "AskParents",
+       "rank": 8
+      },
+      {
+       "title": "Need to vent about my mom",
+       "sub": "breakingmom",
+       "rank": 11
+      },
+      {
+       "title": "Would you still feel loved if your kid chose to spend a whole week with their boyfriend instead of being home with you on your birthday?",
+       "sub": "AskParents",
+       "rank": 13
+      },
+      {
+       "title": "When did you feel ready to be intimate again after having your baby?",
+       "sub": "Mommit",
+       "rank": 16
+      }
+     ],
+     "example_searches": [
+      "is it normal for a 10 year old to get her period",
+      "is it normal for a 10 year old to start her period",
+      "my 10 year old got her first period",
+      "my 10 year old got her period",
+      "my son won t talk to me because of his girlfriend"
+     ],
+     "new_searches": []
+    },
+    "Risky behavior (vaping, alcohol, drugs)": {
+     "score": 8.7,
+     "reddit_posts": 7,
+     "help_posts": 5,
+     "google_searches": 2,
+     "vs_prev_day": -3.7,
+     "avg_7d": 11.7,
+     "trend": "sabit",
+     "ages": {
+      "0-12 months": 3,
+      "1-3 years": 3,
+      "13-18 years": 3,
+      "3-5 years": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Newly Single Mom Tips",
+       "sub": "SingleParents",
+       "rank": 2
+      },
+      {
+       "title": "How often should your child see their grandparents ?",
+       "sub": "beyondthebump",
+       "rank": 19
+      },
+      {
+       "title": "22 months old … worried about ASD",
+       "sub": "Autism_Parenting",
+       "rank": 27
+      },
+      {
+       "title": "Bad tripping? PP & traumatized by Clancey story",
+       "sub": "NewParents",
+       "rank": 30
+      },
+      {
+       "title": "Is something wrong? Or is this just the way it is?",
+       "sub": "daddit",
+       "rank": 50
+      }
+     ],
+     "example_searches": [
+      "how to deal with a teenager who is vaping",
+      "how to stop my teenager from smoking weed"
+     ],
+     "new_searches": []
+    },
+    "Independence, driving, jobs & money": {
+     "score": 4.9,
+     "reddit_posts": 4,
+     "help_posts": 4,
+     "google_searches": 0,
+     "vs_prev_day": 4.9,
+     "avg_7d": 0.7,
+     "trend": "yükseliyor",
+     "ages": {
+      "1-3 years": 2,
+      "3-5 years": 1,
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Teens and Money - Asking for Advice",
+       "sub": "Parenting",
+       "rank": 8
+      },
+      {
+       "title": "Teaching an ADHD kid about money — has anyone actually cracked this?",
+       "sub": "ADHDparenting",
+       "rank": 10
+      },
+      {
+       "title": "Parents of 2 - how did you do naps?",
+       "sub": "Parenting",
+       "rank": 28
+      },
+      {
+       "title": "food rant?? idk",
+       "sub": "Mommit",
+       "rank": 48
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Teen withdrawal & communication": {
+     "score": 2.0,
+     "reddit_posts": 0,
+     "help_posts": 0,
+     "google_searches": 4,
+     "vs_prev_day": 0.0,
+     "avg_7d": 2.4,
+     "trend": "sabit",
+     "ages": {
+      "13-18 years": 2
+     },
+     "example_posts": [],
+     "example_searches": [
+      "my son won't talk to me",
+      "my son wont talk to me reddit",
+      "my teen won't talk to me",
+      "my teenager won't talk to me"
+     ],
+     "new_searches": []
+    },
+    "Teen phones & social media": {
+     "score": 0.7,
+     "reddit_posts": 1,
+     "help_posts": 0,
+     "google_searches": 0,
+     "vs_prev_day": 0.7,
+     "avg_7d": 0.0,
+     "trend": "sabit",
+     "ages": {
+      "13-18 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Bark App for teen iPhone",
+       "sub": "Mommit",
+       "rank": 47
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  },
+  "Friends & social life": {
+   "score": 11.2,
+   "subcategories": {
+    "Friendships & being left out": {
+     "score": 5.7,
+     "reddit_posts": 5,
+     "help_posts": 2,
+     "google_searches": 1,
+     "vs_prev_day": -6.4,
+     "avg_7d": 15.2,
+     "trend": "düşüyor",
+     "ages": {
+      "13-18 years": 2,
+      "0-12 months": 1,
+      "1-3 years": 1,
+      "3-5 years": 1,
+      "6-12 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Is it normal to send younger siblings to play at the older sibling’s friend’s home?",
+       "sub": "Mommit",
+       "rank": 5
+      },
+      {
+       "title": "What causes mean boy (8 yo) personality toward girl classmates?",
+       "sub": "Parenting",
+       "rank": 12
+      }
+     ],
+     "example_searches": [
+      "how to get my teenager to make friends"
+     ],
+     "new_searches": []
+    },
+    "Shyness & social skills": {
+     "score": 3.4,
+     "reddit_posts": 3,
+     "help_posts": 2,
+     "google_searches": 0,
+     "vs_prev_day": 0.3,
+     "avg_7d": 6.1,
+     "trend": "düşüyor",
+     "ages": {
+      "0-12 months": 1,
+      "1-3 years": 1,
+      "3-5 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Sad about kid's pre-school class, help",
+       "sub": "Preschoolers",
+       "rank": 5
+      },
+      {
+       "title": "Struggling with sibling boundaries and aggression (toddler & 11 months)",
+       "sub": "toddlers",
+       "rank": 39
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    },
+    "Bullying": {
+     "score": 2.1,
+     "reddit_posts": 2,
+     "help_posts": 1,
+     "google_searches": 0,
+     "vs_prev_day": -4.9,
+     "avg_7d": 3.6,
+     "trend": "sabit",
+     "ages": {
+      "3-5 years": 1
+     },
+     "example_posts": [
+      {
+       "title": "Daughter (6) gets bullied (?)",
+       "sub": "Parenting",
+       "rank": 6
+      }
+     ],
+     "example_searches": [],
+     "new_searches": []
+    }
+   }
+  }
+ }
+}

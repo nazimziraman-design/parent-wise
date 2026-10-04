@@ -1,0 +1,101 @@
+{
+  "theme": "problem",
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "We've tried everything and bedtime still fails: 6 steps to try tonight",
+  "age_range": "1-6 years",
+  "cover": {
+    "character": "mom_worried_night"
+  },
+  "design": {
+    "palette": "sage"
+  },
+  "caption": "\"We've tried everything and bedtime still fails.\"\n\nIf you're lying awake wondering why nothing works at bedtime, you're not doing it wrong.\nHere are 6 small, calm steps from the AAP, the NHS and MedlinePlus that you can try tonight (ages 1-6).\n\nSave this and send it to a co-parent. Follow for more.\n\n#bedtimeroutine #toddlersleep #bedtimestruggles #sleeptips #toddlerparenting #parentingtips #momlife #dadlife\n\nSources: AAP, NHS, MedlinePlus\nGeneral information, not medical advice. Talk to your pediatrician.\n\nComment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+  "sources": [
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx",
+    "https://www.nhs.uk/baby/health/sleep-and-young-children/",
+    "https://medlineplus.gov/ency/article/002392.htm"
+  ],
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "\"We've tried everything and bedtime still fails.\"\n\n**6 steps to try tonight.**",
+      "voiceover": "We've tried everything. Six steps to try tonight."
+    },
+    {
+      "type": "text",
+      "text": "You want them to **sleep through the night**, and you've already tried a lot.\n\n**Bedtime is a skill, and it's rarely your fault.** Small steps, repeated calmly, are what help.\n\nHere are six.",
+      "voiceover": ""
+    },
+    {
+      "type": "text",
+      "text": "**1. Keep one simple routine.**\n\nThe AAP says all children thrive on a regular bedtime routine, such as **brush, book, bed.**\n\nSay: **\"First brush, then book, then bed.\"**",
+      "voiceover": "Keep one routine: brush, book, bed."
+    },
+    {
+      "type": "text",
+      "text": "**2. Screens off an hour before.**\n\nThe AAP advises turning off all screens at least **60 minutes** before bedtime, and keeping them out of bedrooms.\n\nSay: **\"Screens rest now. Time to wind down.\"**",
+      "voiceover": "Screens off an hour before bed."
+    },
+    {
+      "type": "text",
+      "text": "**3. Start winding down about 30 minutes before.**\n\nThe NHS suggests starting the routine around **30 minutes** before your child usually falls asleep.\n\nSay: **\"Our calm time is starting.\"**",
+      "voiceover": "Start winding down thirty minutes before."
+    },
+    {
+      "type": "text",
+      "text": "**4. Move bedtime earlier slowly.**\n\nThe NHS suggests shifting it earlier by **5 to 10 minutes each week**, until you reach the bedtime you want.\n\nSay to yourself: **\"Slow is still progress.\"**",
+      "voiceover": "Move bedtime earlier slowly. Slow is still progress."
+    },
+    {
+      "type": "text",
+      "text": "**5. One request, then the door closes.**\n\nMedlinePlus says meeting one simple request is OK. Once the door is closed, it's best to **ignore further requests.**\n\nSay: **\"One more hug, then it's sleep time.\"**",
+      "voiceover": "One request, then the door closes."
+    },
+    {
+      "type": "text",
+      "text": "**6. Keep it boring, with no lecture.**\n\nIf they get up, MedlinePlus says skip the lecture, make eye contact and say the door opens when they're in bed. The NHS says keep lights off and be **as boring as possible.**\n\nSay: **\"It's sleep time. I'll walk you back.\"**",
+      "voiceover": "Keep it boring. Say: I'll walk you back."
+    },
+    {
+      "type": "cta",
+      "intro": "If bedtime feels like it never works in your house,",
+      "keyword": "SLEEP",
+      "voiceover": "Save this and follow for more. Comment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+      "v": {
+        "intro": 3,
+        "offer": 2,
+        "comment": 2,
+        "foot": 2
+      }
+    }
+  ],
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": true,
+  "video_title": "Nothing works at bedtime? 6 steps to try tonight (ages 1-6)",
+  "yt_tags": [
+    "we've tried everything",
+    "nothing works at bedtime",
+    "sleep through the night",
+    "bedtime routine",
+    "bedtime struggles",
+    "toddler won't sleep",
+    "bedtime routine for toddlers",
+    "toddler bedtime tips",
+    "how to get a toddler to sleep through the night",
+    "bedtime for 1 to 6 year olds",
+    "kids sleep tips",
+    "parenting tips",
+    "toddler sleep",
+    "bedtime battles"
+  ],
+  "cta_keyword": "SLEEP",
+  "kind": "cvideo",
+  "cta_variant": {
+    "intro": 3,
+    "offer": 2,
+    "comment": 2,
+    "foot": 2
+  }
+}

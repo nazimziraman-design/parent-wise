@@ -5,39 +5,39 @@
     "utc_start": "17:00",
     "utc_end": "21:00",
     "weight": 1.0,
-    "why": "1-5 pm ET Mon-Thu (Sprout, Adobe Express: Tue 1-7 pm, Wed noon-9 pm); our 20-21 UTC posts reached 143-181 (n=2, weak)"
+    "why": "1-5 pm ET weekdays; Sprout 2026 Tue/Wed midday-afternoon, Buffer 2026 weekday evenings; our 20-21 UTC posts reached 143-181 (n=2, weak)"
    },
    {
     "utc_start": "23:00",
     "utc_end": "02:00",
     "weight": 0.95,
-    "why": "7-10 pm ET after kids' bedtime; late spike in Sprout (Wed 11 pm), Later midnight; our 23 and 01 UTC posts reached 138 and 95 (n=2)"
+    "why": "7-10 pm ET after kids' bedtime; Buffer evening peak; our 23 and 01 UTC posts reached 138 and 96 (n=2)"
    },
    {
-    "utc_start": "11:00",
-    "utc_end": "13:00",
-    "weight": 0.5,
-    "why": "7-9 am ET, SocialPilot 8 am-12 pm Mon-Thu; also UK lunch; untested by us, 09 UTC did poorly (17 reach)"
+    "utc_start": "12:00",
+    "utc_end": "14:00",
+    "weight": 0.45,
+    "why": "8-10 am ET, SocialPilot morning window and UK lunch; our 09 UTC post did poorly (17 reach, n=1)"
    }
   ],
   "facebook": [
    {
-    "utc_start": "23:00",
-    "utc_end": "02:00",
-    "weight": 1.0,
-    "why": "7-10 pm ET evening entertainment scrolling, parents after bedtime; no own data yet"
-   },
-   {
     "utc_start": "13:00",
     "utc_end": "15:00",
+    "weight": 1.0,
+    "why": "Buffer 2026: weekday mornings, Thu 9 am ET best; 9-11 am ET fits an older parent audience"
+   },
+   {
+    "utc_start": "23:00",
+    "utc_end": "02:00",
     "weight": 0.9,
-    "why": "Buffer 2026 (14M posts): weekday mornings, Thu 9 am ET best; 9-11 am ET fits older parent audience"
+    "why": "7-10 pm ET evening scrolling after bedtime; no own signal (views near 0)"
    },
    {
     "utc_start": "16:00",
     "utc_end": "21:00",
     "weight": 0.7,
-    "why": "Sprout 2026: Tue/Wed noon-8 pm ET strongest; our 21 UTC post did best (17 views, n=1, noise)"
+    "why": "Sprout 2026 Tue/Wed midday-evening ET; our 21 UTC post had the most views but n=1-2, noise"
    }
   ],
   "youtube": [
@@ -45,19 +45,19 @@
     "utc_start": "16:00",
     "utc_end": "19:00",
     "weight": 1.0,
-    "why": "12-3 pm ET most repeated Shorts window (SocialPilot, Hopper); weekday afternoon strong"
+    "why": "12-3 pm ET most repeated Shorts window (SocialPilot, Hopper); weekday afternoon"
    },
    {
     "utc_start": "23:00",
     "utc_end": "02:00",
     "weight": 0.9,
-    "why": "7-9 pm ET evening Shorts peak (SocialPilot: Fri 4-7 pm, evenings dominate Shorts); parents after bedtime"
+    "why": "7-10 pm ET evening Shorts peak (Buffer 2026: YouTube 6-10 pm Thu-Sun); parents after bedtime; our 23 UTC posts got 6-10 views (n=2)"
    },
    {
     "utc_start": "12:00",
     "utc_end": "14:00",
     "weight": 0.5,
-    "why": "8-10 am ET weekday morning; Tue 11 am local reported by one guide"
+    "why": "8-10 am ET weekday morning; our only 09 UTC Short got 22 views (n=1, noise)"
    }
   ]
  },
@@ -78,8 +78,8 @@
      "h": 1,
      "prior": 0.95,
      "n": 1,
-     "mean_norm": 0.66,
-     "value": 0.877,
+     "mean_norm": 0.67,
+     "value": 0.879,
      "bonus": 0.247
     },
     {
@@ -156,34 +156,34 @@
     },
     {
      "h": 11,
-     "prior": 0.5,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.5,
-     "bonus": 0.35
-    },
-    {
-     "h": 12,
-     "prior": 0.5,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.5,
-     "bonus": 0.35
-    },
-    {
-     "h": 13,
-     "prior": 0.5,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.5,
-     "bonus": 0.35
-    },
-    {
-     "h": 14,
      "prior": 0.05,
      "n": 0,
      "mean_norm": null,
      "value": 0.05,
+     "bonus": 0.35
+    },
+    {
+     "h": 12,
+     "prior": 0.45,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.45,
+     "bonus": 0.35
+    },
+    {
+     "h": 13,
+     "prior": 0.45,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.45,
+     "bonus": 0.35
+    },
+    {
+     "h": 14,
+     "prior": 0.45,
+     "n": 0,
+     "mean_norm": null,
+     "value": 0.45,
      "bonus": 0.35
     },
     {
@@ -261,31 +261,31 @@
    ]
   },
   "facebook": {
-   "posts_used": 4,
+   "posts_used": 6,
    "median_score": 2.0,
    "hours": [
     {
      "h": 0,
-     "prior": 1.0,
+     "prior": 0.9,
      "n": 0,
      "mean_norm": null,
-     "value": 1.0,
+     "value": 0.9,
      "bonus": 0.35
     },
     {
      "h": 1,
-     "prior": 1.0,
+     "prior": 0.9,
      "n": 0,
      "mean_norm": null,
-     "value": 1.0,
+     "value": 0.9,
      "bonus": 0.35
     },
     {
      "h": 2,
-     "prior": 1.0,
+     "prior": 0.9,
      "n": 0,
      "mean_norm": null,
-     "value": 1.0,
+     "value": 0.9,
      "bonus": 0.35
     },
     {
@@ -355,10 +355,10 @@
     {
      "h": 11,
      "prior": 0.05,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.05,
-     "bonus": 0.35
+     "n": 1,
+     "mean_norm": 0.0,
+     "value": 0.038,
+     "bonus": 0.247
     },
     {
      "h": 12,
@@ -370,26 +370,26 @@
     },
     {
      "h": 13,
-     "prior": 0.9,
+     "prior": 1.0,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 1.0,
      "bonus": 0.35
     },
     {
      "h": 14,
-     "prior": 0.9,
+     "prior": 1.0,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 1.0,
      "bonus": 0.35
     },
     {
      "h": 15,
-     "prior": 0.9,
+     "prior": 1.0,
      "n": 0,
      "mean_norm": null,
-     "value": 0.9,
+     "value": 1.0,
      "bonus": 0.35
     },
     {
@@ -435,10 +435,10 @@
     {
      "h": 21,
      "prior": 0.7,
-     "n": 1,
-     "mean_norm": 7.33,
-     "value": 1.775,
-     "bonus": 0.247
+     "n": 2,
+     "mean_norm": 3.67,
+     "value": 1.42,
+     "bonus": 0.202
     },
     {
      "h": 22,
@@ -450,17 +450,17 @@
     },
     {
      "h": 23,
-     "prior": 1.0,
+     "prior": 0.9,
      "n": 1,
      "mean_norm": 0.33,
-     "value": 0.833,
+     "value": 0.758,
      "bonus": 0.247
     }
    ]
   },
   "youtube": {
-   "posts_used": 4,
-   "median_score": 11.0,
+   "posts_used": 5,
+   "median_score": 10.5,
    "hours": [
     {
      "h": 0,
@@ -481,10 +481,10 @@
     {
      "h": 2,
      "prior": 0.9,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.9,
-     "bonus": 0.35
+     "n": 1,
+     "mean_norm": 0.26,
+     "value": 0.74,
+     "bonus": 0.247
     },
     {
      "h": 3,
@@ -538,8 +538,8 @@
      "h": 9,
      "prior": 0.05,
      "n": 1,
-     "mean_norm": 1.5,
-     "value": 0.412,
+     "mean_norm": 1.91,
+     "value": 0.516,
      "bonus": 0.247
     },
     {
@@ -626,8 +626,8 @@
      "h": 20,
      "prior": 0.05,
      "n": 1,
-     "mean_norm": 0.92,
-     "value": 0.267,
+     "mean_norm": 0.96,
+     "value": 0.277,
      "bonus": 0.247
     },
     {
@@ -650,13 +650,13 @@
      "h": 23,
      "prior": 0.9,
      "n": 2,
-     "mean_norm": 0.46,
-     "value": 0.723,
+     "mean_norm": 0.67,
+     "value": 0.81,
      "bonus": 0.202
     }
    ]
   }
  },
- "updated": "2026-10-02T21:49+00:00",
- "research_updated": "2026-10-02T06:01+00:00"
+ "updated": "2026-10-03T14:00+00:00",
+ "research_updated": "2026-10-03T14:00+00:00"
 }
