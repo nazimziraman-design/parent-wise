@@ -1,0 +1,96 @@
+{
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "A 3 am plan both parents can follow half asleep (1-6 years)",
+  "theme": "problem",
+  "kind": "cvideo",
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": true,
+  "video_title": "Keeps getting up at night? A 3 am plan for both parents (ages 1-6)",
+  "yt_tags": [
+    "keeps waking up at night",
+    "keeps getting up at night",
+    "who's going at night",
+    "toddler keeps getting up at night",
+    "toddler night waking",
+    "3 am wake up toddler",
+    "night waking ages 1-6",
+    "toddler sleep",
+    "bedtime routine toddler",
+    "parenting tips",
+    "co-parenting night plan",
+    "sleep tips for parents",
+    "boring night routine",
+    "toddler out of bed at night"
+  ],
+  "design": {
+    "palette": "sage"
+  },
+  "cover": {
+    "character": "trio_door_night"
+  },
+  "cta_keyword": "SLEEP",
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "Your child keeps getting up at night, and it's 3 am and you're both thinking: who's going?\n\n**Here's a plan you can follow half asleep.**",
+      "voiceover": "Three am. Who's going? Here's your half-asleep plan."
+    },
+    {
+      "type": "text",
+      "text": "At 3 am nobody thinks clearly, and it's rarely your child's fault or yours.\n\nA **plan you agree on in daylight** means no negotiating in the dark. (Ages 1-6 years)",
+      "voiceover": ""
+    },
+    {
+      "type": "text",
+      "text": "**1. Decide who's going, before bed.**\n\nPick tonight's person, or take turns. Then the 3 am question is already answered, and you're **both following the same plan**.",
+      "voiceover": "Step one: decide who's going, before bed."
+    },
+    {
+      "type": "text",
+      "text": "**2. Be boring.**\n\nThe NHS advises being as boring as possible so your child isn't excited, and leaving the lights off. **Dark, quiet and calm.**",
+      "voiceover": "Step two: be boring. Lights off, quiet and calm."
+    },
+    {
+      "type": "text",
+      "text": "**3. Walk them back, few words.**\n\nThe NHS says to keep taking a child who gets up back to bed with as little fuss as possible, calmly and without conversation. **Same steps every time.**",
+      "voiceover": "Step three: walk them back, with few words."
+    },
+    {
+      "type": "text",
+      "text": "**4. If they call out, pause first.**\n\nThe AAP says that if your child is safe and well before bedtime, there's no need to rush in when they call out. Children need time to learn to go back to sleep on their own.",
+      "voiceover": "Step four: if they call out, pause first."
+    },
+    {
+      "type": "text",
+      "text": "**Your half-asleep script:**\n\n\"It's sleepy time. I'll take you back to bed.\"\n\nThen the same calm walk, every time. **Boring is the goal.**",
+      "voiceover": "Say: It's sleepy time. I'll take you back to bed."
+    },
+    {
+      "type": "cta",
+      "intro": "If 3 am wake-ups have both of you running on empty,",
+      "keyword": "SLEEP",
+      "voiceover": "Save this and follow for more. Comment SLEEP and I'll send you the FREE Bedtime Starter Kit link.",
+      "v": {
+        "intro": 2,
+        "offer": 3,
+        "comment": 4,
+        "foot": 1
+      }
+    }
+  ],
+  "caption": "\"He keeps getting up at night... who's going?\" 😴 Sound familiar?\nAgree the plan in daylight: one person goes, lights stay off, few words, calm walk back to bed (ages 1-6 years).\nBoring is the goal, and it's a plan you can both follow half asleep.\nSave this and send it to your co-parent tonight.\nSources: NHS, AAP\nComment SLEEP and I'll send you the FREE Bedtime Starter Kit link.\n#parenting #toddlersleep #nightwaking #sleeptips #parentingtips #toddlermom\nGeneral information, not medical advice. Talk to your pediatrician.",
+  "sources": [
+    "https://www.nhs.uk/baby/health/sleep-and-young-children/",
+    "https://www.nhs.uk/conditions/baby/health/sleep-problems-in-young-children/",
+    "https://cambspborochildrenshealth.nhs.uk/sleep/healthy-sleep-routines/sleep-routines-for-toddlers-and-children/",
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/bedtime-trouble.aspx"
+  ],
+  "cta_variant": {
+    "intro": 2,
+    "offer": 3,
+    "comment": 4,
+    "foot": 1
+  }
+}

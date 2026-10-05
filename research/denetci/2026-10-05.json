@@ -1,28 +1,7 @@
 {
- "generated": "2026-10-05T05:00+03:00",
- "now_utc": "2026-10-05T02:00+00:00",
+ "generated": "2026-10-05T21:46+03:00",
+ "now_utc": "2026-10-05T18:46+00:00",
  "rows": [
-  {
-   "post": "2026-09-26_toddler-hitting-when-frustrated",
-   "topic": "Toddler hitting when frustrated",
-   "kind": "carousel",
-   "platforms": {
-    "instagram": {
-     "live": 1,
-     "url": "https://www.instagram.com/p/DdznR1NiicI/",
-     "time": "2026-09-27T21:49+00:00",
-     "slot": null,
-     "state": "live"
-    },
-    "facebook": {
-     "live": 1,
-     "url": "https://www.facebook.com/122096240889497970/posts/122095613865497970",
-     "time": "2026-09-27T21:50+00:00",
-     "slot": null,
-     "state": "live"
-    }
-   }
-  },
   {
    "post": "clip-ideo-7666990026269429023",
    "topic": "2:00 am, 3:00 am, 3:13 am: baby is wide awake, and so are mom and dad",
@@ -386,11 +365,12 @@
    "kind": "cvideo",
    "platforms": {
     "instagram": {
-     "live": 0,
-     "url": null,
-     "time": null,
+     "live": 1,
+     "url": "https://www.instagram.com/reel/DeGFjUKjQcb/",
+     "time": "2026-10-05T02:01+00:00",
      "slot": "2026-10-05T02:00+00:00",
-     "state": "due_now"
+     "late_min": 1,
+     "state": "live"
     },
     "facebook": {
      "live": 1,
@@ -409,11 +389,40 @@
      "state": "live"
     }
    }
+  },
+  {
+   "post": "2026-10-05_3-am-plan-both-parents-can-follow",
+   "topic": "A 3 am plan both parents can follow half asleep (1-6 years)",
+   "kind": "cvideo",
+   "platforms": {
+    "instagram": {
+     "live": 0,
+     "url": null,
+     "time": null,
+     "slot": "2026-10-05T19:00+00:00",
+     "state": "scheduled"
+    },
+    "facebook": {
+     "live": 1,
+     "url": "https://www.facebook.com/reel/1074920085147991",
+     "time": "2026-10-05T15:00+00:00",
+     "slot": "2026-10-05T15:00+00:00",
+     "late_min": 0,
+     "state": "live"
+    },
+    "youtube": {
+     "live": 0,
+     "url": null,
+     "time": null,
+     "slot": "2026-10-05T19:00+00:00",
+     "state": "scheduled"
+    }
+   }
   }
  ],
  "per_day_today": {
-  "instagram": 0,
-  "facebook": 1,
+  "instagram": 1,
+  "facebook": 2,
   "youtube": 1
  },
  "plan": [
@@ -445,7 +454,7 @@
    "topic": "Weekend sleep-ins wreck our Sunday bedtime",
    "post": "2026-10-04_weekend-sleep-ins-wreck-sunday-bedtime",
    "platforms": {
-    "instagram": "due_now",
+    "instagram": "live",
     "facebook": "live",
     "youtube": "live"
    }
@@ -461,8 +470,12 @@
    "date": "2026-10-05",
    "slot": "carousel_video",
    "topic": "Who's going? The 3 am plan both parents can follow half asleep",
-   "post": null,
-   "platforms": {}
+   "post": "2026-10-05_3-am-plan-both-parents-can-follow",
+   "platforms": {
+    "instagram": "scheduled",
+    "facebook": "live",
+    "youtube": "scheduled"
+   }
   },
   {
    "date": "2026-10-05",
@@ -549,8 +562,8 @@
   }
  ],
  "live_counts": {
-  "instagram": 12,
-  "facebook": 27,
+  "instagram": 13,
+  "facebook": 29,
   "youtube": 13
  },
  "orphans": [
