@@ -1,0 +1,95 @@
+{
+  "brand": "Parent Wise",
+  "handle": "@parentwise__",
+  "topic": "Weekend sleep-ins and Sunday bedtime (1-6 years)",
+  "theme": "problem",
+  "kind": "cvideo",
+  "voice": "",
+  "voice_speed": 1.1,
+  "video": true,
+  "video_title": "Sleeps in on weekends? Fix Sunday bedtime calmly (ages 1-6)",
+  "yt_tags": [
+    "sleeps in on weekends",
+    "Sunday bedtime is a mess",
+    "bedtime keeps getting later",
+    "toddler weekend sleep schedule",
+    "toddler sleeps in on weekends",
+    "Sunday night bedtime toddler",
+    "fix toddler bedtime",
+    "toddler wake up time",
+    "kids sleep schedule",
+    "child body clock",
+    "bedtime routine",
+    "toddler sleep tips",
+    "parenting tips",
+    "sleep 1-6 years"
+  ],
+  "design": {
+    "palette": "sage"
+  },
+  "cover": {
+    "character": "kid_sleepy_yawn"
+  },
+  "cta_keyword": "SLEEP",
+  "slides": [
+    {
+      "type": "tcover",
+      "text": "Your child sleeps in on weekends, and by Sunday bedtime keeps getting later and later.\n\n**Here's a calm way to reset it.**",
+      "voiceover": "Sleeps in on weekends? Here's a calm reset."
+    },
+    {
+      "type": "text",
+      "text": "If Sunday bedtime is a mess, it's rarely your child's fault, and rarely yours.\n\nWeekends bend the schedule for everyone. **Small steps** bring it back, no strict rules needed. (Ages 1-6 years)",
+      "voiceover": "Weekends bend the schedule. Small steps help."
+    },
+    {
+      "type": "text",
+      "text": "**1. Keep the wake-up time close.**\n\nThe AAP says the same waking time on weekdays and weekends, with regular meals, nap and play times, helps children feel secure and bedtime go smoothly.",
+      "voiceover": "Step one. Keep the wake-up time close."
+    },
+    {
+      "type": "text",
+      "text": "**2. Open the curtains right away.**\n\nThe AAP suggests bright light when it's time to get up, to help stimulate wakefulness. Even on a lazy Saturday.",
+      "voiceover": "Step two. Open the curtains right away."
+    },
+    {
+      "type": "text",
+      "text": "**3. Get outside in daylight.**\n\nThe AAP says sunlight has a strong effect on the body's circadian rhythm, so time outdoors helps the body clock settle. A morning walk counts.",
+      "voiceover": "Step three. Get outside in daylight."
+    },
+    {
+      "type": "text",
+      "text": "**4. Start bedtime a little earlier.**\n\nThe AAP suggests starting before your child shows signs of tiredness. Even 15 to 20 minutes earlier can make a big difference.",
+      "voiceover": "Step four. Start bedtime fifteen to twenty minutes earlier."
+    },
+    {
+      "type": "text",
+      "text": "**Try saying on Saturday morning:**\n\n\"Good morning! Let's open the curtains and see the sun.\"\n\nThen stay close to the usual wake-up time. **Calm and steady** wins.",
+      "voiceover": "Say: Good morning! Let's open the curtains."
+    },
+    {
+      "type": "cta",
+      "intro": "If weekends keep knocking your child's sleep off track,",
+      "keyword": "SLEEP",
+      "v": {
+        "intro": 0,
+        "offer": 0,
+        "comment": 1,
+        "foot": 0
+      },
+      "voiceover": "Save this and follow for more. Comment SLEEP and I'll send you the FREE Bedtime Starter Kit link."
+    }
+  ],
+  "caption": "\"Sleeps in on weekends, and Sunday bedtime is a mess.\" Sound familiar? 💤\nA few calm steps can help: a wake-up time close to your weekday one, bright light and daylight in the morning, and bedtime 15-20 minutes earlier (ages 1-6 years).\nSave this and send it to a co-parent before the weekend.\nSources: AAP\nComment SLEEP and I'll send you the FREE Bedtime Starter Kit link.\n#parenting #toddlersleep #bedtimeroutine #sleeptips #parentingtips #toddlermom\nGeneral information, not medical advice. Talk to your pediatrician.",
+  "sources": [
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx",
+    "https://www.healthychildren.org/English/healthy-living/sleep/Pages/daylight-saving-time-dont-lose-sleep-over-it.aspx",
+    "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/Brush-Book-Bed.aspx"
+  ],
+  "cta_variant": {
+    "intro": 0,
+    "offer": 0,
+    "comment": 1,
+    "foot": 0
+  }
+}

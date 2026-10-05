@@ -5,39 +5,39 @@
     "utc_start": "17:00",
     "utc_end": "21:00",
     "weight": 1.0,
-    "why": "1-5 pm ET weekdays; Sprout 2026 Tue/Wed midday-afternoon, Buffer 2026 weekday evenings; our 20-21 UTC posts reached 143-181 (n=2, weak)"
+    "why": "1-5 pm ET weekdays; Sprout Social 2026 Tue/Wed midday-afternoon; our 20-21 UTC posts reached 11-181 (n=3, mixed)"
    },
    {
     "utc_start": "23:00",
     "utc_end": "02:00",
     "weight": 0.95,
-    "why": "7-10 pm ET after kids' bedtime; Buffer evening peak; our 23 and 01 UTC posts reached 138 and 96 (n=2)"
+    "why": "7-10 pm ET after kids' bedtime; Buffer/Sprout evening spike; our 23 and 01 UTC posts reached 138 and 96 (n=2)"
    },
    {
     "utc_start": "12:00",
-    "utc_end": "14:00",
-    "weight": 0.45,
-    "why": "8-10 am ET, SocialPilot morning window and UK lunch; our 09 UTC post did poorly (17 reach, n=1)"
+    "utc_end": "15:00",
+    "weight": 0.55,
+    "why": "8-11 am ET SocialPilot Mon-Thu morning window, UK afternoon; our 14 UTC post reached 58 (n=1)"
    }
   ],
   "facebook": [
    {
     "utc_start": "13:00",
-    "utc_end": "15:00",
+    "utc_end": "17:00",
     "weight": 1.0,
-    "why": "Buffer 2026: weekday mornings, Thu 9 am ET best; 9-11 am ET fits an older parent audience"
+    "why": "9 am-1 pm ET Tue-Fri Facebook Reels window; older parent audience, morning scroll"
    },
    {
-    "utc_start": "23:00",
+    "utc_start": "22:00",
     "utc_end": "02:00",
     "weight": 0.9,
-    "why": "7-10 pm ET evening scrolling after bedtime; no own signal (views near 0)"
+    "why": "6-9 pm ET Facebook Reels entertainment peak; after bedtime; our 21 UTC post had the most views (n=1-2, noise)"
    },
    {
-    "utc_start": "16:00",
+    "utc_start": "17:00",
     "utc_end": "21:00",
-    "weight": 0.7,
-    "why": "Sprout 2026 Tue/Wed midday-evening ET; our 21 UTC post had the most views but n=1-2, noise"
+    "weight": 0.6,
+    "why": "midday-evening ET secondary window; no own signal, views near 0"
    }
   ],
   "youtube": [
@@ -45,25 +45,25 @@
     "utc_start": "16:00",
     "utc_end": "19:00",
     "weight": 1.0,
-    "why": "12-3 pm ET most repeated Shorts window (SocialPilot, Hopper); weekday afternoon"
+    "why": "12-3 pm ET most repeated Shorts window (Hopper 2026, SocialPilot); weekday afternoon"
    },
    {
     "utc_start": "23:00",
     "utc_end": "02:00",
     "weight": 0.9,
-    "why": "7-10 pm ET evening Shorts peak (Buffer 2026: YouTube 6-10 pm Thu-Sun); parents after bedtime; our 23 UTC posts got 6-10 views (n=2)"
+    "why": "7-10 pm ET evening Shorts peak (6-10 pm per blog roundups); parents after bedtime; our 23 UTC posts got 0-10 views (n=3)"
    },
    {
     "utc_start": "12:00",
-    "utc_end": "14:00",
+    "utc_end": "15:00",
     "weight": 0.5,
-    "why": "8-10 am ET weekday morning; our only 09 UTC Short got 22 views (n=1, noise)"
+    "why": "8-11 am ET late-morning window (Tuesday 11-12 local best per Blogging Wizard); our only 09 UTC Short got 24 views (n=1, noise)"
    }
   ]
  },
  "platforms": {
   "instagram": {
-   "posts_used": 5,
+   "posts_used": 6,
    "median_score": 143.0,
    "hours": [
     {
@@ -164,34 +164,34 @@
     },
     {
      "h": 12,
-     "prior": 0.45,
+     "prior": 0.55,
      "n": 0,
      "mean_norm": null,
-     "value": 0.45,
+     "value": 0.55,
      "bonus": 0.35
     },
     {
      "h": 13,
-     "prior": 0.45,
+     "prior": 0.55,
      "n": 0,
      "mean_norm": null,
-     "value": 0.45,
+     "value": 0.55,
      "bonus": 0.35
     },
     {
      "h": 14,
-     "prior": 0.45,
+     "prior": 0.55,
      "n": 0,
      "mean_norm": null,
-     "value": 0.45,
+     "value": 0.55,
      "bonus": 0.35
     },
     {
      "h": 15,
-     "prior": 0.05,
+     "prior": 0.55,
      "n": 0,
      "mean_norm": null,
-     "value": 0.05,
+     "value": 0.55,
      "bonus": 0.35
     },
     {
@@ -237,10 +237,10 @@
     {
      "h": 21,
      "prior": 1.0,
-     "n": 1,
-     "mean_norm": 1.26,
-     "value": 1.066,
-     "bonus": 0.247
+     "n": 2,
+     "mean_norm": 0.67,
+     "value": 0.868,
+     "bonus": 0.202
     },
     {
      "h": 22,
@@ -394,58 +394,58 @@
     },
     {
      "h": 16,
-     "prior": 0.7,
+     "prior": 1.0,
      "n": 0,
      "mean_norm": null,
-     "value": 0.7,
+     "value": 1.0,
      "bonus": 0.35
     },
     {
      "h": 17,
-     "prior": 0.7,
+     "prior": 1.0,
      "n": 0,
      "mean_norm": null,
-     "value": 0.7,
+     "value": 1.0,
      "bonus": 0.35
     },
     {
      "h": 18,
-     "prior": 0.7,
+     "prior": 0.6,
      "n": 0,
      "mean_norm": null,
-     "value": 0.7,
+     "value": 0.6,
      "bonus": 0.35
     },
     {
      "h": 19,
-     "prior": 0.7,
+     "prior": 0.6,
      "n": 0,
      "mean_norm": null,
-     "value": 0.7,
+     "value": 0.6,
      "bonus": 0.35
     },
     {
      "h": 20,
-     "prior": 0.7,
+     "prior": 0.6,
      "n": 1,
      "mean_norm": 0.67,
-     "value": 0.692,
+     "value": 0.617,
      "bonus": 0.247
     },
     {
      "h": 21,
-     "prior": 0.7,
+     "prior": 0.6,
      "n": 2,
      "mean_norm": 3.67,
-     "value": 1.42,
+     "value": 1.36,
      "bonus": 0.202
     },
     {
      "h": 22,
-     "prior": 0.05,
+     "prior": 0.9,
      "n": 0,
      "mean_norm": null,
-     "value": 0.05,
+     "value": 0.9,
      "bonus": 0.35
     },
     {
@@ -459,16 +459,16 @@
    ]
   },
   "youtube": {
-   "posts_used": 5,
+   "posts_used": 6,
    "median_score": 10.5,
    "hours": [
     {
      "h": 0,
      "prior": 0.9,
-     "n": 0,
-     "mean_norm": null,
-     "value": 0.9,
-     "bonus": 0.35
+     "n": 1,
+     "mean_norm": 0.0,
+     "value": 0.675,
+     "bonus": 0.247
     },
     {
      "h": 1,
@@ -538,8 +538,8 @@
      "h": 9,
      "prior": 0.05,
      "n": 1,
-     "mean_norm": 1.91,
-     "value": 0.516,
+     "mean_norm": 2.22,
+     "value": 0.592,
      "bonus": 0.247
     },
     {
@@ -584,10 +584,10 @@
     },
     {
      "h": 15,
-     "prior": 0.05,
+     "prior": 0.5,
      "n": 0,
      "mean_norm": null,
-     "value": 0.05,
+     "value": 0.5,
      "bonus": 0.35
     },
     {
@@ -657,6 +657,6 @@
    ]
   }
  },
- "updated": "2026-10-03T14:00+00:00",
- "research_updated": "2026-10-03T14:00+00:00"
+ "updated": "2026-10-04T06:01+00:00",
+ "research_updated": "2026-10-04T06:01+00:00"
 }

@@ -1,35 +1,7 @@
 {
- "generated": "2026-10-04T03:59+03:00",
- "now_utc": "2026-10-04T00:59+00:00",
+ "generated": "2026-10-04T23:45+03:00",
+ "now_utc": "2026-10-04T20:45+00:00",
  "rows": [
-  {
-   "post": "clip-ideo-7622837748453346573",
-   "topic": "A giggling toddler hugging a stuffed toy runs laps around the house to stay up past bedtime",
-   "kind": "clip",
-   "platforms": {
-    "instagram": {
-     "live": 1,
-     "url": "https://www.instagram.com/reel/DdzmjLPgNIg/",
-     "time": "2026-09-27T21:43+00:00",
-     "slot": null,
-     "state": "live"
-    },
-    "facebook": {
-     "live": 1,
-     "url": "https://www.facebook.com/reel/1101022189171710",
-     "time": "2026-09-27T21:43+00:00",
-     "slot": null,
-     "state": "live"
-    },
-    "youtube": {
-     "live": 1,
-     "url": "https://youtube.com/shorts/JSld5OEeBTg",
-     "time": "2026-09-28T19:00+00:00",
-     "slot": null,
-     "state": "live"
-    }
-   }
-  },
   {
    "post": "2026-09-26_toddler-hitting-when-frustrated",
    "topic": "Toddler hitting when frustrated",
@@ -368,11 +340,12 @@
      "state": "live"
     },
     "youtube": {
-     "live": 0,
-     "url": null,
-     "time": null,
+     "live": 1,
+     "url": "https://youtube.com/shorts/TMpyFgZmI6Y",
+     "time": "2026-10-04T01:00+00:00",
      "slot": "2026-10-04T01:00+00:00",
-     "state": "scheduled"
+     "late_min": 0,
+     "state": "live"
     }
    }
   },
@@ -382,33 +355,64 @@
    "kind": "animated",
    "platforms": {
     "instagram": {
+     "live": 1,
+     "url": "https://www.instagram.com/reel/DeEzKRHj8B9/",
+     "time": "2026-10-04T14:01+00:00",
+     "slot": "2026-10-04T14:00+00:00",
+     "late_min": 1,
+     "state": "live"
+    },
+    "facebook": {
+     "live": 1,
+     "url": "https://www.facebook.com/reel/1638560317787166",
+     "time": "2026-10-04T14:00+00:00",
+     "slot": "2026-10-04T14:00+00:00",
+     "late_min": 0,
+     "state": "live"
+    },
+    "youtube": {
+     "live": 1,
+     "url": "https://youtube.com/shorts/bOROs8F0KQo",
+     "time": "2026-10-04T18:00+00:00",
+     "slot": "2026-10-04T18:00+00:00",
+     "late_min": 0,
+     "state": "live"
+    }
+   }
+  },
+  {
+   "post": "2026-10-04_weekend-sleep-ins-wreck-sunday-bedtime",
+   "topic": "Weekend sleep-ins and Sunday bedtime (1-6 years)",
+   "kind": "cvideo",
+   "platforms": {
+    "instagram": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-04T14:00+00:00",
+     "slot": "2026-10-05T02:00+00:00",
      "state": "scheduled"
     },
     "facebook": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-04T14:00+00:00",
+     "slot": "2026-10-04T21:00+00:00",
      "state": "scheduled"
     },
     "youtube": {
      "live": 0,
      "url": null,
      "time": null,
-     "slot": "2026-10-04T18:00+00:00",
+     "slot": "2026-10-05T01:00+00:00",
      "state": "scheduled"
     }
    }
   }
  ],
  "per_day_today": {
-  "instagram": 1,
-  "facebook": 1,
-  "youtube": 0
+  "instagram": 2,
+  "facebook": 2,
+  "youtube": 2
  },
  "plan": [
   {
@@ -441,7 +445,7 @@
    "platforms": {
     "instagram": "live",
     "facebook": "live",
-    "youtube": "scheduled"
+    "youtube": "live"
    }
   },
   {
@@ -450,17 +454,21 @@
    "topic": "My toddler won't stay in the new big-kid bed",
    "post": "2026-10-03_toddler-wont-stay-in-big-kid-bed-animated",
    "platforms": {
-    "instagram": "scheduled",
-    "facebook": "scheduled",
-    "youtube": "scheduled"
+    "instagram": "live",
+    "facebook": "live",
+    "youtube": "live"
    }
   },
   {
    "date": "2026-10-04",
    "slot": "carousel_video",
    "topic": "Weekend sleep-ins wreck our Sunday bedtime",
-   "post": null,
-   "platforms": {}
+   "post": "2026-10-04_weekend-sleep-ins-wreck-sunday-bedtime",
+   "platforms": {
+    "instagram": "scheduled",
+    "facebook": "scheduled",
+    "youtube": "scheduled"
+   }
   },
   {
    "date": "2026-10-04",
@@ -537,9 +545,9 @@
   }
  ],
  "live_counts": {
-  "instagram": 11,
-  "facebook": 23,
-  "youtube": 10
+  "instagram": 12,
+  "facebook": 25,
+  "youtube": 12
  },
  "orphans": [
   {
